@@ -1,0 +1,33 @@
+Package: HVSlimPred
+Title: Identification of novel functional linear motifs using the host-viral protein interaction network and the principle of convergent evolution
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Bishoy",
+           family = "Wadie",
+           role = c("aut", "cre"),
+           email = "bwadie@ebi.ac.uk")
+    person(given = "Evangelia",
+           family = "Petsalaki",
+           role = "cre",
+           email = "petsalaki@ebi.ac.uk")       
+Description: This package complements the performance evaluation analysis for the manuscript entitled "Identifying novel functional linear motifs using the host-viral protein interaction network and the principle of convergent evolution".
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.0
+Imports: 
+    dplyr,
+    tidyr,
+    plyr,
+    ggplot2,
+    hypergea,
+    bio3d,
+    readxl,
+    stringr,
+    magrittr,
+    forcats,
+    utils,
+    mltools
+Depends: 
+    R (>= 2.10)
