@@ -25,7 +25,7 @@ This R package complements the performance evaluation analysis for the manuscrip
 You can install the released version of HVSlimPred from gitlab with:
 
 ``` r
-devtools::install_gitlab("https://gitlab.ebi.ac.uk/petsalakilab/hvslimpred")
+devtools::install_gitlab("petsalakilab/HVSlimPred", host = "gitlab.ebi.ac.uk")
 ```
 
 ## Get Protein-level evaluation metrics
