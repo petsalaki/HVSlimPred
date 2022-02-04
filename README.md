@@ -4,80 +4,61 @@
 # HVSlimPred
 
 <!-- badges: start -->
-
 <!-- badges: end -->
 
-This R package complements the performance evaluation analysis for the
-manuscript entitled “Identifying novel functional linear motifs using
-the host-viral protein interaction network and the principle of
-convergent evolution”.
+This repository contains all the materials needed to reproduce Wadie,
+Bishoy, et al. “Use of viral motif mimicry improves the proteome-wide
+discovery of human linear motifs.” bioRxiv (2021). These materials are
+presented as an R Package which contains code used for analyses, code
+used to develop figures, raw data used for all analyses, and a set of
+functions for handling de-nove short linear motif predictions based on
+[SLiMSuite](https://github.com/slimsuite/SLiMSuite) tools.
+
+You can find our bioarxiv preprint.
+[Here](https://www.biorxiv.org/content/10.1101/2021.06.25.449930v1.full).
+
+## Abstract
+
+Linear motifs have an integral role in dynamic cell functions including
+cell signalling, the cell cycle and others. However, due to their small
+size, low complexity, degenerate nature, and frequent mutations,
+identifying novel functional motifs is a challenging task. Viral
+proteins rely extensively on the molecular mimicry of cellular linear
+motifs for modifying cell signalling and other processes in ways that
+favour viral infection. This study aims to discover human linear motifs
+convergently evolved also in disordered regions of viral proteins, under
+the hypothesis that these will result in enrichment in functional motif
+instances. We systematically apply computational motif prediction,
+combined with implementation of several functional and structural
+filters to the most recent publicly available human-viral and
+human-human protein interaction network. By limiting the search space to
+the sequences of viral proteins, we observed an increase in the
+sensitivity of motif prediction, as well as improved enrichment in known
+instances compared to the same analysis using only human protein
+interactions. We identified &gt; 7,300 motif instances at various
+confidence levels, 105 of which were supported by all functional and
+structural filters applied. Overall, we provide a pipeline to improve
+the identification of functional linear motifs from interactomics
+datasets and a comprehensive catalogue of putative human motifs that can
+contribute to our understanding of the human domain-linear motif code
+and the mechanisms of viral interference with this.
 
 ## Installation
 
 You can install the released version of HVSlimPred from gitlab with:
 
 ``` r
+install.packages("devtools")
+library("devtools")
 devtools::install_gitlab("petsalakilab/HVSlimPred", host = "gitlab.ebi.ac.uk")
+library("HVSlimPred")
 ```
 
-## Get Protein-level evaluation metrics
+To reproduce the same results and figures as in the manuscript, it is
+recommended to clone the repository and run the analysis scripts in the
+[analysis](https://gitlab.ebi.ac.uk/petsalakilab/HVSlimPred/-/tree/master/analysis)
+folder locally.
 
-For protein-level enrichment, we measured the enrichment of
-true-positives in our predicted dataset using a one-tailed fisher-exact
-test, where the odds ratio represents the magnitude of the enrichment.
-True-positives are the number of motif-carrying proteins present in both
-the predicted dataset and the ELM dataset regardless of whether the
-predicted protein has the right motif or found in the right location
-
-The output of the following command is a data frame containing all the
-relevant protein-level performance metrics for each domain enrichment
-filter in addition to the non-filtered qslim output.
-
-``` r
-library(HVSlimPred)
-prot_eval_metrics = HV_prot_level_eval()
-```
-
-## Get Motif-level evaluation metrics
-
-For motif-level enrichment, we simply cannot use a binary classification
-as we did for protein-level evaluation because in reality, predicted
-motifs are partially correct to some extent as they might contain
-true-positive residues in a given sequence stretch, and therefore we
-used a re-implemented version of the evaluation protocol proposed in
-[Prytuliak et
-al. 2017](https://academic.oup.com/nar/article/45/W1/W470/3782606)
-instead of binary classification, where we computed the common
-performance metrics (Recall, precision F1, etc .. ) both residue-wise
-and site-wise given that the motif-carrying proteins are also found in
-the ELM benchmarking dataset. So this analysis was not performed on
-proteins not reported in the ELM dataset.
-
-The output of the following command is a data frame containing all the
-relevant motif-level performance metrics for each domain enrichment
-filter in addition to the non-filtered qslim output.
-
-``` r
-library(HVSlimPred)
-motif_eval_metrics = HV_motif_level_eval()
-```
-
-## Get Protein-domain interactions evaluation metrics
-
-For evaluating protein-domain interactions we measured the enrichment of
-true-positive interactions between a given motif-carrying protein and
-its associated domains as reported in the ELM interaction dataset. As in
-the motif-level evaluation, this analysis was performed only on the
-motif-carrying proteins reported in the ELM interactions dataset, where
-true-positives represents the number of correctly associated domains for
-a given motif-carrying protein and then summed over all motif-carrying
-proteins in the predicted dataset.
-
-The output of the following command is a data frame containing all the
-relevant protein-domain interactions’ performance metrics for each
-domain enrichment filter.
-
-``` r
-library(HVSlimPred)
-ProtDom_int_eval_metrics = HV_prot_dom_int_eval()
+``` bash
+git clone https://gitlab.ebi.ac.uk/petsalakilab/HVSlimPred
 ```
