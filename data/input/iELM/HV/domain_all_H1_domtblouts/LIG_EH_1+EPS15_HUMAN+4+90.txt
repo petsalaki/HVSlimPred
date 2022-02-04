@@ -1,0 +1,17 @@
+#                                                                                         --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name         accession   tlen query name                       accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+# ------------------- ---------- -----             -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+sp|Q9BSW2|EFC4B_HUMAN -            395 LIG_EH_1+EPS15_HUMAN+4+90_muscle -             86   4.5e-07   24.8   1.0   1   3   5.5e-09   1.4e-06   23.2   0.0    16    73    56   113    39   123 0.90 EF-hand calcium-binding domain-containing protein 4B OS=Homo sapiens OX=9606 GN=CRACR2A PE=1 SV=1
+sp|Q9BSW2|EFC4B_HUMAN -            395 LIG_EH_1+EPS15_HUMAN+4+90_muscle -             86   4.5e-07   24.8   1.0   2   3      0.62   1.6e+02   -2.6   0.1    12    29   234   251   225   270 0.69 EF-hand calcium-binding domain-containing protein 4B OS=Homo sapiens OX=9606 GN=CRACR2A PE=1 SV=1
+sp|Q9BSW2|EFC4B_HUMAN -            395 LIG_EH_1+EPS15_HUMAN+4+90_muscle -             86   4.5e-07   24.8   1.0   3   3      0.42   1.1e+02   -2.1   0.0    39    60   310   331   277   337 0.74 EF-hand calcium-binding domain-containing protein 4B OS=Homo sapiens OX=9606 GN=CRACR2A PE=1 SV=1
+sp|Q7Z6G3|NECA2_HUMAN -            386 LIG_EH_1+EPS15_HUMAN+4+90_muscle -             86    0.0043   12.0   0.0   1   1   3.7e-05    0.0096   10.9   0.0    11    69    61   119    56   123 0.90 N-terminal EF-hand calcium-binding protein 2 OS=Homo sapiens OX=9606 GN=NECAB2 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      domain_all/LIG_EH_1+EPS15_HUMAN+4+90.hmm
+# Target file:     H1_prot_fasta.fasta
+# Option settings: hmmsearch -o /home/bwadie/Hmmer_H1/all_outs/LIG_EH_1+EPS15_HUMAN+4+90.out --domtblout /home/bwadie/Hmmer_H1/domain_all_H1_domtblouts/LIG_EH_1+EPS15_HUMAN+4+90.txt -E 1 domain_all/LIG_EH_1+EPS15_HUMAN+4+90.hmm H1_prot_fasta.fasta 
+# Current dir:     /home/bwadie/Hmmer_H1
+# Date:            Wed Feb 10 00:37:35 2021
+# [ok]

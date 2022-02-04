@@ -1,0 +1,19 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+sp|Q8NI38|IKBD_HUMAN -            313 Ank                  PF00023.23    33   1.1e-27   88.6  14.9   1   6    0.0006      0.14    6.3   0.0     2    14    49    68    48    78 0.77 NF-kappa-B inhibitor delta OS=Homo sapiens OX=9606 GN=NFKBID PE=1 SV=1
+sp|Q8NI38|IKBD_HUMAN -            313 Ank                  PF00023.23    33   1.1e-27   88.6  14.9   2   6   3.9e-11   8.7e-09   29.0   0.1     2    32    85   115    84   116 0.96 NF-kappa-B inhibitor delta OS=Homo sapiens OX=9606 GN=NFKBID PE=1 SV=1
+sp|Q8NI38|IKBD_HUMAN -            313 Ank                  PF00023.23    33   1.1e-27   88.6  14.9   3   6   0.00024     0.054    7.5   0.0     2    29   118   145   117   149 0.81 NF-kappa-B inhibitor delta OS=Homo sapiens OX=9606 GN=NFKBID PE=1 SV=1
+sp|Q8NI38|IKBD_HUMAN -            313 Ank                  PF00023.23    33   1.1e-27   88.6  14.9   4   6   1.5e-07   3.3e-05   17.7   0.1     2    29   153   200   152   203 0.95 NF-kappa-B inhibitor delta OS=Homo sapiens OX=9606 GN=NFKBID PE=1 SV=1
+sp|Q8NI38|IKBD_HUMAN -            313 Ank                  PF00023.23    33   1.1e-27   88.6  14.9   5   6   7.4e-06    0.0016   12.3   0.0     3    23   208   228   206   233 0.90 NF-kappa-B inhibitor delta OS=Homo sapiens OX=9606 GN=NFKBID PE=1 SV=1
+sp|Q8NI38|IKBD_HUMAN -            313 Ank                  PF00023.23    33   1.1e-27   88.6  14.9   6   6   9.3e-09   2.1e-06   21.5   0.5     1    32   243   278   243   279 0.97 NF-kappa-B inhibitor delta OS=Homo sapiens OX=9606 GN=NFKBID PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      pfam_hmms/LIG_TNKBM.hmm
+# Target file:     human_only_H1_Prot_fasta.fasta
+# Option settings: hmmsearch -o /home/bwadie/Hmmer_H1/human_slimfinder_HMM_outputs/all_outs/LIG_TNKBM.out --domtblout /home/bwadie/Hmmer_H1/human_slimfinder_HMM_outputs/pfam_H1_domtblouts/LIG_TNKBM.txt -E 1 pfam_hmms/LIG_TNKBM.hmm human_only_H1_Prot_fasta.fasta 
+# Current dir:     /home/bwadie/Hmmer_H1
+# Date:            Wed Mar 17 18:17:37 2021
+# [ok]

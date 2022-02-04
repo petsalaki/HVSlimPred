@@ -1,0 +1,18 @@
+#                                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name         accession   tlen query name                          accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+# ------------------- ---------- -----                -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+sp|O94875|SRBS2_HUMAN -           1100 LIG_SH3_3+LSB3_YEAST+395+453_muscle -             58   3.5e-26   84.5   0.1   1   3   8.3e-14   9.3e-12   38.3   0.0     8    57   866   913   860   914 0.91 Sorbin and SH3 domain-containing protein 2 OS=Homo sapiens OX=9606 GN=SORBS2 PE=1 SV=3
+sp|O94875|SRBS2_HUMAN -           1100 LIG_SH3_3+LSB3_YEAST+395+453_muscle -             58   3.5e-26   84.5   0.1   2   3   4.2e-12   4.7e-10   32.8   0.0     8    57   941   990   934   991 0.89 Sorbin and SH3 domain-containing protein 2 OS=Homo sapiens OX=9606 GN=SORBS2 PE=1 SV=3
+sp|O94875|SRBS2_HUMAN -           1100 LIG_SH3_3+LSB3_YEAST+395+453_muscle -             58   3.5e-26   84.5   0.1   3   3   0.00011     0.012    9.1   0.0    12    47  1048  1081  1042  1093 0.85 Sorbin and SH3 domain-containing protein 2 OS=Homo sapiens OX=9606 GN=SORBS2 PE=1 SV=3
+sp|Q12959|DLG1_HUMAN  -            904 LIG_SH3_3+LSB3_YEAST+395+453_muscle -             58   0.00032   14.2   0.3   1   2     0.044       4.9    0.7   0.0    25    38   505   518   494   522 0.74 Disks large homolog 1 OS=Homo sapiens OX=9606 GN=DLG1 PE=1 SV=2
+sp|Q12959|DLG1_HUMAN  -            904 LIG_SH3_3+LSB3_YEAST+395+453_muscle -             58   0.00032   14.2   0.3   2   2   4.1e-05    0.0046   10.4   0.1    21    48   602   627   581   633 0.80 Disks large homolog 1 OS=Homo sapiens OX=9606 GN=DLG1 PE=1 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      domain_all/LIG_SH3_3+LSB3_YEAST+395+453.hmm
+# Target file:     human_only_H1_Prot_fasta.fasta
+# Option settings: hmmsearch -o /home/bwadie/Hmmer_H1/human_slimfinder_HMM_outputs/all_outs/LIG_SH3_3+LSB3_YEAST+395+453.out --domtblout /home/bwadie/Hmmer_H1/human_slimfinder_HMM_outputs/domain_all_H1_domtblouts/LIG_SH3_3+LSB3_YEAST+395+453.txt -E 1 domain_all/LIG_SH3_3+LSB3_YEAST+395+453.hmm human_only_H1_Prot_fasta.fasta 
+# Current dir:     /home/bwadie/Hmmer_H1
+# Date:            Wed Mar 17 18:18:23 2021
+# [ok]

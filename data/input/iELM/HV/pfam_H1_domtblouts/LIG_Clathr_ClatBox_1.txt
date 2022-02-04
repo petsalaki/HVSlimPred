@@ -1,0 +1,20 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+sp|Q00610|CLH1_HUMAN -           1675 Clathrin_propel      PF01394.13    37   2.1e-49  157.8   2.0   1   7   7.2e-09   3.7e-06   22.3   0.1     1    37    19    56    19    56 0.93 Clathrin heavy chain 1 OS=Homo sapiens OX=9606 GN=CLTC PE=1 SV=5
+sp|Q00610|CLH1_HUMAN -           1675 Clathrin_propel      PF01394.13    37   2.1e-49  157.8   2.0   2   7   3.9e-06     0.002   13.7   0.0     1    37    60    94    60    94 0.96 Clathrin heavy chain 1 OS=Homo sapiens OX=9606 GN=CLTC PE=1 SV=5
+sp|Q00610|CLH1_HUMAN -           1675 Clathrin_propel      PF01394.13    37   2.1e-49  157.8   2.0   3   7   2.3e-08   1.2e-05   20.7   0.1     2    37   103   133   102   133 0.95 Clathrin heavy chain 1 OS=Homo sapiens OX=9606 GN=CLTC PE=1 SV=5
+sp|Q00610|CLH1_HUMAN -           1675 Clathrin_propel      PF01394.13    37   2.1e-49  157.8   2.0   4   7   1.3e-10   6.5e-08   27.8   0.0     2    37   149   187   148   187 0.97 Clathrin heavy chain 1 OS=Homo sapiens OX=9606 GN=CLTC PE=1 SV=5
+sp|Q00610|CLH1_HUMAN -           1675 Clathrin_propel      PF01394.13    37   2.1e-49  157.8   2.0   5   7   1.4e-10   7.3e-08   27.6   0.0     2    37   199   234   198   234 0.95 Clathrin heavy chain 1 OS=Homo sapiens OX=9606 GN=CLTC PE=1 SV=5
+sp|Q00610|CLH1_HUMAN -           1675 Clathrin_propel      PF01394.13    37   2.1e-49  157.8   2.0   6   7   1.6e-07   8.1e-05   18.1   0.0     5    37   256   288   255   288 0.97 Clathrin heavy chain 1 OS=Homo sapiens OX=9606 GN=CLTC PE=1 SV=5
+sp|Q00610|CLH1_HUMAN -           1675 Clathrin_propel      PF01394.13    37   2.1e-49  157.8   2.0   7   7   5.8e-08     3e-05   19.4   0.0     1    37   296   330   296   330 0.95 Clathrin heavy chain 1 OS=Homo sapiens OX=9606 GN=CLTC PE=1 SV=5
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      pfam_hmms/LIG_Clathr_ClatBox_1.hmm
+# Target file:     H1_prot_fasta.fasta
+# Option settings: hmmsearch -o /home/bwadie/Hmmer_H1/all_outs/LIG_Clathr_ClatBox_1.out --domtblout /home/bwadie/Hmmer_H1/pfam_H1_domtblouts/LIG_Clathr_ClatBox_1.txt -E 1 pfam_hmms/LIG_Clathr_ClatBox_1.hmm H1_prot_fasta.fasta 
+# Current dir:     /home/bwadie/Hmmer_H1
+# Date:            Wed Feb 10 00:37:19 2021
+# [ok]

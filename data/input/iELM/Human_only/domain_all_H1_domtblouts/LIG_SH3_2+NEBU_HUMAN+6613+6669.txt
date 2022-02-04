@@ -1,0 +1,17 @@
+#                                                                                              --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name         accession   tlen query name                            accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+# ------------------- ---------- -----                  -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+sp|O94875|SRBS2_HUMAN -           1100 LIG_SH3_2+NEBU_HUMAN+6613+6669_muscle -             56   3.3e-28   91.2   0.0   1   3     1e-11   1.1e-09   31.8   0.0     3    55   869   919   868   920 0.95 Sorbin and SH3 domain-containing protein 2 OS=Homo sapiens OX=9606 GN=SORBS2 PE=1 SV=3
+sp|O94875|SRBS2_HUMAN -           1100 LIG_SH3_2+NEBU_HUMAN+6613+6669_muscle -             56   3.3e-28   91.2   0.0   2   3   3.9e-09   4.4e-07   23.5   0.0     4    56   945   997   943   997 0.94 Sorbin and SH3 domain-containing protein 2 OS=Homo sapiens OX=9606 GN=SORBS2 PE=1 SV=3
+sp|O94875|SRBS2_HUMAN -           1100 LIG_SH3_2+NEBU_HUMAN+6613+6669_muscle -             56   3.3e-28   91.2   0.0   3   3     1e-11   1.2e-09   31.8   0.0     2    54  1046  1098  1045  1100 0.97 Sorbin and SH3 domain-containing protein 2 OS=Homo sapiens OX=9606 GN=SORBS2 PE=1 SV=3
+sp|Q9BVN2|RUSC1_HUMAN -            902 LIG_SH3_2+NEBU_HUMAN+6613+6669_muscle -             56   1.1e-06   22.3   0.0   1   1   1.7e-08   1.9e-06   21.4   0.0     2    53   849   898   848   901 0.90 RUN and SH3 domain-containing protein 1 OS=Homo sapiens OX=9606 GN=RUSC1 PE=1 SV=3
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      domain_all/LIG_SH3_2+NEBU_HUMAN+6613+6669.hmm
+# Target file:     human_only_H1_Prot_fasta.fasta
+# Option settings: hmmsearch -o /home/bwadie/Hmmer_H1/human_slimfinder_HMM_outputs/all_outs/LIG_SH3_2+NEBU_HUMAN+6613+6669.out --domtblout /home/bwadie/Hmmer_H1/human_slimfinder_HMM_outputs/domain_all_H1_domtblouts/LIG_SH3_2+NEBU_HUMAN+6613+6669.txt -E 1 domain_all/LIG_SH3_2+NEBU_HUMAN+6613+6669.hmm human_only_H1_Prot_fasta.fasta 
+# Current dir:     /home/bwadie/Hmmer_H1
+# Date:            Wed Mar 17 18:18:21 2021
+# [ok]

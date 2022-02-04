@@ -1,0 +1,16 @@
+#                                                                                                --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name         accession   tlen query name                              accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+# ------------------- ---------- -----                    -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+sp|P10276|RARA_HUMAN  -            462 LIG_CORNRBOX+PPARA_HUMAN+241+450_muscle -            209   5.1e-25   83.1   0.2   1   2      0.69   1.8e+02   -3.6   0.0    20    51   160   192   153   195 0.69 Retinoic acid receptor alpha OS=Homo sapiens OX=9606 GN=RARA PE=1 SV=2
+sp|P10276|RARA_HUMAN  -            462 LIG_CORNRBOX+PPARA_HUMAN+241+450_muscle -            209   5.1e-25   83.1   0.2   2   2   3.2e-27   8.3e-25   82.4   0.0    26   206   219   398   200   401 0.87 Retinoic acid receptor alpha OS=Homo sapiens OX=9606 GN=RARA PE=1 SV=2
+sp|P22736|NR4A1_HUMAN -            598 LIG_CORNRBOX+PPARA_HUMAN+241+450_muscle -            209   4.8e-12   40.7   0.0   1   1   2.8e-14   7.3e-12   40.1   0.0    47   204   418   574   402   579 0.86 Nuclear receptor subfamily 4 group A member 1 OS=Homo sapiens OX=9606 GN=NR4A1 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      domain_all/LIG_CORNRBOX+PPARA_HUMAN+241+450.hmm
+# Target file:     H1_prot_fasta.fasta
+# Option settings: hmmsearch -o /home/bwadie/Hmmer_H1/all_outs/LIG_CORNRBOX+PPARA_HUMAN+241+450.out --domtblout /home/bwadie/Hmmer_H1/domain_all_H1_domtblouts/LIG_CORNRBOX+PPARA_HUMAN+241+450.txt -E 1 domain_all/LIG_CORNRBOX+PPARA_HUMAN+241+450.hmm H1_prot_fasta.fasta 
+# Current dir:     /home/bwadie/Hmmer_H1
+# Date:            Wed Feb 10 00:37:32 2021
+# [ok]

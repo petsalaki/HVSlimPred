@@ -1,0 +1,23 @@
+#                                                                                                    --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name         accession   tlen query name                                  accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+# ------------------- ---------- -----                        -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+sp|P0DN76|U2AF5_HUMAN -            240 LIG_ULM_U2AF65_1+SPF45_HUMAN+306+385_muscle -             79   1.8e-13   44.1   0.7   1   1   6.8e-15     3e-13   43.4   0.7     8    78    73   142    65   143 0.82 Splicing factor U2AF 35 kDa subunit-like protein OS=Homo sapiens OX=9606 GN=U2AF1L5 PE=1 SV=1
+sp|P19338|NUCL_HUMAN  -            710 LIG_ULM_U2AF65_1+SPF45_HUMAN+306+385_muscle -             79   1.2e-05   19.0   0.8   1   3     0.024       1.1    3.1   0.0    50    77   433   460   418   461 0.90 Nucleolin OS=Homo sapiens OX=9606 GN=NCL PE=1 SV=3
+sp|P19338|NUCL_HUMAN  -            710 LIG_ULM_U2AF65_1+SPF45_HUMAN+306+385_muscle -             79   1.2e-05   19.0   0.8   2   3   0.00041     0.019    8.8   0.1    40    77   517   554   500   556 0.83 Nucleolin OS=Homo sapiens OX=9606 GN=NCL PE=1 SV=3
+sp|P19338|NUCL_HUMAN  -            710 LIG_ULM_U2AF65_1+SPF45_HUMAN+306+385_muscle -             79   1.2e-05   19.0   0.8   3   3     0.037       1.7    2.6   0.0    50    76   614   640   576   642 0.74 Nucleolin OS=Homo sapiens OX=9606 GN=NCL PE=1 SV=3
+sp|P0DJD3|RBY1A_HUMAN -            496 LIG_ULM_U2AF65_1+SPF45_HUMAN+306+385_muscle -             79    0.0001   16.1   0.0   1   1   3.6e-06   0.00016   15.4   0.0    25    77    29    79    12    81 0.80 RNA-binding motif protein, Y chromosome, family 1 member A1 OS=Homo sapiens OX=9606 GN=RBMY1A1 PE=1 SV=1
+sp|Q9NZI8|IF2B1_HUMAN -            577 LIG_ULM_U2AF65_1+SPF45_HUMAN+306+385_muscle -             79   0.00011   16.0   0.4   1   4       2.5   1.1e+02   -3.3   0.0    50    69    41    60    40    61 0.83 Insulin-like growth factor 2 mRNA-binding protein 1 OS=Homo sapiens OX=9606 GN=IGF2BP1 PE=1 SV=2
+sp|Q9NZI8|IF2B1_HUMAN -            577 LIG_ULM_U2AF65_1+SPF45_HUMAN+306+385_muscle -             79   0.00011   16.0   0.4   2   4   2.1e-05   0.00095   12.9   0.0    12    73    88   146    81   152 0.81 Insulin-like growth factor 2 mRNA-binding protein 1 OS=Homo sapiens OX=9606 GN=IGF2BP1 PE=1 SV=2
+sp|Q9NZI8|IF2B1_HUMAN -            577 LIG_ULM_U2AF65_1+SPF45_HUMAN+306+385_muscle -             79   0.00011   16.0   0.4   3   4       1.9        85   -2.9   0.0    40    51   401   412   398   418 0.81 Insulin-like growth factor 2 mRNA-binding protein 1 OS=Homo sapiens OX=9606 GN=IGF2BP1 PE=1 SV=2
+sp|Q9NZI8|IF2B1_HUMAN -            577 LIG_ULM_U2AF65_1+SPF45_HUMAN+306+385_muscle -             79   0.00011   16.0   0.4   4   4       1.2        55   -2.3   0.0    38    65   528   555   518   557 0.67 Insulin-like growth factor 2 mRNA-binding protein 1 OS=Homo sapiens OX=9606 GN=IGF2BP1 PE=1 SV=2
+sp|P52298|NCBP2_HUMAN -            156 LIG_ULM_U2AF65_1+SPF45_HUMAN+306+385_muscle -             79   0.00082   13.1   0.0   1   1     3e-05    0.0013   12.5   0.0    17    77    53   112    43   114 0.86 Nuclear cap-binding protein subunit 2 OS=Homo sapiens OX=9606 GN=NCBP2 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      domain_all/LIG_ULM_U2AF65_1+SPF45_HUMAN+306+385.hmm
+# Target file:     human_only_H1_Prot_fasta.fasta
+# Option settings: hmmsearch -o /home/bwadie/Hmmer_H1/human_slimfinder_HMM_outputs/all_outs/LIG_ULM_U2AF65_1+SPF45_HUMAN+306+385.out --domtblout /home/bwadie/Hmmer_H1/human_slimfinder_HMM_outputs/domain_all_H1_domtblouts/LIG_ULM_U2AF65_1+SPF45_HUMAN+306+385.txt -E 1 domain_all/LIG_ULM_U2AF65_1+SPF45_HUMAN+306+385.hmm human_only_H1_Prot_fasta.fasta 
+# Current dir:     /home/bwadie/Hmmer_H1
+# Date:            Wed Mar 17 18:18:28 2021
+# [ok]

@@ -1,0 +1,15 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+sp|P05556|ITB1_HUMAN -            798 Integrin_beta        PF00362.11   425  2.2e-191  631.5   0.2   1   2  4.2e-194  2.2e-191  631.5   0.2     1   425    34   464    34   464 0.99 Integrin beta-1 OS=Homo sapiens OX=9606 GN=ITGB1 PE=1 SV=2
+sp|P05556|ITB1_HUMAN -            798 Integrin_beta        PF00362.11   425  2.2e-191  631.5   0.2   2   2         1   5.2e+02   -6.3   7.3     2    35   633   666   632   696 0.69 Integrin beta-1 OS=Homo sapiens OX=9606 GN=ITGB1 PE=1 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      pfam_hmms/LIG_RGD.hmm
+# Target file:     H1_prot_fasta.fasta
+# Option settings: hmmsearch -o /home/bwadie/Hmmer_H1/all_outs/LIG_RGD.out --domtblout /home/bwadie/Hmmer_H1/pfam_H1_domtblouts/LIG_RGD.txt -E 1 pfam_hmms/LIG_RGD.hmm H1_prot_fasta.fasta 
+# Current dir:     /home/bwadie/Hmmer_H1
+# Date:            Wed Feb 10 00:37:20 2021
+# [ok]

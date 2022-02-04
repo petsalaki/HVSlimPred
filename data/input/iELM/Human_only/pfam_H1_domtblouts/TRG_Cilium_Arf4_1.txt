@@ -1,0 +1,18 @@
+#                                                                             --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name         accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+# ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+sp|P18085|ARF4_HUMAN  -            180 Arf                  PF00025.14   175   3.8e-77  251.5   0.3   1   1   6.1e-79   4.6e-77  251.2   0.3     3   174     7   176     5   177 0.98 ADP-ribosylation factor 4 OS=Homo sapiens OX=9606 GN=ARF4 PE=1 SV=3
+sp|P36406|TRI23_HUMAN -            574 Arf                  PF00025.14   175   8.2e-75  243.9   0.6   1   2      0.27        20   -1.6   0.2   122   142   346   366   284   386 0.58 E3 ubiquitin-protein ligase TRIM23 OS=Homo sapiens OX=9606 GN=TRIM23 PE=1 SV=1
+sp|P36406|TRI23_HUMAN -            574 Arf                  PF00025.14   175   8.2e-75  243.9   0.6   2   2   2.4e-76   1.8e-74  242.8   0.0     5   174   395   564   391   565 0.97 E3 ubiquitin-protein ligase TRIM23 OS=Homo sapiens OX=9606 GN=TRIM23 PE=1 SV=1
+sp|Q5S007|LRRK2_HUMAN -           2527 Arf                  PF00025.14   175   8.3e-07   22.4   1.6   1   2   2.9e-08   2.2e-06   21.1   0.1    12   131  1332  1460  1321  1503 0.71 Leucine-rich repeat serine/threonine-protein kinase 2 OS=Homo sapiens OX=9606 GN=LRRK2 PE=1 SV=2
+sp|Q5S007|LRRK2_HUMAN -           2527 Arf                  PF00025.14   175   8.3e-07   22.4   1.6   2   2      0.15        11   -0.7   0.2   112   167  2465  2520  2452  2525 0.75 Leucine-rich repeat serine/threonine-protein kinase 2 OS=Homo sapiens OX=9606 GN=LRRK2 PE=1 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      pfam_hmms/TRG_Cilium_Arf4_1.hmm
+# Target file:     human_only_H1_Prot_fasta.fasta
+# Option settings: hmmsearch -o /home/bwadie/Hmmer_H1/human_slimfinder_HMM_outputs/all_outs/TRG_Cilium_Arf4_1.out --domtblout /home/bwadie/Hmmer_H1/human_slimfinder_HMM_outputs/pfam_H1_domtblouts/TRG_Cilium_Arf4_1.txt -E 1 pfam_hmms/TRG_Cilium_Arf4_1.hmm human_only_H1_Prot_fasta.fasta 
+# Current dir:     /home/bwadie/Hmmer_H1
+# Date:            Wed Mar 17 18:17:41 2021
+# [ok]

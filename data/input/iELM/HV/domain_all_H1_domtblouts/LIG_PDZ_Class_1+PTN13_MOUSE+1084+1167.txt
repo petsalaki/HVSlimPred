@@ -1,0 +1,33 @@
+#                                                                                                     --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name         accession   tlen query name                                   accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+# ------------------- ---------- -----                         -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+sp|Q12959|DLG1_HUMAN  -            904 LIG_PDZ_Class_1+PTN13_MOUSE+1084+1167_muscle -             83   3.5e-43  140.7   7.0   1   3   1.8e-12     1e-10   36.6   0.1     9    81   232   306   227   308 0.91 Disks large homolog 1 OS=Homo sapiens OX=9606 GN=DLG1 PE=1 SV=2
+sp|Q12959|DLG1_HUMAN  -            904 LIG_PDZ_Class_1+PTN13_MOUSE+1084+1167_muscle -             83   3.5e-43  140.7   7.0   2   3   1.2e-14   6.8e-13   43.7   0.2     9    81   327   401   320   403 0.87 Disks large homolog 1 OS=Homo sapiens OX=9606 GN=DLG1 PE=1 SV=2
+sp|Q12959|DLG1_HUMAN  -            904 LIG_PDZ_Class_1+PTN13_MOUSE+1084+1167_muscle -             83   3.5e-43  140.7   7.0   3   3   1.4e-20   7.8e-19   62.7   0.3     9    81   474   542   468   544 0.95 Disks large homolog 1 OS=Homo sapiens OX=9606 GN=DLG1 PE=1 SV=2
+sp|Q14160|SCRIB_HUMAN -           1630 LIG_PDZ_Class_1+PTN13_MOUSE+1084+1167_muscle -             83   3.8e-40  131.0   8.0   1   4   2.5e-11   1.4e-09   33.0   0.2    10    80   737   809   733   811 0.86 Protein scribble homolog OS=Homo sapiens OX=9606 GN=SCRIB PE=1 SV=4
+sp|Q14160|SCRIB_HUMAN -           1630 LIG_PDZ_Class_1+PTN13_MOUSE+1084+1167_muscle -             83   3.8e-40  131.0   8.0   2   4   2.9e-13   1.6e-11   39.2   0.1     9    81   870   945   865   947 0.89 Protein scribble homolog OS=Homo sapiens OX=9606 GN=SCRIB PE=1 SV=4
+sp|Q14160|SCRIB_HUMAN -           1630 LIG_PDZ_Class_1+PTN13_MOUSE+1084+1167_muscle -             83   3.8e-40  131.0   8.0   3   4   1.9e-07   1.1e-05   20.6   0.1    11    75  1014  1082  1010  1090 0.81 Protein scribble homolog OS=Homo sapiens OX=9606 GN=SCRIB PE=1 SV=4
+sp|Q14160|SCRIB_HUMAN -           1630 LIG_PDZ_Class_1+PTN13_MOUSE+1084+1167_muscle -             83   3.8e-40  131.0   8.0   4   4   2.2e-13   1.3e-11   39.6   0.1    22    82  1128  1188  1103  1189 0.87 Protein scribble homolog OS=Homo sapiens OX=9606 GN=SCRIB PE=1 SV=4
+sp|Q8TBB1|LNX1_HUMAN  -            728 LIG_PDZ_Class_1+PTN13_MOUSE+1084+1167_muscle -             83   2.3e-36  118.9   1.1   1   4   2.1e-06   0.00012   17.2   0.0     7    73   282   346   277   355 0.86 E3 ubiquitin-protein ligase LNX OS=Homo sapiens OX=9606 GN=LNX1 PE=1 SV=1
+sp|Q8TBB1|LNX1_HUMAN  -            728 LIG_PDZ_Class_1+PTN13_MOUSE+1084+1167_muscle -             83   2.3e-36  118.9   1.1   2   4   3.3e-07   1.9e-05   19.8   0.0    26    83   404   461   391   461 0.94 E3 ubiquitin-protein ligase LNX OS=Homo sapiens OX=9606 GN=LNX1 PE=1 SV=1
+sp|Q8TBB1|LNX1_HUMAN  -            728 LIG_PDZ_Class_1+PTN13_MOUSE+1084+1167_muscle -             83   2.3e-36  118.9   1.1   3   4     9e-15   5.2e-13   44.0   0.1     1    77   508   584   508   588 0.95 E3 ubiquitin-protein ligase LNX OS=Homo sapiens OX=9606 GN=LNX1 PE=1 SV=1
+sp|Q8TBB1|LNX1_HUMAN  -            728 LIG_PDZ_Class_1+PTN13_MOUSE+1084+1167_muscle -             83   2.3e-36  118.9   1.1   4   4   2.2e-11   1.2e-09   33.2   0.0     3    82   641   720   639   721 0.92 E3 ubiquitin-protein ligase LNX OS=Homo sapiens OX=9606 GN=LNX1 PE=1 SV=1
+sp|Q9UDY2|ZO2_HUMAN   -           1190 LIG_PDZ_Class_1+PTN13_MOUSE+1084+1167_muscle -             83   5.6e-21   69.6   1.9   1   3   2.4e-12   1.4e-10   36.3   0.2     1    82    34   116    34   117 0.90 Tight junction protein ZO-2 OS=Homo sapiens OX=9606 GN=TJP2 PE=1 SV=2
+sp|Q9UDY2|ZO2_HUMAN   -           1190 LIG_PDZ_Class_1+PTN13_MOUSE+1084+1167_muscle -             83   5.6e-21   69.6   1.9   2   3   1.7e-05   0.00097   14.3   0.0    23    82   322   381   315   382 0.90 Tight junction protein ZO-2 OS=Homo sapiens OX=9606 GN=TJP2 PE=1 SV=2
+sp|Q9UDY2|ZO2_HUMAN   -           1190 LIG_PDZ_Class_1+PTN13_MOUSE+1084+1167_muscle -             83   5.6e-21   69.6   1.9   3   3   3.5e-06    0.0002   16.5   0.1    16    76   521   580   511   588 0.84 Tight junction protein ZO-2 OS=Homo sapiens OX=9606 GN=TJP2 PE=1 SV=2
+sp|Q92997|DVL3_HUMAN  -            716 LIG_PDZ_Class_1+PTN13_MOUSE+1084+1167_muscle -             83   4.3e-12   41.1   0.1   1   1   1.3e-13   7.3e-12   40.4   0.1     8    74   257   322   250   334 0.84 Segment polarity protein dishevelled homolog DVL-3 OS=Homo sapiens OX=9606 GN=DVL3 PE=1 SV=2
+sp|O14641|DVL2_HUMAN  -            736 LIG_PDZ_Class_1+PTN13_MOUSE+1084+1167_muscle -             83   4.9e-12   40.9   0.2   1   1   1.8e-13     1e-11   39.9   0.2     8    74   275   340   268   350 0.87 Segment polarity protein dishevelled homolog DVL-2 OS=Homo sapiens OX=9606 GN=DVL2 PE=1 SV=1
+sp|Q96RT1|ERBIN_HUMAN -           1412 LIG_PDZ_Class_1+PTN13_MOUSE+1084+1167_muscle -             83   2.7e-08   28.9   0.1   1   1   1.1e-09   6.4e-08   27.7   0.1     5    82  1328  1406  1322  1407 0.80 Erbin OS=Homo sapiens OX=9606 GN=ERBIN PE=1 SV=2
+sp|Q9NRD5|PICK1_HUMAN -            415 LIG_PDZ_Class_1+PTN13_MOUSE+1084+1167_muscle -             83   2.9e-06   22.4   0.1   1   1   1.1e-07   6.5e-06   21.3   0.1     1    80    23    99    23   101 0.93 PRKCA-binding protein OS=Homo sapiens OX=9606 GN=PICK1 PE=1 SV=2
+sp|O00560|SDCB1_HUMAN -            298 LIG_PDZ_Class_1+PTN13_MOUSE+1084+1167_muscle -             83   0.00027   16.1   0.2   1   2   2.7e-05    0.0016   13.7   0.0    23    81   131   189   116   191 0.87 Syntenin-1 OS=Homo sapiens OX=9606 GN=SDCBP PE=1 SV=1
+sp|O00560|SDCB1_HUMAN -            298 LIG_PDZ_Class_1+PTN13_MOUSE+1084+1167_muscle -             83   0.00027   16.1   0.2   2   2      0.64        37   -0.3   0.1    30    82   218   269   205   270 0.81 Syntenin-1 OS=Homo sapiens OX=9606 GN=SDCBP PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      domain_all/LIG_PDZ_Class_1+PTN13_MOUSE+1084+1167.hmm
+# Target file:     H1_prot_fasta.fasta
+# Option settings: hmmsearch -o /home/bwadie/Hmmer_H1/all_outs/LIG_PDZ_Class_1+PTN13_MOUSE+1084+1167.out --domtblout /home/bwadie/Hmmer_H1/domain_all_H1_domtblouts/LIG_PDZ_Class_1+PTN13_MOUSE+1084+1167.txt -E 1 domain_all/LIG_PDZ_Class_1+PTN13_MOUSE+1084+1167.hmm H1_prot_fasta.fasta 
+# Current dir:     /home/bwadie/Hmmer_H1
+# Date:            Wed Feb 10 00:37:48 2021
+# [ok]

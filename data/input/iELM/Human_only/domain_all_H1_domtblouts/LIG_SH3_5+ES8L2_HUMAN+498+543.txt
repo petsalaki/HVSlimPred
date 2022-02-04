@@ -1,0 +1,16 @@
+#                                                                                             --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name         accession   tlen query name                           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+# ------------------- ---------- -----                 -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+sp|O94875|SRBS2_HUMAN -           1100 LIG_SH3_5+ES8L2_HUMAN+498+543_muscle -             45   1.2e-14   47.5   0.3   1   3   8.6e-09   1.9e-06   21.2   0.0     2    42   871   911   870   914 0.84 Sorbin and SH3 domain-containing protein 2 OS=Homo sapiens OX=9606 GN=SORBS2 PE=1 SV=3
+sp|O94875|SRBS2_HUMAN -           1100 LIG_SH3_5+ES8L2_HUMAN+498+543_muscle -             45   1.2e-14   47.5   0.3   2   3     2e-05    0.0046   10.4   0.0     2    32   946   977   945   987 0.86 Sorbin and SH3 domain-containing protein 2 OS=Homo sapiens OX=9606 GN=SORBS2 PE=1 SV=3
+sp|O94875|SRBS2_HUMAN -           1100 LIG_SH3_5+ES8L2_HUMAN+498+543_muscle -             45   1.2e-14   47.5   0.3   3   3   6.5e-06    0.0015   12.0   0.0     2    34  1049  1082  1048  1088 0.88 Sorbin and SH3 domain-containing protein 2 OS=Homo sapiens OX=9606 GN=SORBS2 PE=1 SV=3
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      domain_all/LIG_SH3_5+ES8L2_HUMAN+498+543.hmm
+# Target file:     human_only_H1_Prot_fasta.fasta
+# Option settings: hmmsearch -o /home/bwadie/Hmmer_H1/human_slimfinder_HMM_outputs/all_outs/LIG_SH3_5+ES8L2_HUMAN+498+543.out --domtblout /home/bwadie/Hmmer_H1/human_slimfinder_HMM_outputs/domain_all_H1_domtblouts/LIG_SH3_5+ES8L2_HUMAN+498+543.txt -E 1 domain_all/LIG_SH3_5+ES8L2_HUMAN+498+543.hmm human_only_H1_Prot_fasta.fasta 
+# Current dir:     /home/bwadie/Hmmer_H1
+# Date:            Wed Mar 17 18:18:24 2021
+# [ok]

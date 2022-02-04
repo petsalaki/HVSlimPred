@@ -1,0 +1,32 @@
+#                                                                                                     --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name         accession   tlen query name                                   accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+# ------------------- ---------- -----                         -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+sp|Q14160|SCRIB_HUMAN -           1630 LIG_PDZ_Class_3+PTN13_HUMAN+1501+1588_muscle -             87   4.8e-29   95.2   1.0   1   4   8.2e-10     6e-08   27.6   0.0     3    84   731   811   729   814 0.90 Protein scribble homolog OS=Homo sapiens OX=9606 GN=SCRIB PE=1 SV=4
+sp|Q14160|SCRIB_HUMAN -           1630 LIG_PDZ_Class_3+PTN13_HUMAN+1501+1588_muscle -             87   4.8e-29   95.2   1.0   2   4   5.1e-09   3.8e-07   25.0   0.0     2    86   864   948   863   949 0.96 Protein scribble homolog OS=Homo sapiens OX=9606 GN=SCRIB PE=1 SV=4
+sp|Q14160|SCRIB_HUMAN -           1630 LIG_PDZ_Class_3+PTN13_HUMAN+1501+1588_muscle -             87   4.8e-29   95.2   1.0   3   4   9.2e-07   6.8e-05   17.8   0.0    30    86  1036  1091  1011  1092 0.89 Protein scribble homolog OS=Homo sapiens OX=9606 GN=SCRIB PE=1 SV=4
+sp|Q14160|SCRIB_HUMAN -           1630 LIG_PDZ_Class_3+PTN13_HUMAN+1501+1588_muscle -             87   4.8e-29   95.2   1.0   4   4     2e-07   1.4e-05   20.0   0.0    32    85  1136  1189  1125  1191 0.94 Protein scribble homolog OS=Homo sapiens OX=9606 GN=SCRIB PE=1 SV=4
+sp|Q12959|DLG1_HUMAN  -            904 LIG_PDZ_Class_3+PTN13_HUMAN+1501+1588_muscle -             87     3e-26   86.3   2.5   1   4       6.8     5e+02   -4.2   0.0    22    36    27    41    23    43 0.81 Disks large homolog 1 OS=Homo sapiens OX=9606 GN=DLG1 PE=1 SV=2
+sp|Q12959|DLG1_HUMAN  -            904 LIG_PDZ_Class_3+PTN13_HUMAN+1501+1588_muscle -             87     3e-26   86.3   2.5   2   4   6.2e-11   4.6e-09   31.2   0.0     4    85   228   308   225   310 0.87 Disks large homolog 1 OS=Homo sapiens OX=9606 GN=DLG1 PE=1 SV=2
+sp|Q12959|DLG1_HUMAN  -            904 LIG_PDZ_Class_3+PTN13_HUMAN+1501+1588_muscle -             87     3e-26   86.3   2.5   3   4   4.7e-12   3.5e-10   34.8   0.0     1    87   320   405   320   405 0.89 Disks large homolog 1 OS=Homo sapiens OX=9606 GN=DLG1 PE=1 SV=2
+sp|Q12959|DLG1_HUMAN  -            904 LIG_PDZ_Class_3+PTN13_HUMAN+1501+1588_muscle -             87     3e-26   86.3   2.5   4   4   7.3e-07   5.4e-05   18.1   0.1    34    83   493   542   467   547 0.84 Disks large homolog 1 OS=Homo sapiens OX=9606 GN=DLG1 PE=1 SV=2
+sp|Q8TBB1|LNX1_HUMAN  -            728 LIG_PDZ_Class_3+PTN13_HUMAN+1501+1588_muscle -             87   7.9e-15   49.6   0.3   1   4   0.00089     0.066    8.2   0.0    41    82   312   353   297   358 0.80 E3 ubiquitin-protein ligase LNX OS=Homo sapiens OX=9606 GN=LNX1 PE=1 SV=1
+sp|Q8TBB1|LNX1_HUMAN  -            728 LIG_PDZ_Class_3+PTN13_HUMAN+1501+1588_muscle -             87   7.9e-15   49.6   0.3   2   4      0.23        17    0.5   0.0    35    86   411   462   389   463 0.82 E3 ubiquitin-protein ligase LNX OS=Homo sapiens OX=9606 GN=LNX1 PE=1 SV=1
+sp|Q8TBB1|LNX1_HUMAN  -            728 LIG_PDZ_Class_3+PTN13_HUMAN+1501+1588_muscle -             87   7.9e-15   49.6   0.3   3   4   2.9e-07   2.1e-05   19.4   0.1    35    82   540   587   535   590 0.91 E3 ubiquitin-protein ligase LNX OS=Homo sapiens OX=9606 GN=LNX1 PE=1 SV=1
+sp|Q8TBB1|LNX1_HUMAN  -            728 LIG_PDZ_Class_3+PTN13_HUMAN+1501+1588_muscle -             87   7.9e-15   49.6   0.3   4   4   4.3e-06   0.00031   15.7   0.0    32    66   668   702   640   721 0.83 E3 ubiquitin-protein ligase LNX OS=Homo sapiens OX=9606 GN=LNX1 PE=1 SV=1
+sp|Q9UDY2|ZO2_HUMAN   -           1190 LIG_PDZ_Class_3+PTN13_HUMAN+1501+1588_muscle -             87   1.1e-07   26.8   1.1   1   3    0.0022      0.17    6.9   0.1     5    87    38   119    34   119 0.79 Tight junction protein ZO-2 OS=Homo sapiens OX=9606 GN=TJP2 PE=1 SV=2
+sp|Q9UDY2|ZO2_HUMAN   -           1190 LIG_PDZ_Class_3+PTN13_HUMAN+1501+1588_muscle -             87   1.1e-07   26.8   1.1   2   3   0.00028     0.021    9.9   0.0    28    68   325   365   307   383 0.74 Tight junction protein ZO-2 OS=Homo sapiens OX=9606 GN=TJP2 PE=1 SV=2
+sp|Q9UDY2|ZO2_HUMAN   -           1190 LIG_PDZ_Class_3+PTN13_HUMAN+1501+1588_muscle -             87   1.1e-07   26.8   1.1   3   3    0.0026      0.19    6.7   0.0    42    71   544   573   535   588 0.81 Tight junction protein ZO-2 OS=Homo sapiens OX=9606 GN=TJP2 PE=1 SV=2
+sp|Q9NRD5|PICK1_HUMAN -            415 LIG_PDZ_Class_3+PTN13_HUMAN+1501+1588_muscle -             87   2.4e-05   19.2   0.0   1   1   6.7e-07   4.9e-05   18.2   0.0    33    82    50    99    42   103 0.91 PRKCA-binding protein OS=Homo sapiens OX=9606 GN=PICK1 PE=1 SV=2
+sp|O14641|DVL2_HUMAN  -            736 LIG_PDZ_Class_3+PTN13_HUMAN+1501+1588_muscle -             87   0.00022   16.2   0.2   1   2       6.1   4.5e+02   -4.1   0.0    15    34   142   161   141   167 0.78 Segment polarity protein dishevelled homolog DVL-2 OS=Homo sapiens OX=9606 GN=DVL2 PE=1 SV=1
+sp|O14641|DVL2_HUMAN  -            736 LIG_PDZ_Class_3+PTN13_HUMAN+1501+1588_muscle -             87   0.00022   16.2   0.2   2   2   8.1e-06    0.0006   14.8   0.0    35    75   299   339   287   348 0.89 Segment polarity protein dishevelled homolog DVL-2 OS=Homo sapiens OX=9606 GN=DVL2 PE=1 SV=1
+sp|Q92997|DVL3_HUMAN  -            716 LIG_PDZ_Class_3+PTN13_HUMAN+1501+1588_muscle -             87   0.00028   15.8   0.0   1   1   7.9e-06   0.00058   14.8   0.0    35    75   281   321   269   329 0.89 Segment polarity protein dishevelled homolog DVL-3 OS=Homo sapiens OX=9606 GN=DVL3 PE=1 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      domain_all/LIG_PDZ_Class_3+PTN13_HUMAN+1501+1588.hmm
+# Target file:     H1_prot_fasta.fasta
+# Option settings: hmmsearch -o /home/bwadie/Hmmer_H1/all_outs/LIG_PDZ_Class_3+PTN13_HUMAN+1501+1588.out --domtblout /home/bwadie/Hmmer_H1/domain_all_H1_domtblouts/LIG_PDZ_Class_3+PTN13_HUMAN+1501+1588.txt -E 1 domain_all/LIG_PDZ_Class_3+PTN13_HUMAN+1501+1588.hmm H1_prot_fasta.fasta 
+# Current dir:     /home/bwadie/Hmmer_H1
+# Date:            Wed Feb 10 00:37:50 2021
+# [ok]

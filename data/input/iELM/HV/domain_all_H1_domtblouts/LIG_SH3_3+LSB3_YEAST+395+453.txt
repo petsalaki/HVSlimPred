@@ -1,0 +1,25 @@
+#                                                                                           --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name                          accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- -----                -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+sp|P16333|NCK1_HUMAN -            377 LIG_SH3_3+LSB3_YEAST+395+453_muscle -             58   1.1e-17   58.4   1.5   1   4     0.016       1.1    3.9   0.0     9    48     6    42     2    53 0.78 Cytoplasmic protein NCK1 OS=Homo sapiens OX=9606 GN=NCK1 PE=1 SV=1
+sp|P16333|NCK1_HUMAN -            377 LIG_SH3_3+LSB3_YEAST+395+453_muscle -             58   1.1e-17   58.4   1.5   2   4   5.8e-07   4.3e-05   18.1   0.1    18    57   119   156   110   157 0.85 Cytoplasmic protein NCK1 OS=Homo sapiens OX=9606 GN=NCK1 PE=1 SV=1
+sp|P16333|NCK1_HUMAN -            377 LIG_SH3_3+LSB3_YEAST+395+453_muscle -             58   1.1e-17   58.4   1.5   3   4   9.4e-12     7e-10   33.4   0.0    10    57   195   243   188   244 0.92 Cytoplasmic protein NCK1 OS=Homo sapiens OX=9606 GN=NCK1 PE=1 SV=1
+sp|P16333|NCK1_HUMAN -            377 LIG_SH3_3+LSB3_YEAST+395+453_muscle -             58   1.1e-17   58.4   1.5   4   4       4.9   3.6e+02   -4.1   0.0    42    49   280   287   279   289 0.82 Cytoplasmic protein NCK1 OS=Homo sapiens OX=9606 GN=NCK1 PE=1 SV=1
+sp|P12931|SRC_HUMAN  -            536 LIG_SH3_3+LSB3_YEAST+395+453_muscle -             58   4.9e-08   27.5   0.1   1   2   2.3e-09   1.7e-07   25.8   0.0     9    57    88   136    80   137 0.83 Proto-oncogene tyrosine-protein kinase Src OS=Homo sapiens OX=9606 GN=SRC PE=1 SV=3
+sp|P12931|SRC_HUMAN  -            536 LIG_SH3_3+LSB3_YEAST+395+453_muscle -             58   4.9e-08   27.5   0.1   2   2       1.8   1.3e+02   -2.7   0.0    42    53   149   160   142   161 0.73 Proto-oncogene tyrosine-protein kinase Src OS=Homo sapiens OX=9606 GN=SRC PE=1 SV=3
+sp|P06241|FYN_HUMAN  -            537 LIG_SH3_3+LSB3_YEAST+395+453_muscle -             58   7.6e-08   26.9   0.1   1   1   2.6e-09   1.9e-07   25.6   0.1     9    57    86   134    78   135 0.84 Tyrosine-protein kinase Fyn OS=Homo sapiens OX=9606 GN=FYN PE=1 SV=3
+sp|Q00013|EM55_HUMAN -            466 LIG_SH3_3+LSB3_YEAST+395+453_muscle -             58   1.3e-07   26.2   0.2   1   1   3.6e-09   2.7e-07   25.2   0.2    24    52   184   210   179   219 0.89 55 kDa erythrocyte membrane protein OS=Homo sapiens OX=9606 GN=MPP1 PE=1 SV=2
+sp|P08631|HCK_HUMAN  -            526 LIG_SH3_3+LSB3_YEAST+395+453_muscle -             58   1.8e-07   25.8   0.0   1   1   4.3e-09   3.2e-07   24.9   0.0     6    48    79   118    74   130 0.84 Tyrosine-protein kinase HCK OS=Homo sapiens OX=9606 GN=HCK PE=1 SV=5
+sp|P06239|LCK_HUMAN  -            509 LIG_SH3_3+LSB3_YEAST+395+453_muscle -             58   1.1e-06   23.2   0.0   1   1   3.3e-08   2.4e-06   22.1   0.0     9    57    65   112    55   113 0.84 Tyrosine-protein kinase Lck OS=Homo sapiens OX=9606 GN=LCK PE=1 SV=6
+sp|Q12959|DLG1_HUMAN -            904 LIG_SH3_3+LSB3_YEAST+395+453_muscle -             58   0.00073   14.2   0.3   1   2      0.15        11    0.7   0.0    25    38   505   518   494   522 0.74 Disks large homolog 1 OS=Homo sapiens OX=9606 GN=DLG1 PE=1 SV=2
+sp|Q12959|DLG1_HUMAN -            904 LIG_SH3_3+LSB3_YEAST+395+453_muscle -             58   0.00073   14.2   0.3   2   2   0.00014     0.011   10.4   0.1    21    48   602   627   581   633 0.80 Disks large homolog 1 OS=Homo sapiens OX=9606 GN=DLG1 PE=1 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      domain_all/LIG_SH3_3+LSB3_YEAST+395+453.hmm
+# Target file:     H1_prot_fasta.fasta
+# Option settings: hmmsearch -o /home/bwadie/Hmmer_H1/all_outs/LIG_SH3_3+LSB3_YEAST+395+453.out --domtblout /home/bwadie/Hmmer_H1/domain_all_H1_domtblouts/LIG_SH3_3+LSB3_YEAST+395+453.txt -E 1 domain_all/LIG_SH3_3+LSB3_YEAST+395+453.hmm H1_prot_fasta.fasta 
+# Current dir:     /home/bwadie/Hmmer_H1
+# Date:            Wed Feb 10 00:38:00 2021
+# [ok]

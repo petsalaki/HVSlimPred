@@ -1,0 +1,15 @@
+#                                                                                              --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name         accession   tlen query name                            accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+# ------------------- ---------- -----                  -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+sp|P10276|RARA_HUMAN  -            462 LIG_NRBOX+B0ZBF7_HUMAN+778+967_muscle -            189   1.2e-07   26.6   0.0   1   1   6.8e-10   1.8e-07   26.0   0.0     1    85   234   316   234   365 0.81 Retinoic acid receptor alpha OS=Homo sapiens OX=9606 GN=RARA PE=1 SV=2
+sp|P22736|NR4A1_HUMAN -            598 LIG_NRBOX+B0ZBF7_HUMAN+778+967_muscle -            189   0.00052   14.7   0.0   1   1     3e-06   0.00077   14.1   0.0     6   134   417   540   413   579 0.76 Nuclear receptor subfamily 4 group A member 1 OS=Homo sapiens OX=9606 GN=NR4A1 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      domain_all/LIG_NRBOX+B0ZBF7_HUMAN+778+967.hmm
+# Target file:     H1_prot_fasta.fasta
+# Option settings: hmmsearch -o /home/bwadie/Hmmer_H1/all_outs/LIG_NRBOX+B0ZBF7_HUMAN+778+967.out --domtblout /home/bwadie/Hmmer_H1/domain_all_H1_domtblouts/LIG_NRBOX+B0ZBF7_HUMAN+778+967.txt -E 1 domain_all/LIG_NRBOX+B0ZBF7_HUMAN+778+967.hmm H1_prot_fasta.fasta 
+# Current dir:     /home/bwadie/Hmmer_H1
+# Date:            Wed Feb 10 00:37:42 2021
+# [ok]

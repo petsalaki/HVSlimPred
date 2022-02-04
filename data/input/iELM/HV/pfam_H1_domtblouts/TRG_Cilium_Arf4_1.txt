@@ -1,0 +1,22 @@
+#                                                                             --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name         accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+# ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+sp|P36406|TRI23_HUMAN -            574 Arf                  PF00025.14   175   1.9e-74  243.9   0.6   1   2      0.62        46   -1.6   0.2   122   142   346   366   284   386 0.58 E3 ubiquitin-protein ligase TRIM23 OS=Homo sapiens OX=9606 GN=TRIM23 PE=1 SV=1
+sp|P36406|TRI23_HUMAN -            574 Arf                  PF00025.14   175   1.9e-74  243.9   0.6   2   2   5.5e-76   4.1e-74  242.8   0.0     5   174   395   564   391   565 0.97 E3 ubiquitin-protein ligase TRIM23 OS=Homo sapiens OX=9606 GN=TRIM23 PE=1 SV=1
+sp|P20340|RAB6A_HUMAN -            208 Arf                  PF00025.14   175     1e-16   55.9   0.2   1   1   1.8e-18   1.3e-16   55.6   0.2    13   172    12   171     5   174 0.81 Ras-related protein Rab-6A OS=Homo sapiens OX=9606 GN=RAB6A PE=1 SV=3
+sp|P62491|RB11A_HUMAN -            216 Arf                  PF00025.14   175   2.6e-13   44.8   0.0   1   1   4.7e-15   3.5e-13   44.4   0.0    15   141    12   144     6   172 0.77 Ras-related protein Rab-11A OS=Homo sapiens OX=9606 GN=RAB11A PE=1 SV=3
+sp|P11233|RALA_HUMAN  -            206 Arf                  PF00025.14   175   5.2e-12   40.6   0.0   1   1   8.8e-14   6.5e-12   40.3   0.0    15   168    15   168     4   175 0.80 Ras-related protein Ral-A OS=Homo sapiens OX=9606 GN=RALA PE=1 SV=1
+sp|Q13637|RAB32_HUMAN -            225 Arf                  PF00025.14   175   1.2e-11   39.4   0.0   1   1   2.1e-13   1.5e-11   39.0   0.0    13   135    24   155    16   192 0.78 Ras-related protein Rab-32 OS=Homo sapiens OX=9606 GN=RAB32 PE=1 SV=3
+sp|Q9Y272|RASD1_HUMAN -            281 Arf                  PF00025.14   175   2.1e-08   28.8   0.0   1   1   5.4e-10     4e-08   27.9   0.0    12   149    22   188    13   227 0.66 Dexamethasone-induced Ras-related protein 1 OS=Homo sapiens OX=9606 GN=RASD1 PE=1 SV=1
+sp|P16118|F261_HUMAN  -            471 Arf                  PF00025.14   175    0.0019   12.7   0.0   1   2   7.5e-05    0.0055   11.2   0.0    15    73    43   106    33   143 0.74 6-phosphofructo-2-kinase/fructose-2,6-bisphosphatase 1 OS=Homo sapiens OX=9606 GN=PFKFB1 PE=1 SV=3
+sp|P16118|F261_HUMAN  -            471 Arf                  PF00025.14   175    0.0019   12.7   0.0   2   2       1.3        98   -2.7   0.0    52    73   210   231   206   240 0.74 6-phosphofructo-2-kinase/fructose-2,6-bisphosphatase 1 OS=Homo sapiens OX=9606 GN=PFKFB1 PE=1 SV=3
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      pfam_hmms/TRG_Cilium_Arf4_1.hmm
+# Target file:     H1_prot_fasta.fasta
+# Option settings: hmmsearch -o /home/bwadie/Hmmer_H1/all_outs/TRG_Cilium_Arf4_1.out --domtblout /home/bwadie/Hmmer_H1/pfam_H1_domtblouts/TRG_Cilium_Arf4_1.txt -E 1 pfam_hmms/TRG_Cilium_Arf4_1.hmm H1_prot_fasta.fasta 
+# Current dir:     /home/bwadie/Hmmer_H1
+# Date:            Wed Feb 10 00:37:24 2021
+# [ok]

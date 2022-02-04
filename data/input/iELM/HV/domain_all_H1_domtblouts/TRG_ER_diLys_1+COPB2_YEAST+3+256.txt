@@ -1,0 +1,32 @@
+#                                                                                                --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name         accession   tlen query name                              accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+# ------------------- ---------- -----                    -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+sp|P35606|COPB2_HUMAN -            906 TRG_ER_diLys_1+COPB2_YEAST+3+256_muscle -            252  8.3e-145  475.9   1.8   1   1    2e-146  1.5e-144  475.1   1.8     1   252     6   257     6   257 1.00 Coatomer subunit beta' OS=Homo sapiens OX=9606 GN=COPB2 PE=1 SV=2
+sp|P63244|RACK1_HUMAN -            317 TRG_ER_diLys_1+COPB2_YEAST+3+256_muscle -            252     5e-55  181.7   2.0   1   3     1e-21   7.4e-20   66.5   0.1   127   252     5   133     1   133 0.90 Receptor of activated protein C kinase 1 OS=Homo sapiens OX=9606 GN=RACK1 PE=1 SV=3
+sp|P63244|RACK1_HUMAN -            317 TRG_ER_diLys_1+COPB2_YEAST+3+256_muscle -            252     5e-55  181.7   2.0   2   3   4.6e-27   3.4e-25   84.0   0.1    90   251    59   219    55   220 0.94 Receptor of activated protein C kinase 1 OS=Homo sapiens OX=9606 GN=RACK1 PE=1 SV=3
+sp|P63244|RACK1_HUMAN -            317 TRG_ER_diLys_1+COPB2_YEAST+3+256_muscle -            252     5e-55  181.7   2.0   3   3   8.3e-15   6.1e-13   43.9   0.0    91   224   145   274   145   311 0.88 Receptor of activated protein C kinase 1 OS=Homo sapiens OX=9606 GN=RACK1 PE=1 SV=3
+sp|Q9UKB1|FBW1B_HUMAN -            542 TRG_ER_diLys_1+COPB2_YEAST+3+256_muscle -            252   7.7e-50  164.7  14.9   1   4     6e-09   4.4e-07   24.7   0.0   179   233   238   289   218   291 0.82 F-box/WD repeat-containing protein 11 OS=Homo sapiens OX=9606 GN=FBXW11 PE=1 SV=1
+sp|Q9UKB1|FBW1B_HUMAN -            542 TRG_ER_diLys_1+COPB2_YEAST+3+256_muscle -            252   7.7e-50  164.7  14.9   2   4   9.7e-18   7.2e-16   53.5   1.0   149   252   249   346   248   346 0.93 F-box/WD repeat-containing protein 11 OS=Homo sapiens OX=9606 GN=FBXW11 PE=1 SV=1
+sp|Q9UKB1|FBW1B_HUMAN -            542 TRG_ER_diLys_1+COPB2_YEAST+3+256_muscle -            252   7.7e-50  164.7  14.9   3   4   1.7e-32   1.3e-30  101.8   1.3    67   252   293   469   293   469 0.92 F-box/WD repeat-containing protein 11 OS=Homo sapiens OX=9606 GN=FBXW11 PE=1 SV=1
+sp|Q9UKB1|FBW1B_HUMAN -            542 TRG_ER_diLys_1+COPB2_YEAST+3+256_muscle -            252   7.7e-50  164.7  14.9   4   4   2.8e-06   0.00021   15.9   0.1   149   211   452   519   452   523 0.57 F-box/WD repeat-containing protein 11 OS=Homo sapiens OX=9606 GN=FBXW11 PE=1 SV=1
+sp|Q9Y297|FBW1A_HUMAN -            605 TRG_ER_diLys_1+COPB2_YEAST+3+256_muscle -            252   6.4e-41  135.5   5.9   1   3   1.9e-18   1.4e-16   55.8   0.9   149   252   312   409   282   409 0.92 F-box/WD repeat-containing protein 1A OS=Homo sapiens OX=9606 GN=BTRC PE=1 SV=1
+sp|Q9Y297|FBW1A_HUMAN -            605 TRG_ER_diLys_1+COPB2_YEAST+3+256_muscle -            252   6.4e-41  135.5   5.9   2   3   9.8e-27   7.3e-25   82.9   0.1   108   252   395   532   393   532 0.92 F-box/WD repeat-containing protein 1A OS=Homo sapiens OX=9606 GN=BTRC PE=1 SV=1
+sp|Q9Y297|FBW1A_HUMAN -            605 TRG_ER_diLys_1+COPB2_YEAST+3+256_muscle -            252   6.4e-41  135.5   5.9   3   3   1.1e-05   0.00083   13.9   0.1   149   213   515   584   515   590 0.70 F-box/WD repeat-containing protein 1A OS=Homo sapiens OX=9606 GN=BTRC PE=1 SV=1
+sp|Q9BV38|WDR18_HUMAN -            432 TRG_ER_diLys_1+COPB2_YEAST+3+256_muscle -            252   1.3e-16   55.9   0.4   1   2     3e-06   0.00022   15.8   0.0   203   251   100   148    52   151 0.78 WD repeat-containing protein 18 OS=Homo sapiens OX=9606 GN=WDR18 PE=1 SV=2
+sp|Q9BV38|WDR18_HUMAN -            432 TRG_ER_diLys_1+COPB2_YEAST+3+256_muscle -            252   1.3e-16   55.9   0.4   2   2   3.5e-12   2.6e-10   35.3   0.3   109   222   189   309   186   328 0.77 WD repeat-containing protein 18 OS=Homo sapiens OX=9606 GN=WDR18 PE=1 SV=2
+sp|Q9ULV4|COR1C_HUMAN -            474 TRG_ER_diLys_1+COPB2_YEAST+3+256_muscle -            252     1e-15   53.0   0.1   1   1   2.6e-17   1.9e-15   52.1   0.1   134   251    77   201    64   209 0.89 Coronin-1C OS=Homo sapiens OX=9606 GN=CORO1C PE=1 SV=1
+sp|Q9NNW5|WDR6_HUMAN  -           1121 TRG_ER_diLys_1+COPB2_YEAST+3+256_muscle -            252   5.9e-15   50.5   0.0   1   5   3.6e-11   2.6e-09   32.0   0.0   151   252   222   326   197   327 0.84 WD repeat-containing protein 6 OS=Homo sapiens OX=9606 GN=WDR6 PE=1 SV=1
+sp|Q9NNW5|WDR6_HUMAN  -           1121 TRG_ER_diLys_1+COPB2_YEAST+3+256_muscle -            252   5.9e-15   50.5   0.0   2   5      0.32        23   -0.6   0.0   196   209   742   755   737   782 0.59 WD repeat-containing protein 6 OS=Homo sapiens OX=9606 GN=WDR6 PE=1 SV=1
+sp|Q9NNW5|WDR6_HUMAN  -           1121 TRG_ER_diLys_1+COPB2_YEAST+3+256_muscle -            252   5.9e-15   50.5   0.0   3   5      0.27        20   -0.4   0.0   154   213   880   948   844   956 0.68 WD repeat-containing protein 6 OS=Homo sapiens OX=9606 GN=WDR6 PE=1 SV=1
+sp|Q9NNW5|WDR6_HUMAN  -           1121 TRG_ER_diLys_1+COPB2_YEAST+3+256_muscle -            252   5.9e-15   50.5   0.0   4   5   0.00059     0.044    8.3   0.0   152   209   931  1010   875  1018 0.68 WD repeat-containing protein 6 OS=Homo sapiens OX=9606 GN=WDR6 PE=1 SV=1
+sp|Q9NNW5|WDR6_HUMAN  -           1121 TRG_ER_diLys_1+COPB2_YEAST+3+256_muscle -            252   5.9e-15   50.5   0.0   5   5     0.023       1.7    3.1   0.0   151   175  1057  1081  1042  1088 0.86 WD repeat-containing protein 6 OS=Homo sapiens OX=9606 GN=WDR6 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      domain_all/TRG_ER_diLys_1+COPB2_YEAST+3+256.hmm
+# Target file:     H1_prot_fasta.fasta
+# Option settings: hmmsearch -o /home/bwadie/Hmmer_H1/all_outs/TRG_ER_diLys_1+COPB2_YEAST+3+256.out --domtblout /home/bwadie/Hmmer_H1/domain_all_H1_domtblouts/TRG_ER_diLys_1+COPB2_YEAST+3+256.txt -E 1 domain_all/TRG_ER_diLys_1+COPB2_YEAST+3+256.hmm H1_prot_fasta.fasta 
+# Current dir:     /home/bwadie/Hmmer_H1
+# Date:            Wed Feb 10 00:38:12 2021
+# [ok]

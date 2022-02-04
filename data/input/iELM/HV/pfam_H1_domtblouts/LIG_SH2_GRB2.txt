@@ -1,0 +1,28 @@
+#                                                                             --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name         accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+# ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+sp|Q92569|P55G_HUMAN  -            461 SH2                  PF00017.17    77   4.4e-44  143.5   0.0   1   2   2.1e-22   1.1e-20   68.5   0.0     1    77    65   140    65   140 0.97 Phosphatidylinositol 3-kinase regulatory subunit gamma OS=Homo sapiens OX=9606 GN=PIK3R3 PE=1 SV=2
+sp|Q92569|P55G_HUMAN  -            461 SH2                  PF00017.17    77   4.4e-44  143.5   0.0   2   2   1.4e-23   7.4e-22   72.2   0.0     1    77   358   432   358   432 0.93 Phosphatidylinositol 3-kinase regulatory subunit gamma OS=Homo sapiens OX=9606 GN=PIK3R3 PE=1 SV=2
+sp|P27986|P85A_HUMAN  -            724 SH2                  PF00017.17    77   2.2e-42  138.0   0.1   1   2   6.1e-21   3.2e-19   63.8   0.0     1    77   333   408   333   408 0.97 Phosphatidylinositol 3-kinase regulatory subunit alpha OS=Homo sapiens OX=9606 GN=PIK3R1 PE=1 SV=2
+sp|P27986|P85A_HUMAN  -            724 SH2                  PF00017.17    77   2.2e-42  138.0   0.1   2   2   2.1e-23   1.1e-21   71.7   0.0     1    77   624   698   624   698 0.92 Phosphatidylinositol 3-kinase regulatory subunit alpha OS=Homo sapiens OX=9606 GN=PIK3R1 PE=1 SV=2
+sp|O00459|P85B_HUMAN  -            728 SH2                  PF00017.17    77   5.7e-42  136.7   0.1   1   2   7.1e-21   3.6e-19   63.6   0.0     1    77   330   405   330   405 0.97 Phosphatidylinositol 3-kinase regulatory subunit beta OS=Homo sapiens OX=9606 GN=PIK3R2 PE=1 SV=2
+sp|O00459|P85B_HUMAN  -            728 SH2                  PF00017.17    77   5.7e-42  136.7   0.1   2   2   4.8e-23   2.5e-21   70.5   0.0     1    77   622   696   622   696 0.92 Phosphatidylinositol 3-kinase regulatory subunit beta OS=Homo sapiens OX=9606 GN=PIK3R2 PE=1 SV=2
+sp|P06241|FYN_HUMAN   -            537 SH2                  PF00017.17    77   5.9e-31  101.4   0.2   1   1   2.8e-32   1.5e-30  100.1   0.2     1    77   149   231   149   231 1.00 Tyrosine-protein kinase Fyn OS=Homo sapiens OX=9606 GN=FYN PE=1 SV=3
+sp|P12931|SRC_HUMAN   -            536 SH2                  PF00017.17    77   8.9e-30   97.6   0.1   1   1   3.8e-31     2e-29   96.5   0.1     1    77   151   233   151   233 0.99 Proto-oncogene tyrosine-protein kinase Src OS=Homo sapiens OX=9606 GN=SRC PE=1 SV=3
+sp|P08631|HCK_HUMAN   -            526 SH2                  PF00017.17    77   1.8e-27   90.2   0.0   1   1   7.1e-29   3.7e-27   89.2   0.0     1    77   144   226   144   226 0.99 Tyrosine-protein kinase HCK OS=Homo sapiens OX=9606 GN=HCK PE=1 SV=5
+sp|P06239|LCK_HUMAN   -            509 SH2                  PF00017.17    77   5.3e-27   88.7   0.0   1   1   2.5e-28   1.3e-26   87.5   0.0     1    77   127   209   127   209 0.99 Tyrosine-protein kinase Lck OS=Homo sapiens OX=9606 GN=LCK PE=1 SV=6
+sp|P16333|NCK1_HUMAN  -            377 SH2                  PF00017.17    77   4.4e-25   82.6   0.2   1   1   1.8e-26   9.4e-25   81.5   0.2     1    77   282   356   282   356 0.98 Cytoplasmic protein NCK1 OS=Homo sapiens OX=9606 GN=NCK1 PE=1 SV=1
+sp|P40763|STAT3_HUMAN -            770 SH2                  PF00017.17    77   4.8e-15   50.4   0.0   1   1   2.5e-16   1.3e-14   49.0   0.0     1    77   584   674   584   674 0.93 Signal transducer and activator of transcription 3 OS=Homo sapiens OX=9606 GN=STAT3 PE=1 SV=2
+sp|Q14315|FLNC_HUMAN  -           2725 SH2                  PF00017.17    77    0.0009   14.3   0.0   1   3    0.0065      0.34    6.0   0.0    10    44  1199  1232  1195  1254 0.85 Filamin-C OS=Homo sapiens OX=9606 GN=FLNC PE=1 SV=3
+sp|Q14315|FLNC_HUMAN  -           2725 SH2                  PF00017.17    77    0.0009   14.3   0.0   2   3      0.18       9.2    1.4   0.0    18    45  1696  1723  1688  1736 0.84 Filamin-C OS=Homo sapiens OX=9606 GN=FLNC PE=1 SV=3
+sp|Q14315|FLNC_HUMAN  -           2725 SH2                  PF00017.17    77    0.0009   14.3   0.0   3   3       2.2   1.1e+02   -2.1   0.0    31    45  1921  1935  1907  1951 0.84 Filamin-C OS=Homo sapiens OX=9606 GN=FLNC PE=1 SV=3
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      pfam_hmms/LIG_SH2_GRB2.hmm
+# Target file:     H1_prot_fasta.fasta
+# Option settings: hmmsearch -o /home/bwadie/Hmmer_H1/all_outs/LIG_SH2_GRB2.out --domtblout /home/bwadie/Hmmer_H1/pfam_H1_domtblouts/LIG_SH2_GRB2.txt -E 1 pfam_hmms/LIG_SH2_GRB2.hmm H1_prot_fasta.fasta 
+# Current dir:     /home/bwadie/Hmmer_H1
+# Date:            Wed Feb 10 00:37:21 2021
+# [ok]

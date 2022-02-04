@@ -1,0 +1,17 @@
+#                                                                                                  --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name         accession   tlen query name                                accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+# ------------------- ---------- -----                      -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+sp|Q9UL63|MKLN1_HUMAN -            735 LIG_HCF-1_HBM_1+HCFC1_HUMAN+32+248_muscle -            216   1.5e-06   22.9   0.6   1   4    0.0074       3.8    2.0   0.0    40    70    65    95    59   111 0.88 Muskelin OS=Homo sapiens OX=9606 GN=MKLN1 PE=1 SV=2
+sp|Q9UL63|MKLN1_HUMAN -            735 LIG_HCF-1_HBM_1+HCFC1_HUMAN+32+248_muscle -            216   1.5e-06   22.9   0.6   2   4    0.0079       4.1    2.0   0.0    87   123   250   291   231   375 0.71 Muskelin OS=Homo sapiens OX=9606 GN=MKLN1 PE=1 SV=2
+sp|Q9UL63|MKLN1_HUMAN -            735 LIG_HCF-1_HBM_1+HCFC1_HUMAN+32+248_muscle -            216   1.5e-06   22.9   0.6   3   4   0.00028      0.15    6.7   0.0    59   124   405   477   398   512 0.77 Muskelin OS=Homo sapiens OX=9606 GN=MKLN1 PE=1 SV=2
+sp|Q9UL63|MKLN1_HUMAN -            735 LIG_HCF-1_HBM_1+HCFC1_HUMAN+32+248_muscle -            216   1.5e-06   22.9   0.6   4   4   0.00047      0.24    6.0   0.0    99   134   578   615   522   629 0.74 Muskelin OS=Homo sapiens OX=9606 GN=MKLN1 PE=1 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      domain_all/LIG_HCF-1_HBM_1+HCFC1_HUMAN+32+248.hmm
+# Target file:     H1_prot_fasta.fasta
+# Option settings: hmmsearch -o /home/bwadie/Hmmer_H1/all_outs/LIG_HCF-1_HBM_1+HCFC1_HUMAN+32+248.out --domtblout /home/bwadie/Hmmer_H1/domain_all_H1_domtblouts/LIG_HCF-1_HBM_1+HCFC1_HUMAN+32+248.txt -E 1 domain_all/LIG_HCF-1_HBM_1+HCFC1_HUMAN+32+248.hmm H1_prot_fasta.fasta 
+# Current dir:     /home/bwadie/Hmmer_H1
+# Date:            Wed Feb 10 00:37:39 2021
+# [ok]

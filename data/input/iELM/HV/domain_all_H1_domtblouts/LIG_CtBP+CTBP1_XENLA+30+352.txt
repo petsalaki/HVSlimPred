@@ -1,0 +1,15 @@
+#                                                                                           --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name         accession   tlen query name                         accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+# ------------------- ---------- -----               -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+sp|P56545|CTBP2_HUMAN -            445 LIG_CtBP+CTBP1_XENLA+30+352_muscle -            307  1.8e-114  376.5   0.0   1   1  8.6e-117  2.2e-114  376.2   0.0     5   307    42   358    39   358 0.93 C-terminal-binding protein 2 OS=Homo sapiens OX=9606 GN=CTBP2 PE=1 SV=1
+sp|O43175|SERA_HUMAN  -            533 LIG_CtBP+CTBP1_XENLA+30+352_muscle -            307  1.1e-112  370.6   0.0   1   1  5.3e-115  1.4e-112  370.3   0.0     2   307    13   317    12   317 0.97 D-3-phosphoglycerate dehydrogenase OS=Homo sapiens OX=9606 GN=PHGDH PE=1 SV=4
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      domain_all/LIG_CtBP+CTBP1_XENLA+30+352.hmm
+# Target file:     H1_prot_fasta.fasta
+# Option settings: hmmsearch -o /home/bwadie/Hmmer_H1/all_outs/LIG_CtBP+CTBP1_XENLA+30+352.out --domtblout /home/bwadie/Hmmer_H1/domain_all_H1_domtblouts/LIG_CtBP+CTBP1_XENLA+30+352.txt -E 1 domain_all/LIG_CtBP+CTBP1_XENLA+30+352.hmm H1_prot_fasta.fasta 
+# Current dir:     /home/bwadie/Hmmer_H1
+# Date:            Wed Feb 10 00:37:33 2021
+# [ok]

@@ -1,0 +1,16 @@
+#                                                                                          --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name                         accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- -----               -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+sp|O00308|WWP2_HUMAN -            870 LIG_WW_3+WBP4_HUMAN+165+194_muscle -             29      0.53    5.2  11.7   1   3    0.0071       3.7    2.5   0.9    10    29   312   331   305   331 0.84 NEDD4-like E3 ubiquitin-protein ligase WWP2 OS=Homo sapiens OX=9606 GN=WWP2 PE=1 SV=2
+sp|O00308|WWP2_HUMAN -            870 LIG_WW_3+WBP4_HUMAN+165+194_muscle -             29      0.53    5.2  11.7   2   3      0.17        87   -1.9   0.1    14    29   346   361   340   361 0.79 NEDD4-like E3 ubiquitin-protein ligase WWP2 OS=Homo sapiens OX=9606 GN=WWP2 PE=1 SV=2
+sp|O00308|WWP2_HUMAN -            870 LIG_WW_3+WBP4_HUMAN+165+194_muscle -             29      0.53    5.2  11.7   3   3     6e-05     0.031    9.1   0.8    10    29   416   435   411   435 0.90 NEDD4-like E3 ubiquitin-protein ligase WWP2 OS=Homo sapiens OX=9606 GN=WWP2 PE=1 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      domain_all/LIG_WW_3+WBP4_HUMAN+165+194.hmm
+# Target file:     H1_prot_fasta.fasta
+# Option settings: hmmsearch -o /home/bwadie/Hmmer_H1/all_outs/LIG_WW_3+WBP4_HUMAN+165+194.out --domtblout /home/bwadie/Hmmer_H1/domain_all_H1_domtblouts/LIG_WW_3+WBP4_HUMAN+165+194.txt -E 1 domain_all/LIG_WW_3+WBP4_HUMAN+165+194.hmm H1_prot_fasta.fasta 
+# Current dir:     /home/bwadie/Hmmer_H1
+# Date:            Wed Feb 10 00:38:06 2021
+# [ok]

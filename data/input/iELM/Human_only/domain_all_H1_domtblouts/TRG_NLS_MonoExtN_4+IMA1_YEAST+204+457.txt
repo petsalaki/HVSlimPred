@@ -1,0 +1,21 @@
+#                                                                                                    --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name                                   accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- -----                         -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+sp|O60684|IMA7_HUMAN -            536 TRG_NLS_MonoExtN_4+IMA1_YEAST+204+457_muscle -            252  2.6e-142  466.0   1.0   1   2   1.2e-16   9.3e-15   48.1   0.0    99   208    83   195    70   200 0.49 Importin subunit alpha-7 OS=Homo sapiens OX=9606 GN=KPNA6 PE=1 SV=1
+sp|O60684|IMA7_HUMAN -            536 TRG_NLS_MonoExtN_4+IMA1_YEAST+204+457_muscle -            252  2.6e-142  466.0   1.0   2   2  3.8e-129  2.8e-127  416.7   0.4     2   252   200   450   199   450 0.99 Importin subunit alpha-7 OS=Homo sapiens OX=9606 GN=KPNA6 PE=1 SV=1
+sp|O00629|IMA3_HUMAN -            521 TRG_NLS_MonoExtN_4+IMA1_YEAST+204+457_muscle -            252  3.2e-127  416.5   5.2   1   3   1.8e-18   1.3e-16   54.1   0.0    98   207    73   184    35   188 0.66 Importin subunit alpha-3 OS=Homo sapiens OX=9606 GN=KPNA4 PE=1 SV=1
+sp|O00629|IMA3_HUMAN -            521 TRG_NLS_MonoExtN_4+IMA1_YEAST+204+457_muscle -            252  3.2e-127  416.5   5.2   2   3  1.1e-112  7.9e-111  362.8   1.8     1   252   189   440   189   440 1.00 Importin subunit alpha-3 OS=Homo sapiens OX=9606 GN=KPNA4 PE=1 SV=1
+sp|O00629|IMA3_HUMAN -            521 TRG_NLS_MonoExtN_4+IMA1_YEAST+204+457_muscle -            252  3.2e-127  416.5   5.2   3   3       0.2        15   -1.7   0.0   133   159   452   478   444   483 0.79 Importin subunit alpha-3 OS=Homo sapiens OX=9606 GN=KPNA4 PE=1 SV=1
+sp|P52292|IMA1_HUMAN -            529 TRG_NLS_MonoExtN_4+IMA1_YEAST+204+457_muscle -            252  1.2e-120  395.0   0.6   1   3   4.6e-16   3.4e-14   46.2   0.0    79   166   102   190    65   195 0.72 Importin subunit alpha-1 OS=Homo sapiens OX=9606 GN=KPNA2 PE=1 SV=1
+sp|P52292|IMA1_HUMAN -            529 TRG_NLS_MonoExtN_4+IMA1_YEAST+204+457_muscle -            252  1.2e-120  395.0   0.6   2   3  8.7e-108  6.5e-106  346.7   0.2     2   251   195   448   194   449 0.97 Importin subunit alpha-1 OS=Homo sapiens OX=9606 GN=KPNA2 PE=1 SV=1
+sp|P52292|IMA1_HUMAN -            529 TRG_NLS_MonoExtN_4+IMA1_YEAST+204+457_muscle -            252  1.2e-120  395.0   0.6   3   3      0.43        32   -2.8   0.0   133   158   463   488   455   507 0.70 Importin subunit alpha-1 OS=Homo sapiens OX=9606 GN=KPNA2 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      domain_all/TRG_NLS_MonoExtN_4+IMA1_YEAST+204+457.hmm
+# Target file:     human_only_H1_Prot_fasta.fasta
+# Option settings: hmmsearch -o /home/bwadie/Hmmer_H1/human_slimfinder_HMM_outputs/all_outs/TRG_NLS_MonoExtN_4+IMA1_YEAST+204+457.out --domtblout /home/bwadie/Hmmer_H1/human_slimfinder_HMM_outputs/domain_all_H1_domtblouts/TRG_NLS_MonoExtN_4+IMA1_YEAST+204+457.txt -E 1 domain_all/TRG_NLS_MonoExtN_4+IMA1_YEAST+204+457.hmm human_only_H1_Prot_fasta.fasta 
+# Current dir:     /home/bwadie/Hmmer_H1
+# Date:            Wed Mar 17 18:18:42 2021
+# [ok]

@@ -4,7 +4,14 @@
 \alias{HV_motif_level_eval}
 \title{Motif-level evaluation of predicted hits}
 \usage{
-HV_motif_level_eval()
+HV_motif_level_eval(
+  slim_hits,
+  bench_data,
+  bench_data_type = c("ELM", "PRMdb"),
+  datasets_input = NULL,
+  all_pfam_dom = NULL,
+  prot_seqs = NULL
+)
 }
 \value{
 A data frame containing all the relevant motif-level performance metrics for each domain enrichment filter in addition to the non-filtered qslim output.

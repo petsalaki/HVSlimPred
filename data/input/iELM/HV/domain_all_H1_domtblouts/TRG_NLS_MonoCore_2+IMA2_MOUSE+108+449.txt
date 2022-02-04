@@ -1,0 +1,29 @@
+#                                                                                                     --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name         accession   tlen query name                                   accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+# ------------------- ---------- -----                         -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+sp|P52292|IMA1_HUMAN  -            529 TRG_NLS_MonoCore_2+IMA2_MOUSE+108+449_muscle -            337  2.4e-164  540.9   0.4   1   2  6.5e-166  4.2e-164  540.1   0.1     1   337   109   449   109   449 0.99 Importin subunit alpha-1 OS=Homo sapiens OX=9606 GN=KPNA2 PE=1 SV=1
+sp|P52292|IMA1_HUMAN  -            529 TRG_NLS_MonoCore_2+IMA2_MOUSE+108+449_muscle -            337  2.4e-164  540.9   0.4   2   2       1.3        83   -3.4   0.0   218   241   463   486   455   497 0.69 Importin subunit alpha-1 OS=Homo sapiens OX=9606 GN=KPNA2 PE=1 SV=1
+sp|O60684|IMA7_HUMAN  -            536 TRG_NLS_MonoCore_2+IMA2_MOUSE+108+449_muscle -            337  3.5e-153  504.2   1.1   1   1  7.1e-155  4.6e-153  503.8   1.1     1   337   113   450   113   450 0.99 Importin subunit alpha-7 OS=Homo sapiens OX=9606 GN=KPNA6 PE=1 SV=1
+sp|P52294|IMA5_HUMAN  -            538 TRG_NLS_MonoCore_2+IMA2_MOUSE+108+449_muscle -            337  3.8e-149  490.9   3.0   1   1  8.1e-151  5.2e-149  490.4   3.0     1   337   115   452   115   452 0.99 Importin subunit alpha-5 OS=Homo sapiens OX=9606 GN=KPNA1 PE=1 SV=3
+sp|O00505|IMA4_HUMAN  -            521 TRG_NLS_MonoCore_2+IMA2_MOUSE+108+449_muscle -            337  8.4e-147  483.2   4.5   1   2  1.3e-148  8.5e-147  483.2   2.9     1   336   104   439   104   440 1.00 Importin subunit alpha-4 OS=Homo sapiens OX=9606 GN=KPNA3 PE=1 SV=2
+sp|O00505|IMA4_HUMAN  -            521 TRG_NLS_MonoCore_2+IMA2_MOUSE+108+449_muscle -            337  8.4e-147  483.2   4.5   2   2      0.27        17   -1.1   0.0   210   242   442   476   440   482 0.72 Importin subunit alpha-4 OS=Homo sapiens OX=9606 GN=KPNA3 PE=1 SV=2
+sp|O00629|IMA3_HUMAN  -            521 TRG_NLS_MonoCore_2+IMA2_MOUSE+108+449_muscle -            337  2.8e-146  481.4   5.1   1   2  5.1e-148  3.3e-146  481.2   3.8     1   337   104   440   104   440 1.00 Importin subunit alpha-3 OS=Homo sapiens OX=9606 GN=KPNA4 PE=1 SV=1
+sp|O00629|IMA3_HUMAN  -            521 TRG_NLS_MonoCore_2+IMA2_MOUSE+108+449_muscle -            337  2.8e-146  481.4   5.1   2   2      0.34        22   -1.5   0.0   218   244   452   478   443   485 0.71 Importin subunit alpha-3 OS=Homo sapiens OX=9606 GN=KPNA4 PE=1 SV=1
+sp|P35222|CTNB1_HUMAN -            781 TRG_NLS_MonoCore_2+IMA2_MOUSE+108+449_muscle -            337   2.6e-21   70.6   2.5   1   3   2.4e-09   1.6e-07   25.3   0.3    90   277   145   331   138   336 0.88 Catenin beta-1 OS=Homo sapiens OX=9606 GN=CTNNB1 PE=1 SV=1
+sp|P35222|CTNB1_HUMAN -            781 TRG_NLS_MonoCore_2+IMA2_MOUSE+108+449_muscle -            337   2.6e-21   70.6   2.5   2   3   1.4e-14   8.9e-13   42.6   0.1     7   284   231   550   229   578 0.82 Catenin beta-1 OS=Homo sapiens OX=9606 GN=CTNNB1 PE=1 SV=1
+sp|P35222|CTNB1_HUMAN -            781 TRG_NLS_MonoCore_2+IMA2_MOUSE+108+449_muscle -            337   2.6e-21   70.6   2.5   3   3   0.00025     0.016    8.8   0.0    53   110   593   649   581   664 0.63 Catenin beta-1 OS=Homo sapiens OX=9606 GN=CTNNB1 PE=1 SV=1
+sp|O60716|CTND1_HUMAN -            968 TRG_NLS_MonoCore_2+IMA2_MOUSE+108+449_muscle -            337   1.1e-11   39.0   0.6   1   3   3.5e-07   2.2e-05   18.2   0.0   209   295   394   482   368   503 0.73 Catenin delta-1 OS=Homo sapiens OX=9606 GN=CTNND1 PE=1 SV=1
+sp|O60716|CTND1_HUMAN -            968 TRG_NLS_MonoCore_2+IMA2_MOUSE+108+449_muscle -            337   1.1e-11   39.0   0.6   2   3      0.38        24   -1.6   0.0    74   125   530   587   522   609 0.56 Catenin delta-1 OS=Homo sapiens OX=9606 GN=CTNND1 PE=1 SV=1
+sp|O60716|CTND1_HUMAN -            968 TRG_NLS_MonoCore_2+IMA2_MOUSE+108+449_muscle -            337   1.1e-11   39.0   0.6   3   3   4.7e-07     3e-05   17.8   0.1     8   106   660   760   654   803 0.83 Catenin delta-1 OS=Homo sapiens OX=9606 GN=CTNND1 PE=1 SV=1
+sp|Q14974|IMB1_HUMAN  -            876 TRG_NLS_MonoCore_2+IMA2_MOUSE+108+449_muscle -            337   8.4e-07   22.9   0.1   1   2      0.13       8.4   -0.1   0.1    15   105   153   245   129   252 0.70 Importin subunit beta-1 OS=Homo sapiens OX=9606 GN=KPNB1 PE=1 SV=2
+sp|Q14974|IMB1_HUMAN  -            876 TRG_NLS_MonoCore_2+IMA2_MOUSE+108+449_muscle -            337   8.4e-07   22.9   0.1   2   2   1.6e-07     1e-05   19.4   0.0    61   170   373   481   356   513 0.53 Importin subunit beta-1 OS=Homo sapiens OX=9606 GN=KPNB1 PE=1 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      domain_all/TRG_NLS_MonoCore_2+IMA2_MOUSE+108+449.hmm
+# Target file:     H1_prot_fasta.fasta
+# Option settings: hmmsearch -o /home/bwadie/Hmmer_H1/all_outs/TRG_NLS_MonoCore_2+IMA2_MOUSE+108+449.out --domtblout /home/bwadie/Hmmer_H1/domain_all_H1_domtblouts/TRG_NLS_MonoCore_2+IMA2_MOUSE+108+449.txt -E 1 domain_all/TRG_NLS_MonoCore_2+IMA2_MOUSE+108+449.hmm H1_prot_fasta.fasta 
+# Current dir:     /home/bwadie/Hmmer_H1
+# Date:            Wed Feb 10 00:38:13 2021
+# [ok]

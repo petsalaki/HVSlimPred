@@ -1,0 +1,19 @@
+#                                                                                               --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name         accession   tlen query name                             accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+# ------------------- ---------- -----                   -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+sp|Q13114|TRAF3_HUMAN -            568 LIG_TRAF2_2+TRAF5_HUMAN+410+551_muscle -            143   9.1e-63  205.4   0.0   1   1   2.2e-64   2.3e-62  204.1   0.0     2   143   424   562   423   562 0.99 TNF receptor-associated factor 3 OS=Homo sapiens OX=9606 GN=TRAF3 PE=1 SV=2
+sp|Q12933|TRAF2_HUMAN -            501 LIG_TRAF2_2+TRAF5_HUMAN+410+551_muscle -            143     4e-55  180.7   0.0   1   1     6e-57   6.2e-55  180.0   0.0     2   142   360   497   359   498 0.98 TNF receptor-associated factor 2 OS=Homo sapiens OX=9606 GN=TRAF2 PE=1 SV=2
+sp|Q13077|TRAF1_HUMAN -            416 LIG_TRAF2_2+TRAF5_HUMAN+410+551_muscle -            143   7.8e-54  176.5   0.0   1   1   1.3e-55   1.3e-53  175.8   0.0     2   142   275   413   274   414 0.97 TNF receptor-associated factor 1 OS=Homo sapiens OX=9606 GN=TRAF1 PE=1 SV=1
+sp|Q9BUZ4|TRAF4_HUMAN -            470 LIG_TRAF2_2+TRAF5_HUMAN+410+551_muscle -            143   8.6e-47  153.6   0.0   1   1   1.3e-48   1.3e-46  153.0   0.0     3   142   317   463   315   464 0.92 TNF receptor-associated factor 4 OS=Homo sapiens OX=9606 GN=TRAF4 PE=1 SV=1
+sp|Q9Y4K3|TRAF6_HUMAN -            522 LIG_TRAF2_2+TRAF5_HUMAN+410+551_muscle -            143   7.2e-36  118.2   0.0   1   2       3.3   3.4e+02   -3.9   0.0    19    32    45    58    39    61 0.82 TNF receptor-associated factor 6 OS=Homo sapiens OX=9606 GN=TRAF6 PE=1 SV=1
+sp|Q9Y4K3|TRAF6_HUMAN -            522 LIG_TRAF2_2+TRAF5_HUMAN+410+551_muscle -            143   7.2e-36  118.2   0.0   2   2   1.9e-37     2e-35  116.8   0.0    11   142   368   500   359   501 0.91 TNF receptor-associated factor 6 OS=Homo sapiens OX=9606 GN=TRAF6 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      domain_all/LIG_TRAF2_2+TRAF5_HUMAN+410+551.hmm
+# Target file:     H1_prot_fasta.fasta
+# Option settings: hmmsearch -o /home/bwadie/Hmmer_H1/all_outs/LIG_TRAF2_2+TRAF5_HUMAN+410+551.out --domtblout /home/bwadie/Hmmer_H1/domain_all_H1_domtblouts/LIG_TRAF2_2+TRAF5_HUMAN+410+551.txt -E 1 domain_all/LIG_TRAF2_2+TRAF5_HUMAN+410+551.hmm H1_prot_fasta.fasta 
+# Current dir:     /home/bwadie/Hmmer_H1
+# Date:            Wed Feb 10 00:38:03 2021
+# [ok]

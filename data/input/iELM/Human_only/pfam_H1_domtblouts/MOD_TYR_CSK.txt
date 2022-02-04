@@ -1,0 +1,23 @@
+#                                                                             --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name         accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+# ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+sp|P08069|IGF1R_HUMAN -           1367 Pkinase_Tyr          PF07714.10   259   4.3e-97  318.3   0.0   1   1   2.9e-98   6.5e-97  317.7   0.0     1   258   999  1265   999  1266 0.98 Insulin-like growth factor 1 receptor OS=Homo sapiens OX=9606 GN=IGF1R PE=1 SV=1
+sp|Q07912|ACK1_HUMAN  -           1038 Pkinase_Tyr          PF07714.10   259     7e-89  291.4   0.0   1   1   4.1e-90   9.3e-89  291.0   0.0     2   258   127   384   126   385 0.96 Activated CDC42 kinase 1 OS=Homo sapiens OX=9606 GN=TNK2 PE=1 SV=3
+sp|Q13188|STK3_HUMAN  -            491 Pkinase_Tyr          PF07714.10   259   5.9e-54  176.9   0.0   1   1   5.6e-55   1.3e-53  175.8   0.0     3   257    29   274    27   275 0.94 Serine/threonine-protein kinase 3 OS=Homo sapiens OX=9606 GN=STK3 PE=1 SV=2
+sp|Q9P286|PAK5_HUMAN  -            719 Pkinase_Tyr          PF07714.10   259   3.5e-46  151.4   0.0   1   1   2.1e-47   4.8e-46  151.0   0.0     6   255   454   694   449   697 0.93 Serine/threonine-protein kinase PAK 5 OS=Homo sapiens OX=9606 GN=PAK5 PE=1 SV=1
+sp|Q9Y572|RIPK3_HUMAN -            518 Pkinase_Tyr          PF07714.10   259   6.8e-43  140.6   0.0   1   1   4.6e-44     1e-42  140.0   0.0     2   256    22   280    21   283 0.82 Receptor-interacting serine/threonine-protein kinase 3 OS=Homo sapiens OX=9606 GN=RIPK3 PE=1 SV=2
+sp|Q5S007|LRRK2_HUMAN -           2527 Pkinase_Tyr          PF07714.10   259   7.4e-42  137.2   0.0   1   1   6.9e-43   1.5e-41  136.2   0.0     7   257  1885  2130  1879  2132 0.88 Leucine-rich repeat serine/threonine-protein kinase 2 OS=Homo sapiens OX=9606 GN=LRRK2 PE=1 SV=2
+sp|Q16512|PKN1_HUMAN  -            942 Pkinase_Tyr          PF07714.10   259   4.3e-40  131.5   0.0   1   1   2.8e-41   6.3e-40  130.9   0.0     2   250   616   858   615   862 0.89 Serine/threonine-protein kinase N1 OS=Homo sapiens OX=9606 GN=PKN1 PE=1 SV=2
+sp|P31749|AKT1_HUMAN  -            480 Pkinase_Tyr          PF07714.10   259   3.4e-37  122.0   0.0   1   1   2.4e-38   5.3e-37  121.3   0.0     3   249   152   391   150   393 0.88 RAC-alpha serine/threonine-protein kinase OS=Homo sapiens OX=9606 GN=AKT1 PE=1 SV=2
+sp|Q07002|CDK18_HUMAN -            474 Pkinase_Tyr          PF07714.10   259   8.1e-35  114.2   0.0   1   1   4.8e-36   1.1e-34  113.7   0.0     4   211   147   346   144   366 0.88 Cyclin-dependent kinase 18 OS=Homo sapiens OX=9606 GN=CDK18 PE=1 SV=4
+sp|Q9BWU1|CDK19_HUMAN -            502 Pkinase_Tyr          PF07714.10   259   3.5e-28   92.4   0.0   1   1   2.6e-29   5.7e-28   91.7   0.0     6   214    26   241    22   253 0.83 Cyclin-dependent kinase 19 OS=Homo sapiens OX=9606 GN=CDK19 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      pfam_hmms/MOD_TYR_CSK.hmm
+# Target file:     human_only_H1_Prot_fasta.fasta
+# Option settings: hmmsearch -o /home/bwadie/Hmmer_H1/human_slimfinder_HMM_outputs/all_outs/MOD_TYR_CSK.out --domtblout /home/bwadie/Hmmer_H1/human_slimfinder_HMM_outputs/pfam_H1_domtblouts/MOD_TYR_CSK.txt -E 1 pfam_hmms/MOD_TYR_CSK.hmm human_only_H1_Prot_fasta.fasta 
+# Current dir:     /home/bwadie/Hmmer_H1
+# Date:            Wed Mar 17 18:17:41 2021
+# [ok]

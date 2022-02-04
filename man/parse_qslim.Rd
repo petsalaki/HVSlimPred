@@ -24,7 +24,16 @@
 }
 }
 \usage{
-parse_qslim()
+parse_qslim(
+  main_output = NULL,
+  occ_out = NULL,
+  compari_output = NULL,
+  ELM_input = NULL,
+  preprocess_compari = T,
+  select_top_rank = F,
+  IC_cutoff = 3,
+  remove_motif_variants = T
+)
 }
 \value{
 A data frame containing all the predicted hits annotated with corresponding ELM instances and CompariMotif similarity scores.

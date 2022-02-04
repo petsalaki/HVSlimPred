@@ -1,0 +1,15 @@
+#                                                                                         --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name                        accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- -----              -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+sp|P62136|PP1A_HUMAN -            330 LIG_PP1+PP2BA_HUMAN+83+285_muscle -            202   1.8e-75  246.8   0.1   1   1   2.3e-77   2.6e-75  246.3   0.1     1   200    58   250    58   252 0.97 Serine/threonine-protein phosphatase PP1-alpha catalytic subunit OS=Homo sapiens OX=9606 GN=PPP1CA PE=1 SV=1
+sp|P36873|PP1G_HUMAN -            323 LIG_PP1+PP2BA_HUMAN+83+285_muscle -            202   7.3e-75  244.8   0.1   1   1     1e-76   1.1e-74  244.2   0.1     1   200    58   250    58   252 0.96 Serine/threonine-protein phosphatase PP1-gamma catalytic subunit OS=Homo sapiens OX=9606 GN=PPP1CC PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      domain_all/LIG_PP1+PP2BA_HUMAN+83+285.hmm
+# Target file:     human_only_H1_Prot_fasta.fasta
+# Option settings: hmmsearch -o /home/bwadie/Hmmer_H1/human_slimfinder_HMM_outputs/all_outs/LIG_PP1+PP2BA_HUMAN+83+285.out --domtblout /home/bwadie/Hmmer_H1/human_slimfinder_HMM_outputs/domain_all_H1_domtblouts/LIG_PP1+PP2BA_HUMAN+83+285.txt -E 1 domain_all/LIG_PP1+PP2BA_HUMAN+83+285.hmm human_only_H1_Prot_fasta.fasta 
+# Current dir:     /home/bwadie/Hmmer_H1
+# Date:            Wed Mar 17 18:18:10 2021
+# [ok]

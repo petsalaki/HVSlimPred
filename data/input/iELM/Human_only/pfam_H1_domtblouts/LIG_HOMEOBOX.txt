@@ -1,0 +1,18 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+sp|Q9UBX2|DUX4_HUMAN -            424 Homeobox             PF00046.22    57     3e-38  123.3   5.1   1   2   7.6e-21   4.2e-19   62.0   0.6     1    55    20    74    20    76 0.97 Double homeobox protein 4 OS=Homo sapiens OX=9606 GN=DUX4 PE=1 SV=2
+sp|Q9UBX2|DUX4_HUMAN -            424 Homeobox             PF00046.22    57     3e-38  123.3   5.1   2   2   2.8e-21   1.6e-19   63.4   0.4     1    55    95   149    95   149 0.98 Double homeobox protein 4 OS=Homo sapiens OX=9606 GN=DUX4 PE=1 SV=2
+sp|P49639|HXA1_HUMAN -            335 Homeobox             PF00046.22    57   4.3e-24   78.0   7.0   1   1   1.3e-25   7.3e-24   77.3   7.0     4    57   233   286   230   286 0.98 Homeobox protein Hox-A1 OS=Homo sapiens OX=9606 GN=HOXA1 PE=1 SV=2
+sp|Q00444|HXC5_HUMAN -            222 Homeobox             PF00046.22    57     1e-23   76.8   9.7   1   1   3.1e-25   1.7e-23   76.1   9.7     1    57   156   212   156   212 0.99 Homeobox protein Hox-C5 OS=Homo sapiens OX=9606 GN=HOXC5 PE=1 SV=1
+sp|Q68G74|LHX8_HUMAN -            356 Homeobox             PF00046.22    57     9e-22   70.6   2.4   1   1   2.6e-23   1.5e-21   69.9   2.4     1    57   226   282   226   282 0.99 LIM/homeobox protein Lhx8 OS=Homo sapiens OX=9606 GN=LHX8 PE=1 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      pfam_hmms/LIG_HOMEOBOX.hmm
+# Target file:     human_only_H1_Prot_fasta.fasta
+# Option settings: hmmsearch -o /home/bwadie/Hmmer_H1/human_slimfinder_HMM_outputs/all_outs/LIG_HOMEOBOX.out --domtblout /home/bwadie/Hmmer_H1/human_slimfinder_HMM_outputs/pfam_H1_domtblouts/LIG_HOMEOBOX.txt -E 1 pfam_hmms/LIG_HOMEOBOX.hmm human_only_H1_Prot_fasta.fasta 
+# Current dir:     /home/bwadie/Hmmer_H1
+# Date:            Wed Mar 17 18:17:33 2021
+# [ok]

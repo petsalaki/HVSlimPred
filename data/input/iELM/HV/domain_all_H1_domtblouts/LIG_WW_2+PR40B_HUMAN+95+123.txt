@@ -1,0 +1,17 @@
+#                                                                                          --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name                         accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- -----               -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+sp|O00308|WWP2_HUMAN -            870 LIG_WW_2+PR40B_HUMAN+95+123_muscle -             28   1.8e-13   45.0  28.2   1   4   1.4e-09   7.1e-07   24.0   1.4     2    28   305   331   304   331 0.95 NEDD4-like E3 ubiquitin-protein ligase WWP2 OS=Homo sapiens OX=9606 GN=WWP2 PE=1 SV=2
+sp|O00308|WWP2_HUMAN -            870 LIG_WW_2+PR40B_HUMAN+95+123_muscle -             28   1.8e-13   45.0  28.2   2   4   3.6e-06    0.0018   13.0   2.9     2    28   335   361   334   361 0.94 NEDD4-like E3 ubiquitin-protein ligase WWP2 OS=Homo sapiens OX=9606 GN=WWP2 PE=1 SV=2
+sp|O00308|WWP2_HUMAN -            870 LIG_WW_2+PR40B_HUMAN+95+123_muscle -             28   1.8e-13   45.0  28.2   3   4   2.3e-09   1.2e-06   23.3   3.1     5    28   412   435   410   435 0.93 NEDD4-like E3 ubiquitin-protein ligase WWP2 OS=Homo sapiens OX=9606 GN=WWP2 PE=1 SV=2
+sp|O00308|WWP2_HUMAN -            870 LIG_WW_2+PR40B_HUMAN+95+123_muscle -             28   1.8e-13   45.0  28.2   4   4      0.26   1.4e+02   -2.5   0.3     6    23   453   470   449   472 0.77 NEDD4-like E3 ubiquitin-protein ligase WWP2 OS=Homo sapiens OX=9606 GN=WWP2 PE=1 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      domain_all/LIG_WW_2+PR40B_HUMAN+95+123.hmm
+# Target file:     H1_prot_fasta.fasta
+# Option settings: hmmsearch -o /home/bwadie/Hmmer_H1/all_outs/LIG_WW_2+PR40B_HUMAN+95+123.out --domtblout /home/bwadie/Hmmer_H1/domain_all_H1_domtblouts/LIG_WW_2+PR40B_HUMAN+95+123.txt -E 1 domain_all/LIG_WW_2+PR40B_HUMAN+95+123.hmm H1_prot_fasta.fasta 
+# Current dir:     /home/bwadie/Hmmer_H1
+# Date:            Wed Feb 10 00:38:06 2021
+# [ok]

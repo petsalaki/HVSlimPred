@@ -1,0 +1,15 @@
+#                                                                                                 --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name         accession   tlen query name                               accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+# ------------------- ---------- -----                     -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+sp|P30622|CLIP1_HUMAN -           1438 LIG_CAP-Gly_1+CLIP1_HUMAN+214+279_muscle -             65   1.9e-71  230.8   3.2   1   2   3.9e-30     2e-27   89.8   0.1     1    60    61   120    61   125 0.95 CAP-Gly domain-containing linker protein 1 OS=Homo sapiens OX=9606 GN=CLIP1 PE=1 SV=2
+sp|P30622|CLIP1_HUMAN -           1438 LIG_CAP-Gly_1+CLIP1_HUMAN+214+279_muscle -             65   1.9e-71  230.8   3.2   2   2   3.6e-46   1.8e-43  141.2   0.8     1    65   215   279   215   279 0.99 CAP-Gly domain-containing linker protein 1 OS=Homo sapiens OX=9606 GN=CLIP1 PE=1 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      domain_all/LIG_CAP-Gly_1+CLIP1_HUMAN+214+279.hmm
+# Target file:     H1_prot_fasta.fasta
+# Option settings: hmmsearch -o /home/bwadie/Hmmer_H1/all_outs/LIG_CAP-Gly_1+CLIP1_HUMAN+214+279.out --domtblout /home/bwadie/Hmmer_H1/domain_all_H1_domtblouts/LIG_CAP-Gly_1+CLIP1_HUMAN+214+279.txt -E 1 domain_all/LIG_CAP-Gly_1+CLIP1_HUMAN+214+279.hmm H1_prot_fasta.fasta 
+# Current dir:     /home/bwadie/Hmmer_H1
+# Date:            Wed Feb 10 00:37:31 2021
+# [ok]

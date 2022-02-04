@@ -1,0 +1,14 @@
+#                                                                                                   --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name                                  accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- -----                        -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+sp|O14654|IRS4_HUMAN -           1257 LIG_PTB_Phospho_1+IRS2_HUMAN+194+296_muscle -            102   5.7e-57  185.2   0.3   1   1   1.9e-59   9.7e-57  184.5   0.3     1   101   232   332   232   333 0.99 Insulin receptor substrate 4 OS=Homo sapiens OX=9606 GN=IRS4 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      domain_all/LIG_PTB_Phospho_1+IRS2_HUMAN+194+296.hmm
+# Target file:     H1_prot_fasta.fasta
+# Option settings: hmmsearch -o /home/bwadie/Hmmer_H1/all_outs/LIG_PTB_Phospho_1+IRS2_HUMAN+194+296.out --domtblout /home/bwadie/Hmmer_H1/domain_all_H1_domtblouts/LIG_PTB_Phospho_1+IRS2_HUMAN+194+296.txt -E 1 domain_all/LIG_PTB_Phospho_1+IRS2_HUMAN+194+296.hmm H1_prot_fasta.fasta 
+# Current dir:     /home/bwadie/Hmmer_H1
+# Date:            Wed Feb 10 00:37:52 2021
+# [ok]

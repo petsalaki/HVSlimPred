@@ -1,0 +1,22 @@
+#                                                                                           --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name         accession   tlen query name                         accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+# ------------------- ---------- -----               -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+sp|Q99615|DNJC7_HUMAN -            494 LIG_TPR+FKBP4_HUMAN+270+386_muscle -            116   8.5e-36  117.5  28.3   1   3   1.4e-13   2.5e-11   38.6   3.0     2   116    30   129    29   129 0.97 DnaJ homolog subfamily C member 7 OS=Homo sapiens OX=9606 GN=DNAJC7 PE=1 SV=2
+sp|Q99615|DNJC7_HUMAN -            494 LIG_TPR+FKBP4_HUMAN+270+386_muscle -            116   8.5e-36  117.5  28.3   2   3   2.7e-09   4.7e-07   24.8   0.2    55   115   182   242   130   243 0.89 DnaJ homolog subfamily C member 7 OS=Homo sapiens OX=9606 GN=DNAJC7 PE=1 SV=2
+sp|Q99615|DNJC7_HUMAN -            494 LIG_TPR+FKBP4_HUMAN+270+386_muscle -            116   8.5e-36  117.5  28.3   3   3   1.4e-20   2.4e-18   61.2   7.7     2   114   258   359   257   361 0.92 DnaJ homolog subfamily C member 7 OS=Homo sapiens OX=9606 GN=DNAJC7 PE=1 SV=2
+sp|Q14318|FKBP8_HUMAN -            412 LIG_TPR+FKBP4_HUMAN+270+386_muscle -            116   3.4e-22   73.6   2.0   1   1   3.6e-24   6.2e-22   72.8   2.0     2   116   223   339   222   339 0.94 Peptidyl-prolyl cis-trans isomerase FKBP8 OS=Homo sapiens OX=9606 GN=FKBP8 PE=1 SV=2
+sp|Q9UJX2|CDC23_HUMAN -            597 LIG_TPR+FKBP4_HUMAN+270+386_muscle -            116     0.075    8.0  13.7   1   5      0.24        41   -0.8   0.0    87   104    87   104    85   152 0.84 Cell division cycle protein 23 homolog OS=Homo sapiens OX=9606 GN=CDC23 PE=1 SV=3
+sp|Q9UJX2|CDC23_HUMAN -            597 LIG_TPR+FKBP4_HUMAN+270+386_muscle -            116     0.075    8.0  13.7   2   5     0.042       7.2    1.6   0.0    90   114   270   294   261   296 0.92 Cell division cycle protein 23 homolog OS=Homo sapiens OX=9606 GN=CDC23 PE=1 SV=3
+sp|Q9UJX2|CDC23_HUMAN -            597 LIG_TPR+FKBP4_HUMAN+270+386_muscle -            116     0.075    8.0  13.7   3   5    0.0015      0.26    6.3   0.1    64   114   346   396   325   432 0.67 Cell division cycle protein 23 homolog OS=Homo sapiens OX=9606 GN=CDC23 PE=1 SV=3
+sp|Q9UJX2|CDC23_HUMAN -            597 LIG_TPR+FKBP4_HUMAN+270+386_muscle -            116     0.075    8.0  13.7   4   5    0.0075       1.3    4.0   0.7    56   108   440   492   433   499 0.90 Cell division cycle protein 23 homolog OS=Homo sapiens OX=9606 GN=CDC23 PE=1 SV=3
+sp|Q9UJX2|CDC23_HUMAN -            597 LIG_TPR+FKBP4_HUMAN+270+386_muscle -            116     0.075    8.0  13.7   5   5      0.18        31   -0.4   0.2    59    81   520   542   505   556 0.55 Cell division cycle protein 23 homolog OS=Homo sapiens OX=9606 GN=CDC23 PE=1 SV=3
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      domain_all/LIG_TPR+FKBP4_HUMAN+270+386.hmm
+# Target file:     H1_prot_fasta.fasta
+# Option settings: hmmsearch -o /home/bwadie/Hmmer_H1/all_outs/LIG_TPR+FKBP4_HUMAN+270+386.out --domtblout /home/bwadie/Hmmer_H1/domain_all_H1_domtblouts/LIG_TPR+FKBP4_HUMAN+270+386.txt -E 1 domain_all/LIG_TPR+FKBP4_HUMAN+270+386.hmm H1_prot_fasta.fasta 
+# Current dir:     /home/bwadie/Hmmer_H1
+# Date:            Wed Feb 10 00:38:02 2021
+# [ok]

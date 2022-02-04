@@ -1,0 +1,16 @@
+#                                                                                              --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name                             accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- -----                   -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+sp|Q9UBX2|DUX4_HUMAN -            424 LIG_HOMEOBOX+PBX2_HUMAN+245+304_muscle -             59   2.1e-10   34.4   0.0   1   2   1.5e-06   0.00016   15.5   0.0    23    56    40    73    21    76 0.92 Double homeobox protein 4 OS=Homo sapiens OX=9606 GN=DUX4 PE=1 SV=2
+sp|Q9UBX2|DUX4_HUMAN -            424 LIG_HOMEOBOX+PBX2_HUMAN+245+304_muscle -             59   2.1e-10   34.4   0.0   2   2   8.6e-07   9.6e-05   16.2   0.0    26    57   118   149   109   150 0.92 Double homeobox protein 4 OS=Homo sapiens OX=9606 GN=DUX4 PE=1 SV=2
+sp|P49639|HXA1_HUMAN -            335 LIG_HOMEOBOX+PBX2_HUMAN+245+304_muscle -             59   0.00034   14.4   0.4   1   1     7e-06   0.00078   13.3   0.4     3    59   233   286   231   286 0.90 Homeobox protein Hox-A1 OS=Homo sapiens OX=9606 GN=HOXA1 PE=1 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      domain_all/LIG_HOMEOBOX+PBX2_HUMAN+245+304.hmm
+# Target file:     human_only_H1_Prot_fasta.fasta
+# Option settings: hmmsearch -o /home/bwadie/Hmmer_H1/human_slimfinder_HMM_outputs/all_outs/LIG_HOMEOBOX+PBX2_HUMAN+245+304.out --domtblout /home/bwadie/Hmmer_H1/human_slimfinder_HMM_outputs/domain_all_H1_domtblouts/LIG_HOMEOBOX+PBX2_HUMAN+245+304.txt -E 1 domain_all/LIG_HOMEOBOX+PBX2_HUMAN+245+304.hmm human_only_H1_Prot_fasta.fasta 
+# Current dir:     /home/bwadie/Hmmer_H1
+# Date:            Wed Mar 17 18:17:57 2021
+# [ok]

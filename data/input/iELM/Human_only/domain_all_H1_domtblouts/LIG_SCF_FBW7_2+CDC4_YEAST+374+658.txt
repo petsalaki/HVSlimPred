@@ -1,0 +1,27 @@
+#                                                                                                 --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name         accession   tlen query name                               accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+# ------------------- ---------- -----                     -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+sp|Q9Y297|FBW1A_HUMAN -            605 LIG_SCF_FBW7_2+CDC4_YEAST+374+658_muscle -            274   9.4e-58  189.4  17.0   1   4     1e-21   5.7e-20   65.5   0.8     4    80   299   375   296   378 0.94 F-box/WD repeat-containing protein 1A OS=Homo sapiens OX=9606 GN=BTRC PE=1 SV=1
+sp|Q9Y297|FBW1A_HUMAN -            605 LIG_SCF_FBW7_2+CDC4_YEAST+374+658_muscle -            274   9.4e-58  189.4  17.0   2   4   4.6e-18   2.6e-16   53.5   0.7    11    93   346   431   345   433 0.90 F-box/WD repeat-containing protein 1A OS=Homo sapiens OX=9606 GN=BTRC PE=1 SV=1
+sp|Q9Y297|FBW1A_HUMAN -            605 LIG_SCF_FBW7_2+CDC4_YEAST+374+658_muscle -            274   9.4e-58  189.4  17.0   3   4     5e-27   2.8e-25   82.9   0.7     8    95   426   513   421   516 0.95 F-box/WD repeat-containing protein 1A OS=Homo sapiens OX=9606 GN=BTRC PE=1 SV=1
+sp|Q9Y297|FBW1A_HUMAN -            605 LIG_SCF_FBW7_2+CDC4_YEAST+374+658_muscle -            274   9.4e-58  189.4  17.0   4   4   2.8e-08   1.6e-06   21.4   0.0   217   274   515   581   512   581 0.84 F-box/WD repeat-containing protein 1A OS=Homo sapiens OX=9606 GN=BTRC PE=1 SV=1
+sp|O43660|PLRG1_HUMAN -            514 LIG_SCF_FBW7_2+CDC4_YEAST+374+658_muscle -            274   3.6e-45  148.1   4.0   1   3   3.5e-23     2e-21   70.3   0.1   152   274   189   316   167   316 0.87 Pleiotropic regulator 1 OS=Homo sapiens OX=9606 GN=PLRG1 PE=1 SV=1
+sp|O43660|PLRG1_HUMAN -            514 LIG_SCF_FBW7_2+CDC4_YEAST+374+658_muscle -            274   3.6e-45  148.1   4.0   2   3   4.8e-25   2.7e-23   76.4   0.3   159   274   323   440   319   440 0.92 Pleiotropic regulator 1 OS=Homo sapiens OX=9606 GN=PLRG1 PE=1 SV=1
+sp|O43660|PLRG1_HUMAN -            514 LIG_SCF_FBW7_2+CDC4_YEAST+374+658_muscle -            274   3.6e-45  148.1   4.0   3   3     0.042       2.4    1.1   0.0    14    34   470   490   458   500 0.51 Pleiotropic regulator 1 OS=Homo sapiens OX=9606 GN=PLRG1 PE=1 SV=1
+sp|Q9Y263|PLAP_HUMAN  -            795 LIG_SCF_FBW7_2+CDC4_YEAST+374+658_muscle -            274     2e-31  103.0   1.7   1   4     5e-06   0.00028   14.0   0.0    39   100     9    77     3    98 0.74 Phospholipase A-2-activating protein OS=Homo sapiens OX=9606 GN=PLAA PE=1 SV=2
+sp|Q9Y263|PLAP_HUMAN  -            795 LIG_SCF_FBW7_2+CDC4_YEAST+374+658_muscle -            274     2e-31  103.0   1.7   2   4   1.1e-07   5.9e-06   19.5   0.0    21    76    85   141    76   146 0.76 Phospholipase A-2-activating protein OS=Homo sapiens OX=9606 GN=PLAA PE=1 SV=2
+sp|Q9Y263|PLAP_HUMAN  -            795 LIG_SCF_FBW7_2+CDC4_YEAST+374+658_muscle -            274     2e-31  103.0   1.7   3   4     4e-15   2.2e-13   43.8   0.1    38   100   141   203   139   206 0.92 Phospholipase A-2-activating protein OS=Homo sapiens OX=9606 GN=PLAA PE=1 SV=2
+sp|Q9Y263|PLAP_HUMAN  -            795 LIG_SCF_FBW7_2+CDC4_YEAST+374+658_muscle -            274     2e-31  103.0   1.7   4   4   5.1e-09   2.9e-07   23.8   0.1   180   273   206   297   201   298 0.85 Phospholipase A-2-activating protein OS=Homo sapiens OX=9606 GN=PLAA PE=1 SV=2
+sp|Q9BUR4|TCAB1_HUMAN -            548 LIG_SCF_FBW7_2+CDC4_YEAST+374+658_muscle -            274     1e-07   25.3   0.0   1   3      0.01      0.58    3.1   0.0   114   136   179   201   171   224 0.82 Telomerase Cajal body protein 1 OS=Homo sapiens OX=9606 GN=WRAP53 PE=1 SV=1
+sp|Q9BUR4|TCAB1_HUMAN -            548 LIG_SCF_FBW7_2+CDC4_YEAST+374+658_muscle -            274     1e-07   25.3   0.0   2   3    0.0068      0.38    3.7   0.0    12    46   236   270   225   314 0.72 Telomerase Cajal body protein 1 OS=Homo sapiens OX=9606 GN=WRAP53 PE=1 SV=1
+sp|Q9BUR4|TCAB1_HUMAN -            548 LIG_SCF_FBW7_2+CDC4_YEAST+374+658_muscle -            274     1e-07   25.3   0.0   3   3    0.0019      0.11    5.5   0.0    54    75   421   442   406   445 0.85 Telomerase Cajal body protein 1 OS=Homo sapiens OX=9606 GN=WRAP53 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      domain_all/LIG_SCF_FBW7_2+CDC4_YEAST+374+658.hmm
+# Target file:     human_only_H1_Prot_fasta.fasta
+# Option settings: hmmsearch -o /home/bwadie/Hmmer_H1/human_slimfinder_HMM_outputs/all_outs/LIG_SCF_FBW7_2+CDC4_YEAST+374+658.out --domtblout /home/bwadie/Hmmer_H1/human_slimfinder_HMM_outputs/domain_all_H1_domtblouts/LIG_SCF_FBW7_2+CDC4_YEAST+374+658.txt -E 1 domain_all/LIG_SCF_FBW7_2+CDC4_YEAST+374+658.hmm human_only_H1_Prot_fasta.fasta 
+# Current dir:     /home/bwadie/Hmmer_H1
+# Date:            Wed Mar 17 18:18:14 2021
+# [ok]

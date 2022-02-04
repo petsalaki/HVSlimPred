@@ -1,0 +1,23 @@
+#                                                                                             --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name                            accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- -----                  -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+sp|P06241|FYN_HUMAN  -            537 LIG_SH2_SRC+JAK2_HUMAN+400+481_muscle -             81   5.3e-06   21.6   0.1   1   1   1.2e-07   9.1e-06   20.8   0.1     4    81   154   231   151   231 0.87 Tyrosine-protein kinase Fyn OS=Homo sapiens OX=9606 GN=FYN PE=1 SV=3
+sp|P12931|SRC_HUMAN  -            536 LIG_SH2_SRC+JAK2_HUMAN+400+481_muscle -             81   6.2e-06   21.4   0.1   1   1   1.6e-07   1.2e-05   20.5   0.1     2    81   154   233   153   233 0.87 Proto-oncogene tyrosine-protein kinase Src OS=Homo sapiens OX=9606 GN=SRC PE=1 SV=3
+sp|P08631|HCK_HUMAN  -            526 LIG_SH2_SRC+JAK2_HUMAN+400+481_muscle -             81     9e-05   17.6   0.0   1   1   2.2e-06   0.00016   16.8   0.0     5    81   150   226   148   226 0.87 Tyrosine-protein kinase HCK OS=Homo sapiens OX=9606 GN=HCK PE=1 SV=5
+sp|P06239|LCK_HUMAN  -            509 LIG_SH2_SRC+JAK2_HUMAN+400+481_muscle -             81   0.00022   16.4   0.0   1   1     5e-06   0.00037   15.7   0.0     9    81   137   209   131   209 0.87 Tyrosine-protein kinase Lck OS=Homo sapiens OX=9606 GN=LCK PE=1 SV=6
+sp|P29597|TYK2_HUMAN -           1187 LIG_SH2_SRC+JAK2_HUMAN+400+481_muscle -             81    0.0016   13.7   0.0   1   1   5.1e-05    0.0038   12.5   0.0     1    77   452   529   452   533 0.93 Non-receptor tyrosine-protein kinase TYK2 OS=Homo sapiens OX=9606 GN=TYK2 PE=1 SV=3
+sp|P16333|NCK1_HUMAN -            377 LIG_SH2_SRC+JAK2_HUMAN+400+481_muscle -             81    0.0033   12.6   0.1   1   1   9.6e-05    0.0071   11.6   0.1     2    81   285   356   284   356 0.72 Cytoplasmic protein NCK1 OS=Homo sapiens OX=9606 GN=NCK1 PE=1 SV=1
+sp|P27986|P85A_HUMAN -            724 LIG_SH2_SRC+JAK2_HUMAN+400+481_muscle -             81     0.065    8.5   7.0   1   4      0.11       8.3    1.7   0.0    17    45   349   378   336   408 0.64 Phosphatidylinositol 3-kinase regulatory subunit alpha OS=Homo sapiens OX=9606 GN=PIK3R1 PE=1 SV=2
+sp|P27986|P85A_HUMAN -            724 LIG_SH2_SRC+JAK2_HUMAN+400+481_muscle -             81     0.065    8.5   7.0   2   4       2.8   2.1e+02   -2.7   0.8    51    62   497   508   456   531 0.65 Phosphatidylinositol 3-kinase regulatory subunit alpha OS=Homo sapiens OX=9606 GN=PIK3R1 PE=1 SV=2
+sp|P27986|P85A_HUMAN -            724 LIG_SH2_SRC+JAK2_HUMAN+400+481_muscle -             81     0.065    8.5   7.0   3   4       1.4   1.1e+02   -1.8   0.1    33    69   578   614   572   619 0.75 Phosphatidylinositol 3-kinase regulatory subunit alpha OS=Homo sapiens OX=9606 GN=PIK3R1 PE=1 SV=2
+sp|P27986|P85A_HUMAN -            724 LIG_SH2_SRC+JAK2_HUMAN+400+481_muscle -             81     0.065    8.5   7.0   4   4   0.00089     0.066    8.5   0.0    17    79   640   696   633   698 0.85 Phosphatidylinositol 3-kinase regulatory subunit alpha OS=Homo sapiens OX=9606 GN=PIK3R1 PE=1 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      domain_all/LIG_SH2_SRC+JAK2_HUMAN+400+481.hmm
+# Target file:     H1_prot_fasta.fasta
+# Option settings: hmmsearch -o /home/bwadie/Hmmer_H1/all_outs/LIG_SH2_SRC+JAK2_HUMAN+400+481.out --domtblout /home/bwadie/Hmmer_H1/domain_all_H1_domtblouts/LIG_SH2_SRC+JAK2_HUMAN+400+481.txt -E 1 domain_all/LIG_SH2_SRC+JAK2_HUMAN+400+481.hmm H1_prot_fasta.fasta 
+# Current dir:     /home/bwadie/Hmmer_H1
+# Date:            Wed Feb 10 00:37:56 2021
+# [ok]

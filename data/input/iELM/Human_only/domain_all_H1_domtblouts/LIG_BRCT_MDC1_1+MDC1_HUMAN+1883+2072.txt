@@ -1,0 +1,15 @@
+#                                                                                                    --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name         accession   tlen query name                                  accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+# ------------------- ---------- -----                        -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+sp|O60934|NBN_HUMAN   -            754 LIG_BRCT_MDC1_1+MDC1_HUMAN+1883+2072_muscle -            189   2.2e-08   27.7   0.0   1   1   5.2e-10   5.8e-08   26.3   0.0    18    76   120   183   108   193 0.83 Nibrin OS=Homo sapiens OX=9606 GN=NBN PE=1 SV=1
+sp|Q12888|TP53B_HUMAN -           1972 LIG_BRCT_MDC1_1+MDC1_HUMAN+1883+2072_muscle -            189   5.8e-05   16.5   0.1   1   1   1.4e-06   0.00015   15.1   0.1    42    88  1803  1849  1792  1953 0.72 TP53-binding protein 1 OS=Homo sapiens OX=9606 GN=TP53BP1 PE=1 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      domain_all/LIG_BRCT_MDC1_1+MDC1_HUMAN+1883+2072.hmm
+# Target file:     human_only_H1_Prot_fasta.fasta
+# Option settings: hmmsearch -o /home/bwadie/Hmmer_H1/human_slimfinder_HMM_outputs/all_outs/LIG_BRCT_MDC1_1+MDC1_HUMAN+1883+2072.out --domtblout /home/bwadie/Hmmer_H1/human_slimfinder_HMM_outputs/domain_all_H1_domtblouts/LIG_BRCT_MDC1_1+MDC1_HUMAN+1883+2072.txt -E 1 domain_all/LIG_BRCT_MDC1_1+MDC1_HUMAN+1883+2072.hmm human_only_H1_Prot_fasta.fasta 
+# Current dir:     /home/bwadie/Hmmer_H1
+# Date:            Wed Mar 17 18:17:49 2021
+# [ok]

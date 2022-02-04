@@ -1,0 +1,18 @@
+#                                                                             --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name         accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+# ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+sp|Q9NSC5|HOME3_HUMAN -            361 WH1                  PF00568.16   111   7.5e-38  123.9   0.2   1   1   4.5e-40   1.2e-37  123.3   0.2     8   110     6   109     1   110 0.96 Homer protein homolog 3 OS=Homo sapiens OX=9606 GN=HOMER3 PE=1 SV=2
+sp|P49792|RBP2_HUMAN  -           3224 WH1                  PF00568.16   111   2.4e-14   48.2   3.7   1   4   0.00022     0.058    8.4   0.0    12    76  1195  1257  1188  1302 0.78 E3 SUMO-protein ligase RanBP2 OS=Homo sapiens OX=9606 GN=RANBP2 PE=1 SV=2
+sp|P49792|RBP2_HUMAN  -           3224 WH1                  PF00568.16   111   2.4e-14   48.2   3.7   2   4   0.00068      0.18    6.8   0.0     9    73  2033  2095  2027  2136 0.92 E3 SUMO-protein ligase RanBP2 OS=Homo sapiens OX=9606 GN=RANBP2 PE=1 SV=2
+sp|P49792|RBP2_HUMAN  -           3224 WH1                  PF00568.16   111   2.4e-14   48.2   3.7   3   4   1.2e-06   0.00031   15.7   0.1     8    83  2329  2402  2323  2440 0.78 E3 SUMO-protein ligase RanBP2 OS=Homo sapiens OX=9606 GN=RANBP2 PE=1 SV=2
+sp|P49792|RBP2_HUMAN  -           3224 WH1                  PF00568.16   111   2.4e-14   48.2   3.7   4   4   2.7e-06   0.00069   14.6   0.3     9    74  2931  2994  2925  3041 0.77 E3 SUMO-protein ligase RanBP2 OS=Homo sapiens OX=9606 GN=RANBP2 PE=1 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      pfam_hmms/LIG_EVH1_1.hmm
+# Target file:     H1_prot_fasta.fasta
+# Option settings: hmmsearch -o /home/bwadie/Hmmer_H1/all_outs/LIG_EVH1_1.out --domtblout /home/bwadie/Hmmer_H1/pfam_H1_domtblouts/LIG_EVH1_1.txt -E 1 pfam_hmms/LIG_EVH1_1.hmm H1_prot_fasta.fasta 
+# Current dir:     /home/bwadie/Hmmer_H1
+# Date:            Wed Feb 10 00:37:19 2021
+# [ok]

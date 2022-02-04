@@ -1,0 +1,22 @@
+#                                                                                             --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name         accession   tlen query name                           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+# ------------------- ---------- -----                 -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+sp|O43660|PLRG1_HUMAN -            514 LIG_WRPW_1+TLE1_HUMAN+477+767_muscle -            290   5.9e-25   82.1   1.3   1   2   1.8e-11     1e-09   32.1   0.0    57   146   208   295   202   296 0.82 Pleiotropic regulator 1 OS=Homo sapiens OX=9606 GN=PLRG1 PE=1 SV=1
+sp|O43660|PLRG1_HUMAN -            514 LIG_WRPW_1+TLE1_HUMAN+477+767_muscle -            290   5.9e-25   82.1   1.3   2   2   1.4e-14   7.8e-13   42.4   0.7    99   289   290   489   288   490 0.81 Pleiotropic regulator 1 OS=Homo sapiens OX=9606 GN=PLRG1 PE=1 SV=1
+sp|Q9Y297|FBW1A_HUMAN -            605 LIG_WRPW_1+TLE1_HUMAN+477+767_muscle -            290   7.4e-20   65.4   8.1   1   4     5e-09   2.8e-07   24.1   0.5   101   175   307   377   291   386 0.84 F-box/WD repeat-containing protein 1A OS=Homo sapiens OX=9606 GN=BTRC PE=1 SV=1
+sp|Q9Y297|FBW1A_HUMAN -            605 LIG_WRPW_1+TLE1_HUMAN+477+767_muscle -            290   7.4e-20   65.4   8.1   2   4   2.7e-12   1.5e-10   34.9   0.8    68   172   396   497   383   503 0.81 F-box/WD repeat-containing protein 1A OS=Homo sapiens OX=9606 GN=BTRC PE=1 SV=1
+sp|Q9Y297|FBW1A_HUMAN -            605 LIG_WRPW_1+TLE1_HUMAN+477+767_muscle -            290   7.4e-20   65.4   8.1   3   4   5.8e-08   3.2e-06   20.6   0.1   110   170   477   535   474   541 0.92 F-box/WD repeat-containing protein 1A OS=Homo sapiens OX=9606 GN=BTRC PE=1 SV=1
+sp|Q9Y297|FBW1A_HUMAN -            605 LIG_WRPW_1+TLE1_HUMAN+477+767_muscle -            290   7.4e-20   65.4   8.1   4   4   0.00049     0.027    7.7   0.0    15    83   512   583   501   596 0.66 F-box/WD repeat-containing protein 1A OS=Homo sapiens OX=9606 GN=BTRC PE=1 SV=1
+sp|Q9BUR4|TCAB1_HUMAN -            548 LIG_WRPW_1+TLE1_HUMAN+477+767_muscle -            290   2.2e-08   27.7   0.0   1   2    0.0033      0.18    5.0   0.0    52   166   168   303   160   307 0.58 Telomerase Cajal body protein 1 OS=Homo sapiens OX=9606 GN=WRAP53 PE=1 SV=1
+sp|Q9BUR4|TCAB1_HUMAN -            548 LIG_WRPW_1+TLE1_HUMAN+477+767_muscle -            290   2.2e-08   27.7   0.0   2   2     6e-09   3.4e-07   23.9   0.0    28   209   252   442   234   449 0.78 Telomerase Cajal body protein 1 OS=Homo sapiens OX=9606 GN=WRAP53 PE=1 SV=1
+sp|Q9Y263|PLAP_HUMAN  -            795 LIG_WRPW_1+TLE1_HUMAN+477+767_muscle -            290     1e-07   25.6   3.4   1   1   2.8e-08   1.6e-06   21.7   3.3    46   283    57   291    43   298 0.73 Phospholipase A-2-activating protein OS=Homo sapiens OX=9606 GN=PLAA PE=1 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      domain_all/LIG_WRPW_1+TLE1_HUMAN+477+767.hmm
+# Target file:     human_only_H1_Prot_fasta.fasta
+# Option settings: hmmsearch -o /home/bwadie/Hmmer_H1/human_slimfinder_HMM_outputs/all_outs/LIG_WRPW_1+TLE1_HUMAN+477+767.out --domtblout /home/bwadie/Hmmer_H1/human_slimfinder_HMM_outputs/domain_all_H1_domtblouts/LIG_WRPW_1+TLE1_HUMAN+477+767.txt -E 1 domain_all/LIG_WRPW_1+TLE1_HUMAN+477+767.hmm human_only_H1_Prot_fasta.fasta 
+# Current dir:     /home/bwadie/Hmmer_H1
+# Date:            Wed Mar 17 18:18:28 2021
+# [ok]

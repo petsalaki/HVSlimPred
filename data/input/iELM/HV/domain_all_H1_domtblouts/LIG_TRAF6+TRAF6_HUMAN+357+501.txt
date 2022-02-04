@@ -1,0 +1,20 @@
+#                                                                                             --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name         accession   tlen query name                           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+# ------------------- ---------- -----                 -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+sp|Q9Y4K3|TRAF6_HUMAN -            522 LIG_TRAF6+TRAF6_HUMAN+357+501_muscle -            144   2.9e-79  258.5   0.0   1   1   6.3e-81   5.4e-79  257.6   0.0     2   143   359   500   358   501 0.99 TNF receptor-associated factor 6 OS=Homo sapiens OX=9606 GN=TRAF6 PE=1 SV=1
+sp|Q13114|TRAF3_HUMAN -            568 LIG_TRAF6+TRAF6_HUMAN+357+501_muscle -            144   2.6e-32  106.3   0.0   1   1     5e-34   4.3e-32  105.5   0.0     2   143   424   561   423   562 0.92 TNF receptor-associated factor 3 OS=Homo sapiens OX=9606 GN=TRAF3 PE=1 SV=2
+sp|Q9BUZ4|TRAF4_HUMAN -            470 LIG_TRAF6+TRAF6_HUMAN+357+501_muscle -            144   2.4e-31  103.1   0.0   1   1     4e-33   3.4e-31  102.6   0.0     3   143   317   463   315   464 0.91 TNF receptor-associated factor 4 OS=Homo sapiens OX=9606 GN=TRAF4 PE=1 SV=1
+sp|Q13077|TRAF1_HUMAN -            416 LIG_TRAF6+TRAF6_HUMAN+357+501_muscle -            144   8.9e-31  101.3   0.0   1   1   1.6e-32   1.4e-30  100.7   0.0     8   143   281   413   274   414 0.85 TNF receptor-associated factor 1 OS=Homo sapiens OX=9606 GN=TRAF1 PE=1 SV=1
+sp|Q12933|TRAF2_HUMAN -            501 LIG_TRAF6+TRAF6_HUMAN+357+501_muscle -            144   1.1e-28   94.4   0.0   1   1   2.1e-30   1.8e-28   93.8   0.0     2   142   360   496   359   498 0.88 TNF receptor-associated factor 2 OS=Homo sapiens OX=9606 GN=TRAF2 PE=1 SV=2
+sp|P09651|ROA1_HUMAN  -            372 LIG_TRAF6+TRAF6_HUMAN+357+501_muscle -            144    0.0059   11.1   0.0   1   2   0.00031     0.027    9.0   0.0    90   127    34    70    22    79 0.76 Heterogeneous nuclear ribonucleoprotein A1 OS=Homo sapiens OX=9606 GN=HNRNPA1 PE=1 SV=5
+sp|P09651|ROA1_HUMAN  -            372 LIG_TRAF6+TRAF6_HUMAN+357+501_muscle -            144    0.0059   11.1   0.0   2   2      0.38        32   -1.1   0.0   110   126   144   160   132   172 0.80 Heterogeneous nuclear ribonucleoprotein A1 OS=Homo sapiens OX=9606 GN=HNRNPA1 PE=1 SV=5
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      domain_all/LIG_TRAF6+TRAF6_HUMAN+357+501.hmm
+# Target file:     H1_prot_fasta.fasta
+# Option settings: hmmsearch -o /home/bwadie/Hmmer_H1/all_outs/LIG_TRAF6+TRAF6_HUMAN+357+501.out --domtblout /home/bwadie/Hmmer_H1/domain_all_H1_domtblouts/LIG_TRAF6+TRAF6_HUMAN+357+501.txt -E 1 domain_all/LIG_TRAF6+TRAF6_HUMAN+357+501.hmm H1_prot_fasta.fasta 
+# Current dir:     /home/bwadie/Hmmer_H1
+# Date:            Wed Feb 10 00:38:03 2021
+# [ok]

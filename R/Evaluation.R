@@ -12,16 +12,34 @@
 #' @importFrom utils read.delim read.table read.csv
 #' @examples
 #' prot_eval_metrics = HV_prot_level_eval()
-HV_prot_level_eval = function(){
-  all_hits = parse_qslim()
-  qslim_input = download_data(path = "Evaluation_data/proteins_per_dataset_allhitsint.RDS", is.rds = T)
-  ELM_all_instances = Get_ELM_all()
-
+HV_prot_level_eval = function(slim_hits,bench_data, bench_data_type = c("ELM", "PRMdb"), datasets_input = NULL, all_pfam_dom = NULL){
+  all_hits = slim_hits
+  # if (parse_occ & is.null(occ_out)){
+  #   all_hits = parse_qslim(main_output = main_output,occ_out = occ_out, compari_output = compari_out, preprocess_compari = preprocess_compari)
+  # }
+  # else{
+  #   all_hits = preprocess_slimfinder_out(main_output = main_output, occ_out = occ_out)
+  #   all_hits = all_hits[[1]]
+  # }
+  if (is.null(datasets_input)){
+    # TODO change input path
+    qslim_input = download_data(path = "Evaluation_data/proteins_per_dataset_allhitsint.RDS", is.rds = T)
+  }
+  else{
+    qslim_input = datasets_input
+  }
+  if (bench_data_type == "ELM" & missing(bench_data)){
+    # FIXME fix getting ELM instances after changing the function GET_ELM_all
+    ELM_all_instances = Get_ELM_all(ELM_data_type = "instances")
+  }
+  else{
+    ELM_all_instances = bench_data
+  }
 
   All_enrichment = list()
   for (i in 1:nrow(pfam_dom_enrich_info)){
     filtered = pfam_dom_prot_eval(pfam = pfam_dom_enrich_info$pfam_filter[i], ELM_data = ELM_all_instances,
-                                  pred_qslim = all_hits, qslim_input_dat = qslim_input)
+                                  pred_qslim = all_hits, qslim_input_dat = qslim_input, all_pfam_dom_list = all_pfam_dom)
     All_enrichment[[i]] = filtered
   }
 
@@ -43,19 +61,20 @@ HV_prot_level_eval = function(){
   return(All_enrichment)
 }
 
-fisher_and_F1 = function(numbers){
+fisher_and_F1 = function(numbers, pval_method = c("greater", "two.sided", "less")){
   ficher_mat = matrix(c(numbers[1], numbers[2], numbers[3], numbers[4]),
                       nrow = 2, ncol = 2, byrow = T)
   colnames(ficher_mat) = c("predicted", "not_predicted")
   rownames(ficher_mat) = c("ELM", "not_ELM")
 
-  test = hypergea::hypergeom.test(ficher_mat, alternative = "greater")
+  test = hypergea::hypergeom.test(ficher_mat, alternative = pval_method)
 
   results = data.frame(odds_ratio = as.numeric(test$estimate),p.val = test$p.value,TP = ficher_mat[1,1], FN = ficher_mat[1,2],
                        FP = ficher_mat[2,1],TN = ficher_mat[2,2])
   results$precision = results$TP / (results$TP + results$FP)
   results$recall = results$TP / (results$TP + results$FN)
   results$F1 = 2*(results$precision * results$recall) / (results$precision + results$recall)
+  # TODO Add F0.5 calculation here as well
   results$log_OR = log2(results$odds_ratio)
   return(results)
 }
@@ -77,10 +96,11 @@ HV_ProtEval_metrics = function(df, is_pfam_dom = T, ELM_all, pred_hits, qslim_in
   FN = possible_ELM_prots[which(possible_ELM_prots %nin% TP)]
   TN = prots[which(prots %nin% c(ELM_tp$uniprot, filtered$uniprot))]
   numbers = c(length(TP), length(unique(FN)), length(FP), length(unique(TN)))
-  return(fisher_and_F1(numbers))
+  return(fisher_and_F1(numbers, pval_method = "greater"))
 }
 
 clean_pfam_enrich = function(uniprot, domains){
+  .Deprecated("pfam_dom_prot_eval")
   if (!is.na(domains)){
     dom_list = strsplit(domains, ";")[[1]]
     domain_table = data.frame(uniprot_id = uniprot, domain = dom_list)
@@ -99,6 +119,7 @@ clean_pfam_enrich = function(uniprot, domains){
   }
 }
 clean_pfam_dom_data = function(df){
+  .Deprecated("pfam_dom_prot_eval")
   pfam_clean = list()
   for (i in 1:nrow(df)){
     result = clean_pfam_enrich(df$uniprot[i], df$domains[i])
@@ -109,11 +130,16 @@ clean_pfam_dom_data = function(df){
   pfam_clean = pfam_clean[!is.na(pfam_clean$PFAM),]
   return(pfam_clean)
 }
-pfam_dom_prot_eval = function(pfam, ELM_data, pred_qslim, qslim_input_dat){
-  file_name = pfam_dom_enrich_info[which(pfam_dom_enrich_info$pfam_filter == pfam),]$file_name
-  data = read.table(download_data(path = file.path("Evaluation_data/pfam_dom_enrich", file_name)), sep = "\t", na.strings = c("", NA))
-  colnames(data) = c("uniprot", "domains", "total_domains_nr")
-  cleaned = clean_pfam_dom_data(data)
+pfam_dom_prot_eval = function(pfam, ELM_data, pred_qslim, qslim_input_dat, all_pfam_dom_list){
+  if (is.null(all_pfam_dom_list)){
+    # TODO change input path
+    all_pfam_dom_enrich = download_data(path = "Evaluation_data/All_pfam_dom_enrich.RDS", is.rds = T)
+  }
+  else{
+    all_pfam_dom_enrich = all_pfam_dom_list
+  }
+  #file_name = pfam_dom_enrich_info[which(pfam_dom_enrich_info$pfam_filter == pfam),]$file_name
+  cleaned = all_pfam_dom_enrich[[pfam]]
 
   enrichment = HV_ProtEval_metrics(cleaned, ELM_all = ELM_data, pred_hits = pred_qslim,
                                    qslim_input = qslim_input_dat)
@@ -136,11 +162,40 @@ pfam_dom_prot_eval = function(pfam, ELM_data, pred_qslim, qslim_input_dat){
 #' Prytuliak, Roman, et al. "HH-MOTiF: de novo detection of short linear motifs in proteins by Hidden Markov Model comparisons." \emph{Nucleic acids research} 45.W1 (2017): W470-W477.
 #' @examples
 #' motif_eval_metrics = HV_motif_level_eval()
-HV_motif_level_eval = function(){
-  all_hits = parse_qslim()
-  qslim_input = download_data(path = "Evaluation_data/proteins_per_dataset_allhitsint.RDS", is.rds = T)
-  ELM_all_instances = Get_ELM_all()
-  uniprot_seqs = read.csv(download_data(path = "Evaluation_data/uniprot_sequences.csv"), header = T)
+HV_motif_level_eval = function(slim_hits, bench_data, bench_data_type = c("ELM", "PRMdb"), datasets_input = NULL, all_pfam_dom = NULL, prot_seqs = NULL){
+  all_hits = slim_hits
+  # if (parse_occ & is.null(occ_out)){
+  #   all_hits = parse_qslim(main_output = main_output,occ_out = occ_out, compari_output = compari_out, preprocess_compari = preprocess_compari)
+  # }
+  # else{
+  #   all_hits = preprocess_slimfinder_out(main_output = main_output, occ_out = occ_out)
+  #   all_hits = all_hits[[1]]
+  # }
+  if (is.null(datasets_input)){
+    # TODO change input path
+    qslim_input = download_data(path = "Evaluation_data/proteins_per_dataset_allhitsint.RDS", is.rds = T)
+  }
+  else{
+    qslim_input = datasets_input
+  }
+
+  if (bench_data_type == "ELM" & missing(bench_data)){
+    # FIXME fix getting ELM instances after changing the function GET_ELM_all
+    ELM_all_instances = Get_ELM_all(ELM_data_type = "instances")
+  }
+  else{
+    ELM_all_instances = bench_data
+  }
+  if (is.null(prot_seqs)){
+    # TODO change input path
+    uniprot_seqs = read.csv(download_data(path = "Evaluation_data/uniprot_sequences.csv.gz"), header = T)
+  }
+  else{
+    uniprot_seqs = prot_seqs
+  }
+  # uniprot_seqs[which(stringr::str_detect(uniprot_seqs$uniprot, "-") == TRUE),]$uniprot =
+  #   substr(uniprot_seqs[which(stringr::str_detect(uniprot_seqs$uniprot, "-") == TRUE),]$uniprot, 1, nchar(uniprot_seqs[which(stringr::str_detect(uniprot_seqs$uniprot, "-") == TRUE),]$uniprot) -2 )
+
   required = list("pred_hits" = all_hits, "qslim_input" = qslim_input, "ELM_all" = ELM_all_instances,
                   "uniprot_seqs"  = uniprot_seqs)
   all_input_prots = unique(unlist(qslim_input))
@@ -166,17 +221,18 @@ HV_motif_level_eval = function(){
 
   All_F1_scores = list()
   for (i in 1:nrow(pfam_dom_enrich_info)){
-    filtered = pfam_dom_motif_eval(pfam_dom_enrich_info$pfam_filter[i], prereqs = required)
+    filtered = pfam_dom_motif_eval(pfam_dom_enrich_info$pfam_filter[i], prereqs = required, all_pfam_dom_list = all_pfam_dom)
     All_F1_scores[[i]] = filtered
   }
   All_F1_scores = dplyr::bind_rows(All_F1_scores)
   All_F1_scores = rbind.data.frame(qslim_F1, All_F1_scores)
 
   All_F1_scores$weight_site_resid = paste0(All_F1_scores$weight_type, " ", All_F1_scores$site_resid)
-  return(All_F1_scores)
+  return(list("All_F1_scores" = All_F1_scores, "all_metrics_per_motif" = all_metrics_per_motif,
+              "weights_per_motif" = weights_per_motif))
 }
 
-calc_metrics_per_motif = function(df,motif, same_prot = T, min_annot = 1, required_data){
+calc_metrics_per_motif = function(df,motif, min_annot = 1, required_data, match_insts = F){
   ELM_all_instances = required_data[["ELM_all"]]
   qslim_input = required_data[["qslim_input"]]
   all_hits = required_data[["pred_hits"]]
@@ -196,9 +252,15 @@ calc_metrics_per_motif = function(df,motif, same_prot = T, min_annot = 1, requir
   names(metrics) = c("TP_res", "PA_res","PNA_res","FP_res","FN_res","TN_res", "AP_site",
                      "PA_site","PNA_site","ANP_site")
 
-  df_instances = qslim_instances[which(qslim_instances$uniprot %in% df$uniprot),]
+  if (!match_insts){
+    df_instances = qslim_instances[which(qslim_instances$uniprot %in% df$uniprot),]
+  }
+  else{
+    df_instances = plyr::match_df(qslim_instances, df, on = c("uniprot", "Start_Pos", "End_Pos"))
+  }
   qslim_filtered = df_instances[which(df_instances$uniprot %in% motif_filtered$uniprot),]
   motif_filtered = motif_filtered[which(motif_filtered$uniprot %in% qslim_filtered$uniprot),]
+
   if(nrow(qslim_filtered) == 0){
     return(NULL)
   }
@@ -356,15 +418,21 @@ calc_F1_score_HH = function(metrics, weights){
   }
   results = dplyr::bind_rows(results)
   results$F1 = (2 * results$Pr * results$Rc) / (results$Pr + results$Rc)
+  # TODO Add calculation of F0.5 score here as well
   results$BA = NA
   results[which(results$site_resid == "residue_wise"),]$BA = 0.5 * (results[which(results$site_resid == "residue_wise"),]$Rc + results[which(results$site_resid == "residue_wise"),]$SP)
   return(results)
 }
-pfam_dom_motif_eval = function(pfam, prereqs){
-  file_name = pfam_dom_enrich_info[which(pfam_dom_enrich_info$pfam_filter == pfam),]$file_name
-  data = read.table(download_data(path = file.path("Evaluation_data/pfam_dom_enrich", file_name)), sep = "\t", na.strings = c("", NA))
-  colnames(data) = c("uniprot", "domains", "total_domains_nr")
-  cleaned = clean_pfam_dom_data(data)
+pfam_dom_motif_eval = function(pfam, prereqs, all_pfam_dom_list){
+  if (is.null(all_pfam_dom_list)){
+    # TODO change input path
+    all_pfam_dom_enrich = download_data(path = "Evaluation_data/All_pfam_dom_enrich.RDS", is.rds = T)
+  }
+  else{
+    all_pfam_dom_enrich = all_pfam_dom_list
+  }
+  #file_name = pfam_dom_enrich_info[which(pfam_dom_enrich_info$pfam_filter == pfam),]$file_name
+  cleaned = all_pfam_dom_enrich[[pfam]]
 
   ELM_all_instances = prereqs[["ELM_all"]]
   qslim_input = prereqs[["qslim_input"]]
@@ -402,17 +470,19 @@ pfam_dom_motif_eval = function(pfam, prereqs){
 #' @importFrom utils read.delim read.table read.csv
 #' @examples
 #' ProtDom_int_eval_metrics = HV_prot_dom_int_eval()
-HV_prot_dom_int_eval = function(){
-  ELM_ints = read.delim(download_data("Evaluation_data/elm_interactions.tsv"))
-  file_name = pfam_dom_enrich_info[which(pfam_dom_enrich_info$pfam_filter == pfam_dom_enrich_info$pfam_filter[1]),]$file_name
-  pfam_nr = read.table(download_data(path = file.path("Evaluation_data/pfam_dom_enrich", file_name)), sep = "\t", na.strings = c("", NA))
-  colnames(pfam_nr) = c("uniprot", "domains", "total_domains_nr")
-  pfam_nr = clean_pfam_dom_data(pfam_nr)
-  required = list("ELM_ints" = ELM_ints, "pfam_nr" = pfam_nr)
+HV_prot_dom_int_eval = function(bench_data, bench_data_type = c("ELM", "PRMdb"), all_pfam_dom = NULL){
+  if (bench_data_type == "ELM" & missing(bench_data)){
+    # TODO change input path
+    ELM_ints = Get_ELM_all(ELM_data_type = "interactions")
+  }
+  else{
+    ELM_ints = bench_data
+  }
+  required = list("ELM_ints" = ELM_ints)
 
   All_prot_domain_F1 = list()
   for (i in 1:nrow(pfam_dom_enrich_info)){
-    All_prot_domain_F1[[i]] = pfam_prot_domain_F1(pfam_dom_enrich_info$pfam_filter[i], required_data = required)
+    All_prot_domain_F1[[i]] = pfam_prot_domain_F1(pfam_dom_enrich_info$pfam_filter[i], required_data = required, all_pfam_dom_list = all_pfam_dom)
   }
   All_prot_domain_F1 = dplyr::bind_rows(All_prot_domain_F1)
   All_prot_domain_F1$filter = pfam_dom_enrich_info$pfam_filter
@@ -424,14 +494,19 @@ HV_prot_dom_int_eval = function(){
   return(All_prot_domain_F1)
 }
 
-pfam_prot_domain_F1 = function(pfam, required_data){
-  file_name = pfam_dom_enrich_info[which(pfam_dom_enrich_info$pfam_filter == pfam),]$file_name
-  data = read.table(download_data(path = file.path("Evaluation_data/pfam_dom_enrich", file_name)), sep = "\t", na.strings = c("", NA))
-  colnames(data) = c("uniprot", "domains", "total_domains_nr")
-  cleaned = clean_pfam_dom_data(data)
+pfam_prot_domain_F1 = function(pfam, required_data, all_pfam_dom_list){
+  if (is.null(all_pfam_dom_list)){
+    # TODO change input path
+    all_pfam_dom_enrich = download_data(path = "Evaluation_data/All_pfam_dom_enrich.RDS", is.rds = T)
+  }
+  else{
+    all_pfam_dom_enrich = all_pfam_dom_list
+  }
+  #file_name = pfam_dom_enrich_info[which(pfam_dom_enrich_info$pfam_filter == pfam),]$file_name
+  cleaned = all_pfam_dom_enrich[[pfam]]
 
   ELM_interactions = required_data[["ELM_ints"]]
-  pfam_nr = required_data[["pfam_nr"]]
+  pfam_nr = all_pfam_dom_enrich[["PF_nr"]]
 
   filtered_pfam = dplyr::filter(cleaned, uniprot %in% ELM_interactions$interactorElm)
   filtered_pfam$PFAM_id = sub("\\--.*", "",filtered_pfam$PFAM )
@@ -442,7 +517,7 @@ pfam_prot_domain_F1 = function(pfam, required_data){
   ELM_filtered = dplyr::filter(ELM_interactions, interactorElm %in% filtered_pfam$uniprot)
 
   metrics = rep(0,4)
-  names(metrics) = c("TP", "FP", "FN", "TN")
+  names(metrics) = c("TP", "FN", "FP", "TN")
 
   prots = unique(filtered_pfam$uniprot)
   for (i in 1:length(prots)){
@@ -455,6 +530,6 @@ pfam_prot_domain_F1 = function(pfam, required_data){
     metrics["TN"] = metrics["TN"] + length(unique(pfam_nr_filt_prot[which(pfam_nr_filt_prot$PFAM_id %nin% c(filtered_pfam_prot$PFAM_id, ELM_filtered_prot$Domain)),]$PFAM_id))
   }
 
-  result = fisher_and_F1(metrics)
+  result = fisher_and_F1(metrics, pval_method = "greater")
   return(result)
 }

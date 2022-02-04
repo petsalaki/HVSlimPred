@@ -1,0 +1,14 @@
+#                                                                                             --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name         accession   tlen query name                           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+# ------------------- ---------- -----                 -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+sp|P22736|NR4A1_HUMAN -            598 LIG_NRBOX+NR1H2_MOUSE+239+434_muscle -            192   1.2e-27   90.7   0.0   1   1   7.6e-30   1.7e-27   90.2   0.0    17   189   408   580   397   582 0.95 Nuclear receptor subfamily 4 group A member 1 OS=Homo sapiens OX=9606 GN=NR4A1 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      domain_all/LIG_NRBOX+NR1H2_MOUSE+239+434.hmm
+# Target file:     human_only_H1_Prot_fasta.fasta
+# Option settings: hmmsearch -o /home/bwadie/Hmmer_H1/human_slimfinder_HMM_outputs/all_outs/LIG_NRBOX+NR1H2_MOUSE+239+434.out --domtblout /home/bwadie/Hmmer_H1/human_slimfinder_HMM_outputs/domain_all_H1_domtblouts/LIG_NRBOX+NR1H2_MOUSE+239+434.txt -E 1 domain_all/LIG_NRBOX+NR1H2_MOUSE+239+434.hmm human_only_H1_Prot_fasta.fasta 
+# Current dir:     /home/bwadie/Hmmer_H1
+# Date:            Wed Mar 17 18:18:02 2021
+# [ok]

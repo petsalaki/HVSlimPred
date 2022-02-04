@@ -1,0 +1,15 @@
+#                                                                                               --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name         accession   tlen query name                             accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+# ------------------- ---------- -----                   -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+sp|Q07912|ACK1_HUMAN  -           1038 LIG_SH2_GRB2+GRB7_HUMAN+431+512_muscle -             81   5.8e-13   42.7   0.0   1   1   1.3e-14   1.5e-12   41.4   0.0     4    81   287   370   284   370 0.96 Activated CDC42 kinase 1 OS=Homo sapiens OX=9606 GN=TNK2 PE=1 SV=3
+sp|P08069|IGF1R_HUMAN -           1367 LIG_SH2_GRB2+GRB7_HUMAN+431+512_muscle -             81   2.3e-12   40.8   0.0   1   1   4.5e-14   5.1e-12   39.7   0.0     8    81  1173  1251  1166  1251 0.95 Insulin-like growth factor 1 receptor OS=Homo sapiens OX=9606 GN=IGF1R PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      domain_all/LIG_SH2_GRB2+GRB7_HUMAN+431+512.hmm
+# Target file:     human_only_H1_Prot_fasta.fasta
+# Option settings: hmmsearch -o /home/bwadie/Hmmer_H1/human_slimfinder_HMM_outputs/all_outs/LIG_SH2_GRB2+GRB7_HUMAN+431+512.out --domtblout /home/bwadie/Hmmer_H1/human_slimfinder_HMM_outputs/domain_all_H1_domtblouts/LIG_SH2_GRB2+GRB7_HUMAN+431+512.txt -E 1 domain_all/LIG_SH2_GRB2+GRB7_HUMAN+431+512.hmm human_only_H1_Prot_fasta.fasta 
+# Current dir:     /home/bwadie/Hmmer_H1
+# Date:            Wed Mar 17 18:18:15 2021
+# [ok]

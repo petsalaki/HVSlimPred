@@ -1,0 +1,14 @@
+#                                                                                          --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name         accession   tlen query name                        accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+# ------------------- ---------- -----              -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+sp|Q96GM5|SMRD1_HUMAN -            515 LIG_MDM2+MDM2_HUMAN+27+102_muscle -             75   0.00035   14.4   0.0   1   1   4.6e-06     0.001   12.9   0.0    21    59   310   347   306   362 0.81 SWI/SNF-related matrix-associated actin-dependent regulator of chromatin subfamily D member 1 OS=Homo sapiens OX=9606 GN=SMARCD1 PE=1 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      domain_all/LIG_MDM2+MDM2_HUMAN+27+102.hmm
+# Target file:     human_only_H1_Prot_fasta.fasta
+# Option settings: hmmsearch -o /home/bwadie/Hmmer_H1/human_slimfinder_HMM_outputs/all_outs/LIG_MDM2+MDM2_HUMAN+27+102.out --domtblout /home/bwadie/Hmmer_H1/human_slimfinder_HMM_outputs/domain_all_H1_domtblouts/LIG_MDM2+MDM2_HUMAN+27+102.txt -E 1 domain_all/LIG_MDM2+MDM2_HUMAN+27+102.hmm human_only_H1_Prot_fasta.fasta 
+# Current dir:     /home/bwadie/Hmmer_H1
+# Date:            Wed Mar 17 18:18:00 2021
+# [ok]

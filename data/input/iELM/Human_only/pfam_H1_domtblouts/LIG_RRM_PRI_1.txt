@@ -1,0 +1,24 @@
+#                                                                             --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name         accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+# ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+sp|P19338|NUCL_HUMAN  -            710 RRM_1                PF00076.15    70   2.6e-60  194.1  13.0   1   4   1.6e-10   5.1e-09   29.7   0.3     1    70   309   377   309   377 0.93 Nucleolin OS=Homo sapiens OX=9606 GN=NCL PE=1 SV=3
+sp|P19338|NUCL_HUMAN  -            710 RRM_1                PF00076.15    70   2.6e-60  194.1  13.0   2   4   9.1e-18   2.9e-16   53.0   0.1     4    69   398   459   395   460 0.95 Nucleolin OS=Homo sapiens OX=9606 GN=NCL PE=1 SV=3
+sp|P19338|NUCL_HUMAN  -            710 RRM_1                PF00076.15    70   2.6e-60  194.1  13.0   3   4   4.1e-19   1.3e-17   57.3   0.2     1    70   488   554   488   554 0.96 Nucleolin OS=Homo sapiens OX=9606 GN=NCL PE=1 SV=3
+sp|P19338|NUCL_HUMAN  -            710 RRM_1                PF00076.15    70   2.6e-60  194.1  13.0   4   4   2.7e-20   8.5e-19   61.1   0.2     1    69   574   640   574   641 0.96 Nucleolin OS=Homo sapiens OX=9606 GN=NCL PE=1 SV=3
+sp|P0DJD3|RBY1A_HUMAN -            496 RRM_1                PF00076.15    70   1.2e-23   76.6   0.1   1   1   6.3e-25     2e-23   75.9   0.1     1    70    10    79    10    79 0.98 RNA-binding motif protein, Y chromosome, family 1 member A1 OS=Homo sapiens OX=9606 GN=RBMY1A1 PE=1 SV=1
+sp|P52298|NCBP2_HUMAN -            156 RRM_1                PF00076.15    70   2.3e-19   62.9   0.0   1   1     1e-20   3.3e-19   62.4   0.0     1    70    42   112    42   112 0.98 Nuclear cap-binding protein subunit 2 OS=Homo sapiens OX=9606 GN=NCBP2 PE=1 SV=1
+sp|Q9NZI8|IF2B1_HUMAN -            577 RRM_1                PF00076.15    70     8e-19   61.2   0.0   1   2   3.6e-09   1.1e-07   25.4   0.0     1    69     4    68     4    69 0.92 Insulin-like growth factor 2 mRNA-binding protein 1 OS=Homo sapiens OX=9606 GN=IGF2BP1 PE=1 SV=2
+sp|Q9NZI8|IF2B1_HUMAN -            577 RRM_1                PF00076.15    70     8e-19   61.2   0.0   2   2   1.3e-11   4.3e-10   33.2   0.0     3    70    85   150    83   150 0.96 Insulin-like growth factor 2 mRNA-binding protein 1 OS=Homo sapiens OX=9606 GN=IGF2BP1 PE=1 SV=2
+sp|Q93062|RBPMS_HUMAN -            196 RRM_1                PF00076.15    70     1e-13   44.8   0.0   1   1   4.9e-15   1.6e-13   44.2   0.0     1    65    26    87    26    89 0.96 RNA-binding protein with multiple splicing OS=Homo sapiens OX=9606 GN=RBPMS PE=1 SV=1
+sp|P55884|EIF3B_HUMAN -            814 RRM_1                PF00076.15    70   2.5e-09   30.7   0.1   1   1     2e-10   6.3e-09   29.5   0.1    15    66   207   257   203   260 0.89 Eukaryotic translation initiation factor 3 subunit B OS=Homo sapiens OX=9606 GN=EIF3B PE=1 SV=3
+sp|P0DN76|U2AF5_HUMAN -            240 RRM_1                PF00076.15    70   9.4e-09   28.9   0.0   1   1   4.9e-10   1.6e-08   28.2   0.0    20    70    91   141    83   141 0.93 Splicing factor U2AF 35 kDa subunit-like protein OS=Homo sapiens OX=9606 GN=U2AF1L5 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      pfam_hmms/LIG_RRM_PRI_1.hmm
+# Target file:     human_only_H1_Prot_fasta.fasta
+# Option settings: hmmsearch -o /home/bwadie/Hmmer_H1/human_slimfinder_HMM_outputs/all_outs/LIG_RRM_PRI_1.out --domtblout /home/bwadie/Hmmer_H1/human_slimfinder_HMM_outputs/pfam_H1_domtblouts/LIG_RRM_PRI_1.txt -E 1 pfam_hmms/LIG_RRM_PRI_1.hmm human_only_H1_Prot_fasta.fasta 
+# Current dir:     /home/bwadie/Hmmer_H1
+# Date:            Wed Mar 17 18:17:35 2021
+# [ok]

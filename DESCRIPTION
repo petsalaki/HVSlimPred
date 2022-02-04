@@ -15,7 +15,7 @@ License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.1.0
+RoxygenNote: 7.1.2
 Imports: 
     dplyr,
     tidyr,
@@ -28,6 +28,18 @@ Imports:
     magrittr,
     forcats,
     utils,
-    mltools
+    mltools,
+    curl,
+    AnnotationDbi,
+    org.Hs.eg.db,
+    rhmmer,
+    microseq,
+    httr,
+    jsonlite,
+    pheatmap,
+    RColorBrewer,
+    networkD3,
+    gimme,
+    ghql
 Depends: 
     R (>= 2.10)

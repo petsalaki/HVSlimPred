@@ -1,0 +1,18 @@
+#                                                                                             --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name                            accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- -----                  -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+sp|P12931|SRC_HUMAN  -            536 LIG_SH2_SRC+JAK2_HUMAN+401+481_muscle -             80   6.2e-06   21.3   0.1   1   1   1.1e-07   1.2e-05   20.4   0.1     1    80   154   233   154   233 0.85 Proto-oncogene tyrosine-protein kinase Src OS=Homo sapiens OX=9606 GN=SRC PE=1 SV=3
+sp|P06241|FYN_HUMAN  -            537 LIG_SH2_SRC+JAK2_HUMAN+401+481_muscle -             80   1.5e-05   20.1   0.1   1   1   2.4e-07   2.5e-05   19.4   0.1     7    80   158   231   152   231 0.86 Tyrosine-protein kinase Fyn OS=Homo sapiens OX=9606 GN=FYN PE=1 SV=3
+sp|P08631|HCK_HUMAN  -            526 LIG_SH2_SRC+JAK2_HUMAN+401+481_muscle -             80    0.0008   14.5   0.0   1   1   1.3e-05    0.0014   13.8   0.0     4    80   150   226   148   226 0.86 Tyrosine-protein kinase HCK OS=Homo sapiens OX=9606 GN=HCK PE=1 SV=5
+sp|P06239|LCK_HUMAN  -            509 LIG_SH2_SRC+JAK2_HUMAN+401+481_muscle -             80     0.001   14.2   0.0   1   1   1.8e-05    0.0018   13.4   0.0     8    80   137   209   132   209 0.84 Tyrosine-protein kinase Lck OS=Homo sapiens OX=9606 GN=LCK PE=1 SV=6
+sp|P16333|NCK1_HUMAN -            377 LIG_SH2_SRC+JAK2_HUMAN+401+481_muscle -             80    0.0037   12.4   0.1   1   1   7.7e-05    0.0079   11.3   0.1     1    80   285   356   285   356 0.76 Cytoplasmic protein NCK1 OS=Homo sapiens OX=9606 GN=NCK1 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      domain_all/LIG_SH2_SRC+JAK2_HUMAN+401+481.hmm
+# Target file:     H1_prot_fasta.fasta
+# Option settings: hmmsearch -o /home/bwadie/Hmmer_H1/all_outs/LIG_SH2_SRC+JAK2_HUMAN+401+481.out --domtblout /home/bwadie/Hmmer_H1/domain_all_H1_domtblouts/LIG_SH2_SRC+JAK2_HUMAN+401+481.txt -E 1 domain_all/LIG_SH2_SRC+JAK2_HUMAN+401+481.hmm H1_prot_fasta.fasta 
+# Current dir:     /home/bwadie/Hmmer_H1
+# Date:            Wed Feb 10 00:37:56 2021
+# [ok]

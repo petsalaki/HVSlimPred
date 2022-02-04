@@ -1,0 +1,13 @@
+#                                                                                               --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name                              accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- -----                    -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      domain_all/TRG_ER_KDEL_1+ERD21_HUMAN+28+170.hmm
+# Target file:     H1_prot_fasta.fasta
+# Option settings: hmmsearch -o /home/bwadie/Hmmer_H1/all_outs/TRG_ER_KDEL_1+ERD21_HUMAN+28+170.out --domtblout /home/bwadie/Hmmer_H1/domain_all_H1_domtblouts/TRG_ER_KDEL_1+ERD21_HUMAN+28+170.txt -E 1 domain_all/TRG_ER_KDEL_1+ERD21_HUMAN+28+170.hmm H1_prot_fasta.fasta 
+# Current dir:     /home/bwadie/Hmmer_H1
+# Date:            Wed Feb 10 00:38:12 2021
+# [ok]

@@ -1,0 +1,23 @@
+#                                                                                                    --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name         accession   tlen query name                                  accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+# ------------------- ---------- -----                        -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+sp|Q92547|TOPB1_HUMAN -           1522 LIG_BRCT_MDC1_1+MDC1_HUMAN+1883+2072_muscle -            189   9.6e-17   56.1   0.2   1   7   0.00016     0.042    8.3   0.0    21    72   123   174   109   184 0.83 DNA topoisomerase 2-binding protein 1 OS=Homo sapiens OX=9606 GN=TOPBP1 PE=1 SV=3
+sp|Q92547|TOPB1_HUMAN -           1522 LIG_BRCT_MDC1_1+MDC1_HUMAN+1883+2072_muscle -            189   9.6e-17   56.1   0.2   2   7   0.00046      0.12    6.9   0.0    21    85   217   282   205   296 0.77 DNA topoisomerase 2-binding protein 1 OS=Homo sapiens OX=9606 GN=TOPBP1 PE=1 SV=3
+sp|Q92547|TOPB1_HUMAN -           1522 LIG_BRCT_MDC1_1+MDC1_HUMAN+1883+2072_muscle -            189   9.6e-17   56.1   0.2   3   7    0.0023      0.58    4.6   0.0    35    87   391   444   361   459 0.72 DNA topoisomerase 2-binding protein 1 OS=Homo sapiens OX=9606 GN=TOPBP1 PE=1 SV=3
+sp|Q92547|TOPB1_HUMAN -           1522 LIG_BRCT_MDC1_1+MDC1_HUMAN+1883+2072_muscle -            189   9.6e-17   56.1   0.2   4   7      0.76     2e+02   -3.6   0.0    60    82   606   628   555   630 0.70 DNA topoisomerase 2-binding protein 1 OS=Homo sapiens OX=9606 GN=TOPBP1 PE=1 SV=3
+sp|Q92547|TOPB1_HUMAN -           1522 LIG_BRCT_MDC1_1+MDC1_HUMAN+1883+2072_muscle -            189   9.6e-17   56.1   0.2   5   7     0.003      0.77    4.2   0.0    40    94   692   745   678   757 0.85 DNA topoisomerase 2-binding protein 1 OS=Homo sapiens OX=9606 GN=TOPBP1 PE=1 SV=3
+sp|Q92547|TOPB1_HUMAN -           1522 LIG_BRCT_MDC1_1+MDC1_HUMAN+1883+2072_muscle -            189   9.6e-17   56.1   0.2   6   7    0.0039         1    3.8   0.0    59    85   963   989   929  1002 0.87 DNA topoisomerase 2-binding protein 1 OS=Homo sapiens OX=9606 GN=TOPBP1 PE=1 SV=3
+sp|Q92547|TOPB1_HUMAN -           1522 LIG_BRCT_MDC1_1+MDC1_HUMAN+1883+2072_muscle -            189   9.6e-17   56.1   0.2   7   7   1.4e-07   3.7e-05   18.3   0.0    38    85  1302  1349  1281  1355 0.87 DNA topoisomerase 2-binding protein 1 OS=Homo sapiens OX=9606 GN=TOPBP1 PE=1 SV=3
+sp|P38398|BRCA1_HUMAN -           1863 LIG_BRCT_MDC1_1+MDC1_HUMAN+1883+2072_muscle -            189     8e-05   17.2   1.1   1   3      0.23        60   -1.9   0.3   124   156    11    43     9    50 0.87 Breast cancer type 1 susceptibility protein OS=Homo sapiens OX=9606 GN=BRCA1 PE=1 SV=2
+sp|P38398|BRCA1_HUMAN -           1863 LIG_BRCT_MDC1_1+MDC1_HUMAN+1883+2072_muscle -            189     8e-05   17.2   1.1   2   3      0.47   1.2e+02   -2.9   0.0   102   142   609   649   596   658 0.86 Breast cancer type 1 susceptibility protein OS=Homo sapiens OX=9606 GN=BRCA1 PE=1 SV=2
+sp|P38398|BRCA1_HUMAN -           1863 LIG_BRCT_MDC1_1+MDC1_HUMAN+1883+2072_muscle -            189     8e-05   17.2   1.1   3   3   1.1e-06   0.00029   15.4   0.0    48   150  1697  1799  1677  1843 0.75 Breast cancer type 1 susceptibility protein OS=Homo sapiens OX=9606 GN=BRCA1 PE=1 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      domain_all/LIG_BRCT_MDC1_1+MDC1_HUMAN+1883+2072.hmm
+# Target file:     H1_prot_fasta.fasta
+# Option settings: hmmsearch -o /home/bwadie/Hmmer_H1/all_outs/LIG_BRCT_MDC1_1+MDC1_HUMAN+1883+2072.out --domtblout /home/bwadie/Hmmer_H1/domain_all_H1_domtblouts/LIG_BRCT_MDC1_1+MDC1_HUMAN+1883+2072.txt -E 1 domain_all/LIG_BRCT_MDC1_1+MDC1_HUMAN+1883+2072.hmm H1_prot_fasta.fasta 
+# Current dir:     /home/bwadie/Hmmer_H1
+# Date:            Wed Feb 10 00:37:31 2021
+# [ok]

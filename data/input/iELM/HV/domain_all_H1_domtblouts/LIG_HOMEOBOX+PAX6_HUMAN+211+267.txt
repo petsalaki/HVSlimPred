@@ -1,0 +1,20 @@
+#                                                                                               --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name         accession   tlen query name                             accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+# ------------------- ---------- -----                   -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+sp|O43186|CRX_HUMAN   -            299 LIG_HOMEOBOX+PAX6_HUMAN+211+267_muscle -             56   2.8e-28   92.6   2.4   1   1   3.3e-30   4.3e-28   92.0   2.4     1    56    41    96    41    96 0.98 Cone-rod homeobox protein OS=Homo sapiens OX=9606 GN=CRX PE=1 SV=1
+sp|P50222|MEOX2_HUMAN -            304 LIG_HOMEOBOX+PAX6_HUMAN+211+267_muscle -             56     3e-15   50.8   5.5   1   1     4e-17   5.2e-15   50.1   5.5     2    56   190   244   189   244 0.98 Homeobox protein MOX-2 OS=Homo sapiens OX=9606 GN=MEOX2 PE=1 SV=2
+sp|Q6NT76|HMBX1_HUMAN -            420 LIG_HOMEOBOX+PAX6_HUMAN+211+267_muscle -             56   3.3e-05   18.7   3.7   1   4      0.35        46   -1.0   0.0     5    16    21    32    19    39 0.82 Homeobox-containing protein 1 OS=Homo sapiens OX=9606 GN=HMBOX1 PE=1 SV=1
+sp|Q6NT76|HMBX1_HUMAN -            420 LIG_HOMEOBOX+PAX6_HUMAN+211+267_muscle -             56   3.3e-05   18.7   3.7   2   4       1.7   2.1e+02   -3.1   0.1    33    46   192   205   190   208 0.83 Homeobox-containing protein 1 OS=Homo sapiens OX=9606 GN=HMBOX1 PE=1 SV=1
+sp|Q6NT76|HMBX1_HUMAN -            420 LIG_HOMEOBOX+PAX6_HUMAN+211+267_muscle -             56   3.3e-05   18.7   3.7   3   4   1.5e-05    0.0019   13.0   0.0     3    36   271   304   268   310 0.86 Homeobox-containing protein 1 OS=Homo sapiens OX=9606 GN=HMBOX1 PE=1 SV=1
+sp|Q6NT76|HMBX1_HUMAN -            420 LIG_HOMEOBOX+PAX6_HUMAN+211+267_muscle -             56   3.3e-05   18.7   3.7   4   4    0.0079         1    4.3   0.1    37    55   320   338   312   339 0.73 Homeobox-containing protein 1 OS=Homo sapiens OX=9606 GN=HMBOX1 PE=1 SV=1
+sp|Q9H2P0|ADNP_HUMAN  -           1102 LIG_HOMEOBOX+PAX6_HUMAN+211+267_muscle -             56    0.0012   13.7   0.4   1   1   2.2e-05    0.0028   12.5   0.4    13    54   770   811   764   813 0.92 Activity-dependent neuroprotector homeobox protein OS=Homo sapiens OX=9606 GN=ADNP PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      domain_all/LIG_HOMEOBOX+PAX6_HUMAN+211+267.hmm
+# Target file:     H1_prot_fasta.fasta
+# Option settings: hmmsearch -o /home/bwadie/Hmmer_H1/all_outs/LIG_HOMEOBOX+PAX6_HUMAN+211+267.out --domtblout /home/bwadie/Hmmer_H1/domain_all_H1_domtblouts/LIG_HOMEOBOX+PAX6_HUMAN+211+267.txt -E 1 domain_all/LIG_HOMEOBOX+PAX6_HUMAN+211+267.hmm H1_prot_fasta.fasta 
+# Current dir:     /home/bwadie/Hmmer_H1
+# Date:            Wed Feb 10 00:37:39 2021
+# [ok]

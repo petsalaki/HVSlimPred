@@ -1,0 +1,15 @@
+#                                                                                                 --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name         accession   tlen query name                               accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+# ------------------- ---------- -----                     -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+sp|P52298|NCBP2_HUMAN -            156 LIG_RRM_PRI_1+PTBP1_HUMAN+339+405_muscle -             66   1.8e-06   21.7   0.0   1   1   2.6e-08   2.9e-06   21.0   0.0     4    65    46   111    43   112 0.83 Nuclear cap-binding protein subunit 2 OS=Homo sapiens OX=9606 GN=NCBP2 PE=1 SV=1
+sp|P0DJD3|RBY1A_HUMAN -            496 LIG_RRM_PRI_1+PTBP1_HUMAN+339+405_muscle -             66   0.00082   13.2   0.0   1   1   1.2e-05    0.0013   12.5   0.0     6    66    16    79    12    79 0.81 RNA-binding motif protein, Y chromosome, family 1 member A1 OS=Homo sapiens OX=9606 GN=RBMY1A1 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      domain_all/LIG_RRM_PRI_1+PTBP1_HUMAN+339+405.hmm
+# Target file:     human_only_H1_Prot_fasta.fasta
+# Option settings: hmmsearch -o /home/bwadie/Hmmer_H1/human_slimfinder_HMM_outputs/all_outs/LIG_RRM_PRI_1+PTBP1_HUMAN+339+405.out --domtblout /home/bwadie/Hmmer_H1/human_slimfinder_HMM_outputs/domain_all_H1_domtblouts/LIG_RRM_PRI_1+PTBP1_HUMAN+339+405.txt -E 1 domain_all/LIG_RRM_PRI_1+PTBP1_HUMAN+339+405.hmm human_only_H1_Prot_fasta.fasta 
+# Current dir:     /home/bwadie/Hmmer_H1
+# Date:            Wed Mar 17 18:18:13 2021
+# [ok]

@@ -1,0 +1,20 @@
+#                                                                                                 --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name         accession   tlen query name                               accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+# ------------------- ---------- -----                     -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+sp|P40763|STAT3_HUMAN -            770 LIG_SH2_STAT6+STAT6_HUMAN+537+616_muscle -             79   4.6e-20   66.3   0.0   1   1   9.2e-22   1.2e-19   65.0   0.0     1    70   585   655   585   664 0.93 Signal transducer and activator of transcription 3 OS=Homo sapiens OX=9606 GN=STAT3 PE=1 SV=2
+sp|O00459|P85B_HUMAN  -            728 LIG_SH2_STAT6+STAT6_HUMAN+537+616_muscle -             79     4e-08   28.1   0.0   1   2   1.9e-05    0.0025   12.7   0.0     3    33   333   363   331   376 0.93 Phosphatidylinositol 3-kinase regulatory subunit beta OS=Homo sapiens OX=9606 GN=PIK3R2 PE=1 SV=2
+sp|O00459|P85B_HUMAN  -            728 LIG_SH2_STAT6+STAT6_HUMAN+537+616_muscle -             79     4e-08   28.1   0.0   2   2   1.7e-05    0.0022   12.9   0.0     2    29   624   651   623   671 0.81 Phosphatidylinositol 3-kinase regulatory subunit beta OS=Homo sapiens OX=9606 GN=PIK3R2 PE=1 SV=2
+sp|Q92569|P55G_HUMAN  -            461 LIG_SH2_STAT6+STAT6_HUMAN+537+616_muscle -             79   2.9e-06   22.1   0.0   1   2   4.4e-05    0.0057   11.6   0.0     3    33    68    98    66   108 0.91 Phosphatidylinositol 3-kinase regulatory subunit gamma OS=Homo sapiens OX=9606 GN=PIK3R3 PE=1 SV=2
+sp|Q92569|P55G_HUMAN  -            461 LIG_SH2_STAT6+STAT6_HUMAN+537+616_muscle -             79   2.9e-06   22.1   0.0   2   2   0.00058     0.075    8.0   0.0     5    29   363   387   360   407 0.83 Phosphatidylinositol 3-kinase regulatory subunit gamma OS=Homo sapiens OX=9606 GN=PIK3R3 PE=1 SV=2
+sp|P27986|P85A_HUMAN  -            724 LIG_SH2_STAT6+STAT6_HUMAN+537+616_muscle -             79   7.4e-06   20.8   0.0   1   2   0.00016     0.021    9.7   0.0     3    33   336   366   334   375 0.91 Phosphatidylinositol 3-kinase regulatory subunit alpha OS=Homo sapiens OX=9606 GN=PIK3R1 PE=1 SV=2
+sp|P27986|P85A_HUMAN  -            724 LIG_SH2_STAT6+STAT6_HUMAN+537+616_muscle -             79   7.4e-06   20.8   0.0   2   2   0.00054     0.069    8.1   0.0     5    30   629   654   626   674 0.79 Phosphatidylinositol 3-kinase regulatory subunit alpha OS=Homo sapiens OX=9606 GN=PIK3R1 PE=1 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      domain_all/LIG_SH2_STAT6+STAT6_HUMAN+537+616.hmm
+# Target file:     H1_prot_fasta.fasta
+# Option settings: hmmsearch -o /home/bwadie/Hmmer_H1/all_outs/LIG_SH2_STAT6+STAT6_HUMAN+537+616.out --domtblout /home/bwadie/Hmmer_H1/domain_all_H1_domtblouts/LIG_SH2_STAT6+STAT6_HUMAN+537+616.txt -E 1 domain_all/LIG_SH2_STAT6+STAT6_HUMAN+537+616.hmm H1_prot_fasta.fasta 
+# Current dir:     /home/bwadie/Hmmer_H1
+# Date:            Wed Feb 10 00:37:57 2021
+# [ok]

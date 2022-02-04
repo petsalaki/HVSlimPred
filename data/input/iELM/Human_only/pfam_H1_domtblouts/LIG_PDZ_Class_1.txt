@@ -1,0 +1,34 @@
+#                                                                             --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name         accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+# ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+sp|Q14160|SCRIB_HUMAN -           1630 PDZ                  PF00595.17    81   2.1e-79  255.9   0.1   1   4   9.7e-21   2.7e-19   63.2   0.1     3    80   730   811   728   812 0.94 Protein scribble homolog OS=Homo sapiens OX=9606 GN=SCRIB PE=1 SV=4
+sp|Q14160|SCRIB_HUMAN -           1630 PDZ                  PF00595.17    81   2.1e-79  255.9   0.1   2   4   1.3e-21   3.7e-20   66.0   0.0     8    80   868   946   864   947 0.95 Protein scribble homolog OS=Homo sapiens OX=9606 GN=SCRIB PE=1 SV=4
+sp|Q14160|SCRIB_HUMAN -           1630 PDZ                  PF00595.17    81   2.1e-79  255.9   0.1   3   4   1.3e-22   3.8e-21   69.2   0.0     2    80  1005  1089  1004  1090 0.96 Protein scribble homolog OS=Homo sapiens OX=9606 GN=SCRIB PE=1 SV=4
+sp|Q14160|SCRIB_HUMAN -           1630 PDZ                  PF00595.17    81   2.1e-79  255.9   0.1   4   4   3.7e-17     1e-15   51.7   0.0     5    80  1104  1188  1100  1189 0.95 Protein scribble homolog OS=Homo sapiens OX=9606 GN=SCRIB PE=1 SV=4
+sp|Q12959|DLG1_HUMAN  -            904 PDZ                  PF00595.17    81   2.4e-64  207.6   7.9   1   3     3e-23   8.3e-22   71.3   0.1     1    80   224   307   224   308 0.97 Disks large homolog 1 OS=Homo sapiens OX=9606 GN=DLG1 PE=1 SV=2
+sp|Q12959|DLG1_HUMAN  -            904 PDZ                  PF00595.17    81   2.4e-64  207.6   7.9   2   3   3.9e-23   1.1e-21   70.9   0.2     2    80   320   402   319   403 0.96 Disks large homolog 1 OS=Homo sapiens OX=9606 GN=DLG1 PE=1 SV=2
+sp|Q12959|DLG1_HUMAN  -            904 PDZ                  PF00595.17    81   2.4e-64  207.6   7.9   3   3   1.7e-22   4.9e-21   68.8   0.3     2    79   467   542   466   544 0.94 Disks large homolog 1 OS=Homo sapiens OX=9606 GN=DLG1 PE=1 SV=2
+sp|Q8TBB1|LNX1_HUMAN  -            728 PDZ                  PF00595.17    81   1.5e-63  205.0   0.7   1   5       2.8        78   -2.3   0.0    18    38   172   194   168   195 0.72 E3 ubiquitin-protein ligase LNX OS=Homo sapiens OX=9606 GN=LNX1 PE=1 SV=1
+sp|Q8TBB1|LNX1_HUMAN  -            728 PDZ                  PF00595.17    81   1.5e-63  205.0   0.7   2   5   7.2e-15     2e-13   44.4   0.0     4    81   277   356   274   356 0.92 E3 ubiquitin-protein ligase LNX OS=Homo sapiens OX=9606 GN=LNX1 PE=1 SV=1
+sp|Q8TBB1|LNX1_HUMAN  -            728 PDZ                  PF00595.17    81   1.5e-63  205.0   0.7   3   5   7.6e-16   2.1e-14   47.5   0.0     2    80   382   460   381   461 0.95 E3 ubiquitin-protein ligase LNX OS=Homo sapiens OX=9606 GN=LNX1 PE=1 SV=1
+sp|Q8TBB1|LNX1_HUMAN  -            728 PDZ                  PF00595.17    81   1.5e-63  205.0   0.7   4   5   5.7e-18   1.6e-16   54.3   0.1     2    79   508   588   507   590 0.96 E3 ubiquitin-protein ligase LNX OS=Homo sapiens OX=9606 GN=LNX1 PE=1 SV=1
+sp|Q8TBB1|LNX1_HUMAN  -            728 PDZ                  PF00595.17    81   1.5e-63  205.0   0.7   5   5   9.4e-18   2.6e-16   53.6   0.0     2    80   639   720   638   721 0.95 E3 ubiquitin-protein ligase LNX OS=Homo sapiens OX=9606 GN=LNX1 PE=1 SV=1
+sp|Q15599|NHRF2_HUMAN -            337 PDZ                  PF00595.17    81   1.1e-35  115.8   0.0   1   2   2.5e-18   7.1e-17   55.5   0.0     5    80    15    87    11    88 0.93 Na(+)/H(+) exchange regulatory cofactor NHE-RF2 OS=Homo sapiens OX=9606 GN=SLC9A3R2 PE=1 SV=2
+sp|Q15599|NHRF2_HUMAN -            337 PDZ                  PF00595.17    81   1.1e-35  115.8   0.0   2   2   3.3e-19   9.1e-18   58.3   0.0     4    80   154   227   151   228 0.93 Na(+)/H(+) exchange regulatory cofactor NHE-RF2 OS=Homo sapiens OX=9606 GN=SLC9A3R2 PE=1 SV=2
+sp|O14745|NHRF1_HUMAN -            358 PDZ                  PF00595.17    81   3.5e-32  104.5   0.0   1   2   1.4e-16   4.1e-15   49.8   0.0     5    80    18    90    16    91 0.95 Na(+)/H(+) exchange regulatory cofactor NHE-RF1 OS=Homo sapiens OX=9606 GN=SLC9A3R1 PE=1 SV=4
+sp|O14745|NHRF1_HUMAN -            358 PDZ                  PF00595.17    81   3.5e-32  104.5   0.0   2   2   2.3e-17   6.3e-16   52.4   0.0     4    80   157   230   154   231 0.94 Na(+)/H(+) exchange regulatory cofactor NHE-RF1 OS=Homo sapiens OX=9606 GN=SLC9A3R1 PE=1 SV=4
+sp|O00560|SDCB1_HUMAN -            298 PDZ                  PF00595.17    81   3.9e-23   75.5   2.6   1   2   4.2e-16   1.2e-14   48.3   0.1     2    81   115   191   114   191 0.92 Syntenin-1 OS=Homo sapiens OX=9606 GN=SDCBP PE=1 SV=1
+sp|O00560|SDCB1_HUMAN -            298 PDZ                  PF00595.17    81   3.9e-23   75.5   2.6   2   2   2.3e-09   6.5e-08   26.7   0.5    17    81   214   270   198   270 0.84 Syntenin-1 OS=Homo sapiens OX=9606 GN=SDCBP PE=1 SV=1
+sp|O14908|GIPC1_HUMAN -            333 PDZ                  PF00595.17    81   1.2e-09   32.4   0.0   1   1   6.8e-11   1.9e-09   31.7   0.0     2    78   134   209   133   212 0.88 PDZ domain-containing protein GIPC1 OS=Homo sapiens OX=9606 GN=GIPC1 PE=1 SV=2
+sp|Q9H8Y8|GORS2_HUMAN -            452 PDZ                  PF00595.17    81   0.00052   14.2   0.0   1   2   0.00044     0.012    9.8   0.0    24    80    14    71     1    72 0.76 Golgi reassembly-stacking protein 2 OS=Homo sapiens OX=9606 GN=GORASP2 PE=1 SV=3
+sp|Q9H8Y8|GORS2_HUMAN -            452 PDZ                  PF00595.17    81   0.00052   14.2   0.0   2   2      0.15       4.3    1.7   0.0    10    46    94   132    89   146 0.69 Golgi reassembly-stacking protein 2 OS=Homo sapiens OX=9606 GN=GORASP2 PE=1 SV=3
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      pfam_hmms/LIG_PDZ_Class_1.hmm
+# Target file:     human_only_H1_Prot_fasta.fasta
+# Option settings: hmmsearch -o /home/bwadie/Hmmer_H1/human_slimfinder_HMM_outputs/all_outs/LIG_PDZ_Class_1.out --domtblout /home/bwadie/Hmmer_H1/human_slimfinder_HMM_outputs/pfam_H1_domtblouts/LIG_PDZ_Class_1.txt -E 1 pfam_hmms/LIG_PDZ_Class_1.hmm human_only_H1_Prot_fasta.fasta 
+# Current dir:     /home/bwadie/Hmmer_H1
+# Date:            Wed Mar 17 18:17:34 2021
+# [ok]

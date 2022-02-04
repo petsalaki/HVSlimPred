@@ -1,0 +1,14 @@
+#                                                                                                --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name         accession   tlen query name                              accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+# ------------------- ---------- -----                    -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+sp|P30281|CCND3_HUMAN -            292 LIG_CYCLIN_1+CCNA1_HUMAN+214+340_muscle -            122   1.1e-27   91.2   0.2   1   1   3.2e-30   1.7e-27   90.6   0.2     3   122    29   149    27   149 0.96 G1/S-specific cyclin-D3 OS=Homo sapiens OX=9606 GN=CCND3 PE=1 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      domain_all/LIG_CYCLIN_1+CCNA1_HUMAN+214+340.hmm
+# Target file:     H1_prot_fasta.fasta
+# Option settings: hmmsearch -o /home/bwadie/Hmmer_H1/all_outs/LIG_CYCLIN_1+CCNA1_HUMAN+214+340.out --domtblout /home/bwadie/Hmmer_H1/domain_all_H1_domtblouts/LIG_CYCLIN_1+CCNA1_HUMAN+214+340.txt -E 1 domain_all/LIG_CYCLIN_1+CCNA1_HUMAN+214+340.hmm H1_prot_fasta.fasta 
+# Current dir:     /home/bwadie/Hmmer_H1
+# Date:            Wed Feb 10 00:37:32 2021
+# [ok]

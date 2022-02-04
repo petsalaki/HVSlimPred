@@ -1,0 +1,32 @@
+#                                                                                             --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name         accession   tlen query name                           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+# ------------------- ---------- -----                 -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+sp|P06241|FYN_HUMAN   -            537 MOD_TYR_CSK+LYN_HUMAN+247+497_muscle -            250  1.2e-134  442.3   0.0   1   1  5.1e-136  1.6e-134  441.9   0.0     1   250   272   520   272   520 0.99 Tyrosine-protein kinase Fyn OS=Homo sapiens OX=9606 GN=FYN PE=1 SV=3
+sp|P08631|HCK_HUMAN   -            526 MOD_TYR_CSK+LYN_HUMAN+247+497_muscle -            250  4.3e-133  437.3   0.1   1   1  1.7e-134  5.5e-133  436.9   0.1     1   250   263   511   263   511 0.99 Tyrosine-protein kinase HCK OS=Homo sapiens OX=9606 GN=HCK PE=1 SV=5
+sp|P12931|SRC_HUMAN   -            536 MOD_TYR_CSK+LYN_HUMAN+247+497_muscle -            250  4.6e-132  433.9   0.0   1   1    2e-133  6.5e-132  433.4   0.0     3   250   273   519   271   519 0.99 Proto-oncogene tyrosine-protein kinase Src OS=Homo sapiens OX=9606 GN=SRC PE=1 SV=3
+sp|P06239|LCK_HUMAN   -            509 MOD_TYR_CSK+LYN_HUMAN+247+497_muscle -            250    6e-130  427.0   0.0   1   1  2.3e-131  7.5e-130  426.6   0.0     1   250   246   494   246   494 0.99 Tyrosine-protein kinase Lck OS=Homo sapiens OX=9606 GN=LCK PE=1 SV=6
+sp|P29597|TYK2_HUMAN  -           1187 MOD_TYR_CSK+LYN_HUMAN+247+497_muscle -            250     2e-82  271.3   0.0   1   2     4e-26   1.3e-24   81.9   0.0    23   247   637   863   632   866 0.83 Non-receptor tyrosine-protein kinase TYK2 OS=Homo sapiens OX=9606 GN=TYK2 PE=1 SV=3
+sp|P29597|TYK2_HUMAN  -           1187 MOD_TYR_CSK+LYN_HUMAN+247+497_muscle -            250     2e-82  271.3   0.0   2   2   4.3e-58   1.4e-56  186.6   0.0     2   247   899  1166   898  1169 0.85 Non-receptor tyrosine-protein kinase TYK2 OS=Homo sapiens OX=9606 GN=TYK2 PE=1 SV=3
+sp|P04626|ERBB2_HUMAN -           1255 MOD_TYR_CSK+LYN_HUMAN+247+497_muscle -            250     6e-66  217.3   0.0   1   1   2.6e-67   8.5e-66  216.8   0.0     3   248   723   974   721   976 0.92 Receptor tyrosine-protein kinase erbB-2 OS=Homo sapiens OX=9606 GN=ERBB2 PE=1 SV=1
+sp|P10398|ARAF_HUMAN  -            606 MOD_TYR_CSK+LYN_HUMAN+247+497_muscle -            250   3.7e-46  152.5   0.0   1   1   1.5e-47   4.9e-46  152.1   0.0     1   246   311   563   311   567 0.87 Serine/threonine-protein kinase A-Raf OS=Homo sapiens OX=9606 GN=ARAF PE=1 SV=2
+sp|P24941|CDK2_HUMAN  -            298 MOD_TYR_CSK+LYN_HUMAN+247+497_muscle -            250   6.6e-30   99.2   0.0   1   1   2.6e-31   8.3e-30   98.9   0.0     3   201     7   207     5   227 0.86 Cyclin-dependent kinase 2 OS=Homo sapiens OX=9606 GN=CDK2 PE=1 SV=2
+sp|P53350|PLK1_HUMAN  -            603 MOD_TYR_CSK+LYN_HUMAN+247+497_muscle -            250     5e-25   83.2   0.0   1   1   2.4e-26   7.9e-25   82.6   0.0     6   246    59   299    55   303 0.85 Serine/threonine-protein kinase PLK1 OS=Homo sapiens OX=9606 GN=PLK1 PE=1 SV=1
+sp|O15111|IKKA_HUMAN  -            745 MOD_TYR_CSK+LYN_HUMAN+247+497_muscle -            250   6.3e-25   82.9   0.0   1   1   3.4e-26   1.1e-24   82.1   0.0     2   191    17   216    16   224 0.83 Inhibitor of nuclear factor kappa-B kinase subunit alpha OS=Homo sapiens OX=9606 GN=CHUK PE=1 SV=2
+sp|P51617|IRAK1_HUMAN -            712 MOD_TYR_CSK+LYN_HUMAN+247+497_muscle -            250   9.3e-22   72.5   0.0   1   1   4.9e-23   1.6e-21   71.8   0.0     5   191   217   419   214   431 0.84 Interleukin-1 receptor-associated kinase 1 OS=Homo sapiens OX=9606 GN=IRAK1 PE=1 SV=2
+sp|Q14164|IKKE_HUMAN  -            716 MOD_TYR_CSK+LYN_HUMAN+247+497_muscle -            250   2.3e-20   68.0   0.0   1   1   1.4e-21   4.6e-20   67.0   0.0     6   207    15   235    11   241 0.76 Inhibitor of nuclear factor kappa-B kinase subunit epsilon OS=Homo sapiens OX=9606 GN=IKBKE PE=1 SV=1
+sp|P45984|MK09_HUMAN  -            424 MOD_TYR_CSK+LYN_HUMAN+247+497_muscle -            250   4.1e-19   63.9   0.1   1   1   1.7e-20   5.6e-19   63.4   0.1     4   191    30   220    27   250 0.81 Mitogen-activated protein kinase 9 OS=Homo sapiens OX=9606 GN=MAPK9 PE=1 SV=2
+sp|P37173|TGFR2_HUMAN -            567 MOD_TYR_CSK+LYN_HUMAN+247+497_muscle -            250   5.4e-17   56.9   0.1   1   2   6.6e-17   2.1e-15   51.7   0.0     5   191   249   459   245   465 0.74 TGF-beta receptor type-2 OS=Homo sapiens OX=9606 GN=TGFBR2 PE=1 SV=2
+sp|P37173|TGFR2_HUMAN -            567 MOD_TYR_CSK+LYN_HUMAN+247+497_muscle -            250   5.4e-17   56.9   0.1   2   2     0.048       1.5    3.0   0.0   224   248   512   536   503   538 0.83 TGF-beta receptor type-2 OS=Homo sapiens OX=9606 GN=TGFBR2 PE=1 SV=2
+sp|P19784|CSK22_HUMAN -            350 MOD_TYR_CSK+LYN_HUMAN+247+497_muscle -            250   1.4e-14   49.0   0.1   1   1   6.1e-16     2e-14   48.5   0.1     1   204    41   241    41   250 0.78 Casein kinase II subunit alpha' OS=Homo sapiens OX=9606 GN=CSNK2A2 PE=1 SV=1
+sp|Q99986|VRK1_HUMAN  -            396 MOD_TYR_CSK+LYN_HUMAN+247+497_muscle -            250   5.6e-06   20.9   0.0   1   2       1.6        53   -2.0   0.0     6    25    43    62    41    68 0.89 Serine/threonine-protein kinase VRK1 OS=Homo sapiens OX=9606 GN=VRK1 PE=1 SV=1
+sp|Q99986|VRK1_HUMAN  -            396 MOD_TYR_CSK+LYN_HUMAN+247+497_muscle -            250   5.6e-06   20.9   0.0   2   2   5.1e-07   1.6e-05   19.3   0.0    78   143   135   202   126   321 0.84 Serine/threonine-protein kinase VRK1 OS=Homo sapiens OX=9606 GN=VRK1 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      domain_all/MOD_TYR_CSK+LYN_HUMAN+247+497.hmm
+# Target file:     H1_prot_fasta.fasta
+# Option settings: hmmsearch -o /home/bwadie/Hmmer_H1/all_outs/MOD_TYR_CSK+LYN_HUMAN+247+497.out --domtblout /home/bwadie/Hmmer_H1/domain_all_H1_domtblouts/MOD_TYR_CSK+LYN_HUMAN+247+497.txt -E 1 domain_all/MOD_TYR_CSK+LYN_HUMAN+247+497.hmm H1_prot_fasta.fasta 
+# Current dir:     /home/bwadie/Hmmer_H1
+# Date:            Wed Feb 10 00:38:11 2021
+# [ok]

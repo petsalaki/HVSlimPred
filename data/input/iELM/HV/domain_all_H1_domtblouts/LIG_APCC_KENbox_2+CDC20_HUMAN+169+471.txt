@@ -1,0 +1,31 @@
+#                                                                                                     --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name         accession   tlen query name                                   accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+# ------------------- ---------- -----                         -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+sp|Q9UKB1|FBW1B_HUMAN -            542 LIG_APCC_KENbox_2+CDC20_HUMAN+169+471_muscle -            298   9.8e-37  121.8   6.6   1   2   1.1e-23   8.4e-22   72.7   3.3    54   224   238   400   218   402 0.85 F-box/WD repeat-containing protein 11 OS=Homo sapiens OX=9606 GN=FBXW11 PE=1 SV=1
+sp|Q9UKB1|FBW1B_HUMAN -            542 LIG_APCC_KENbox_2+CDC20_HUMAN+169+471_muscle -            298   9.8e-37  121.8   6.6   2   2   2.4e-19   1.8e-17   58.5   0.1    68   224   373   529   370   533 0.89 F-box/WD repeat-containing protein 11 OS=Homo sapiens OX=9606 GN=FBXW11 PE=1 SV=1
+sp|Q9Y297|FBW1A_HUMAN -            605 LIG_APCC_KENbox_2+CDC20_HUMAN+169+471_muscle -            298   4.7e-36  119.5   4.2   1   2   5.4e-25     4e-23   77.1   2.5    57   226   304   465   284   474 0.84 F-box/WD repeat-containing protein 1A OS=Homo sapiens OX=9606 GN=BTRC PE=1 SV=1
+sp|Q9Y297|FBW1A_HUMAN -            605 LIG_APCC_KENbox_2+CDC20_HUMAN+169+471_muscle -            298   4.7e-36  119.5   4.2   2   2   5.7e-14   4.2e-12   40.9   0.0    67   169   475   583   465   594 0.85 F-box/WD repeat-containing protein 1A OS=Homo sapiens OX=9606 GN=BTRC PE=1 SV=1
+sp|P63244|RACK1_HUMAN -            317 LIG_APCC_KENbox_2+CDC20_HUMAN+169+471_muscle -            298   4.6e-33  109.7   7.0   1   4    0.0004      0.03    8.6   0.0   258   298     3    44     1    44 0.88 Receptor of activated protein C kinase 1 OS=Homo sapiens OX=9606 GN=RACK1 PE=1 SV=3
+sp|P63244|RACK1_HUMAN -            317 LIG_APCC_KENbox_2+CDC20_HUMAN+169+471_muscle -            298   4.6e-33  109.7   7.0   2   4   1.8e-06   0.00013   16.3   0.0   264   298    57    91    49    91 0.93 Receptor of activated protein C kinase 1 OS=Homo sapiens OX=9606 GN=RACK1 PE=1 SV=3
+sp|P63244|RACK1_HUMAN -            317 LIG_APCC_KENbox_2+CDC20_HUMAN+169+471_muscle -            298   4.6e-33  109.7   7.0   3   4   4.3e-10   3.2e-08   28.2   0.0   254   298    89   133    89   133 0.98 Receptor of activated protein C kinase 1 OS=Homo sapiens OX=9606 GN=RACK1 PE=1 SV=3
+sp|P63244|RACK1_HUMAN -            317 LIG_APCC_KENbox_2+CDC20_HUMAN+169+471_muscle -            298   4.6e-33  109.7   7.0   4   4   1.9e-18   1.4e-16   55.6   1.0   135   298   144   311   137   311 0.84 Receptor of activated protein C kinase 1 OS=Homo sapiens OX=9606 GN=RACK1 PE=1 SV=3
+sp|P35606|COPB2_HUMAN -            906 LIG_APCC_KENbox_2+CDC20_HUMAN+169+471_muscle -            298   1.4e-27   91.7   1.6   1   1   6.8e-29   5.1e-27   89.9   1.5    34   278    36   279    27   294 0.89 Coatomer subunit beta' OS=Homo sapiens OX=9606 GN=COPB2 PE=1 SV=2
+sp|Q9ULV4|COR1C_HUMAN -            474 LIG_APCC_KENbox_2+CDC20_HUMAN+169+471_muscle -            298   3.6e-21   70.7   0.0   1   2   3.3e-16   2.4e-14   48.2   0.0   129   223    70   169    49   172 0.86 Coronin-1C OS=Homo sapiens OX=9606 GN=CORO1C PE=1 SV=1
+sp|Q9ULV4|COR1C_HUMAN -            474 LIG_APCC_KENbox_2+CDC20_HUMAN+169+471_muscle -            298   3.6e-21   70.7   0.0   2   2   1.1e-07     8e-06   20.3   0.0   137   236   172   275   167   302 0.79 Coronin-1C OS=Homo sapiens OX=9606 GN=CORO1C PE=1 SV=1
+sp|Q9BV38|WDR18_HUMAN -            432 LIG_APCC_KENbox_2+CDC20_HUMAN+169+471_muscle -            298   1.1e-17   59.2   0.0   1   1   5.2e-19   3.8e-17   57.4   0.0    72   298    54   297    43   297 0.76 WD repeat-containing protein 18 OS=Homo sapiens OX=9606 GN=WDR18 PE=1 SV=2
+sp|Q9NNW5|WDR6_HUMAN  -           1121 LIG_APCC_KENbox_2+CDC20_HUMAN+169+471_muscle -            298   9.1e-10   33.2   0.2   1   6    0.0003     0.022    9.0   0.0   104   169   168   239   114   264 0.66 WD repeat-containing protein 6 OS=Homo sapiens OX=9606 GN=WDR6 PE=1 SV=1
+sp|Q9NNW5|WDR6_HUMAN  -           1121 LIG_APCC_KENbox_2+CDC20_HUMAN+169+471_muscle -            298   9.1e-10   33.2   0.2   2   6   5.3e-05    0.0039   11.4   0.1   135   214   254   327   239   331 0.78 WD repeat-containing protein 6 OS=Homo sapiens OX=9606 GN=WDR6 PE=1 SV=1
+sp|Q9NNW5|WDR6_HUMAN  -           1121 LIG_APCC_KENbox_2+CDC20_HUMAN+169+471_muscle -            298   9.1e-10   33.2   0.2   3   6      0.34        25   -1.0   0.0    59    94   616   651   587   663 0.75 WD repeat-containing protein 6 OS=Homo sapiens OX=9606 GN=WDR6 PE=1 SV=1
+sp|Q9NNW5|WDR6_HUMAN  -           1121 LIG_APCC_KENbox_2+CDC20_HUMAN+169+471_muscle -            298   9.1e-10   33.2   0.2   4   6      0.16        12   -0.0   0.0   156   190   745   782   738   793 0.83 WD repeat-containing protein 6 OS=Homo sapiens OX=9606 GN=WDR6 PE=1 SV=1
+sp|Q9NNW5|WDR6_HUMAN  -           1121 LIG_APCC_KENbox_2+CDC20_HUMAN+169+471_muscle -            298   9.1e-10   33.2   0.2   5   6    0.0081       0.6    4.3   0.0   153   212   931  1010   867  1025 0.84 WD repeat-containing protein 6 OS=Homo sapiens OX=9606 GN=WDR6 PE=1 SV=1
+sp|Q9NNW5|WDR6_HUMAN  -           1121 LIG_APCC_KENbox_2+CDC20_HUMAN+169+471_muscle -            298   9.1e-10   33.2   0.2   6   6      0.43        32   -1.4   0.0   138   298  1044  1072  1029  1087 0.61 WD repeat-containing protein 6 OS=Homo sapiens OX=9606 GN=WDR6 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      domain_all/LIG_APCC_KENbox_2+CDC20_HUMAN+169+471.hmm
+# Target file:     H1_prot_fasta.fasta
+# Option settings: hmmsearch -o /home/bwadie/Hmmer_H1/all_outs/LIG_APCC_KENbox_2+CDC20_HUMAN+169+471.out --domtblout /home/bwadie/Hmmer_H1/domain_all_H1_domtblouts/LIG_APCC_KENbox_2+CDC20_HUMAN+169+471.txt -E 1 domain_all/LIG_APCC_KENbox_2+CDC20_HUMAN+169+471.hmm H1_prot_fasta.fasta 
+# Current dir:     /home/bwadie/Hmmer_H1
+# Date:            Wed Feb 10 00:37:28 2021
+# [ok]

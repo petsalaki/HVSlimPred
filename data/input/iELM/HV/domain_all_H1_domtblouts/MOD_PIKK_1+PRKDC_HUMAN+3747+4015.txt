@@ -1,0 +1,19 @@
+#                                                                                                --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name         accession   tlen query name                              accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+# ------------------- ---------- -----                    -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+sp|P78527|PRKDC_HUMAN -           4128 MOD_PIKK_1+PRKDC_HUMAN+3747+4015_muscle -            270  1.2e-135  446.4   0.0   1   1  2.5e-137  4.3e-135  444.5   0.0     1   270  3748  4015  3748  4015 0.99 DNA-dependent protein kinase catalytic subunit OS=Homo sapiens OX=9606 GN=PRKDC PE=1 SV=3
+sp|Q8NEB9|PK3C3_HUMAN -            887 MOD_PIKK_1+PRKDC_HUMAN+3747+4015_muscle -            270   1.4e-21   72.3   0.4   1   2   9.7e-10   1.7e-07   26.1   0.2     1    70   631   695   631   715 0.86 Phosphatidylinositol 3-kinase catalytic subunit type 3 OS=Homo sapiens OX=9606 GN=PIK3C3 PE=1 SV=1
+sp|Q8NEB9|PK3C3_HUMAN -            887 MOD_PIKK_1+PRKDC_HUMAN+3747+4015_muscle -            270   1.4e-21   72.3   0.4   2   2   3.8e-15   6.5e-13   43.9   0.0   157   259   723   822   716   830 0.76 Phosphatidylinositol 3-kinase catalytic subunit type 3 OS=Homo sapiens OX=9606 GN=PIK3C3 PE=1 SV=1
+sp|P42336|PK3CA_HUMAN -           1068 MOD_PIKK_1+PRKDC_HUMAN+3747+4015_muscle -            270   1.3e-17   59.3   2.6   1   3       1.3   2.3e+02   -3.8   0.0   233   250    24    41    15    50 0.74 Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit alpha isoform OS=Homo sapiens OX=9606 GN=PIK3CA PE=1 SV=2
+sp|P42336|PK3CA_HUMAN -           1068 MOD_PIKK_1+PRKDC_HUMAN+3747+4015_muscle -            270   1.3e-17   59.3   2.6   2   3     1e-05    0.0017   13.0   0.2     3    69   799   861   797   888 0.86 Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit alpha isoform OS=Homo sapiens OX=9606 GN=PIK3CA PE=1 SV=2
+sp|P42336|PK3CA_HUMAN -           1068 MOD_PIKK_1+PRKDC_HUMAN+3747+4015_muscle -            270   1.3e-17   59.3   2.6   3   3   1.2e-15   2.1e-13   45.5   0.0   154   226   892   964   867  1005 0.83 Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit alpha isoform OS=Homo sapiens OX=9606 GN=PIK3CA PE=1 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      domain_all/MOD_PIKK_1+PRKDC_HUMAN+3747+4015.hmm
+# Target file:     H1_prot_fasta.fasta
+# Option settings: hmmsearch -o /home/bwadie/Hmmer_H1/all_outs/MOD_PIKK_1+PRKDC_HUMAN+3747+4015.out --domtblout /home/bwadie/Hmmer_H1/domain_all_H1_domtblouts/MOD_PIKK_1+PRKDC_HUMAN+3747+4015.txt -E 1 domain_all/MOD_PIKK_1+PRKDC_HUMAN+3747+4015.hmm H1_prot_fasta.fasta 
+# Current dir:     /home/bwadie/Hmmer_H1
+# Date:            Wed Feb 10 00:38:09 2021
+# [ok]

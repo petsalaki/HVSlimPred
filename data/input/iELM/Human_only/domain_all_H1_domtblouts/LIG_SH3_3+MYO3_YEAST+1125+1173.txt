@@ -1,0 +1,20 @@
+#                                                                                              --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name         accession   tlen query name                            accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+# ------------------- ---------- -----                  -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+sp|O94875|SRBS2_HUMAN -           1100 LIG_SH3_3+MYO3_YEAST+1125+1173_muscle -             46   2.5e-25   82.4   0.0   1   3   3.4e-12   2.5e-10   34.3   0.0     1    45   870   913   870   914 0.97 Sorbin and SH3 domain-containing protein 2 OS=Homo sapiens OX=9606 GN=SORBS2 PE=1 SV=3
+sp|O94875|SRBS2_HUMAN -           1100 LIG_SH3_3+MYO3_YEAST+1125+1173_muscle -             46   2.5e-25   82.4   0.0   2   3   3.7e-08   2.8e-06   21.4   0.0     1    45   945   990   945   990 0.96 Sorbin and SH3 domain-containing protein 2 OS=Homo sapiens OX=9606 GN=SORBS2 PE=1 SV=3
+sp|O94875|SRBS2_HUMAN -           1100 LIG_SH3_3+MYO3_YEAST+1125+1173_muscle -             46   2.5e-25   82.4   0.0   3   3     2e-08   1.5e-06   22.3   0.0     1    35  1048  1082  1048  1085 0.95 Sorbin and SH3 domain-containing protein 2 OS=Homo sapiens OX=9606 GN=SORBS2 PE=1 SV=3
+sp|Q9BVN2|RUSC1_HUMAN -            902 LIG_SH3_3+MYO3_YEAST+1125+1173_muscle -             46   1.8e-05   18.8   0.0   1   2       1.4   1.1e+02   -2.9   0.1    28    36   779   787   779   790 0.85 RUN and SH3 domain-containing protein 1 OS=Homo sapiens OX=9606 GN=RUSC1 PE=1 SV=3
+sp|Q9BVN2|RUSC1_HUMAN -            902 LIG_SH3_3+MYO3_YEAST+1125+1173_muscle -             46   1.8e-05   18.8   0.0   2   2   1.1e-06   7.9e-05   16.8   0.0     1    45   851   894   851   894 0.97 RUN and SH3 domain-containing protein 1 OS=Homo sapiens OX=9606 GN=RUSC1 PE=1 SV=3
+sp|Q07912|ACK1_HUMAN  -           1038 LIG_SH3_3+MYO3_YEAST+1125+1173_muscle -             46     0.002   12.3   0.2   1   2   0.00017     0.013    9.7   0.0     9    37   401   430   398   439 0.87 Activated CDC42 kinase 1 OS=Homo sapiens OX=9606 GN=TNK2 PE=1 SV=3
+sp|Q07912|ACK1_HUMAN  -           1038 LIG_SH3_3+MYO3_YEAST+1125+1173_muscle -             46     0.002   12.3   0.2   2   2      0.32        24   -0.8   0.1    28    37   543   552   538   557 0.79 Activated CDC42 kinase 1 OS=Homo sapiens OX=9606 GN=TNK2 PE=1 SV=3
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      domain_all/LIG_SH3_3+MYO3_YEAST+1125+1173.hmm
+# Target file:     human_only_H1_Prot_fasta.fasta
+# Option settings: hmmsearch -o /home/bwadie/Hmmer_H1/human_slimfinder_HMM_outputs/all_outs/LIG_SH3_3+MYO3_YEAST+1125+1173.out --domtblout /home/bwadie/Hmmer_H1/human_slimfinder_HMM_outputs/domain_all_H1_domtblouts/LIG_SH3_3+MYO3_YEAST+1125+1173.txt -E 1 domain_all/LIG_SH3_3+MYO3_YEAST+1125+1173.hmm human_only_H1_Prot_fasta.fasta 
+# Current dir:     /home/bwadie/Hmmer_H1
+# Date:            Wed Mar 17 18:18:23 2021
+# [ok]

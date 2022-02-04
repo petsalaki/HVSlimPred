@@ -1,0 +1,18 @@
+#                                                                                                  --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name                                 accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- -----                       -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+sp|P52292|IMA1_HUMAN -            529 TRG_NLS_MonoExtN_4+IMA2_HUMAN+5+449_muscle -            443  2.3e-208  685.8   0.3   1   2  4.4e-210  3.3e-208  685.3   0.1     3   443     9   449     7   449 0.99 Importin subunit alpha-1 OS=Homo sapiens OX=9606 GN=KPNA2 PE=1 SV=1
+sp|P52292|IMA1_HUMAN -            529 TRG_NLS_MonoExtN_4+IMA2_HUMAN+5+449_muscle -            443  2.3e-208  685.8   0.3   2   2      0.52        39   -3.7   0.0   324   347   463   486   455   493 0.67 Importin subunit alpha-1 OS=Homo sapiens OX=9606 GN=KPNA2 PE=1 SV=1
+sp|O60684|IMA7_HUMAN -            536 TRG_NLS_MonoExtN_4+IMA2_HUMAN+5+449_muscle -            443  4.7e-184  605.7   0.7   1   1  7.9e-186  5.9e-184  605.4   0.7     5   443    11   450     8   450 0.96 Importin subunit alpha-7 OS=Homo sapiens OX=9606 GN=KPNA6 PE=1 SV=1
+sp|O00629|IMA3_HUMAN -            521 TRG_NLS_MonoExtN_4+IMA2_HUMAN+5+449_muscle -            443  4.3e-175  576.2   3.3   1   2  5.7e-177  4.3e-175  576.2   3.3     5   443     9   440     5   440 0.97 Importin subunit alpha-3 OS=Homo sapiens OX=9606 GN=KPNA4 PE=1 SV=1
+sp|O00629|IMA3_HUMAN -            521 TRG_NLS_MonoExtN_4+IMA2_HUMAN+5+449_muscle -            443  4.3e-175  576.2   3.3   2   2      0.18        13   -2.2   0.0   325   348   453   476   445   483 0.77 Importin subunit alpha-3 OS=Homo sapiens OX=9606 GN=KPNA4 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      domain_all/TRG_NLS_MonoExtN_4+IMA2_HUMAN+5+449.hmm
+# Target file:     human_only_H1_Prot_fasta.fasta
+# Option settings: hmmsearch -o /home/bwadie/Hmmer_H1/human_slimfinder_HMM_outputs/all_outs/TRG_NLS_MonoExtN_4+IMA2_HUMAN+5+449.out --domtblout /home/bwadie/Hmmer_H1/human_slimfinder_HMM_outputs/domain_all_H1_domtblouts/TRG_NLS_MonoExtN_4+IMA2_HUMAN+5+449.txt -E 1 domain_all/TRG_NLS_MonoExtN_4+IMA2_HUMAN+5+449.hmm human_only_H1_Prot_fasta.fasta 
+# Current dir:     /home/bwadie/Hmmer_H1
+# Date:            Wed Mar 17 18:18:42 2021
+# [ok]

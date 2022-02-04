@@ -1,0 +1,32 @@
+#                                                                                                  --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name         accession   tlen query name                                accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+# ------------------- ---------- -----                      -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+sp|Q12959|DLG1_HUMAN  -            904 LIG_PDZ_Class_1+MPDZ_HUMAN+257+334_muscle -             77   9.2e-35  114.0  11.2   1   3   5.6e-13   3.6e-11   38.4   0.4     1    76   225   307   225   308 0.88 Disks large homolog 1 OS=Homo sapiens OX=9606 GN=DLG1 PE=1 SV=2
+sp|Q12959|DLG1_HUMAN  -            904 LIG_PDZ_Class_1+MPDZ_HUMAN+257+334_muscle -             77   9.2e-35  114.0  11.2   2   3   2.3e-10   1.5e-08   30.0   0.2     1    76   320   402   320   403 0.85 Disks large homolog 1 OS=Homo sapiens OX=9606 GN=DLG1 PE=1 SV=2
+sp|Q12959|DLG1_HUMAN  -            904 LIG_PDZ_Class_1+MPDZ_HUMAN+257+334_muscle -             77   9.2e-35  114.0  11.2   3   3   4.3e-17   2.8e-15   51.6   0.7     3    75   469   542   467   544 0.94 Disks large homolog 1 OS=Homo sapiens OX=9606 GN=DLG1 PE=1 SV=2
+sp|Q8TBB1|LNX1_HUMAN  -            728 LIG_PDZ_Class_1+MPDZ_HUMAN+257+334_muscle -             77   3.3e-32  105.8   1.8   1   4   1.9e-07   1.2e-05   20.7   0.0     8    70   284   349   277   356 0.83 E3 ubiquitin-protein ligase LNX OS=Homo sapiens OX=9606 GN=LNX1 PE=1 SV=1
+sp|Q8TBB1|LNX1_HUMAN  -            728 LIG_PDZ_Class_1+MPDZ_HUMAN+257+334_muscle -             77   3.3e-32  105.8   1.8   2   4   9.2e-10   5.9e-08   28.1   0.0    20    77   404   461   391   461 0.94 E3 ubiquitin-protein ligase LNX OS=Homo sapiens OX=9606 GN=LNX1 PE=1 SV=1
+sp|Q8TBB1|LNX1_HUMAN  -            728 LIG_PDZ_Class_1+MPDZ_HUMAN+257+334_muscle -             77   3.3e-32  105.8   1.8   3   4   6.3e-08     4e-06   22.2   0.1     7    69   515   583   508   588 0.79 E3 ubiquitin-protein ligase LNX OS=Homo sapiens OX=9606 GN=LNX1 PE=1 SV=1
+sp|Q8TBB1|LNX1_HUMAN  -            728 LIG_PDZ_Class_1+MPDZ_HUMAN+257+334_muscle -             77   3.3e-32  105.8   1.8   4   4   1.1e-10     7e-09   31.1   0.0     5    76   644   720   639   721 0.86 E3 ubiquitin-protein ligase LNX OS=Homo sapiens OX=9606 GN=LNX1 PE=1 SV=1
+sp|Q14160|SCRIB_HUMAN -           1630 LIG_PDZ_Class_1+MPDZ_HUMAN+257+334_muscle -             77     5e-21   70.0   7.7   1   4   1.7e-05    0.0011   14.4   0.4     4    75   732   810   729   812 0.86 Protein scribble homolog OS=Homo sapiens OX=9606 GN=SCRIB PE=1 SV=4
+sp|Q14160|SCRIB_HUMAN -           1630 LIG_PDZ_Class_1+MPDZ_HUMAN+257+334_muscle -             77     5e-21   70.0   7.7   2   4   8.9e-09   5.8e-07   24.9   0.1     6    75   868   945   864   947 0.82 Protein scribble homolog OS=Homo sapiens OX=9606 GN=SCRIB PE=1 SV=4
+sp|Q14160|SCRIB_HUMAN -           1630 LIG_PDZ_Class_1+MPDZ_HUMAN+257+334_muscle -             77     5e-21   70.0   7.7   3   4   5.5e-05    0.0035   12.8   0.1     3    69  1007  1083  1005  1089 0.74 Protein scribble homolog OS=Homo sapiens OX=9606 GN=SCRIB PE=1 SV=4
+sp|Q14160|SCRIB_HUMAN -           1630 LIG_PDZ_Class_1+MPDZ_HUMAN+257+334_muscle -             77     5e-21   70.0   7.7   4   4   7.1e-07   4.6e-05   18.9   0.0    20    76  1132  1188  1124  1189 0.95 Protein scribble homolog OS=Homo sapiens OX=9606 GN=SCRIB PE=1 SV=4
+sp|Q9UDY2|ZO2_HUMAN   -           1190 LIG_PDZ_Class_1+MPDZ_HUMAN+257+334_muscle -             77   2.5e-14   48.5   6.9   1   3   0.00044     0.029    9.9   0.1     8    76    42   116    34   117 0.75 Tight junction protein ZO-2 OS=Homo sapiens OX=9606 GN=TJP2 PE=1 SV=2
+sp|Q9UDY2|ZO2_HUMAN   -           1190 LIG_PDZ_Class_1+MPDZ_HUMAN+257+334_muscle -             77   2.5e-14   48.5   6.9   2   3     1e-06   6.4e-05   18.4   0.1    22    76   327   381   320   382 0.92 Tight junction protein ZO-2 OS=Homo sapiens OX=9606 GN=TJP2 PE=1 SV=2
+sp|Q9UDY2|ZO2_HUMAN   -           1190 LIG_PDZ_Class_1+MPDZ_HUMAN+257+334_muscle -             77   2.5e-14   48.5   6.9   3   3   5.7e-08   3.7e-06   22.4   0.2     7    59   518   569   514   584 0.90 Tight junction protein ZO-2 OS=Homo sapiens OX=9606 GN=TJP2 PE=1 SV=2
+sp|O00560|SDCB1_HUMAN -            298 LIG_PDZ_Class_1+MPDZ_HUMAN+257+334_muscle -             77   5.6e-10   34.6   1.6   1   2   2.1e-06   0.00014   17.3   0.0    21    75   135   189   123   191 0.79 Syntenin-1 OS=Homo sapiens OX=9606 GN=SDCBP PE=1 SV=1
+sp|O00560|SDCB1_HUMAN -            298 LIG_PDZ_Class_1+MPDZ_HUMAN+257+334_muscle -             77   5.6e-10   34.6   1.6   2   2   4.1e-06   0.00027   16.4   0.3    23    76   217   269   199   270 0.85 Syntenin-1 OS=Homo sapiens OX=9606 GN=SDCBP PE=1 SV=1
+sp|O14641|DVL2_HUMAN  -            736 LIG_PDZ_Class_1+MPDZ_HUMAN+257+334_muscle -             77   8.7e-10   34.0   0.2   1   1   2.7e-11   1.7e-09   33.0   0.2    10    68   278   340   269   348 0.88 Segment polarity protein dishevelled homolog DVL-2 OS=Homo sapiens OX=9606 GN=DVL2 PE=1 SV=1
+sp|Q92997|DVL3_HUMAN  -            716 LIG_PDZ_Class_1+MPDZ_HUMAN+257+334_muscle -             77   1.5e-09   33.3   0.1   1   1   4.8e-11   3.1e-09   32.2   0.1    10    68   260   322   251   329 0.89 Segment polarity protein dishevelled homolog DVL-3 OS=Homo sapiens OX=9606 GN=DVL3 PE=1 SV=2
+sp|Q00013|EM55_HUMAN  -            466 LIG_PDZ_Class_1+MPDZ_HUMAN+257+334_muscle -             77   1.1e-05   20.8   0.4   1   1   3.6e-07   2.3e-05   19.8   0.4    22    74    94   146    82   149 0.90 55 kDa erythrocyte membrane protein OS=Homo sapiens OX=9606 GN=MPP1 PE=1 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      domain_all/LIG_PDZ_Class_1+MPDZ_HUMAN+257+334.hmm
+# Target file:     H1_prot_fasta.fasta
+# Option settings: hmmsearch -o /home/bwadie/Hmmer_H1/all_outs/LIG_PDZ_Class_1+MPDZ_HUMAN+257+334.out --domtblout /home/bwadie/Hmmer_H1/domain_all_H1_domtblouts/LIG_PDZ_Class_1+MPDZ_HUMAN+257+334.txt -E 1 domain_all/LIG_PDZ_Class_1+MPDZ_HUMAN+257+334.hmm H1_prot_fasta.fasta 
+# Current dir:     /home/bwadie/Hmmer_H1
+# Date:            Wed Feb 10 00:37:47 2021
+# [ok]

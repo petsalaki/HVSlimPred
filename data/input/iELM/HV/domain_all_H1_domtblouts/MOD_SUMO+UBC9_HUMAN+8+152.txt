@@ -1,0 +1,14 @@
+#                                                                                        --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name                       accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- -----             -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+sp|P63279|UBC9_HUMAN -            158 MOD_SUMO+UBC9_HUMAN+8+152_muscle -            144     3e-82  268.5   0.2   1   1   6.5e-85   3.4e-82  268.3   0.2     1   144     9   152     9   152 0.99 SUMO-conjugating enzyme UBC9 OS=Homo sapiens OX=9606 GN=UBE2I PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      domain_all/MOD_SUMO+UBC9_HUMAN+8+152.hmm
+# Target file:     H1_prot_fasta.fasta
+# Option settings: hmmsearch -o /home/bwadie/Hmmer_H1/all_outs/MOD_SUMO+UBC9_HUMAN+8+152.out --domtblout /home/bwadie/Hmmer_H1/domain_all_H1_domtblouts/MOD_SUMO+UBC9_HUMAN+8+152.txt -E 1 domain_all/MOD_SUMO+UBC9_HUMAN+8+152.hmm H1_prot_fasta.fasta 
+# Current dir:     /home/bwadie/Hmmer_H1
+# Date:            Wed Feb 10 00:38:10 2021
+# [ok]

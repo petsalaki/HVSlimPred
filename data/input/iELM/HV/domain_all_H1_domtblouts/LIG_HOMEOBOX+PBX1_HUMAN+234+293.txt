@@ -1,0 +1,17 @@
+#                                                                                               --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name         accession   tlen query name                             accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+# ------------------- ---------- -----                   -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+sp|O43186|CRX_HUMAN   -            299 LIG_HOMEOBOX+PBX1_HUMAN+234+293_muscle -             59   0.00012   17.1   0.5   1   2     0.063        16    0.6   0.0    21    34    27    40    25    55 0.72 Cone-rod homeobox protein OS=Homo sapiens OX=9606 GN=CRX PE=1 SV=1
+sp|O43186|CRX_HUMAN   -            299 LIG_HOMEOBOX+PBX1_HUMAN+234+293_muscle -             59   0.00012   17.1   0.5   2   2     3e-06   0.00078   14.5   0.1    24    56    61    93    41    96 0.83 Cone-rod homeobox protein OS=Homo sapiens OX=9606 GN=CRX PE=1 SV=1
+sp|Q6NT76|HMBX1_HUMAN -            420 LIG_HOMEOBOX+PBX1_HUMAN+234+293_muscle -             59    0.0029   12.6   7.7   1   2      0.06        15    0.7   0.1    35    50   191   206   160   209 0.67 Homeobox-containing protein 1 OS=Homo sapiens OX=9606 GN=HMBOX1 PE=1 SV=1
+sp|Q6NT76|HMBX1_HUMAN -            420 LIG_HOMEOBOX+PBX1_HUMAN+234+293_muscle -             59    0.0029   12.6   7.7   2   2   0.00081      0.21    6.7   4.4     7    44   275   309   269   339 0.64 Homeobox-containing protein 1 OS=Homo sapiens OX=9606 GN=HMBOX1 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      domain_all/LIG_HOMEOBOX+PBX1_HUMAN+234+293.hmm
+# Target file:     H1_prot_fasta.fasta
+# Option settings: hmmsearch -o /home/bwadie/Hmmer_H1/all_outs/LIG_HOMEOBOX+PBX1_HUMAN+234+293.out --domtblout /home/bwadie/Hmmer_H1/domain_all_H1_domtblouts/LIG_HOMEOBOX+PBX1_HUMAN+234+293.txt -E 1 domain_all/LIG_HOMEOBOX+PBX1_HUMAN+234+293.hmm H1_prot_fasta.fasta 
+# Current dir:     /home/bwadie/Hmmer_H1
+# Date:            Wed Feb 10 00:37:39 2021
+# [ok]

@@ -1,0 +1,19 @@
+#                                                                                       --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name         accession   tlen query name                     accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+# ------------------- ---------- -----           -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+sp|Q7L5N7|PCAT2_HUMAN -            544 LIG_IQ+CALM_HUMAN+12+40_muscle -             28   1.1e-09   32.7   0.4   1   2   2.8e-05    0.0073   10.9   0.0     4    16   399   411   397   415 0.84 Lysophosphatidylcholine acyltransferase 2 OS=Homo sapiens OX=9606 GN=LPCAT2 PE=1 SV=1
+sp|Q7L5N7|PCAT2_HUMAN -            544 LIG_IQ+CALM_HUMAN+12+40_muscle -             28   1.1e-09   32.7   0.4   2   2   5.7e-08   1.5e-05   19.5   0.1     4    24   436   456   433   459 0.92 Lysophosphatidylcholine acyltransferase 2 OS=Homo sapiens OX=9606 GN=LPCAT2 PE=1 SV=1
+sp|Q15293|RCN1_HUMAN  -            331 LIG_IQ+CALM_HUMAN+12+40_muscle -             28     0.001   13.6   0.3   1   4     4e-06     0.001   13.6   0.3     9    23    92   106    91   107 0.93 Reticulocalbin-1 OS=Homo sapiens OX=9606 GN=RCN1 PE=1 SV=1
+sp|Q15293|RCN1_HUMAN  -            331 LIG_IQ+CALM_HUMAN+12+40_muscle -             28     0.001   13.6   0.3   2   4      0.24        62   -1.7   0.1     8    18   127   137   127   139 0.76 Reticulocalbin-1 OS=Homo sapiens OX=9606 GN=RCN1 PE=1 SV=1
+sp|Q15293|RCN1_HUMAN  -            331 LIG_IQ+CALM_HUMAN+12+40_muscle -             28     0.001   13.6   0.3   3   4     0.051        13    0.5   0.9     9    14   216   221   215   226 0.90 Reticulocalbin-1 OS=Homo sapiens OX=9606 GN=RCN1 PE=1 SV=1
+sp|Q15293|RCN1_HUMAN  -            331 LIG_IQ+CALM_HUMAN+12+40_muscle -             28     0.001   13.6   0.3   4   4      0.81   2.1e+02   -3.4   0.2     9    19   293   303   292   304 0.68 Reticulocalbin-1 OS=Homo sapiens OX=9606 GN=RCN1 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      domain_all/LIG_IQ+CALM_HUMAN+12+40.hmm
+# Target file:     H1_prot_fasta.fasta
+# Option settings: hmmsearch -o /home/bwadie/Hmmer_H1/all_outs/LIG_IQ+CALM_HUMAN+12+40.out --domtblout /home/bwadie/Hmmer_H1/domain_all_H1_domtblouts/LIG_IQ+CALM_HUMAN+12+40.txt -E 1 domain_all/LIG_IQ+CALM_HUMAN+12+40.hmm H1_prot_fasta.fasta 
+# Current dir:     /home/bwadie/Hmmer_H1
+# Date:            Wed Feb 10 00:37:40 2021
+# [ok]

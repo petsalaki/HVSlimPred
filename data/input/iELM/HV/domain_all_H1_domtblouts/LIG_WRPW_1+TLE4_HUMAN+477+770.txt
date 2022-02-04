@@ -1,0 +1,34 @@
+#                                                                                             --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name         accession   tlen query name                           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+# ------------------- ---------- -----                 -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+sp|P63244|RACK1_HUMAN -            317 LIG_WRPW_1+TLE4_HUMAN+477+770_muscle -            293   9.4e-25   82.6   6.3   1   3   2.1e-11   1.8e-09   32.4   0.4    78   171    38   134    21   159 0.82 Receptor of activated protein C kinase 1 OS=Homo sapiens OX=9606 GN=RACK1 PE=1 SV=3
+sp|P63244|RACK1_HUMAN -            317 LIG_WRPW_1+TLE4_HUMAN+477+770_muscle -            293   9.4e-25   82.6   6.3   2   3     1e-16     9e-15   49.8   1.5    60   200   109   250   104   256 0.92 Receptor of activated protein C kinase 1 OS=Homo sapiens OX=9606 GN=RACK1 PE=1 SV=3
+sp|P63244|RACK1_HUMAN -            317 LIG_WRPW_1+TLE4_HUMAN+477+770_muscle -            293   9.4e-25   82.6   6.3   3   3   1.4e-05    0.0012   13.3   0.1   119   172   250   313   247   317 0.55 Receptor of activated protein C kinase 1 OS=Homo sapiens OX=9606 GN=RACK1 PE=1 SV=3
+sp|Q9UKB1|FBW1B_HUMAN -            542 LIG_WRPW_1+TLE4_HUMAN+477+770_muscle -            293   8.2e-21   69.7   7.5   1   3   1.5e-09   1.3e-07   26.4   0.5   102   179   242   315   227   330 0.81 F-box/WD repeat-containing protein 11 OS=Homo sapiens OX=9606 GN=FBXW11 PE=1 SV=1
+sp|Q9UKB1|FBW1B_HUMAN -            542 LIG_WRPW_1+TLE4_HUMAN+477+770_muscle -            293   8.2e-21   69.7   7.5   2   3   1.3e-11   1.2e-09   33.1   1.5    74   176   336   435   325   443 0.82 F-box/WD repeat-containing protein 11 OS=Homo sapiens OX=9606 GN=FBXW11 PE=1 SV=1
+sp|Q9UKB1|FBW1B_HUMAN -            542 LIG_WRPW_1+TLE4_HUMAN+477+770_muscle -            293   8.2e-21   69.7   7.5   3   3   7.8e-05    0.0067   10.9   0.0    18    95   449   529   438   539 0.70 F-box/WD repeat-containing protein 11 OS=Homo sapiens OX=9606 GN=FBXW11 PE=1 SV=1
+sp|Q9Y297|FBW1A_HUMAN -            605 LIG_WRPW_1+TLE4_HUMAN+477+770_muscle -            293   1.8e-19   65.3   8.6   1   4     6e-09   5.2e-07   24.4   0.6   103   178   306   377   290   384 0.83 F-box/WD repeat-containing protein 1A OS=Homo sapiens OX=9606 GN=BTRC PE=1 SV=1
+sp|Q9Y297|FBW1A_HUMAN -            605 LIG_WRPW_1+TLE4_HUMAN+477+770_muscle -            293   1.8e-19   65.3   8.6   2   4   2.3e-12     2e-10   35.6   0.9    71   176   396   498   381   506 0.83 F-box/WD repeat-containing protein 1A OS=Homo sapiens OX=9606 GN=BTRC PE=1 SV=1
+sp|Q9Y297|FBW1A_HUMAN -            605 LIG_WRPW_1+TLE4_HUMAN+477+770_muscle -            293   1.8e-19   65.3   8.6   3   4   8.1e-08     7e-06   20.7   0.1   113   173   477   535   473   543 0.92 F-box/WD repeat-containing protein 1A OS=Homo sapiens OX=9606 GN=BTRC PE=1 SV=1
+sp|Q9Y297|FBW1A_HUMAN -            605 LIG_WRPW_1+TLE4_HUMAN+477+770_muscle -            293   1.8e-19   65.3   8.6   4   4     0.001      0.09    7.2   0.0    18    86   512   583   501   592 0.59 F-box/WD repeat-containing protein 1A OS=Homo sapiens OX=9606 GN=BTRC PE=1 SV=1
+sp|Q9BV38|WDR18_HUMAN -            432 LIG_WRPW_1+TLE4_HUMAN+477+770_muscle -            293   2.1e-17   58.5   1.2   1   3   1.9e-09   1.6e-07   26.0   0.1   123   252    19   149     3   159 0.84 WD repeat-containing protein 18 OS=Homo sapiens OX=9606 GN=WDR18 PE=1 SV=2
+sp|Q9BV38|WDR18_HUMAN -            432 LIG_WRPW_1+TLE4_HUMAN+477+770_muscle -            293   2.1e-17   58.5   1.2   2   3    0.0086      0.74    4.2   0.0   156   196   188   228   183   251 0.82 WD repeat-containing protein 18 OS=Homo sapiens OX=9606 GN=WDR18 PE=1 SV=2
+sp|Q9BV38|WDR18_HUMAN -            432 LIG_WRPW_1+TLE4_HUMAN+477+770_muscle -            293   2.1e-17   58.5   1.2   3   3   2.8e-09   2.4e-07   25.4   0.0   136   177   263   304   254   315 0.88 WD repeat-containing protein 18 OS=Homo sapiens OX=9606 GN=WDR18 PE=1 SV=2
+sp|P35606|COPB2_HUMAN -            906 LIG_WRPW_1+TLE4_HUMAN+477+770_muscle -            293   4.4e-16   54.1   1.2   1   4     0.027       2.3    2.5   0.0    92   139     7    54     4    57 0.92 Coatomer subunit beta' OS=Homo sapiens OX=9606 GN=COPB2 PE=1 SV=2
+sp|P35606|COPB2_HUMAN -            906 LIG_WRPW_1+TLE4_HUMAN+477+770_muscle -            293   4.4e-16   54.1   1.2   2   4   1.3e-08   1.1e-06   23.3   0.2    32   172    38   173    36   178 0.84 Coatomer subunit beta' OS=Homo sapiens OX=9606 GN=COPB2 PE=1 SV=2
+sp|P35606|COPB2_HUMAN -            906 LIG_WRPW_1+TLE4_HUMAN+477+770_muscle -            293   4.4e-16   54.1   1.2   3   4   3.6e-07   3.1e-05   18.5   0.1    56   156    99   199    97   210 0.82 Coatomer subunit beta' OS=Homo sapiens OX=9606 GN=COPB2 PE=1 SV=2
+sp|P35606|COPB2_HUMAN -            906 LIG_WRPW_1+TLE4_HUMAN+477+770_muscle -            293   4.4e-16   54.1   1.2   4   4   4.7e-09   4.1e-07   24.7   0.1   114   182   201   269   190   303 0.78 Coatomer subunit beta' OS=Homo sapiens OX=9606 GN=COPB2 PE=1 SV=2
+sp|Q9NNW5|WDR6_HUMAN  -           1121 LIG_WRPW_1+TLE4_HUMAN+477+770_muscle -            293   5.1e-06   21.1   0.2   1   4    0.0015      0.13    6.6   0.1   112   172   268   328   209   339 0.75 WD repeat-containing protein 6 OS=Homo sapiens OX=9606 GN=WDR6 PE=1 SV=1
+sp|Q9NNW5|WDR6_HUMAN  -           1121 LIG_WRPW_1+TLE4_HUMAN+477+770_muscle -            293   5.1e-06   21.1   0.2   2   4   0.00013     0.011   10.1   0.0    18   127   575   682   563   689 0.74 WD repeat-containing protein 6 OS=Homo sapiens OX=9606 GN=WDR6 PE=1 SV=1
+sp|Q9NNW5|WDR6_HUMAN  -           1121 LIG_WRPW_1+TLE4_HUMAN+477+770_muscle -            293   5.1e-06   21.1   0.2   3   4       1.1        92   -2.7   0.0   115   139   879   903   875   913 0.82 WD repeat-containing protein 6 OS=Homo sapiens OX=9606 GN=WDR6 PE=1 SV=1
+sp|Q9NNW5|WDR6_HUMAN  -           1121 LIG_WRPW_1+TLE4_HUMAN+477+770_muscle -            293   5.1e-06   21.1   0.2   4   4         1        89   -2.7   0.0   115   131   932   948   925   951 0.78 WD repeat-containing protein 6 OS=Homo sapiens OX=9606 GN=WDR6 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      domain_all/LIG_WRPW_1+TLE4_HUMAN+477+770.hmm
+# Target file:     H1_prot_fasta.fasta
+# Option settings: hmmsearch -o /home/bwadie/Hmmer_H1/all_outs/LIG_WRPW_1+TLE4_HUMAN+477+770.out --domtblout /home/bwadie/Hmmer_H1/domain_all_H1_domtblouts/LIG_WRPW_1+TLE4_HUMAN+477+770.txt -E 1 domain_all/LIG_WRPW_1+TLE4_HUMAN+477+770.hmm H1_prot_fasta.fasta 
+# Current dir:     /home/bwadie/Hmmer_H1
+# Date:            Wed Feb 10 00:38:04 2021
+# [ok]

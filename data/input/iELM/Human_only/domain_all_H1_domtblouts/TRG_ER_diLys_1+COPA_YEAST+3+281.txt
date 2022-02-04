@@ -1,0 +1,26 @@
+#                                                                                               --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name         accession   tlen query name                             accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+# ------------------- ---------- -----                   -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+sp|O43660|PLRG1_HUMAN -            514 TRG_ER_diLys_1+COPA_YEAST+3+281_muscle -            275   4.5e-56  183.9  12.7   1   3   4.2e-28   2.3e-26   86.4   0.7    47   164   201   318   194   322 0.97 Pleiotropic regulator 1 OS=Homo sapiens OX=9606 GN=PLRG1 PE=1 SV=1
+sp|O43660|PLRG1_HUMAN -            514 TRG_ER_diLys_1+COPA_YEAST+3+281_muscle -            275   4.5e-56  183.9  12.7   2   3     1e-26   5.7e-25   81.9   1.4    49   165   245   361   244   367 0.97 Pleiotropic regulator 1 OS=Homo sapiens OX=9606 GN=PLRG1 PE=1 SV=1
+sp|O43660|PLRG1_HUMAN -            514 TRG_ER_diLys_1+COPA_YEAST+3+281_muscle -            275   4.5e-56  183.9  12.7   3   3   1.9e-13   1.1e-11   38.3   0.1    46   163   368   491   363   507 0.83 Pleiotropic regulator 1 OS=Homo sapiens OX=9606 GN=PLRG1 PE=1 SV=1
+sp|Q9Y297|FBW1A_HUMAN -            605 TRG_ER_diLys_1+COPA_YEAST+3+281_muscle -            275   2.2e-46  152.1  16.8   1   4   2.5e-17   1.4e-15   51.1   1.1    55   164   308   411   294   415 0.88 F-box/WD repeat-containing protein 1A OS=Homo sapiens OX=9606 GN=BTRC PE=1 SV=1
+sp|Q9Y297|FBW1A_HUMAN -            605 TRG_ER_diLys_1+COPA_YEAST+3+281_muscle -            275   2.2e-46  152.1  16.8   2   4   2.2e-21   1.2e-19   64.4   2.2    61   164   392   494   375   497 0.86 F-box/WD repeat-containing protein 1A OS=Homo sapiens OX=9606 GN=BTRC PE=1 SV=1
+sp|Q9Y297|FBW1A_HUMAN -            605 TRG_ER_diLys_1+COPA_YEAST+3+281_muscle -            275   2.2e-46  152.1  16.8   3   4   2.8e-14   1.6e-12   41.1   0.0   106   164   478   534   475   545 0.92 F-box/WD repeat-containing protein 1A OS=Homo sapiens OX=9606 GN=BTRC PE=1 SV=1
+sp|Q9Y297|FBW1A_HUMAN -            605 TRG_ER_diLys_1+COPA_YEAST+3+281_muscle -            275   2.2e-46  152.1  16.8   4   4     3e-10   1.7e-08   27.9   0.1    42   123   498   584   496   589 0.77 F-box/WD repeat-containing protein 1A OS=Homo sapiens OX=9606 GN=BTRC PE=1 SV=1
+sp|Q9Y263|PLAP_HUMAN  -            795 TRG_ER_diLys_1+COPA_YEAST+3+281_muscle -            275   4.9e-31  101.8   0.0   1   3   6.5e-07   3.6e-05   16.9   0.0   197   262    11    79     2    81 0.73 Phospholipase A-2-activating protein OS=Homo sapiens OX=9606 GN=PLAA PE=1 SV=2
+sp|Q9Y263|PLAP_HUMAN  -            795 TRG_ER_diLys_1+COPA_YEAST+3+281_muscle -            275   4.9e-31  101.8   0.0   2   3   3.7e-15   2.1e-13   44.0   0.0    64   163    84   180    79   186 0.93 Phospholipase A-2-activating protein OS=Homo sapiens OX=9606 GN=PLAA PE=1 SV=2
+sp|Q9Y263|PLAP_HUMAN  -            795 TRG_ER_diLys_1+COPA_YEAST+3+281_muscle -            275   4.9e-31  101.8   0.0   3   3   3.4e-13   1.9e-11   37.5   0.0    45   179   186   316   180   335 0.78 Phospholipase A-2-activating protein OS=Homo sapiens OX=9606 GN=PLAA PE=1 SV=2
+sp|Q9BUR4|TCAB1_HUMAN -            548 TRG_ER_diLys_1+COPA_YEAST+3+281_muscle -            275   4.4e-08   26.5   0.0   1   3      0.15       8.6   -0.7   0.0    97   120   174   197   160   203 0.61 Telomerase Cajal body protein 1 OS=Homo sapiens OX=9606 GN=WRAP53 PE=1 SV=1
+sp|Q9BUR4|TCAB1_HUMAN -            548 TRG_ER_diLys_1+COPA_YEAST+3+281_muscle -            275   4.4e-08   26.5   0.0   2   3     0.011      0.62    3.1   0.0   102   136   240   274   225   313 0.67 Telomerase Cajal body protein 1 OS=Homo sapiens OX=9606 GN=WRAP53 PE=1 SV=1
+sp|Q9BUR4|TCAB1_HUMAN -            548 TRG_ER_diLys_1+COPA_YEAST+3+281_muscle -            275   4.4e-08   26.5   0.0   3   3   1.8e-07   9.9e-06   18.8   0.0    42   164   317   443   309   454 0.77 Telomerase Cajal body protein 1 OS=Homo sapiens OX=9606 GN=WRAP53 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      domain_all/TRG_ER_diLys_1+COPA_YEAST+3+281.hmm
+# Target file:     human_only_H1_Prot_fasta.fasta
+# Option settings: hmmsearch -o /home/bwadie/Hmmer_H1/human_slimfinder_HMM_outputs/all_outs/TRG_ER_diLys_1+COPA_YEAST+3+281.out --domtblout /home/bwadie/Hmmer_H1/human_slimfinder_HMM_outputs/domain_all_H1_domtblouts/TRG_ER_diLys_1+COPA_YEAST+3+281.txt -E 1 domain_all/TRG_ER_diLys_1+COPA_YEAST+3+281.hmm human_only_H1_Prot_fasta.fasta 
+# Current dir:     /home/bwadie/Hmmer_H1
+# Date:            Wed Mar 17 18:18:41 2021
+# [ok]

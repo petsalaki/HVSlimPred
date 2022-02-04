@@ -1,0 +1,14 @@
+#                                                                                              --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name                             accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- -----                   -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+sp|Q9UJY5|GGA1_HUMAN -            639 LIG_AP_GAE_1+GGA2_YEAST+471+583_muscle -            108   6.8e-38  124.0   0.0   1   1   2.5e-40   1.3e-37  123.1   0.0     1   107   515   625   515   626 0.98 ADP-ribosylation factor-binding protein GGA1 OS=Homo sapiens OX=9606 GN=GGA1 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      domain_all/LIG_AP_GAE_1+GGA2_YEAST+471+583.hmm
+# Target file:     H1_prot_fasta.fasta
+# Option settings: hmmsearch -o /home/bwadie/Hmmer_H1/all_outs/LIG_AP_GAE_1+GGA2_YEAST+471+583.out --domtblout /home/bwadie/Hmmer_H1/domain_all_H1_domtblouts/LIG_AP_GAE_1+GGA2_YEAST+471+583.txt -E 1 domain_all/LIG_AP_GAE_1+GGA2_YEAST+471+583.hmm H1_prot_fasta.fasta 
+# Current dir:     /home/bwadie/Hmmer_H1
+# Date:            Wed Feb 10 00:37:28 2021
+# [ok]

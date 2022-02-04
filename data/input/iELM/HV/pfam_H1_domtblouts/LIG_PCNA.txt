@@ -1,0 +1,14 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+sp|P12004|PCNA_HUMAN -            261 PCNA_C               PF02747.8    128   3.2e-69  226.0   0.0   1   1     1e-71   5.3e-69  225.3   0.0     1   128   127   254   127   254 0.99 Proliferating cell nuclear antigen OS=Homo sapiens OX=9606 GN=PCNA PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      pfam_hmms/LIG_PCNA.hmm
+# Target file:     H1_prot_fasta.fasta
+# Option settings: hmmsearch -o /home/bwadie/Hmmer_H1/all_outs/LIG_PCNA.out --domtblout /home/bwadie/Hmmer_H1/pfam_H1_domtblouts/LIG_PCNA.txt -E 1 pfam_hmms/LIG_PCNA.hmm H1_prot_fasta.fasta 
+# Current dir:     /home/bwadie/Hmmer_H1
+# Date:            Wed Feb 10 00:37:20 2021
+# [ok]

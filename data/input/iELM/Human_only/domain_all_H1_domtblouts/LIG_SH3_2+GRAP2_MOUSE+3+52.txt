@@ -1,0 +1,19 @@
+#                                                                                          --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name         accession   tlen query name                        accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+# ------------------- ---------- -----              -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+sp|O94875|SRBS2_HUMAN -           1100 LIG_SH3_2+GRAP2_MOUSE+3+52_muscle -             49   3.5e-24   78.3   0.8   1   4      0.56        42   -2.0   0.0    25    34    91   100    87   103 0.79 Sorbin and SH3 domain-containing protein 2 OS=Homo sapiens OX=9606 GN=SORBS2 PE=1 SV=3
+sp|O94875|SRBS2_HUMAN -           1100 LIG_SH3_2+GRAP2_MOUSE+3+52_muscle -             49   3.5e-24   78.3   0.8   2   4   1.2e-13   9.3e-12   38.6   0.1     2    49   870   918   869   918 0.92 Sorbin and SH3 domain-containing protein 2 OS=Homo sapiens OX=9606 GN=SORBS2 PE=1 SV=3
+sp|O94875|SRBS2_HUMAN -           1100 LIG_SH3_2+GRAP2_MOUSE+3+52_muscle -             49   3.5e-24   78.3   0.8   3   4   1.3e-08   9.4e-07   22.5   0.0     1    49   944   995   944   995 0.84 Sorbin and SH3 domain-containing protein 2 OS=Homo sapiens OX=9606 GN=SORBS2 PE=1 SV=3
+sp|O94875|SRBS2_HUMAN -           1100 LIG_SH3_2+GRAP2_MOUSE+3+52_muscle -             49   3.5e-24   78.3   0.8   4   4   1.1e-05   0.00079   13.2   0.0     2    33  1048  1080  1047  1098 0.79 Sorbin and SH3 domain-containing protein 2 OS=Homo sapiens OX=9606 GN=SORBS2 PE=1 SV=3
+sp|Q9BVN2|RUSC1_HUMAN -            902 LIG_SH3_2+GRAP2_MOUSE+3+52_muscle -             49   1.8e-10   34.4   0.0   1   1   4.4e-12   3.3e-10   33.6   0.0     5    47   854   897   850   899 0.87 RUN and SH3 domain-containing protein 1 OS=Homo sapiens OX=9606 GN=RUSC1 PE=1 SV=3
+sp|Q12959|DLG1_HUMAN  -            904 LIG_SH3_2+GRAP2_MOUSE+3+52_muscle -             49   3.8e-05   17.4   0.1   1   1   1.2e-06   8.8e-05   16.2   0.1    12    38   603   630   587   635 0.75 Disks large homolog 1 OS=Homo sapiens OX=9606 GN=DLG1 PE=1 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      domain_all/LIG_SH3_2+GRAP2_MOUSE+3+52.hmm
+# Target file:     human_only_H1_Prot_fasta.fasta
+# Option settings: hmmsearch -o /home/bwadie/Hmmer_H1/human_slimfinder_HMM_outputs/all_outs/LIG_SH3_2+GRAP2_MOUSE+3+52.out --domtblout /home/bwadie/Hmmer_H1/human_slimfinder_HMM_outputs/domain_all_H1_domtblouts/LIG_SH3_2+GRAP2_MOUSE+3+52.txt -E 1 domain_all/LIG_SH3_2+GRAP2_MOUSE+3+52.hmm human_only_H1_Prot_fasta.fasta 
+# Current dir:     /home/bwadie/Hmmer_H1
+# Date:            Wed Mar 17 18:18:20 2021
+# [ok]

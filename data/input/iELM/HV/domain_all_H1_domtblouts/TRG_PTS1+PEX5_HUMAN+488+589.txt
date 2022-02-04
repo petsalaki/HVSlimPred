@@ -1,0 +1,30 @@
+#                                                                                           --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name         accession   tlen query name                         accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+# ------------------- ---------- -----               -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+sp|Q99615|DNJC7_HUMAN -            494 TRG_PTS1+PEX5_HUMAN+488+589_muscle -            100   2.9e-19   64.2   8.2   1   4   7.3e-11   7.6e-09   30.8   0.3     9    99    37   127    32   128 0.96 DnaJ homolog subfamily C member 7 OS=Homo sapiens OX=9606 GN=DNAJC7 PE=1 SV=2
+sp|Q99615|DNJC7_HUMAN -            494 TRG_PTS1+PEX5_HUMAN+488+589_muscle -            100   2.9e-19   64.2   8.2   2   4   0.00013     0.014   10.7   0.0    13    98   155   240   151   242 0.90 DnaJ homolog subfamily C member 7 OS=Homo sapiens OX=9606 GN=DNAJC7 PE=1 SV=2
+sp|Q99615|DNJC7_HUMAN -            494 TRG_PTS1+PEX5_HUMAN+488+589_muscle -            100   2.9e-19   64.2   8.2   3   4     4e-09   4.1e-07   25.2   0.5    13    92   269   352   265   360 0.90 DnaJ homolog subfamily C member 7 OS=Homo sapiens OX=9606 GN=DNAJC7 PE=1 SV=2
+sp|Q99615|DNJC7_HUMAN -            494 TRG_PTS1+PEX5_HUMAN+488+589_muscle -            100   2.9e-19   64.2   8.2   4   4       3.9   4.1e+02   -3.6   0.0    48    65   391   410   372   411 0.59 DnaJ homolog subfamily C member 7 OS=Homo sapiens OX=9606 GN=DNAJC7 PE=1 SV=2
+sp|Q9UJX2|CDC23_HUMAN -            597 TRG_PTS1+PEX5_HUMAN+488+589_muscle -            100     1e-12   43.2   7.9   1   5       2.1   2.2e+02   -2.8   0.0    73    91    88   106    86   111 0.66 Cell division cycle protein 23 homolog OS=Homo sapiens OX=9606 GN=CDC23 PE=1 SV=3
+sp|Q9UJX2|CDC23_HUMAN -            597 TRG_PTS1+PEX5_HUMAN+488+589_muscle -            100     1e-12   43.2   7.9   2   5      0.57        58   -0.9   0.0    17    37   186   206   174   216 0.66 Cell division cycle protein 23 homolog OS=Homo sapiens OX=9606 GN=CDC23 PE=1 SV=3
+sp|Q9UJX2|CDC23_HUMAN -            597 TRG_PTS1+PEX5_HUMAN+488+589_muscle -            100     1e-12   43.2   7.9   3   5      0.13        13    1.1   0.0    51    90   245   285   238   297 0.62 Cell division cycle protein 23 homolog OS=Homo sapiens OX=9606 GN=CDC23 PE=1 SV=3
+sp|Q9UJX2|CDC23_HUMAN -            597 TRG_PTS1+PEX5_HUMAN+488+589_muscle -            100     1e-12   43.2   7.9   4   5     6e-09   6.2e-07   24.6   0.2    47    98   344   395   333   396 0.73 Cell division cycle protein 23 homolog OS=Homo sapiens OX=9606 GN=CDC23 PE=1 SV=3
+sp|Q9UJX2|CDC23_HUMAN -            597 TRG_PTS1+PEX5_HUMAN+488+589_muscle -            100     1e-12   43.2   7.9   5   5   9.9e-10     1e-07   27.1   0.6    17    96   382   461   379   465 0.95 Cell division cycle protein 23 homolog OS=Homo sapiens OX=9606 GN=CDC23 PE=1 SV=3
+sp|P49792|RBP2_HUMAN  -           3224 TRG_PTS1+PEX5_HUMAN+488+589_muscle -            100   8.5e-05   17.8   0.0   1   1   3.6e-06   0.00037   15.7   0.0     4    41    64   101    32   127 0.80 E3 SUMO-protein ligase RanBP2 OS=Homo sapiens OX=9606 GN=RANBP2 PE=1 SV=2
+sp|Q14318|FKBP8_HUMAN -            412 TRG_PTS1+PEX5_HUMAN+488+589_muscle -            100     9e-05   17.7   0.1   1   1   2.2e-06   0.00023   16.4   0.1    23    99   261   337   230   338 0.80 Peptidyl-prolyl cis-trans isomerase FKBP8 OS=Homo sapiens OX=9606 GN=FKBP8 PE=1 SV=2
+sp|O94906|PRP6_HUMAN  -            941 TRG_PTS1+PEX5_HUMAN+488+589_muscle -            100     0.004   12.4   2.5   1   6      0.37        38   -0.3   0.0    56    71   392   407   356   417 0.62 Pre-mRNA-processing factor 6 OS=Homo sapiens OX=9606 GN=PRPF6 PE=1 SV=1
+sp|O94906|PRP6_HUMAN  -            941 TRG_PTS1+PEX5_HUMAN+488+589_muscle -            100     0.004   12.4   2.5   2   6      0.17        17    0.8   0.0    23    72   393   438   373   459 0.65 Pre-mRNA-processing factor 6 OS=Homo sapiens OX=9606 GN=PRPF6 PE=1 SV=1
+sp|O94906|PRP6_HUMAN  -            941 TRG_PTS1+PEX5_HUMAN+488+589_muscle -            100     0.004   12.4   2.5   3   6      0.68        70   -1.2   0.0    14    38   444   468   434   488 0.80 Pre-mRNA-processing factor 6 OS=Homo sapiens OX=9606 GN=PRPF6 PE=1 SV=1
+sp|O94906|PRP6_HUMAN  -            941 TRG_PTS1+PEX5_HUMAN+488+589_muscle -            100     0.004   12.4   2.5   4   6      0.21        22    0.4   0.1    18    56   558   595   551   611 0.65 Pre-mRNA-processing factor 6 OS=Homo sapiens OX=9606 GN=PRPF6 PE=1 SV=1
+sp|O94906|PRP6_HUMAN  -            941 TRG_PTS1+PEX5_HUMAN+488+589_muscle -            100     0.004   12.4   2.5   5   6    0.0091      0.94    4.8   0.0    11    66   686   741   677   765 0.88 Pre-mRNA-processing factor 6 OS=Homo sapiens OX=9606 GN=PRPF6 PE=1 SV=1
+sp|O94906|PRP6_HUMAN  -            941 TRG_PTS1+PEX5_HUMAN+488+589_muscle -            100     0.004   12.4   2.5   6   6       0.3        31   -0.1   0.0     3    34   844   875   842   881 0.83 Pre-mRNA-processing factor 6 OS=Homo sapiens OX=9606 GN=PRPF6 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      domain_all/TRG_PTS1+PEX5_HUMAN+488+589.hmm
+# Target file:     H1_prot_fasta.fasta
+# Option settings: hmmsearch -o /home/bwadie/Hmmer_H1/all_outs/TRG_PTS1+PEX5_HUMAN+488+589.out --domtblout /home/bwadie/Hmmer_H1/domain_all_H1_domtblouts/TRG_PTS1+PEX5_HUMAN+488+589.txt -E 1 domain_all/TRG_PTS1+PEX5_HUMAN+488+589.hmm H1_prot_fasta.fasta 
+# Current dir:     /home/bwadie/Hmmer_H1
+# Date:            Wed Feb 10 00:38:14 2021
+# [ok]

@@ -1,0 +1,20 @@
+#                                                                                           --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name         accession   tlen query name                         accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+# ------------------- ---------- -----               -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+sp|Q9BSW2|EFC4B_HUMAN -            395 LIG_EH_1+EDE1_YEAST+272+367_muscle -             88     7e-05   17.9   0.3   1   2   1.6e-06   0.00028   16.0   0.0    10    65    56   111    50   132 0.89 EF-hand calcium-binding domain-containing protein 4B OS=Homo sapiens OX=9606 GN=CRACR2A PE=1 SV=1
+sp|Q9BSW2|EFC4B_HUMAN -            395 LIG_EH_1+EDE1_YEAST+272+367_muscle -             88     7e-05   17.9   0.3   2   2       1.2     2e+02   -2.8   0.1    36    55   313   332   302   339 0.62 EF-hand calcium-binding domain-containing protein 4B OS=Homo sapiens OX=9606 GN=CRACR2A PE=1 SV=1
+sp|Q7Z6G3|NECA2_HUMAN -            386 LIG_EH_1+EDE1_YEAST+272+367_muscle -             88    0.0013   13.9   0.2   1   1   1.8e-05     0.003   12.7   0.2    12    62    68   118    64   136 0.93 N-terminal EF-hand calcium-binding protein 2 OS=Homo sapiens OX=9606 GN=NECAB2 PE=1 SV=1
+sp|Q15293|RCN1_HUMAN  -            331 LIG_EH_1+EDE1_YEAST+272+367_muscle -             88    0.0035   12.5   4.0   1   4     3e-05    0.0052   11.9   0.1     4    68    79   145    75   148 0.87 Reticulocalbin-1 OS=Homo sapiens OX=9606 GN=RCN1 PE=1 SV=1
+sp|Q15293|RCN1_HUMAN  -            331 LIG_EH_1+EDE1_YEAST+272+367_muscle -             88    0.0035   12.5   4.0   2   4      0.98   1.7e+02   -2.5   0.0    50    64   178   192   175   196 0.81 Reticulocalbin-1 OS=Homo sapiens OX=9606 GN=RCN1 PE=1 SV=1
+sp|Q15293|RCN1_HUMAN  -            331 LIG_EH_1+EDE1_YEAST+272+367_muscle -             88    0.0035   12.5   4.0   3   4      0.16        28   -0.0   0.1    14    34   213   234   209   273 0.57 Reticulocalbin-1 OS=Homo sapiens OX=9606 GN=RCN1 PE=1 SV=1
+sp|Q15293|RCN1_HUMAN  -            331 LIG_EH_1+EDE1_YEAST+272+367_muscle -             88    0.0035   12.5   4.0   4   4      0.29        51   -0.9   0.0    19    30   259   270   245   312 0.58 Reticulocalbin-1 OS=Homo sapiens OX=9606 GN=RCN1 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      domain_all/LIG_EH_1+EDE1_YEAST+272+367.hmm
+# Target file:     H1_prot_fasta.fasta
+# Option settings: hmmsearch -o /home/bwadie/Hmmer_H1/all_outs/LIG_EH_1+EDE1_YEAST+272+367.out --domtblout /home/bwadie/Hmmer_H1/domain_all_H1_domtblouts/LIG_EH_1+EDE1_YEAST+272+367.txt -E 1 domain_all/LIG_EH_1+EDE1_YEAST+272+367.hmm H1_prot_fasta.fasta 
+# Current dir:     /home/bwadie/Hmmer_H1
+# Date:            Wed Feb 10 00:37:34 2021
+# [ok]

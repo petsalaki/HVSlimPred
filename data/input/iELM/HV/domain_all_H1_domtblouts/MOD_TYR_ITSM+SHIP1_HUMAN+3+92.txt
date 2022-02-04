@@ -1,0 +1,25 @@
+#                                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name                           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- -----                 -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+sp|P27986|P85A_HUMAN -            724 MOD_TYR_ITSM+SHIP1_HUMAN+3+92_muscle -             89   2.8e-17   57.8   0.1   1   2   9.7e-09   6.3e-07   24.5   0.0     2    87   333   412   332   414 0.84 Phosphatidylinositol 3-kinase regulatory subunit alpha OS=Homo sapiens OX=9606 GN=PIK3R1 PE=1 SV=2
+sp|P27986|P85A_HUMAN -            724 MOD_TYR_ITSM+SHIP1_HUMAN+3+92_muscle -             89   2.8e-17   57.8   0.1   2   2   2.9e-10   1.9e-08   29.5   0.0     2    85   624   700   623   703 0.83 Phosphatidylinositol 3-kinase regulatory subunit alpha OS=Homo sapiens OX=9606 GN=PIK3R1 PE=1 SV=2
+sp|O00459|P85B_HUMAN -            728 MOD_TYR_ITSM+SHIP1_HUMAN+3+92_muscle -             89   1.4e-16   55.5   0.0   1   2   1.4e-08   9.3e-07   24.0   0.0     2    86   330   408   329   411 0.73 Phosphatidylinositol 3-kinase regulatory subunit beta OS=Homo sapiens OX=9606 GN=PIK3R2 PE=1 SV=2
+sp|O00459|P85B_HUMAN -            728 MOD_TYR_ITSM+SHIP1_HUMAN+3+92_muscle -             89   1.4e-16   55.5   0.0   2   2   8.3e-10   5.4e-08   28.0   0.0     1    84   621   697   621   701 0.73 Phosphatidylinositol 3-kinase regulatory subunit beta OS=Homo sapiens OX=9606 GN=PIK3R2 PE=1 SV=2
+sp|Q92569|P55G_HUMAN -            461 MOD_TYR_ITSM+SHIP1_HUMAN+3+92_muscle -             89   2.4e-16   54.8   0.0   1   2   2.4e-08   1.6e-06   23.3   0.0     2    86    65   143    64   146 0.81 Phosphatidylinositol 3-kinase regulatory subunit gamma OS=Homo sapiens OX=9606 GN=PIK3R3 PE=1 SV=2
+sp|Q92569|P55G_HUMAN -            461 MOD_TYR_ITSM+SHIP1_HUMAN+3+92_muscle -             89   2.4e-16   54.8   0.0   2   2   9.1e-10   5.9e-08   27.8   0.0     2    86   358   435   357   437 0.83 Phosphatidylinositol 3-kinase regulatory subunit gamma OS=Homo sapiens OX=9606 GN=PIK3R3 PE=1 SV=2
+sp|P16333|NCK1_HUMAN -            377 MOD_TYR_ITSM+SHIP1_HUMAN+3+92_muscle -             89   4.9e-14   47.3   0.0   1   1   1.6e-15     1e-13   46.3   0.0     2    86   282   359   281   361 0.93 Cytoplasmic protein NCK1 OS=Homo sapiens OX=9606 GN=NCK1 PE=1 SV=1
+sp|P08631|HCK_HUMAN  -            526 MOD_TYR_ITSM+SHIP1_HUMAN+3+92_muscle -             89   4.1e-12   41.2   0.0   1   1   1.5e-13     1e-11   39.9   0.0     2    89   144   232   143   232 0.86 Tyrosine-protein kinase HCK OS=Homo sapiens OX=9606 GN=HCK PE=1 SV=5
+sp|P12931|SRC_HUMAN  -            536 MOD_TYR_ITSM+SHIP1_HUMAN+3+92_muscle -             89   9.1e-12   40.1   0.0   1   1   2.7e-13   1.7e-11   39.2   0.0     2    86   151   236   150   239 0.77 Proto-oncogene tyrosine-protein kinase Src OS=Homo sapiens OX=9606 GN=SRC PE=1 SV=3
+sp|P06239|LCK_HUMAN  -            509 MOD_TYR_ITSM+SHIP1_HUMAN+3+92_muscle -             89   4.8e-11   37.7   0.0   1   2         6   3.9e+02   -3.6   0.0    22    33    33    44    31    46 0.79 Tyrosine-protein kinase Lck OS=Homo sapiens OX=9606 GN=LCK PE=1 SV=6
+sp|P06239|LCK_HUMAN  -            509 MOD_TYR_ITSM+SHIP1_HUMAN+3+92_muscle -             89   4.8e-11   37.7   0.0   2   2   2.1e-12   1.3e-10   36.3   0.0     2    85   127   211   126   215 0.82 Tyrosine-protein kinase Lck OS=Homo sapiens OX=9606 GN=LCK PE=1 SV=6
+sp|P06241|FYN_HUMAN  -            537 MOD_TYR_ITSM+SHIP1_HUMAN+3+92_muscle -             89   1.5e-10   36.2   0.0   1   1     4e-12   2.6e-10   35.4   0.0     2    86   149   234   148   237 0.83 Tyrosine-protein kinase Fyn OS=Homo sapiens OX=9606 GN=FYN PE=1 SV=3
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      domain_all/MOD_TYR_ITSM+SHIP1_HUMAN+3+92.hmm
+# Target file:     H1_prot_fasta.fasta
+# Option settings: hmmsearch -o /home/bwadie/Hmmer_H1/all_outs/MOD_TYR_ITSM+SHIP1_HUMAN+3+92.out --domtblout /home/bwadie/Hmmer_H1/domain_all_H1_domtblouts/MOD_TYR_ITSM+SHIP1_HUMAN+3+92.txt -E 1 domain_all/MOD_TYR_ITSM+SHIP1_HUMAN+3+92.hmm H1_prot_fasta.fasta 
+# Current dir:     /home/bwadie/Hmmer_H1
+# Date:            Wed Feb 10 00:38:11 2021
+# [ok]

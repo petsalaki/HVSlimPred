@@ -1,0 +1,20 @@
+#                                                                             --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name         accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+# ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+sp|P62258|1433E_HUMAN -            255 14-3-3               PF00244.13   236  2.4e-119  391.9   1.8   1   1  3.3e-121  2.9e-119  391.6   1.8     1   234     4   237     4   239 0.99 14-3-3 protein epsilon OS=Homo sapiens OX=9606 GN=YWHAE PE=1 SV=1
+sp|P63104|1433Z_HUMAN -            245 14-3-3               PF00244.13   236  3.5e-115  378.2   8.6   1   1  4.6e-117    4e-115  378.0   8.6     2   235     4   235     3   236 0.99 14-3-3 protein zeta/delta OS=Homo sapiens OX=9606 GN=YWHAZ PE=1 SV=1
+sp|P31946|1433B_HUMAN -            246 14-3-3               PF00244.13   236  6.8e-115  377.3  10.2   1   1    9e-117  7.8e-115  377.1  10.2     2   235     6   237     5   238 0.99 14-3-3 protein beta/alpha OS=Homo sapiens OX=9606 GN=YWHAB PE=1 SV=3
+sp|P27348|1433T_HUMAN -            245 14-3-3               PF00244.13   236  5.6e-113  371.0   5.5   1   1  7.4e-115  6.4e-113  370.8   5.5     2   235     4   235     3   236 0.98 14-3-3 protein theta OS=Homo sapiens OX=9606 GN=YWHAQ PE=1 SV=1
+sp|P31947|1433S_HUMAN -            248 14-3-3               PF00244.13   236  8.6e-109  357.3   1.0   1   1  1.1e-110  9.8e-109  357.1   1.0     2   235     4   237     3   238 0.99 14-3-3 protein sigma OS=Homo sapiens OX=9606 GN=SFN PE=1 SV=1
+sp|Q96QK1|VPS35_HUMAN -            796 14-3-3               PF00244.13   236    0.0019   12.5   1.4   1   2       1.1        93   -2.8   0.1   182   204   597   619   541   632 0.45 Vacuolar protein sorting-associated protein 35 OS=Homo sapiens OX=9606 GN=VPS35 PE=1 SV=2
+sp|Q96QK1|VPS35_HUMAN -            796 14-3-3               PF00244.13   236    0.0019   12.5   1.4   2   2   3.6e-05    0.0031   11.8   0.2   143   212   694   763   682   775 0.84 Vacuolar protein sorting-associated protein 35 OS=Homo sapiens OX=9606 GN=VPS35 PE=1 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      pfam_hmms/LIG_14+3+3_2.hmm
+# Target file:     H1_prot_fasta.fasta
+# Option settings: hmmsearch -o /home/bwadie/Hmmer_H1/all_outs/LIG_14+3+3_2.out --domtblout /home/bwadie/Hmmer_H1/pfam_H1_domtblouts/LIG_14+3+3_2.txt -E 1 pfam_hmms/LIG_14+3+3_2.hmm H1_prot_fasta.fasta 
+# Current dir:     /home/bwadie/Hmmer_H1
+# Date:            Wed Feb 10 00:37:18 2021
+# [ok]

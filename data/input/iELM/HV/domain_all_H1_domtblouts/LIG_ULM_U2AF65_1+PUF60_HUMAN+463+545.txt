@@ -1,0 +1,22 @@
+#                                                                                                    --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name         accession   tlen query name                                  accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+# ------------------- ---------- -----                        -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+sp|Q9UHX1|PUF60_HUMAN -            559 LIG_ULM_U2AF65_1+PUF60_HUMAN+463+545_muscle -             82   9.4e-44  142.7   3.7   1   4       2.3     4e+02   -3.6   0.0    47    59    81    93    71   101 0.64 Poly(U)-binding-splicing factor PUF60 OS=Homo sapiens OX=9606 GN=PUF60 PE=1 SV=1
+sp|Q9UHX1|PUF60_HUMAN -            559 LIG_ULM_U2AF65_1+PUF60_HUMAN+463+545_muscle -             82   9.4e-44  142.7   3.7   2   4     0.003      0.52    5.7   0.0    18    80   143   201   138   203 0.83 Poly(U)-binding-splicing factor PUF60 OS=Homo sapiens OX=9606 GN=PUF60 PE=1 SV=1
+sp|Q9UHX1|PUF60_HUMAN -            559 LIG_ULM_U2AF65_1+PUF60_HUMAN+463+545_muscle -             82   9.4e-44  142.7   3.7   3   4     0.062        11    1.5   0.0    18    70   240   288   226   297 0.74 Poly(U)-binding-splicing factor PUF60 OS=Homo sapiens OX=9606 GN=PUF60 PE=1 SV=1
+sp|Q9UHX1|PUF60_HUMAN -            559 LIG_ULM_U2AF65_1+PUF60_HUMAN+463+545_muscle -             82   9.4e-44  142.7   3.7   4   4   2.9e-43   4.9e-41  133.9   0.6     1    82   464   545   464   545 0.99 Poly(U)-binding-splicing factor PUF60 OS=Homo sapiens OX=9606 GN=PUF60 PE=1 SV=1
+sp|P11940|PABP1_HUMAN -            636 LIG_ULM_U2AF65_1+PUF60_HUMAN+463+545_muscle -             82   8.8e-07   24.2   0.4   1   4      0.18        30    0.0   0.0    53    77    56    80    52    83 0.84 Polyadenylate-binding protein 1 OS=Homo sapiens OX=9606 GN=PABPC1 PE=1 SV=2
+sp|P11940|PABP1_HUMAN -            636 LIG_ULM_U2AF65_1+PUF60_HUMAN+463+545_muscle -             82   8.8e-07   24.2   0.4   2   4    0.0067       1.2    4.6   0.0    53    80   142   169   104   171 0.89 Polyadenylate-binding protein 1 OS=Homo sapiens OX=9606 GN=PABPC1 PE=1 SV=2
+sp|P11940|PABP1_HUMAN -            636 LIG_ULM_U2AF65_1+PUF60_HUMAN+463+545_muscle -             82   8.8e-07   24.2   0.4   3   4   0.00097      0.17    7.3   0.0    53    79   235   261   195   263 0.75 Polyadenylate-binding protein 1 OS=Homo sapiens OX=9606 GN=PABPC1 PE=1 SV=2
+sp|P11940|PABP1_HUMAN -            636 LIG_ULM_U2AF65_1+PUF60_HUMAN+463+545_muscle -             82   8.8e-07   24.2   0.4   4   4    0.0026      0.45    5.9   0.0    53    75   337   359   296   364 0.69 Polyadenylate-binding protein 1 OS=Homo sapiens OX=9606 GN=PABPC1 PE=1 SV=2
+sp|P38159|RBMX_HUMAN  -            391 LIG_ULM_U2AF65_1+PUF60_HUMAN+463+545_muscle -             82   1.4e-05   20.3   0.0   1   1   1.3e-07   2.2e-05   19.7   0.0    19    82    23    82    15    82 0.86 RNA-binding motif protein, X chromosome OS=Homo sapiens OX=9606 GN=RBMX PE=1 SV=3
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      domain_all/LIG_ULM_U2AF65_1+PUF60_HUMAN+463+545.hmm
+# Target file:     H1_prot_fasta.fasta
+# Option settings: hmmsearch -o /home/bwadie/Hmmer_H1/all_outs/LIG_ULM_U2AF65_1+PUF60_HUMAN+463+545.out --domtblout /home/bwadie/Hmmer_H1/domain_all_H1_domtblouts/LIG_ULM_U2AF65_1+PUF60_HUMAN+463+545.txt -E 1 domain_all/LIG_ULM_U2AF65_1+PUF60_HUMAN+463+545.hmm H1_prot_fasta.fasta 
+# Current dir:     /home/bwadie/Hmmer_H1
+# Date:            Wed Feb 10 00:38:03 2021
+# [ok]

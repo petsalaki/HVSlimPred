@@ -1,0 +1,17 @@
+#                                                                                           --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name                          accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- -----                -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+sp|O00308|WWP2_HUMAN -            870 LIG_WW_2+APBB1_HUMAN+254+284_muscle -             30   4.5e-16   53.5  21.7   1   4   1.1e-06   0.00056   14.8   0.6     1    29   302   331   302   331 0.96 NEDD4-like E3 ubiquitin-protein ligase WWP2 OS=Homo sapiens OX=9606 GN=WWP2 PE=1 SV=2
+sp|O00308|WWP2_HUMAN -            870 LIG_WW_2+APBB1_HUMAN+254+284_muscle -             30   4.5e-16   53.5  21.7   2   4   4.6e-08   2.4e-05   19.2   3.1     1    29   332   361   332   362 0.90 NEDD4-like E3 ubiquitin-protein ligase WWP2 OS=Homo sapiens OX=9606 GN=WWP2 PE=1 SV=2
+sp|O00308|WWP2_HUMAN -            870 LIG_WW_2+APBB1_HUMAN+254+284_muscle -             30   4.5e-16   53.5  21.7   3   4   6.3e-10   3.3e-07   25.2   0.8     1    29   407   435   407   436 0.95 NEDD4-like E3 ubiquitin-protein ligase WWP2 OS=Homo sapiens OX=9606 GN=WWP2 PE=1 SV=2
+sp|O00308|WWP2_HUMAN -            870 LIG_WW_2+APBB1_HUMAN+254+284_muscle -             30   4.5e-16   53.5  21.7   4   4    0.0011      0.55    5.2   0.1     1    16   446   462   446   476 0.77 NEDD4-like E3 ubiquitin-protein ligase WWP2 OS=Homo sapiens OX=9606 GN=WWP2 PE=1 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      domain_all/LIG_WW_2+APBB1_HUMAN+254+284.hmm
+# Target file:     H1_prot_fasta.fasta
+# Option settings: hmmsearch -o /home/bwadie/Hmmer_H1/all_outs/LIG_WW_2+APBB1_HUMAN+254+284.out --domtblout /home/bwadie/Hmmer_H1/domain_all_H1_domtblouts/LIG_WW_2+APBB1_HUMAN+254+284.txt -E 1 domain_all/LIG_WW_2+APBB1_HUMAN+254+284.hmm H1_prot_fasta.fasta 
+# Current dir:     /home/bwadie/Hmmer_H1
+# Date:            Wed Feb 10 00:38:05 2021
+# [ok]

@@ -1,0 +1,17 @@
+#                                                                                        --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name                       accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- -----             -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+sp|P27986|P85A_HUMAN -            724 LIG_SH3_1+P85A_HUMAN+6+78_muscle -             72   7.3e-45  146.2   0.8   1   1   9.4e-47   1.6e-44  145.1   0.8     1    72     7    78     7    78 0.99 Phosphatidylinositol 3-kinase regulatory subunit alpha OS=Homo sapiens OX=9606 GN=PIK3R1 PE=1 SV=2
+sp|O00459|P85B_HUMAN -            728 LIG_SH3_1+P85A_HUMAN+6+78_muscle -             72   1.4e-37  122.8   0.0   1   1     2e-39   3.5e-37  121.6   0.0     1    72     8    79     8    79 0.99 Phosphatidylinositol 3-kinase regulatory subunit beta OS=Homo sapiens OX=9606 GN=PIK3R2 PE=1 SV=2
+sp|P16333|NCK1_HUMAN -            377 LIG_SH3_1+P85A_HUMAN+6+78_muscle -             72    0.0028   12.9   1.6   1   2     0.063        11    1.4   1.1     8    67   117   159   112   167 0.48 Cytoplasmic protein NCK1 OS=Homo sapiens OX=9606 GN=NCK1 PE=1 SV=1
+sp|P16333|NCK1_HUMAN -            377 LIG_SH3_1+P85A_HUMAN+6+78_muscle -             72    0.0028   12.9   1.6   2   2   0.00065      0.11    7.8   0.0     3    26   196   219   195   225 0.90 Cytoplasmic protein NCK1 OS=Homo sapiens OX=9606 GN=NCK1 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      domain_all/LIG_SH3_1+P85A_HUMAN+6+78.hmm
+# Target file:     H1_prot_fasta.fasta
+# Option settings: hmmsearch -o /home/bwadie/Hmmer_H1/all_outs/LIG_SH3_1+P85A_HUMAN+6+78.out --domtblout /home/bwadie/Hmmer_H1/domain_all_H1_domtblouts/LIG_SH3_1+P85A_HUMAN+6+78.txt -E 1 domain_all/LIG_SH3_1+P85A_HUMAN+6+78.hmm H1_prot_fasta.fasta 
+# Current dir:     /home/bwadie/Hmmer_H1
+# Date:            Wed Feb 10 00:37:57 2021
+# [ok]

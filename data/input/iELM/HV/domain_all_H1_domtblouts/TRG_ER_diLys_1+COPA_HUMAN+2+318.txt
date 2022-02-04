@@ -1,0 +1,33 @@
+#                                                                                               --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name         accession   tlen query name                             accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+# ------------------- ---------- -----                   -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+sp|P35606|COPB2_HUMAN -            906 TRG_ER_diLys_1+COPA_HUMAN+2+318_muscle -            319   2.1e-76  252.1   4.5   1   2   1.1e-50   8.2e-49  161.4   4.4     2   162    10   172     9   177 0.95 Coatomer subunit beta' OS=Homo sapiens OX=9606 GN=COPB2 PE=1 SV=2
+sp|P35606|COPB2_HUMAN -            906 TRG_ER_diLys_1+COPA_HUMAN+2+318_muscle -            319   2.1e-76  252.1   4.5   2   2   1.5e-28   1.1e-26   88.6   0.0   200   318   179   297   174   298 0.94 Coatomer subunit beta' OS=Homo sapiens OX=9606 GN=COPB2 PE=1 SV=2
+sp|Q9Y297|FBW1A_HUMAN -            605 TRG_ER_diLys_1+COPA_HUMAN+2+318_muscle -            319   4.9e-46  152.3  14.7   1   4   2.7e-17     2e-15   51.7   1.3    53   164   307   412   293   420 0.88 F-box/WD repeat-containing protein 1A OS=Homo sapiens OX=9606 GN=BTRC PE=1 SV=1
+sp|Q9Y297|FBW1A_HUMAN -            605 TRG_ER_diLys_1+COPA_HUMAN+2+318_muscle -            319   4.9e-46  152.3  14.7   2   4   8.8e-21   6.5e-19   63.1   1.5    61   163   393   494   388   497 0.89 F-box/WD repeat-containing protein 1A OS=Homo sapiens OX=9606 GN=BTRC PE=1 SV=1
+sp|Q9Y297|FBW1A_HUMAN -            605 TRG_ER_diLys_1+COPA_HUMAN+2+318_muscle -            319   4.9e-46  152.3  14.7   3   4   7.5e-14   5.5e-12   40.4   0.0   106   163   479   534   476   544 0.93 F-box/WD repeat-containing protein 1A OS=Homo sapiens OX=9606 GN=BTRC PE=1 SV=1
+sp|Q9Y297|FBW1A_HUMAN -            605 TRG_ER_diLys_1+COPA_HUMAN+2+318_muscle -            319   4.9e-46  152.3  14.7   4   4   4.1e-10     3e-08   28.1   0.1    40   122   497   584   494   589 0.68 F-box/WD repeat-containing protein 1A OS=Homo sapiens OX=9606 GN=BTRC PE=1 SV=1
+sp|Q9UKB1|FBW1B_HUMAN -            542 TRG_ER_diLys_1+COPA_HUMAN+2+318_muscle -            319   1.4e-42  140.9  11.4   1   3   7.8e-21   5.7e-19   63.3   2.4    41   163   312   431   308   433 0.87 F-box/WD repeat-containing protein 11 OS=Homo sapiens OX=9606 GN=FBXW11 PE=1 SV=1
+sp|Q9UKB1|FBW1B_HUMAN -            542 TRG_ER_diLys_1+COPA_HUMAN+2+318_muscle -            319   1.4e-42  140.9  11.4   2   3   2.3e-22   1.7e-20   68.3   0.3    48   164   362   472   359   481 0.93 F-box/WD repeat-containing protein 11 OS=Homo sapiens OX=9606 GN=FBXW11 PE=1 SV=1
+sp|Q9UKB1|FBW1B_HUMAN -            542 TRG_ER_diLys_1+COPA_HUMAN+2+318_muscle -            319   1.4e-42  140.9  11.4   3   3   8.7e-11   6.4e-09   30.3   0.1    40   121   434   520   430   528 0.66 F-box/WD repeat-containing protein 11 OS=Homo sapiens OX=9606 GN=FBXW11 PE=1 SV=1
+sp|P63244|RACK1_HUMAN -            317 TRG_ER_diLys_1+COPA_HUMAN+2+318_muscle -            319   1.4e-32  108.1   1.1   1   4   2.1e-06   0.00015   15.9   0.0   243   281     8    47     1    54 0.79 Receptor of activated protein C kinase 1 OS=Homo sapiens OX=9606 GN=RACK1 PE=1 SV=3
+sp|P63244|RACK1_HUMAN -            317 TRG_ER_diLys_1+COPA_HUMAN+2+318_muscle -            319   1.4e-32  108.1   1.1   2   4   6.6e-15   4.9e-13   43.8   0.5    86   172    58   144    50   150 0.94 Receptor of activated protein C kinase 1 OS=Homo sapiens OX=9606 GN=RACK1 PE=1 SV=3
+sp|P63244|RACK1_HUMAN -            317 TRG_ER_diLys_1+COPA_HUMAN+2+318_muscle -            319   1.4e-32  108.1   1.1   3   4   3.3e-14   2.4e-12   41.5   0.0    46   163   145   262   142   265 0.88 Receptor of activated protein C kinase 1 OS=Homo sapiens OX=9606 GN=RACK1 PE=1 SV=3
+sp|P63244|RACK1_HUMAN -            317 TRG_ER_diLys_1+COPA_HUMAN+2+318_muscle -            319   1.4e-32  108.1   1.1   4   4   1.6e-08   1.2e-06   22.9   0.0    48   129   191   270   187   314 0.68 Receptor of activated protein C kinase 1 OS=Homo sapiens OX=9606 GN=RACK1 PE=1 SV=3
+sp|Q9BV38|WDR18_HUMAN -            432 TRG_ER_diLys_1+COPA_HUMAN+2+318_muscle -            319   7.2e-17   56.4   0.3   1   2   2.1e-10   1.5e-08   29.0   0.1    17   164    48   205    41   210 0.78 WD repeat-containing protein 18 OS=Homo sapiens OX=9606 GN=WDR18 PE=1 SV=2
+sp|Q9BV38|WDR18_HUMAN -            432 TRG_ER_diLys_1+COPA_HUMAN+2+318_muscle -            319   7.2e-17   56.4   0.3   2   2   1.3e-08   9.8e-07   23.1   0.0   245   288   264   307   254   311 0.82 WD repeat-containing protein 18 OS=Homo sapiens OX=9606 GN=WDR18 PE=1 SV=2
+sp|Q9NNW5|WDR6_HUMAN  -           1121 TRG_ER_diLys_1+COPA_HUMAN+2+318_muscle -            319   1.4e-14   48.9   0.0   1   4     9e-06   0.00067   13.8   0.0   129   166   205   242   196   253 0.91 WD repeat-containing protein 6 OS=Homo sapiens OX=9606 GN=WDR6 PE=1 SV=1
+sp|Q9NNW5|WDR6_HUMAN  -           1121 TRG_ER_diLys_1+COPA_HUMAN+2+318_muscle -            319   1.4e-14   48.9   0.0   2   4     7e-09   5.2e-07   24.0   0.0    61   122   268   329   255   333 0.83 WD repeat-containing protein 6 OS=Homo sapiens OX=9606 GN=WDR6 PE=1 SV=1
+sp|Q9NNW5|WDR6_HUMAN  -           1121 TRG_ER_diLys_1+COPA_HUMAN+2+318_muscle -            319   1.4e-14   48.9   0.0   3   4      0.23        17   -0.7   0.0   262   280   740   758   737   779 0.80 WD repeat-containing protein 6 OS=Homo sapiens OX=9606 GN=WDR6 PE=1 SV=1
+sp|Q9NNW5|WDR6_HUMAN  -           1121 TRG_ER_diLys_1+COPA_HUMAN+2+318_muscle -            319   1.4e-14   48.9   0.0   4   4     0.017       1.3    3.1   0.0   199   278   973  1072   876  1078 0.64 WD repeat-containing protein 6 OS=Homo sapiens OX=9606 GN=WDR6 PE=1 SV=1
+sp|Q9ULV4|COR1C_HUMAN -            474 TRG_ER_diLys_1+COPA_HUMAN+2+318_muscle -            319   6.6e-14   46.7   0.3   1   1     3e-15   2.2e-13   44.9   0.3    47   163    78   204    68   304 0.82 Coronin-1C OS=Homo sapiens OX=9606 GN=CORO1C PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      domain_all/TRG_ER_diLys_1+COPA_HUMAN+2+318.hmm
+# Target file:     H1_prot_fasta.fasta
+# Option settings: hmmsearch -o /home/bwadie/Hmmer_H1/all_outs/TRG_ER_diLys_1+COPA_HUMAN+2+318.out --domtblout /home/bwadie/Hmmer_H1/domain_all_H1_domtblouts/TRG_ER_diLys_1+COPA_HUMAN+2+318.txt -E 1 domain_all/TRG_ER_diLys_1+COPA_HUMAN+2+318.hmm H1_prot_fasta.fasta 
+# Current dir:     /home/bwadie/Hmmer_H1
+# Date:            Wed Feb 10 00:38:12 2021
+# [ok]

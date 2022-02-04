@@ -1,0 +1,15 @@
+#                                                                             --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name         accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+# ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+sp|P11940|PABP1_HUMAN -            636 PABP                 PF00658.11    72   1.6e-36  119.1   0.5   1   2      0.18        93   -1.9   0.0    33    45   152   164   140   165 0.70 Polyadenylate-binding protein 1 OS=Homo sapiens OX=9606 GN=PABPC1 PE=1 SV=2
+sp|P11940|PABP1_HUMAN -            636 PABP                 PF00658.11    72   1.6e-36  119.1   0.5   2   2   1.2e-38   6.1e-36  117.2   0.3     2    72   544   614   543   614 0.98 Polyadenylate-binding protein 1 OS=Homo sapiens OX=9606 GN=PABPC1 PE=1 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      pfam_hmms/LIG_PAM2_1.hmm
+# Target file:     H1_prot_fasta.fasta
+# Option settings: hmmsearch -o /home/bwadie/Hmmer_H1/all_outs/LIG_PAM2_1.out --domtblout /home/bwadie/Hmmer_H1/pfam_H1_domtblouts/LIG_PAM2_1.txt -E 1 pfam_hmms/LIG_PAM2_1.hmm H1_prot_fasta.fasta 
+# Current dir:     /home/bwadie/Hmmer_H1
+# Date:            Wed Feb 10 00:37:20 2021
+# [ok]

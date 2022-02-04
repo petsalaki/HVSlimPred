@@ -1,0 +1,15 @@
+#                                                                                              --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name         accession   tlen query name                            accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+# ------------------- ---------- -----                  -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+sp|P63104|1433Z_HUMAN -            245 LIG_14-3-3_1+1433B_HUMAN+5+238_muscle -            226  7.3e-132  431.5   6.6   1   1  7.5e-134  8.4e-132  431.3   6.6     2   226     5   229     4   229 1.00 14-3-3 protein zeta/delta OS=Homo sapiens OX=9606 GN=YWHAZ PE=1 SV=1
+sp|P31947|1433S_HUMAN -            248 LIG_14-3-3_1+1433B_HUMAN+5+238_muscle -            226    2e-114  374.5   1.0   1   1    2e-116  2.3e-114  374.3   1.0     2   226     5   231     4   231 0.98 14-3-3 protein sigma OS=Homo sapiens OX=9606 GN=SFN PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      domain_all/LIG_14-3-3_1+1433B_HUMAN+5+238.hmm
+# Target file:     human_only_H1_Prot_fasta.fasta
+# Option settings: hmmsearch -o /home/bwadie/Hmmer_H1/human_slimfinder_HMM_outputs/all_outs/LIG_14-3-3_1+1433B_HUMAN+5+238.out --domtblout /home/bwadie/Hmmer_H1/human_slimfinder_HMM_outputs/domain_all_H1_domtblouts/LIG_14-3-3_1+1433B_HUMAN+5+238.txt -E 1 domain_all/LIG_14-3-3_1+1433B_HUMAN+5+238.hmm human_only_H1_Prot_fasta.fasta 
+# Current dir:     /home/bwadie/Hmmer_H1
+# Date:            Wed Mar 17 18:17:44 2021
+# [ok]

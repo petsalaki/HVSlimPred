@@ -1,0 +1,17 @@
+#                                                                                        --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name                       accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- -----             -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+sp|O00308|WWP2_HUMAN -            870 LIG_WW_1+PRP40_YEAST+2+29_muscle -             27   9.2e-19   61.8  25.0   1   4   3.3e-10   1.7e-07   25.7   1.2     4    27   308   331   305   331 0.86 NEDD4-like E3 ubiquitin-protein ligase WWP2 OS=Homo sapiens OX=9606 GN=WWP2 PE=1 SV=2
+sp|O00308|WWP2_HUMAN -            870 LIG_WW_1+PRP40_YEAST+2+29_muscle -             27   9.2e-19   61.8  25.0   2   4   5.5e-09   2.8e-06   21.8   1.7     1    27   335   361   335   361 0.96 NEDD4-like E3 ubiquitin-protein ligase WWP2 OS=Homo sapiens OX=9606 GN=WWP2 PE=1 SV=2
+sp|O00308|WWP2_HUMAN -            870 LIG_WW_1+PRP40_YEAST+2+29_muscle -             27   9.2e-19   61.8  25.0   3   4   1.1e-10   5.9e-08   27.2   1.7     6    27   414   435   410   435 0.91 NEDD4-like E3 ubiquitin-protein ligase WWP2 OS=Homo sapiens OX=9606 GN=WWP2 PE=1 SV=2
+sp|O00308|WWP2_HUMAN -            870 LIG_WW_1+PRP40_YEAST+2+29_muscle -             27   9.2e-19   61.8  25.0   4   4     0.016         8    1.2   0.4     7    24   455   472   449   475 0.84 NEDD4-like E3 ubiquitin-protein ligase WWP2 OS=Homo sapiens OX=9606 GN=WWP2 PE=1 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      domain_all/LIG_WW_1+PRP40_YEAST+2+29.hmm
+# Target file:     H1_prot_fasta.fasta
+# Option settings: hmmsearch -o /home/bwadie/Hmmer_H1/all_outs/LIG_WW_1+PRP40_YEAST+2+29.out --domtblout /home/bwadie/Hmmer_H1/domain_all_H1_domtblouts/LIG_WW_1+PRP40_YEAST+2+29.txt -E 1 domain_all/LIG_WW_1+PRP40_YEAST+2+29.hmm H1_prot_fasta.fasta 
+# Current dir:     /home/bwadie/Hmmer_H1
+# Date:            Wed Feb 10 00:38:05 2021
+# [ok]

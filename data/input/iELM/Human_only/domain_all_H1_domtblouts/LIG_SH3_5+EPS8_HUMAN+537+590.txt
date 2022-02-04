@@ -1,0 +1,16 @@
+#                                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name         accession   tlen query name                          accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+# ------------------- ---------- -----                -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+sp|O94875|SRBS2_HUMAN -           1100 LIG_SH3_5+EPS8_HUMAN+537+590_muscle -             53     1e-11   38.0   0.1   1   3     5e-07   0.00011   15.5   0.0     2    44   871   913   870   921 0.82 Sorbin and SH3 domain-containing protein 2 OS=Homo sapiens OX=9606 GN=SORBS2 PE=1 SV=3
+sp|O94875|SRBS2_HUMAN -           1100 LIG_SH3_5+EPS8_HUMAN+537+590_muscle -             53     1e-11   38.0   0.1   2   3   1.7e-05    0.0038   10.6   0.0     1    31   945   976   945   998 0.87 Sorbin and SH3 domain-containing protein 2 OS=Homo sapiens OX=9606 GN=SORBS2 PE=1 SV=3
+sp|O94875|SRBS2_HUMAN -           1100 LIG_SH3_5+EPS8_HUMAN+537+590_muscle -             53     1e-11   38.0   0.1   3   3   0.00012     0.026    7.9   0.0     3    31  1050  1078  1048  1084 0.85 Sorbin and SH3 domain-containing protein 2 OS=Homo sapiens OX=9606 GN=SORBS2 PE=1 SV=3
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      domain_all/LIG_SH3_5+EPS8_HUMAN+537+590.hmm
+# Target file:     human_only_H1_Prot_fasta.fasta
+# Option settings: hmmsearch -o /home/bwadie/Hmmer_H1/human_slimfinder_HMM_outputs/all_outs/LIG_SH3_5+EPS8_HUMAN+537+590.out --domtblout /home/bwadie/Hmmer_H1/human_slimfinder_HMM_outputs/domain_all_H1_domtblouts/LIG_SH3_5+EPS8_HUMAN+537+590.txt -E 1 domain_all/LIG_SH3_5+EPS8_HUMAN+537+590.hmm human_only_H1_Prot_fasta.fasta 
+# Current dir:     /home/bwadie/Hmmer_H1
+# Date:            Wed Mar 17 18:18:24 2021
+# [ok]

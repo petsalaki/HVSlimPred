@@ -1,0 +1,15 @@
+#                                                                                              --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name         accession   tlen query name                            accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+# ------------------- ---------- -----                  -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+sp|P67775|PP2AA_HUMAN -            309 LIG_PP2B_1+PP2B2_YEAST+137+363_muscle -            213   1.4e-67  222.2   0.0   1   2   2.5e-67   1.3e-64  212.6   0.0     1   154    51   205    51   208 0.98 Serine/threonine-protein phosphatase 2A catalytic subunit alpha isoform OS=Homo sapiens OX=9606 GN=PPP2CA PE=1 SV=1
+sp|P67775|PP2AA_HUMAN -            309 LIG_PP2B_1+PP2B2_YEAST+137+363_muscle -            213   1.4e-67  222.2   0.0   2   2   0.00013     0.067    7.6   0.0   182   210   214   242   210   245 0.94 Serine/threonine-protein phosphatase 2A catalytic subunit alpha isoform OS=Homo sapiens OX=9606 GN=PPP2CA PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      domain_all/LIG_PP2B_1+PP2B2_YEAST+137+363.hmm
+# Target file:     H1_prot_fasta.fasta
+# Option settings: hmmsearch -o /home/bwadie/Hmmer_H1/all_outs/LIG_PP2B_1+PP2B2_YEAST+137+363.out --domtblout /home/bwadie/Hmmer_H1/domain_all_H1_domtblouts/LIG_PP2B_1+PP2B2_YEAST+137+363.txt -E 1 domain_all/LIG_PP2B_1+PP2B2_YEAST+137+363.hmm H1_prot_fasta.fasta 
+# Current dir:     /home/bwadie/Hmmer_H1
+# Date:            Wed Feb 10 00:37:51 2021
+# [ok]

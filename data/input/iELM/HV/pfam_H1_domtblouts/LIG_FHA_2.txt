@@ -1,0 +1,15 @@
+#                                                                             --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name         accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+# ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+sp|Q8TAD8|SNIP1_HUMAN -            396 FHA                  PF00498.19    68   9.1e-21   69.0   0.0   1   1   8.5e-23   2.2e-20   67.8   0.0     1    68   281   361   281   361 0.97 Smad nuclear-interacting protein 1 OS=Homo sapiens OX=9606 GN=SNIP1 PE=1 SV=1
+sp|Q01167|FOXK2_HUMAN -            660 FHA                  PF00498.19    68   1.1e-09   33.5   0.0   1   1   8.9e-12   2.3e-09   32.5   0.0     1    60    54   138    54   146 0.83 Forkhead box protein K2 OS=Homo sapiens OX=9606 GN=FOXK2 PE=1 SV=3
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      pfam_hmms/LIG_FHA_2.hmm
+# Target file:     H1_prot_fasta.fasta
+# Option settings: hmmsearch -o /home/bwadie/Hmmer_H1/all_outs/LIG_FHA_2.out --domtblout /home/bwadie/Hmmer_H1/pfam_H1_domtblouts/LIG_FHA_2.txt -E 1 pfam_hmms/LIG_FHA_2.hmm H1_prot_fasta.fasta 
+# Current dir:     /home/bwadie/Hmmer_H1
+# Date:            Wed Feb 10 00:37:19 2021
+# [ok]

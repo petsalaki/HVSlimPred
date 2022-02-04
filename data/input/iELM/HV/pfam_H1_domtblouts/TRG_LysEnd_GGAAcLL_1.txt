@@ -1,0 +1,15 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+sp|Q9UJY5|GGA1_HUMAN -            639 VHS                  PF00790.12   141   9.6e-42  137.2   1.6   1   2   1.9e-43   9.9e-41  133.9   0.0     5   141     8   143     5   143 0.97 ADP-ribosylation factor-binding protein GGA1 OS=Homo sapiens OX=9606 GN=GGA1 PE=1 SV=1
+sp|Q9UJY5|GGA1_HUMAN -            639 VHS                  PF00790.12   141   9.6e-42  137.2   1.6   2   2     0.016       8.2    1.3   1.0    33    96   196   257   176   299 0.60 ADP-ribosylation factor-binding protein GGA1 OS=Homo sapiens OX=9606 GN=GGA1 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      pfam_hmms/TRG_LysEnd_GGAAcLL_1.hmm
+# Target file:     H1_prot_fasta.fasta
+# Option settings: hmmsearch -o /home/bwadie/Hmmer_H1/all_outs/TRG_LysEnd_GGAAcLL_1.out --domtblout /home/bwadie/Hmmer_H1/pfam_H1_domtblouts/TRG_LysEnd_GGAAcLL_1.txt -E 1 pfam_hmms/TRG_LysEnd_GGAAcLL_1.hmm H1_prot_fasta.fasta 
+# Current dir:     /home/bwadie/Hmmer_H1
+# Date:            Wed Feb 10 00:37:25 2021
+# [ok]

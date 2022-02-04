@@ -1,0 +1,18 @@
+#                                                                                              --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name         accession   tlen query name                            accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+# ------------------- ---------- -----                  -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+sp|P31946|1433B_HUMAN -            246 LIG_14-3-3_1+1433B_HUMAN+5+238_muscle -            226  1.8e-133  438.0   6.9   1   1    2e-135  2.1e-133  437.8   6.9     2   226     7   231     6   231 1.00 14-3-3 protein beta/alpha OS=Homo sapiens OX=9606 GN=YWHAB PE=1 SV=3
+sp|P63104|1433Z_HUMAN -            245 LIG_14-3-3_1+1433B_HUMAN+5+238_muscle -            226  1.7e-131  431.5   6.6   1   1  1.9e-133  1.9e-131  431.3   6.6     2   226     5   229     4   229 1.00 14-3-3 protein zeta/delta OS=Homo sapiens OX=9606 GN=YWHAZ PE=1 SV=1
+sp|P27348|1433T_HUMAN -            245 LIG_14-3-3_1+1433B_HUMAN+5+238_muscle -            226  8.5e-127  416.1   3.9   1   1  9.5e-129  9.8e-127  415.9   3.9     2   226     5   229     4   229 1.00 14-3-3 protein theta OS=Homo sapiens OX=9606 GN=YWHAQ PE=1 SV=1
+sp|P62258|1433E_HUMAN -            255 LIG_14-3-3_1+1433B_HUMAN+5+238_muscle -            226  4.2e-119  391.0   2.7   1   1  4.8e-121  4.9e-119  390.7   2.7     1   226     5   232     5   232 0.98 14-3-3 protein epsilon OS=Homo sapiens OX=9606 GN=YWHAE PE=1 SV=1
+sp|P31947|1433S_HUMAN -            248 LIG_14-3-3_1+1433B_HUMAN+5+238_muscle -            226  4.6e-114  374.5   1.0   1   1  5.1e-116  5.3e-114  374.3   1.0     2   226     5   231     4   231 0.98 14-3-3 protein sigma OS=Homo sapiens OX=9606 GN=SFN PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      domain_all/LIG_14-3-3_1+1433B_HUMAN+5+238.hmm
+# Target file:     H1_prot_fasta.fasta
+# Option settings: hmmsearch -o /home/bwadie/Hmmer_H1/all_outs/LIG_14-3-3_1+1433B_HUMAN+5+238.out --domtblout /home/bwadie/Hmmer_H1/domain_all_H1_domtblouts/LIG_14-3-3_1+1433B_HUMAN+5+238.txt -E 1 domain_all/LIG_14-3-3_1+1433B_HUMAN+5+238.hmm H1_prot_fasta.fasta 
+# Current dir:     /home/bwadie/Hmmer_H1
+# Date:            Wed Feb 10 00:37:26 2021
+# [ok]

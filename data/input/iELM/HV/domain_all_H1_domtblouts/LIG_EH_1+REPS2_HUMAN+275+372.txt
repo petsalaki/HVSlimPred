@@ -1,0 +1,17 @@
+#                                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name         accession   tlen query name                          accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+# ------------------- ---------- -----                -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+sp|Q7L5N7|PCAT2_HUMAN -            544 LIG_EH_1+REPS2_HUMAN+275+372_muscle -             97   0.00076   14.6   0.1   1   2    0.0012      0.31    6.2   0.0    33    77   383   428   365   436 0.78 Lysophosphatidylcholine acyltransferase 2 OS=Homo sapiens OX=9606 GN=LPCAT2 PE=1 SV=1
+sp|Q7L5N7|PCAT2_HUMAN -            544 LIG_EH_1+REPS2_HUMAN+275+372_muscle -             97   0.00076   14.6   0.1   2   2    0.0014      0.35    6.0   0.0    48    69   436   457   429   461 0.86 Lysophosphatidylcholine acyltransferase 2 OS=Homo sapiens OX=9606 GN=LPCAT2 PE=1 SV=1
+sp|Q9BSW2|EFC4B_HUMAN -            395 LIG_EH_1+REPS2_HUMAN+275+372_muscle -             97   0.00095   14.3   0.0   1   2   1.5e-05    0.0038   12.3   0.0    29    72    73   116    50   129 0.75 EF-hand calcium-binding domain-containing protein 4B OS=Homo sapiens OX=9606 GN=CRACR2A PE=1 SV=1
+sp|Q9BSW2|EFC4B_HUMAN -            395 LIG_EH_1+REPS2_HUMAN+275+372_muscle -             97   0.00095   14.3   0.0   2   2      0.38        98   -1.8   0.0    36    55   306   330   286   343 0.70 EF-hand calcium-binding domain-containing protein 4B OS=Homo sapiens OX=9606 GN=CRACR2A PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      domain_all/LIG_EH_1+REPS2_HUMAN+275+372.hmm
+# Target file:     H1_prot_fasta.fasta
+# Option settings: hmmsearch -o /home/bwadie/Hmmer_H1/all_outs/LIG_EH_1+REPS2_HUMAN+275+372.out --domtblout /home/bwadie/Hmmer_H1/domain_all_H1_domtblouts/LIG_EH_1+REPS2_HUMAN+275+372.txt -E 1 domain_all/LIG_EH_1+REPS2_HUMAN+275+372.hmm H1_prot_fasta.fasta 
+# Current dir:     /home/bwadie/Hmmer_H1
+# Date:            Wed Feb 10 00:37:36 2021
+# [ok]

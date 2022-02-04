@@ -1,0 +1,25 @@
+#                                                                                                --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name         accession   tlen query name                              accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+# ------------------- ---------- -----                    -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+sp|O43660|PLRG1_HUMAN -            514 TRG_ER_diLys_1+COPB2_YEAST+3+256_muscle -            252   3.7e-49  161.3   7.2   1   4   1.7e-25   9.5e-24   78.1   0.0   122   252   189   316   167   316 0.93 Pleiotropic regulator 1 OS=Homo sapiens OX=9606 GN=PLRG1 PE=1 SV=1
+sp|O43660|PLRG1_HUMAN -            514 TRG_ER_diLys_1+COPB2_YEAST+3+256_muscle -            252   3.7e-49  161.3   7.2   2   4   3.4e-16   1.9e-14   47.6   0.3   195   252   301   358   299   358 0.97 Pleiotropic regulator 1 OS=Homo sapiens OX=9606 GN=PLRG1 PE=1 SV=1
+sp|O43660|PLRG1_HUMAN -            514 TRG_ER_diLys_1+COPB2_YEAST+3+256_muscle -            252   3.7e-49  161.3   7.2   3   4   3.1e-18   1.7e-16   54.3   0.5    85   220   321   450   319   490 0.83 Pleiotropic regulator 1 OS=Homo sapiens OX=9606 GN=PLRG1 PE=1 SV=1
+sp|O43660|PLRG1_HUMAN -            514 TRG_ER_diLys_1+COPB2_YEAST+3+256_muscle -            252   3.7e-49  161.3   7.2   4   4     0.077       4.3    0.6   0.0   103   124   471   492   460   500 0.62 Pleiotropic regulator 1 OS=Homo sapiens OX=9606 GN=PLRG1 PE=1 SV=1
+sp|Q9Y297|FBW1A_HUMAN -            605 TRG_ER_diLys_1+COPB2_YEAST+3+256_muscle -            252   2.8e-41  135.5   5.9   1   3   1.1e-18   6.2e-17   55.8   0.9   149   252   312   409   282   409 0.92 F-box/WD repeat-containing protein 1A OS=Homo sapiens OX=9606 GN=BTRC PE=1 SV=1
+sp|Q9Y297|FBW1A_HUMAN -            605 TRG_ER_diLys_1+COPB2_YEAST+3+256_muscle -            252   2.8e-41  135.5   5.9   2   3   5.6e-27   3.2e-25   82.9   0.1   108   252   395   532   393   532 0.92 F-box/WD repeat-containing protein 1A OS=Homo sapiens OX=9606 GN=BTRC PE=1 SV=1
+sp|Q9Y297|FBW1A_HUMAN -            605 TRG_ER_diLys_1+COPB2_YEAST+3+256_muscle -            252   2.8e-41  135.5   5.9   3   3   6.4e-06   0.00036   13.9   0.1   149   213   515   584   515   590 0.70 F-box/WD repeat-containing protein 1A OS=Homo sapiens OX=9606 GN=BTRC PE=1 SV=1
+sp|Q9Y263|PLAP_HUMAN  -            795 TRG_ER_diLys_1+COPB2_YEAST+3+256_muscle -            252   1.7e-31  103.5   0.0   1   2   1.1e-20   6.4e-19   62.3   0.0   109   252    34   179    11   179 0.86 Phospholipase A-2-activating protein OS=Homo sapiens OX=9606 GN=PLAA PE=1 SV=2
+sp|Q9Y263|PLAP_HUMAN  -            795 TRG_ER_diLys_1+COPB2_YEAST+3+256_muscle -            252   1.7e-31  103.5   0.0   2   2   2.8e-13   1.5e-11   38.1   0.0    88   209   185   297   181   319 0.84 Phospholipase A-2-activating protein OS=Homo sapiens OX=9606 GN=PLAA PE=1 SV=2
+sp|Q9BUR4|TCAB1_HUMAN -            548 TRG_ER_diLys_1+COPB2_YEAST+3+256_muscle -            252   1.7e-09   31.4   0.0   1   3      0.11       6.2    0.1   0.0    58    80   175   197   163   215 0.65 Telomerase Cajal body protein 1 OS=Homo sapiens OX=9606 GN=WRAP53 PE=1 SV=1
+sp|Q9BUR4|TCAB1_HUMAN -            548 TRG_ER_diLys_1+COPB2_YEAST+3+256_muscle -            252   1.7e-09   31.4   0.0   2   3     0.021       1.2    2.4   0.0   191   216   239   264   228   304 0.70 Telomerase Cajal body protein 1 OS=Homo sapiens OX=9606 GN=WRAP53 PE=1 SV=1
+sp|Q9BUR4|TCAB1_HUMAN -            548 TRG_ER_diLys_1+COPB2_YEAST+3+256_muscle -            252   1.7e-09   31.4   0.0   3   3   6.2e-09   3.4e-07   23.8   0.0    94   243   325   480   311   484 0.81 Telomerase Cajal body protein 1 OS=Homo sapiens OX=9606 GN=WRAP53 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      domain_all/TRG_ER_diLys_1+COPB2_YEAST+3+256.hmm
+# Target file:     human_only_H1_Prot_fasta.fasta
+# Option settings: hmmsearch -o /home/bwadie/Hmmer_H1/human_slimfinder_HMM_outputs/all_outs/TRG_ER_diLys_1+COPB2_YEAST+3+256.out --domtblout /home/bwadie/Hmmer_H1/human_slimfinder_HMM_outputs/domain_all_H1_domtblouts/TRG_ER_diLys_1+COPB2_YEAST+3+256.txt -E 1 domain_all/TRG_ER_diLys_1+COPB2_YEAST+3+256.hmm human_only_H1_Prot_fasta.fasta 
+# Current dir:     /home/bwadie/Hmmer_H1
+# Date:            Wed Mar 17 18:18:41 2021
+# [ok]

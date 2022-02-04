@@ -1,0 +1,15 @@
+#                                                                                        --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name                       accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- -----             -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+sp|P05556|ITB1_HUMAN -            798 LIG_RGD+ITB5_HUMAN+35+463_muscle -            423  1.8e-161  532.8   0.2   1   2  3.4e-164  1.8e-161  532.8   0.2     2   423    34   464    33   464 0.97 Integrin beta-1 OS=Homo sapiens OX=9606 GN=ITGB1 PE=1 SV=2
+sp|P05556|ITB1_HUMAN -            798 LIG_RGD+ITB5_HUMAN+35+463_muscle -            423  1.8e-161  532.8   0.2   2   2         1   5.2e+02   -8.3   8.6     2    32   632   664   626   692 0.69 Integrin beta-1 OS=Homo sapiens OX=9606 GN=ITGB1 PE=1 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      domain_all/LIG_RGD+ITB5_HUMAN+35+463.hmm
+# Target file:     H1_prot_fasta.fasta
+# Option settings: hmmsearch -o /home/bwadie/Hmmer_H1/all_outs/LIG_RGD+ITB5_HUMAN+35+463.out --domtblout /home/bwadie/Hmmer_H1/domain_all_H1_domtblouts/LIG_RGD+ITB5_HUMAN+35+463.txt -E 1 domain_all/LIG_RGD+ITB5_HUMAN+35+463.hmm H1_prot_fasta.fasta 
+# Current dir:     /home/bwadie/Hmmer_H1
+# Date:            Wed Feb 10 00:37:53 2021
+# [ok]

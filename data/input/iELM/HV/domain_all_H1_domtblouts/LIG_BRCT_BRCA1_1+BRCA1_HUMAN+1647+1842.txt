@@ -1,0 +1,17 @@
+#                                                                                                      --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name         accession   tlen query name                                    accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+# ------------------- ---------- -----                          -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+sp|P38398|BRCA1_HUMAN -           1863 LIG_BRCT_BRCA1_1+BRCA1_HUMAN+1647+1842_muscle -            195  5.1e-127  416.0   0.5   1   1  3.9e-129    1e-126  415.1   0.5     1   195  1648  1842  1648  1842 1.00 Breast cancer type 1 susceptibility protein OS=Homo sapiens OX=9606 GN=BRCA1 PE=1 SV=2
+sp|Q92547|TOPB1_HUMAN -           1522 LIG_BRCT_BRCA1_1+BRCA1_HUMAN+1647+1842_muscle -            195   0.00075   14.2   0.2   1   3     0.065        17   -0.0   0.0    31    85   390   440   387   445 0.75 DNA topoisomerase 2-binding protein 1 OS=Homo sapiens OX=9606 GN=TOPBP1 PE=1 SV=3
+sp|Q92547|TOPB1_HUMAN -           1522 LIG_BRCT_BRCA1_1+BRCA1_HUMAN+1647+1842_muscle -            195   0.00075   14.2   0.2   2   3     0.032       8.4    1.0   0.0     6    81   548   625   543   631 0.73 DNA topoisomerase 2-binding protein 1 OS=Homo sapiens OX=9606 GN=TOPBP1 PE=1 SV=3
+sp|Q92547|TOPB1_HUMAN -           1522 LIG_BRCT_BRCA1_1+BRCA1_HUMAN+1647+1842_muscle -            195   0.00075   14.2   0.2   3   3   0.00048      0.12    6.9   0.0    52   103  1314  1369  1277  1387 0.85 DNA topoisomerase 2-binding protein 1 OS=Homo sapiens OX=9606 GN=TOPBP1 PE=1 SV=3
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      domain_all/LIG_BRCT_BRCA1_1+BRCA1_HUMAN+1647+1842.hmm
+# Target file:     H1_prot_fasta.fasta
+# Option settings: hmmsearch -o /home/bwadie/Hmmer_H1/all_outs/LIG_BRCT_BRCA1_1+BRCA1_HUMAN+1647+1842.out --domtblout /home/bwadie/Hmmer_H1/domain_all_H1_domtblouts/LIG_BRCT_BRCA1_1+BRCA1_HUMAN+1647+1842.txt -E 1 domain_all/LIG_BRCT_BRCA1_1+BRCA1_HUMAN+1647+1842.hmm H1_prot_fasta.fasta 
+# Current dir:     /home/bwadie/Hmmer_H1
+# Date:            Wed Feb 10 00:37:31 2021
+# [ok]

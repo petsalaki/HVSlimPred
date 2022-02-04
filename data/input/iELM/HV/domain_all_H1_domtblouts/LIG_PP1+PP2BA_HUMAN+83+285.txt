@@ -1,0 +1,16 @@
+#                                                                                          --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name         accession   tlen query name                        accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+# ------------------- ---------- -----              -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+sp|P67775|PP2AA_HUMAN -            309 LIG_PP1+PP2BA_HUMAN+83+285_muscle -            202   1.9e-71  234.8   0.0   1   1   1.6e-73   4.1e-71  233.7   0.0     1   199    51   242    51   245 0.97 Serine/threonine-protein phosphatase 2A catalytic subunit alpha isoform OS=Homo sapiens OX=9606 GN=PPP2CA PE=1 SV=1
+sp|Q9UL40|ZN346_HUMAN -            294 LIG_PP1+PP2BA_HUMAN+83+285_muscle -            202    0.0026   12.4   0.1   1   2   9.8e-05     0.025    9.1   0.0   110   158   102   152    96   169 0.84 Zinc finger protein 346 OS=Homo sapiens OX=9606 GN=ZNF346 PE=1 SV=1
+sp|Q9UL40|ZN346_HUMAN -            294 LIG_PP1+PP2BA_HUMAN+83+285_muscle -            202    0.0026   12.4   0.1   2   2     0.035       9.2    0.8   0.0   124   164   169   209   159   229 0.71 Zinc finger protein 346 OS=Homo sapiens OX=9606 GN=ZNF346 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      domain_all/LIG_PP1+PP2BA_HUMAN+83+285.hmm
+# Target file:     H1_prot_fasta.fasta
+# Option settings: hmmsearch -o /home/bwadie/Hmmer_H1/all_outs/LIG_PP1+PP2BA_HUMAN+83+285.out --domtblout /home/bwadie/Hmmer_H1/domain_all_H1_domtblouts/LIG_PP1+PP2BA_HUMAN+83+285.txt -E 1 domain_all/LIG_PP1+PP2BA_HUMAN+83+285.hmm H1_prot_fasta.fasta 
+# Current dir:     /home/bwadie/Hmmer_H1
+# Date:            Wed Feb 10 00:37:51 2021
+# [ok]

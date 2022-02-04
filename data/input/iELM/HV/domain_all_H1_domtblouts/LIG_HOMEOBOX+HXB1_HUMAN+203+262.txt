@@ -1,0 +1,15 @@
+#                                                                                               --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name         accession   tlen query name                             accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+# ------------------- ---------- -----                   -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+sp|P50222|MEOX2_HUMAN -            304 LIG_HOMEOBOX+HXB1_HUMAN+203+262_muscle -             59   2.4e-21   70.6   7.7   1   1   1.4e-23   3.6e-21   70.0   7.7     4    57   191   244   188   246 0.96 Homeobox protein MOX-2 OS=Homo sapiens OX=9606 GN=MEOX2 PE=1 SV=2
+sp|O43186|CRX_HUMAN   -            299 LIG_HOMEOBOX+HXB1_HUMAN+203+262_muscle -             59   2.1e-10   35.5   3.2   1   1   1.2e-12   3.2e-10   34.9   3.2     4    56    43    95    40   100 0.94 Cone-rod homeobox protein OS=Homo sapiens OX=9606 GN=CRX PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      domain_all/LIG_HOMEOBOX+HXB1_HUMAN+203+262.hmm
+# Target file:     H1_prot_fasta.fasta
+# Option settings: hmmsearch -o /home/bwadie/Hmmer_H1/all_outs/LIG_HOMEOBOX+HXB1_HUMAN+203+262.out --domtblout /home/bwadie/Hmmer_H1/domain_all_H1_domtblouts/LIG_HOMEOBOX+HXB1_HUMAN+203+262.txt -E 1 domain_all/LIG_HOMEOBOX+HXB1_HUMAN+203+262.hmm H1_prot_fasta.fasta 
+# Current dir:     /home/bwadie/Hmmer_H1
+# Date:            Wed Feb 10 00:37:39 2021
+# [ok]

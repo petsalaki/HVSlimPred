@@ -1,0 +1,27 @@
+#                                                                                               --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name         accession   tlen query name                             accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+# ------------------- ---------- -----                   -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+sp|Q07002|CDK18_HUMAN -            474 MOD_ProDKin_1+MK03_HUMAN+42+330_muscle -            290   4.8e-67  219.8   0.0   1   1   2.7e-68     6e-67  219.4   0.0     3   290   147   425   145   425 0.93 Cyclin-dependent kinase 18 OS=Homo sapiens OX=9606 GN=CDK18 PE=1 SV=4
+sp|Q9BWU1|CDK19_HUMAN -            502 MOD_ProDKin_1+MK03_HUMAN+42+330_muscle -            290     4e-59  193.8   0.0   1   1   2.4e-60   5.4e-59  193.4   0.0     5   290    26   335    23   335 0.81 Cyclin-dependent kinase 19 OS=Homo sapiens OX=9606 GN=CDK19 PE=1 SV=1
+sp|Q9P286|PAK5_HUMAN  -            719 MOD_ProDKin_1+MK03_HUMAN+42+330_muscle -            290   4.7e-34  111.5   0.0   1   2   1.3e-33   2.9e-32  105.6   0.0     5   221   454   659   450   674 0.87 Serine/threonine-protein kinase PAK 5 OS=Homo sapiens OX=9606 GN=PAK5 PE=1 SV=1
+sp|Q9P286|PAK5_HUMAN  -            719 MOD_ProDKin_1+MK03_HUMAN+42+330_muscle -            290   4.7e-34  111.5   0.0   2   2      0.01      0.23    4.2   0.0   265   290   675   700   663   700 0.87 Serine/threonine-protein kinase PAK 5 OS=Homo sapiens OX=9606 GN=PAK5 PE=1 SV=1
+sp|Q13188|STK3_HUMAN  -            491 MOD_ProDKin_1+MK03_HUMAN+42+330_muscle -            290   2.2e-30   99.4   0.0   1   2   1.4e-28   3.2e-27   89.1   0.0     3   206    30   222    28   238 0.88 Serine/threonine-protein kinase 3 OS=Homo sapiens OX=9606 GN=STK3 PE=1 SV=2
+sp|Q13188|STK3_HUMAN  -            491 MOD_ProDKin_1+MK03_HUMAN+42+330_muscle -            290   2.2e-30   99.4   0.0   2   2   0.00056     0.013    8.3   0.0   262   290   250   278   234   278 0.89 Serine/threonine-protein kinase 3 OS=Homo sapiens OX=9606 GN=STK3 PE=1 SV=2
+sp|P31749|AKT1_HUMAN  -            480 MOD_ProDKin_1+MK03_HUMAN+42+330_muscle -            290   2.4e-25   82.9   0.0   1   1   1.6e-26   3.6e-25   82.3   0.0     3   218   153   362   151   393 0.88 RAC-alpha serine/threonine-protein kinase OS=Homo sapiens OX=9606 GN=AKT1 PE=1 SV=2
+sp|Q9Y572|RIPK3_HUMAN -            518 MOD_ProDKin_1+MK03_HUMAN+42+330_muscle -            290   6.6e-22   71.6   0.0   1   1   4.2e-23   9.4e-22   71.1   0.0     3   202    24   218    22   223 0.91 Receptor-interacting serine/threonine-protein kinase 3 OS=Homo sapiens OX=9606 GN=RIPK3 PE=1 SV=2
+sp|Q16512|PKN1_HUMAN  -            942 MOD_ProDKin_1+MK03_HUMAN+42+330_muscle -            290   2.9e-20   66.2   0.0   1   3      0.85        19   -2.1   0.0   177   205   453   481   450   493 0.84 Serine/threonine-protein kinase N1 OS=Homo sapiens OX=9606 GN=PKN1 PE=1 SV=2
+sp|Q16512|PKN1_HUMAN  -            942 MOD_ProDKin_1+MK03_HUMAN+42+330_muscle -            290   2.9e-20   66.2   0.0   2   3   5.7e-21   1.3e-19   64.1   0.0     4   218   619   828   616   832 0.79 Serine/threonine-protein kinase N1 OS=Homo sapiens OX=9606 GN=PKN1 PE=1 SV=2
+sp|Q16512|PKN1_HUMAN  -            942 MOD_ProDKin_1+MK03_HUMAN+42+330_muscle -            290   2.9e-20   66.2   0.0   3   3       1.4        31   -2.8   0.0   259   280   838   859   828   863 0.82 Serine/threonine-protein kinase N1 OS=Homo sapiens OX=9606 GN=PKN1 PE=1 SV=2
+sp|Q07912|ACK1_HUMAN  -           1038 MOD_ProDKin_1+MK03_HUMAN+42+330_muscle -            290   9.8e-18   57.9   0.0   1   1   6.3e-19   1.4e-17   57.4   0.0     3   200   129   325   127   349 0.83 Activated CDC42 kinase 1 OS=Homo sapiens OX=9606 GN=TNK2 PE=1 SV=3
+sp|Q5S007|LRRK2_HUMAN -           2527 MOD_ProDKin_1+MK03_HUMAN+42+330_muscle -            290   1.1e-16   54.5   0.0   1   1   1.1e-17   2.5e-16   53.3   0.0     6   201  1885  2069  1881  2090 0.78 Leucine-rich repeat serine/threonine-protein kinase 2 OS=Homo sapiens OX=9606 GN=LRRK2 PE=1 SV=2
+sp|P08069|IGF1R_HUMAN -           1367 MOD_ProDKin_1+MK03_HUMAN+42+330_muscle -            290   4.1e-13   42.8   0.0   1   1   3.5e-14   7.8e-13   41.8   0.0     4   199  1003  1206  1000  1232 0.76 Insulin-like growth factor 1 receptor OS=Homo sapiens OX=9606 GN=IGF1R PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      domain_all/MOD_ProDKin_1+MK03_HUMAN+42+330.hmm
+# Target file:     human_only_H1_Prot_fasta.fasta
+# Option settings: hmmsearch -o /home/bwadie/Hmmer_H1/human_slimfinder_HMM_outputs/all_outs/MOD_ProDKin_1+MK03_HUMAN+42+330.out --domtblout /home/bwadie/Hmmer_H1/human_slimfinder_HMM_outputs/domain_all_H1_domtblouts/MOD_ProDKin_1+MK03_HUMAN+42+330.txt -E 1 domain_all/MOD_ProDKin_1+MK03_HUMAN+42+330.hmm human_only_H1_Prot_fasta.fasta 
+# Current dir:     /home/bwadie/Hmmer_H1
+# Date:            Wed Mar 17 18:18:37 2021
+# [ok]

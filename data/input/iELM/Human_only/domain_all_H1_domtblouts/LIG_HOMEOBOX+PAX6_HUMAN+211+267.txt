@@ -1,0 +1,18 @@
+#                                                                                              --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name                             accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- -----                   -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+sp|Q9UBX2|DUX4_HUMAN -            424 LIG_HOMEOBOX+PAX6_HUMAN+211+267_muscle -             56   6.2e-35  112.7   5.3   1   2   8.3e-19   4.7e-17   55.5   0.7     1    53    21    73    21    77 0.95 Double homeobox protein 4 OS=Homo sapiens OX=9606 GN=DUX4 PE=1 SV=2
+sp|Q9UBX2|DUX4_HUMAN -            424 LIG_HOMEOBOX+PAX6_HUMAN+211+267_muscle -             56   6.2e-35  112.7   5.3   2   2     5e-20   2.8e-18   59.4   0.3     1    53    96   148    96   150 0.98 Double homeobox protein 4 OS=Homo sapiens OX=9606 GN=DUX4 PE=1 SV=2
+sp|Q68G74|LHX8_HUMAN -            356 LIG_HOMEOBOX+PAX6_HUMAN+211+267_muscle -             56   5.4e-14   45.7   1.0   1   1   1.6e-15     9e-14   44.9   1.0     1    56   227   282   227   282 0.97 LIM/homeobox protein Lhx8 OS=Homo sapiens OX=9606 GN=LHX8 PE=1 SV=2
+sp|P49639|HXA1_HUMAN -            335 LIG_HOMEOBOX+PAX6_HUMAN+211+267_muscle -             56   5.7e-13   42.4   3.3   1   1   1.6e-14   8.9e-13   41.8   3.3     2    55   232   285   231   286 0.96 Homeobox protein Hox-A1 OS=Homo sapiens OX=9606 GN=HOXA1 PE=1 SV=2
+sp|Q00444|HXC5_HUMAN -            222 LIG_HOMEOBOX+PAX6_HUMAN+211+267_muscle -             56     3e-12   40.1   6.5   1   1   8.2e-14   4.6e-12   39.5   6.5     1    56   157   212   157   212 0.98 Homeobox protein Hox-C5 OS=Homo sapiens OX=9606 GN=HOXC5 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      domain_all/LIG_HOMEOBOX+PAX6_HUMAN+211+267.hmm
+# Target file:     human_only_H1_Prot_fasta.fasta
+# Option settings: hmmsearch -o /home/bwadie/Hmmer_H1/human_slimfinder_HMM_outputs/all_outs/LIG_HOMEOBOX+PAX6_HUMAN+211+267.out --domtblout /home/bwadie/Hmmer_H1/human_slimfinder_HMM_outputs/domain_all_H1_domtblouts/LIG_HOMEOBOX+PAX6_HUMAN+211+267.txt -E 1 domain_all/LIG_HOMEOBOX+PAX6_HUMAN+211+267.hmm human_only_H1_Prot_fasta.fasta 
+# Current dir:     /home/bwadie/Hmmer_H1
+# Date:            Wed Mar 17 18:17:57 2021
+# [ok]

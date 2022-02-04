@@ -1,0 +1,28 @@
+#                                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name         accession   tlen query name                          accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+# ------------------- ---------- -----                -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+sp|Q07002|CDK18_HUMAN -            474 LIG_MAPK_2+MK14_HUMAN+24+308_muscle -            283     3e-69  227.2   0.0   1   1   1.7e-70   3.7e-69  226.8   0.0     2   283   146   425   145   425 0.93 Cyclin-dependent kinase 18 OS=Homo sapiens OX=9606 GN=CDK18 PE=1 SV=4
+sp|Q9BWU1|CDK19_HUMAN -            502 LIG_MAPK_2+MK14_HUMAN+24+308_muscle -            283   1.6e-59  195.3   0.0   1   1   9.5e-61   2.1e-59  194.8   0.0     5   283    26   335    23   335 0.79 Cyclin-dependent kinase 19 OS=Homo sapiens OX=9606 GN=CDK19 PE=1 SV=1
+sp|Q9P286|PAK5_HUMAN  -            719 LIG_MAPK_2+MK14_HUMAN+24+308_muscle -            283   1.5e-38  126.4   0.0   1   2   6.5e-38   1.5e-36  119.9   0.0     4   214   453   659   450   673 0.87 Serine/threonine-protein kinase PAK 5 OS=Homo sapiens OX=9606 GN=PAK5 PE=1 SV=1
+sp|Q9P286|PAK5_HUMAN  -            719 LIG_MAPK_2+MK14_HUMAN+24+308_muscle -            283   1.5e-38  126.4   0.0   2   2    0.0076      0.17    4.8   0.0   259   283   676   700   662   700 0.88 Serine/threonine-protein kinase PAK 5 OS=Homo sapiens OX=9606 GN=PAK5 PE=1 SV=1
+sp|Q13188|STK3_HUMAN  -            491 LIG_MAPK_2+MK14_HUMAN+24+308_muscle -            283   6.6e-33  107.9   0.0   1   2   4.7e-31     1e-29   97.4   0.0     3   199    30   222    28   241 0.87 Serine/threonine-protein kinase 3 OS=Homo sapiens OX=9606 GN=STK3 PE=1 SV=2
+sp|Q13188|STK3_HUMAN  -            491 LIG_MAPK_2+MK14_HUMAN+24+308_muscle -            283   6.6e-33  107.9   0.0   2   2   0.00057     0.013    8.5   0.0   254   283   249   278   227   278 0.88 Serine/threonine-protein kinase 3 OS=Homo sapiens OX=9606 GN=STK3 PE=1 SV=2
+sp|P31749|AKT1_HUMAN  -            480 LIG_MAPK_2+MK14_HUMAN+24+308_muscle -            283     1e-27   90.8   0.0   1   2   1.1e-28   2.5e-27   89.6   0.0     3   211   153   362   151   372 0.87 RAC-alpha serine/threonine-protein kinase OS=Homo sapiens OX=9606 GN=AKT1 PE=1 SV=2
+sp|P31749|AKT1_HUMAN  -            480 LIG_MAPK_2+MK14_HUMAN+24+308_muscle -            283     1e-27   90.8   0.0   2   2      0.83        19   -1.9   0.0   252   282   372   407   363   408 0.72 RAC-alpha serine/threonine-protein kinase OS=Homo sapiens OX=9606 GN=AKT1 PE=1 SV=2
+sp|Q16512|PKN1_HUMAN  -            942 LIG_MAPK_2+MK14_HUMAN+24+308_muscle -            283   4.4e-24   78.9   0.0   1   3      0.12       2.7    0.9   0.0   170   200   453   483   447   511 0.82 Serine/threonine-protein kinase N1 OS=Homo sapiens OX=9606 GN=PKN1 PE=1 SV=2
+sp|Q16512|PKN1_HUMAN  -            942 LIG_MAPK_2+MK14_HUMAN+24+308_muscle -            283   4.4e-24   78.9   0.0   2   3   3.3e-24   7.3e-23   74.9   0.0     3   212   618   829   616   843 0.84 Serine/threonine-protein kinase N1 OS=Homo sapiens OX=9606 GN=PKN1 PE=1 SV=2
+sp|Q16512|PKN1_HUMAN  -            942 LIG_MAPK_2+MK14_HUMAN+24+308_muscle -            283   4.4e-24   78.9   0.0   3   3       1.4        30   -2.6   0.0   253   275   839   861   832   865 0.85 Serine/threonine-protein kinase N1 OS=Homo sapiens OX=9606 GN=PKN1 PE=1 SV=2
+sp|Q9Y572|RIPK3_HUMAN -            518 LIG_MAPK_2+MK14_HUMAN+24+308_muscle -            283   7.9e-23   74.8   0.0   1   1   5.4e-24   1.2e-22   74.2   0.0     3   196    24   219    22   225 0.86 Receptor-interacting serine/threonine-protein kinase 3 OS=Homo sapiens OX=9606 GN=RIPK3 PE=1 SV=2
+sp|Q5S007|LRRK2_HUMAN -           2527 LIG_MAPK_2+MK14_HUMAN+24+308_muscle -            283   3.1e-21   69.6   0.0   1   1   3.4e-22   7.7e-21   68.3   0.0     6   194  1885  2069  1882  2096 0.81 Leucine-rich repeat serine/threonine-protein kinase 2 OS=Homo sapiens OX=9606 GN=LRRK2 PE=1 SV=2
+sp|Q07912|ACK1_HUMAN  -           1038 LIG_MAPK_2+MK14_HUMAN+24+308_muscle -            283   5.2e-17   55.7   0.0   1   1   3.4e-18   7.5e-17   55.2   0.0     3   193   129   325   127   358 0.76 Activated CDC42 kinase 1 OS=Homo sapiens OX=9606 GN=TNK2 PE=1 SV=3
+sp|P08069|IGF1R_HUMAN -           1367 LIG_MAPK_2+MK14_HUMAN+24+308_muscle -            283     4e-14   46.3   0.0   1   1     3e-15   6.8e-14   45.5   0.0     4   193  1003  1207  1000  1236 0.74 Insulin-like growth factor 1 receptor OS=Homo sapiens OX=9606 GN=IGF1R PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      domain_all/LIG_MAPK_2+MK14_HUMAN+24+308.hmm
+# Target file:     human_only_H1_Prot_fasta.fasta
+# Option settings: hmmsearch -o /home/bwadie/Hmmer_H1/human_slimfinder_HMM_outputs/all_outs/LIG_MAPK_2+MK14_HUMAN+24+308.out --domtblout /home/bwadie/Hmmer_H1/human_slimfinder_HMM_outputs/domain_all_H1_domtblouts/LIG_MAPK_2+MK14_HUMAN+24+308.txt -E 1 domain_all/LIG_MAPK_2+MK14_HUMAN+24+308.hmm human_only_H1_Prot_fasta.fasta 
+# Current dir:     /home/bwadie/Hmmer_H1
+# Date:            Wed Mar 17 18:18:00 2021
+# [ok]

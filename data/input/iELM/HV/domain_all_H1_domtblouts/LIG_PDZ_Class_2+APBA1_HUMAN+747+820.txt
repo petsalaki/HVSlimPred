@@ -1,0 +1,31 @@
+#                                                                                                   --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name         accession   tlen query name                                 accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+# ------------------- ---------- -----                       -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+sp|Q14160|SCRIB_HUMAN -           1630 LIG_PDZ_Class_2+APBA1_HUMAN+747+820_muscle -             73   1.3e-32  106.7   3.2   1   4   3.2e-09   2.4e-07   25.8   0.1    21    71   760   810   756   812 0.89 Protein scribble homolog OS=Homo sapiens OX=9606 GN=SCRIB PE=1 SV=4
+sp|Q14160|SCRIB_HUMAN -           1630 LIG_PDZ_Class_2+APBA1_HUMAN+747+820_muscle -             73   1.3e-32  106.7   3.2   2   4   1.3e-09   9.8e-08   27.0   0.1    21    68   894   942   889   945 0.90 Protein scribble homolog OS=Homo sapiens OX=9606 GN=SCRIB PE=1 SV=4
+sp|Q14160|SCRIB_HUMAN -           1630 LIG_PDZ_Class_2+APBA1_HUMAN+747+820_muscle -             73   1.3e-32  106.7   3.2   3   4   3.4e-10   2.5e-08   28.9   0.0    13    60  1030  1077  1023  1083 0.87 Protein scribble homolog OS=Homo sapiens OX=9606 GN=SCRIB PE=1 SV=4
+sp|Q14160|SCRIB_HUMAN -           1630 LIG_PDZ_Class_2+APBA1_HUMAN+747+820_muscle -             73   1.3e-32  106.7   3.2   4   4   6.4e-08   4.7e-06   21.6   0.0    23    63  1138  1179  1132  1184 0.87 Protein scribble homolog OS=Homo sapiens OX=9606 GN=SCRIB PE=1 SV=4
+sp|O00560|SDCB1_HUMAN -            298 LIG_PDZ_Class_2+APBA1_HUMAN+747+820_muscle -             73   4.9e-17   56.8   1.4   1   2   2.3e-07   1.7e-05   19.9   0.0    15    70   131   188   119   190 0.89 Syntenin-1 OS=Homo sapiens OX=9606 GN=SDCBP PE=1 SV=1
+sp|O00560|SDCB1_HUMAN -            298 LIG_PDZ_Class_2+APBA1_HUMAN+747+820_muscle -             73   4.9e-17   56.8   1.4   2   2   3.7e-12   2.7e-10   35.2   0.8    11    66   208   263   198   270 0.89 Syntenin-1 OS=Homo sapiens OX=9606 GN=SDCBP PE=1 SV=1
+sp|Q12959|DLG1_HUMAN  -            904 LIG_PDZ_Class_2+APBA1_HUMAN+747+820_muscle -             73   2.5e-15   51.3   3.0   1   3   1.7e-05    0.0012   13.9   0.1    20    64   254   299   250   306 0.88 Disks large homolog 1 OS=Homo sapiens OX=9606 GN=DLG1 PE=1 SV=2
+sp|Q12959|DLG1_HUMAN  -            904 LIG_PDZ_Class_2+APBA1_HUMAN+747+820_muscle -             73   2.5e-15   51.3   3.0   2   3   8.3e-07   6.1e-05   18.1   0.0    21    64   350   394   322   402 0.89 Disks large homolog 1 OS=Homo sapiens OX=9606 GN=DLG1 PE=1 SV=2
+sp|Q12959|DLG1_HUMAN  -            904 LIG_PDZ_Class_2+APBA1_HUMAN+747+820_muscle -             73   2.5e-15   51.3   3.0   3   3   1.2e-06   9.2e-05   17.5   0.1    21    58   491   529   473   540 0.83 Disks large homolog 1 OS=Homo sapiens OX=9606 GN=DLG1 PE=1 SV=2
+sp|Q8TBB1|LNX1_HUMAN  -            728 LIG_PDZ_Class_2+APBA1_HUMAN+747+820_muscle -             73   3.4e-15   50.9   2.3   1   4   2.6e-05    0.0019   13.3   0.0    19    61   301   344   293   352 0.91 E3 ubiquitin-protein ligase LNX OS=Homo sapiens OX=9606 GN=LNX1 PE=1 SV=1
+sp|Q8TBB1|LNX1_HUMAN  -            728 LIG_PDZ_Class_2+APBA1_HUMAN+747+820_muscle -             73   3.4e-15   50.9   2.3   2   4   7.3e-05    0.0054   11.8   0.0    17    49   404   437   382   458 0.77 E3 ubiquitin-protein ligase LNX OS=Homo sapiens OX=9606 GN=LNX1 PE=1 SV=1
+sp|Q8TBB1|LNX1_HUMAN  -            728 LIG_PDZ_Class_2+APBA1_HUMAN+747+820_muscle -             73   3.4e-15   50.9   2.3   3   4   0.00084     0.062    8.4   0.1    22    72   538   589   534   590 0.92 E3 ubiquitin-protein ligase LNX OS=Homo sapiens OX=9606 GN=LNX1 PE=1 SV=1
+sp|Q8TBB1|LNX1_HUMAN  -            728 LIG_PDZ_Class_2+APBA1_HUMAN+747+820_muscle -             73   3.4e-15   50.9   2.3   4   4     2e-05    0.0015   13.6   0.0    21    69   668   717   664   720 0.93 E3 ubiquitin-protein ligase LNX OS=Homo sapiens OX=9606 GN=LNX1 PE=1 SV=1
+sp|Q00013|EM55_HUMAN  -            466 LIG_PDZ_Class_2+APBA1_HUMAN+747+820_muscle -             73   9.1e-08   27.1   0.8   1   1   3.2e-09   2.4e-07   25.8   0.8    17    71    92   147    89   149 0.93 55 kDa erythrocyte membrane protein OS=Homo sapiens OX=9606 GN=MPP1 PE=1 SV=2
+sp|Q9UDY2|ZO2_HUMAN   -           1190 LIG_PDZ_Class_2+APBA1_HUMAN+747+820_muscle -             73   4.6e-06   21.7   0.6   1   3       0.5        37   -0.5   0.0    19    58    64   102    61   117 0.79 Tight junction protein ZO-2 OS=Homo sapiens OX=9606 GN=TJP2 PE=1 SV=2
+sp|Q9UDY2|ZO2_HUMAN   -           1190 LIG_PDZ_Class_2+APBA1_HUMAN+747+820_muscle -             73   4.6e-06   21.7   0.6   2   3    0.0003     0.022    9.9   0.0    11    68   318   377   308   381 0.78 Tight junction protein ZO-2 OS=Homo sapiens OX=9606 GN=TJP2 PE=1 SV=2
+sp|Q9UDY2|ZO2_HUMAN   -           1190 LIG_PDZ_Class_2+APBA1_HUMAN+747+820_muscle -             73   4.6e-06   21.7   0.6   3   3    0.0011     0.083    8.0   0.0    21    56   535   570   527   594 0.82 Tight junction protein ZO-2 OS=Homo sapiens OX=9606 GN=TJP2 PE=1 SV=2
+sp|O14908|GIPC1_HUMAN -            333 LIG_PDZ_Class_2+APBA1_HUMAN+747+820_muscle -             73     0.002   13.2   0.1   1   1   6.1e-05    0.0045   12.1   0.1    35    61   172   198   157   202 0.88 PDZ domain-containing protein GIPC1 OS=Homo sapiens OX=9606 GN=GIPC1 PE=1 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      domain_all/LIG_PDZ_Class_2+APBA1_HUMAN+747+820.hmm
+# Target file:     H1_prot_fasta.fasta
+# Option settings: hmmsearch -o /home/bwadie/Hmmer_H1/all_outs/LIG_PDZ_Class_2+APBA1_HUMAN+747+820.out --domtblout /home/bwadie/Hmmer_H1/domain_all_H1_domtblouts/LIG_PDZ_Class_2+APBA1_HUMAN+747+820.txt -E 1 domain_all/LIG_PDZ_Class_2+APBA1_HUMAN+747+820.hmm H1_prot_fasta.fasta 
+# Current dir:     /home/bwadie/Hmmer_H1
+# Date:            Wed Feb 10 00:37:49 2021
+# [ok]

@@ -1,0 +1,19 @@
+#                                                                                         --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name         accession   tlen query name                       accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+# ------------------- ---------- -----             -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+sp|O94875|SRBS2_HUMAN -           1100 LIG_SH3_2+CSK_MOUSE+15+62_muscle -             47   9.5e-17   54.1   0.5   1   3   1.2e-10     9e-09   28.5   0.0     1    47   870   914   870   914 0.90 Sorbin and SH3 domain-containing protein 2 OS=Homo sapiens OX=9606 GN=SORBS2 PE=1 SV=3
+sp|O94875|SRBS2_HUMAN -           1100 LIG_SH3_2+CSK_MOUSE+15+62_muscle -             47   9.5e-17   54.1   0.5   2   3   2.5e-08   1.9e-06   21.1   0.0     1    46   945   990   945   991 0.86 Sorbin and SH3 domain-containing protein 2 OS=Homo sapiens OX=9606 GN=SORBS2 PE=1 SV=3
+sp|O94875|SRBS2_HUMAN -           1100 LIG_SH3_2+CSK_MOUSE+15+62_muscle -             47   9.5e-17   54.1   0.5   3   3     0.064       4.8    0.6   0.0     1    29  1048  1076  1048  1082 0.89 Sorbin and SH3 domain-containing protein 2 OS=Homo sapiens OX=9606 GN=SORBS2 PE=1 SV=3
+sp|Q12959|DLG1_HUMAN  -            904 LIG_SH3_2+CSK_MOUSE+15+62_muscle -             47   8.9e-06   18.9   0.1   1   2       1.6   1.2e+02   -3.9   0.0    19    29   386   396   384   396 0.87 Disks large homolog 1 OS=Homo sapiens OX=9606 GN=DLG1 PE=1 SV=2
+sp|Q12959|DLG1_HUMAN  -            904 LIG_SH3_2+CSK_MOUSE+15+62_muscle -             47   8.9e-06   18.9   0.1   2   2   4.4e-07   3.3e-05   17.1   0.0     7    46   599   642   595   643 0.78 Disks large homolog 1 OS=Homo sapiens OX=9606 GN=DLG1 PE=1 SV=2
+sp|Q9BVN2|RUSC1_HUMAN -            902 LIG_SH3_2+CSK_MOUSE+15+62_muscle -             47    0.0012   12.2   0.0   1   1   3.2e-05    0.0024   11.2   0.0    10    47   860   895   853   895 0.82 RUN and SH3 domain-containing protein 1 OS=Homo sapiens OX=9606 GN=RUSC1 PE=1 SV=3
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      domain_all/LIG_SH3_2+CSK_MOUSE+15+62.hmm
+# Target file:     human_only_H1_Prot_fasta.fasta
+# Option settings: hmmsearch -o /home/bwadie/Hmmer_H1/human_slimfinder_HMM_outputs/all_outs/LIG_SH3_2+CSK_MOUSE+15+62.out --domtblout /home/bwadie/Hmmer_H1/human_slimfinder_HMM_outputs/domain_all_H1_domtblouts/LIG_SH3_2+CSK_MOUSE+15+62.txt -E 1 domain_all/LIG_SH3_2+CSK_MOUSE+15+62.hmm human_only_H1_Prot_fasta.fasta 
+# Current dir:     /home/bwadie/Hmmer_H1
+# Date:            Wed Mar 17 18:18:20 2021
+# [ok]

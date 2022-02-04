@@ -1,0 +1,26 @@
+#                                                                                                  --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name         accession   tlen query name                                accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+# ------------------- ---------- -----                      -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+sp|Q9Y297|FBW1A_HUMAN -            605 LIG_GLEBS_BUB3_1+BUB3_HUMAN+10+301_muscle -            292   5.9e-31  101.8   0.3   1   2   2.8e-16   1.6e-14   47.8   0.2    54   161   308   416   290   422 0.88 F-box/WD repeat-containing protein 1A OS=Homo sapiens OX=9606 GN=BTRC PE=1 SV=1
+sp|Q9Y297|FBW1A_HUMAN -            605 LIG_GLEBS_BUB3_1+BUB3_HUMAN+10+301_muscle -            292   5.9e-31  101.8   0.3   2   2   1.7e-16   9.3e-15   48.6   0.0    17   157   436   584   428   600 0.84 F-box/WD repeat-containing protein 1A OS=Homo sapiens OX=9606 GN=BTRC PE=1 SV=1
+sp|O43660|PLRG1_HUMAN -            514 LIG_GLEBS_BUB3_1+BUB3_HUMAN+10+301_muscle -            292   4.6e-25   82.4   1.6   1   3   3.8e-08   2.1e-06   21.1   0.0    82   156   199   276   195   281 0.65 Pleiotropic regulator 1 OS=Homo sapiens OX=9606 GN=PLRG1 PE=1 SV=1
+sp|O43660|PLRG1_HUMAN -            514 LIG_GLEBS_BUB3_1+BUB3_HUMAN+10+301_muscle -            292   4.6e-25   82.4   1.6   2   3   8.2e-06   0.00046   13.5   0.0   228   276   291   339   287   342 0.86 Pleiotropic regulator 1 OS=Homo sapiens OX=9606 GN=PLRG1 PE=1 SV=1
+sp|O43660|PLRG1_HUMAN -            514 LIG_GLEBS_BUB3_1+BUB3_HUMAN+10+301_muscle -            292   4.6e-25   82.4   1.6   3   3   3.8e-15   2.1e-13   44.1   0.1     4   158   330   494   327   507 0.89 Pleiotropic regulator 1 OS=Homo sapiens OX=9606 GN=PLRG1 PE=1 SV=1
+sp|Q9Y263|PLAP_HUMAN  -            795 LIG_GLEBS_BUB3_1+BUB3_HUMAN+10+301_muscle -            292   3.7e-14   46.6   0.0   1   5     0.033       1.9    1.7   0.0    83   123    14    55     9    80 0.77 Phospholipase A-2-activating protein OS=Homo sapiens OX=9606 GN=PLAA PE=1 SV=2
+sp|Q9Y263|PLAP_HUMAN  -            795 LIG_GLEBS_BUB3_1+BUB3_HUMAN+10+301_muscle -            292   3.7e-14   46.6   0.0   2   5    0.0059      0.33    4.1   0.0    80   128    58   111    54   122 0.79 Phospholipase A-2-activating protein OS=Homo sapiens OX=9606 GN=PLAA PE=1 SV=2
+sp|Q9Y263|PLAP_HUMAN  -            795 LIG_GLEBS_BUB3_1+BUB3_HUMAN+10+301_muscle -            292   3.7e-14   46.6   0.0   3   5   9.7e-05    0.0054   10.0   0.0    61   114    85   138    76   142 0.82 Phospholipase A-2-activating protein OS=Homo sapiens OX=9606 GN=PLAA PE=1 SV=2
+sp|Q9Y263|PLAP_HUMAN  -            795 LIG_GLEBS_BUB3_1+BUB3_HUMAN+10+301_muscle -            292   3.7e-14   46.6   0.0   4   5   3.1e-07   1.7e-05   18.2   0.1    63   118   128   182   126   196 0.84 Phospholipase A-2-activating protein OS=Homo sapiens OX=9606 GN=PLAA PE=1 SV=2
+sp|Q9Y263|PLAP_HUMAN  -            795 LIG_GLEBS_BUB3_1+BUB3_HUMAN+10+301_muscle -            292   3.7e-14   46.6   0.0   5   5   7.7e-06   0.00043   13.6   0.0    56   155   200   299   180   323 0.80 Phospholipase A-2-activating protein OS=Homo sapiens OX=9606 GN=PLAA PE=1 SV=2
+sp|Q9BUR4|TCAB1_HUMAN -            548 LIG_GLEBS_BUB3_1+BUB3_HUMAN+10+301_muscle -            292   2.6e-08   27.4   0.0   1   3      0.17       9.4   -0.7   0.0     3    52   168   219   166   236 0.70 Telomerase Cajal body protein 1 OS=Homo sapiens OX=9606 GN=WRAP53 PE=1 SV=1
+sp|Q9BUR4|TCAB1_HUMAN -            548 LIG_GLEBS_BUB3_1+BUB3_HUMAN+10+301_muscle -            292   2.6e-08   27.4   0.0   2   3     0.048       2.7    1.1   0.0    18    71   243   301   231   317 0.51 Telomerase Cajal body protein 1 OS=Homo sapiens OX=9606 GN=WRAP53 PE=1 SV=1
+sp|Q9BUR4|TCAB1_HUMAN -            548 LIG_GLEBS_BUB3_1+BUB3_HUMAN+10+301_muscle -            292   2.6e-08   27.4   0.0   3   3     2e-08   1.1e-06   22.1   0.0     4   121   325   447   321   482 0.77 Telomerase Cajal body protein 1 OS=Homo sapiens OX=9606 GN=WRAP53 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      domain_all/LIG_GLEBS_BUB3_1+BUB3_HUMAN+10+301.hmm
+# Target file:     human_only_H1_Prot_fasta.fasta
+# Option settings: hmmsearch -o /home/bwadie/Hmmer_H1/human_slimfinder_HMM_outputs/all_outs/LIG_GLEBS_BUB3_1+BUB3_HUMAN+10+301.out --domtblout /home/bwadie/Hmmer_H1/human_slimfinder_HMM_outputs/domain_all_H1_domtblouts/LIG_GLEBS_BUB3_1+BUB3_HUMAN+10+301.txt -E 1 domain_all/LIG_GLEBS_BUB3_1+BUB3_HUMAN+10+301.hmm human_only_H1_Prot_fasta.fasta 
+# Current dir:     /home/bwadie/Hmmer_H1
+# Date:            Wed Mar 17 18:17:56 2021
+# [ok]

@@ -1,0 +1,20 @@
+#                                                                             --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name         accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+# ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+sp|O94875|SRBS2_HUMAN -           1100 SH3_1                PF00018.21    48   1.7e-43  139.9   0.4   1   3   5.1e-18   2.9e-16   52.7   0.0     1    47   869   913   869   914 0.97 Sorbin and SH3 domain-containing protein 2 OS=Homo sapiens OX=9606 GN=SORBS2 PE=1 SV=3
+sp|O94875|SRBS2_HUMAN -           1100 SH3_1                PF00018.21    48   1.7e-43  139.9   0.4   2   3   9.4e-16   5.3e-14   45.5   0.0     1    48   944   991   944   991 0.98 Sorbin and SH3 domain-containing protein 2 OS=Homo sapiens OX=9606 GN=SORBS2 PE=1 SV=3
+sp|O94875|SRBS2_HUMAN -           1100 SH3_1                PF00018.21    48   1.7e-43  139.9   0.4   3   3   1.7e-13   9.6e-12   38.2   0.0     1    47  1047  1093  1047  1094 0.97 Sorbin and SH3 domain-containing protein 2 OS=Homo sapiens OX=9606 GN=SORBS2 PE=1 SV=3
+sp|Q9BVN2|RUSC1_HUMAN -            902 SH3_1                PF00018.21    48   5.2e-12   39.1   0.2   1   2       1.4        78   -3.1   1.4    26    44   240   255   238   256 0.77 RUN and SH3 domain-containing protein 1 OS=Homo sapiens OX=9606 GN=RUSC1 PE=1 SV=3
+sp|Q9BVN2|RUSC1_HUMAN -            902 SH3_1                PF00018.21    48   5.2e-12   39.1   0.2   2   2   3.5e-13     2e-11   37.2   0.0     1    48   850   895   850   895 0.97 RUN and SH3 domain-containing protein 1 OS=Homo sapiens OX=9606 GN=RUSC1 PE=1 SV=3
+sp|Q12959|DLG1_HUMAN  -            904 SH3_1                PF00018.21    48   2.6e-10   33.7   0.1   1   1   1.4e-11   7.6e-10   32.1   0.1     1    48   587   643   587   643 0.84 Disks large homolog 1 OS=Homo sapiens OX=9606 GN=DLG1 PE=1 SV=2
+sp|Q07912|ACK1_HUMAN  -           1038 SH3_1                PF00018.21    48   1.7e-06   21.4   0.0   1   1   5.3e-08   2.9e-06   20.7   0.0     3    47   396   439   394   440 0.87 Activated CDC42 kinase 1 OS=Homo sapiens OX=9606 GN=TNK2 PE=1 SV=3
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      pfam_hmms/LIG_SH3_5.hmm
+# Target file:     human_only_H1_Prot_fasta.fasta
+# Option settings: hmmsearch -o /home/bwadie/Hmmer_H1/human_slimfinder_HMM_outputs/all_outs/LIG_SH3_5.out --domtblout /home/bwadie/Hmmer_H1/human_slimfinder_HMM_outputs/pfam_H1_domtblouts/LIG_SH3_5.txt -E 1 pfam_hmms/LIG_SH3_5.hmm human_only_H1_Prot_fasta.fasta 
+# Current dir:     /home/bwadie/Hmmer_H1
+# Date:            Wed Mar 17 18:17:36 2021
+# [ok]

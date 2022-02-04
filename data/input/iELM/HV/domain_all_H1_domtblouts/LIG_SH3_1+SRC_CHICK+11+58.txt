@@ -1,0 +1,15 @@
+#                                                                                        --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name                       accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- -----             -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+sp|P06241|FYN_HUMAN  -            537 LIG_SH3_1+SRC_CHICK+11+58_muscle -             49   9.3e-19   62.2   2.4   1   1   6.3e-21   1.6e-18   61.4   2.4     1    49    12    59    12    59 0.98 Tyrosine-protein kinase Fyn OS=Homo sapiens OX=9606 GN=FYN PE=1 SV=3
+sp|P12931|SRC_HUMAN  -            536 LIG_SH3_1+SRC_CHICK+11+58_muscle -             49   3.4e-15   50.8   6.3   1   1   2.4e-17   6.3e-15   50.0   6.3     1    49    12    61    12    61 0.97 Proto-oncogene tyrosine-protein kinase Src OS=Homo sapiens OX=9606 GN=SRC PE=1 SV=3
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      domain_all/LIG_SH3_1+SRC_CHICK+11+58.hmm
+# Target file:     H1_prot_fasta.fasta
+# Option settings: hmmsearch -o /home/bwadie/Hmmer_H1/all_outs/LIG_SH3_1+SRC_CHICK+11+58.out --domtblout /home/bwadie/Hmmer_H1/domain_all_H1_domtblouts/LIG_SH3_1+SRC_CHICK+11+58.txt -E 1 domain_all/LIG_SH3_1+SRC_CHICK+11+58.hmm H1_prot_fasta.fasta 
+# Current dir:     /home/bwadie/Hmmer_H1
+# Date:            Wed Feb 10 00:37:57 2021
+# [ok]

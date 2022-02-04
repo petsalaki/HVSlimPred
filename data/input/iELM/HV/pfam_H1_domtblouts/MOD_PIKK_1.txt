@@ -1,0 +1,18 @@
+#                                                                             --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name         accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+# ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+sp|P78527|PRKDC_HUMAN -           4128 PI3_PI4_kinase       PF00454.20   235   5.3e-62  204.5   0.2   1   2       1.3   2.2e+02   -3.7   0.0    54   109   278   345   243   347 0.60 DNA-dependent protein kinase catalytic subunit OS=Homo sapiens OX=9606 GN=PRKDC PE=1 SV=3
+sp|P78527|PRKDC_HUMAN -           4128 PI3_PI4_kinase       PF00454.20   235   5.3e-62  204.5   0.2   2   2   1.1e-63   1.9e-61  202.7   0.0     2   234  3748  4014  3747  4015 0.96 DNA-dependent protein kinase catalytic subunit OS=Homo sapiens OX=9606 GN=PRKDC PE=1 SV=3
+sp|P42336|PK3CA_HUMAN -           1068 PI3_PI4_kinase       PF00454.20   235   2.5e-56  186.0   1.8   1   2      0.79   1.4e+02   -3.0   0.0   169   192    84   103    82   110 0.81 Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit alpha isoform OS=Homo sapiens OX=9606 GN=PIK3CA PE=1 SV=2
+sp|P42336|PK3CA_HUMAN -           1068 PI3_PI4_kinase       PF00454.20   235   2.5e-56  186.0   1.8   2   2   2.5e-58   4.3e-56  185.2   0.8     3   234   798  1014   796  1015 0.95 Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit alpha isoform OS=Homo sapiens OX=9606 GN=PIK3CA PE=1 SV=2
+sp|Q8NEB9|PK3C3_HUMAN -            887 PI3_PI4_kinase       PF00454.20   235   1.8e-53  176.6   0.0   1   1   2.3e-54   3.9e-52  172.2   0.0     2   233   631   831   630   833 0.97 Phosphatidylinositol 3-kinase catalytic subunit type 3 OS=Homo sapiens OX=9606 GN=PIK3C3 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      pfam_hmms/MOD_PIKK_1.hmm
+# Target file:     H1_prot_fasta.fasta
+# Option settings: hmmsearch -o /home/bwadie/Hmmer_H1/all_outs/MOD_PIKK_1.out --domtblout /home/bwadie/Hmmer_H1/pfam_H1_domtblouts/MOD_PIKK_1.txt -E 1 pfam_hmms/MOD_PIKK_1.hmm H1_prot_fasta.fasta 
+# Current dir:     /home/bwadie/Hmmer_H1
+# Date:            Wed Feb 10 00:37:23 2021
+# [ok]

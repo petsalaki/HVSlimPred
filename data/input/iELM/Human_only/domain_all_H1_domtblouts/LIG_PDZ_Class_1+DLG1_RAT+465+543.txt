@@ -1,0 +1,31 @@
+#                                                                                                --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name         accession   tlen query name                              accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+# ------------------- ---------- -----                    -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+sp|Q12959|DLG1_HUMAN  -            904 LIG_PDZ_Class_1+DLG1_RAT+465+543_muscle -             78   1.8e-83  268.3  13.9   1   3   3.5e-22   1.1e-20   67.1   0.3     1    77   225   307   225   308 0.91 Disks large homolog 1 OS=Homo sapiens OX=9606 GN=DLG1 PE=1 SV=2
+sp|Q12959|DLG1_HUMAN  -            904 LIG_PDZ_Class_1+DLG1_RAT+465+543_muscle -             78   1.8e-83  268.3  13.9   2   3   1.6e-22   5.2e-21   68.2   0.6     1    76   320   401   320   403 0.89 Disks large homolog 1 OS=Homo sapiens OX=9606 GN=DLG1 PE=1 SV=2
+sp|Q12959|DLG1_HUMAN  -            904 LIG_PDZ_Class_1+DLG1_RAT+465+543_muscle -             78   1.8e-83  268.3  13.9   3   3   4.1e-45   1.3e-43  140.6   1.6     1    78   467   544   467   544 0.99 Disks large homolog 1 OS=Homo sapiens OX=9606 GN=DLG1 PE=1 SV=2
+sp|Q14160|SCRIB_HUMAN -           1630 LIG_PDZ_Class_1+DLG1_RAT+465+543_muscle -             78   2.4e-59  191.0   5.1   1   4   3.4e-18   1.1e-16   54.3   0.4     2    76   730   810   729   812 0.89 Protein scribble homolog OS=Homo sapiens OX=9606 GN=SCRIB PE=1 SV=4
+sp|Q14160|SCRIB_HUMAN -           1630 LIG_PDZ_Class_1+DLG1_RAT+465+543_muscle -             78   2.4e-59  191.0   5.1   2   4   1.4e-19   4.4e-18   58.8   0.2     3    76   865   945   863   947 0.88 Protein scribble homolog OS=Homo sapiens OX=9606 GN=SCRIB PE=1 SV=4
+sp|Q14160|SCRIB_HUMAN -           1630 LIG_PDZ_Class_1+DLG1_RAT+465+543_muscle -             78   2.4e-59  191.0   5.1   3   4   1.2e-13     4e-12   39.7   0.0     3    67  1007  1079  1005  1089 0.83 Protein scribble homolog OS=Homo sapiens OX=9606 GN=SCRIB PE=1 SV=4
+sp|Q14160|SCRIB_HUMAN -           1630 LIG_PDZ_Class_1+DLG1_RAT+465+543_muscle -             78   2.4e-59  191.0   5.1   4   4   9.3e-13     3e-11   36.9   0.0    20    76  1131  1187  1108  1189 0.94 Protein scribble homolog OS=Homo sapiens OX=9606 GN=SCRIB PE=1 SV=4
+sp|Q8TBB1|LNX1_HUMAN  -            728 LIG_PDZ_Class_1+DLG1_RAT+465+543_muscle -             78   1.4e-44  143.7   0.1   1   4   5.2e-10   1.7e-08   28.1   0.0     8    76   284   354   275   356 0.87 E3 ubiquitin-protein ligase LNX OS=Homo sapiens OX=9606 GN=LNX1 PE=1 SV=1
+sp|Q8TBB1|LNX1_HUMAN  -            728 LIG_PDZ_Class_1+DLG1_RAT+465+543_muscle -             78   1.4e-44  143.7   0.1   2   4   4.7e-13   1.5e-11   37.8   0.0     8    77   391   460   382   461 0.92 E3 ubiquitin-protein ligase LNX OS=Homo sapiens OX=9606 GN=LNX1 PE=1 SV=1
+sp|Q8TBB1|LNX1_HUMAN  -            728 LIG_PDZ_Class_1+DLG1_RAT+465+543_muscle -             78   1.4e-44  143.7   0.1   3   4   1.7e-12   5.5e-11   36.1   0.0     8    76   516   588   508   590 0.85 E3 ubiquitin-protein ligase LNX OS=Homo sapiens OX=9606 GN=LNX1 PE=1 SV=1
+sp|Q8TBB1|LNX1_HUMAN  -            728 LIG_PDZ_Class_1+DLG1_RAT+465+543_muscle -             78   1.4e-44  143.7   0.1   4   4     1e-12   3.3e-11   36.8   0.0     1    77   639   720   639   721 0.90 E3 ubiquitin-protein ligase LNX OS=Homo sapiens OX=9606 GN=LNX1 PE=1 SV=1
+sp|Q15599|NHRF2_HUMAN -            337 LIG_PDZ_Class_1+DLG1_RAT+465+543_muscle -             78   3.2e-24   78.5   0.0   1   2   1.4e-14   4.6e-13   42.7   0.1     3    75    14    85    12    88 0.92 Na(+)/H(+) exchange regulatory cofactor NHE-RF2 OS=Homo sapiens OX=9606 GN=SLC9A3R2 PE=1 SV=2
+sp|Q15599|NHRF2_HUMAN -            337 LIG_PDZ_Class_1+DLG1_RAT+465+543_muscle -             78   3.2e-24   78.5   0.0   2   2   1.1e-11   3.5e-10   33.5   0.0     2    75   153   225   152   228 0.92 Na(+)/H(+) exchange regulatory cofactor NHE-RF2 OS=Homo sapiens OX=9606 GN=SLC9A3R2 PE=1 SV=2
+sp|O14745|NHRF1_HUMAN -            358 LIG_PDZ_Class_1+DLG1_RAT+465+543_muscle -             78   5.6e-24   77.7   0.0   1   2     5e-15   1.6e-13   44.2   0.0     3    77    17    90    15    91 0.94 Na(+)/H(+) exchange regulatory cofactor NHE-RF1 OS=Homo sapiens OX=9606 GN=SLC9A3R1 PE=1 SV=4
+sp|O14745|NHRF1_HUMAN -            358 LIG_PDZ_Class_1+DLG1_RAT+465+543_muscle -             78   5.6e-24   77.7   0.0   2   2   4.9e-11   1.6e-09   31.4   0.0     2    76   156   229   155   231 0.94 Na(+)/H(+) exchange regulatory cofactor NHE-RF1 OS=Homo sapiens OX=9606 GN=SLC9A3R1 PE=1 SV=4
+sp|O00560|SDCB1_HUMAN -            298 LIG_PDZ_Class_1+DLG1_RAT+465+543_muscle -             78   2.6e-09   30.7   0.2   1   2   2.2e-08     7e-07   22.9   0.0    21    75   134   188   130   191 0.90 Syntenin-1 OS=Homo sapiens OX=9606 GN=SDCBP PE=1 SV=1
+sp|O00560|SDCB1_HUMAN -            298 LIG_PDZ_Class_1+DLG1_RAT+465+543_muscle -             78   2.6e-09   30.7   0.2   2   2    0.0051      0.16    5.7   0.0    43    77   235   269   201   270 0.85 Syntenin-1 OS=Homo sapiens OX=9606 GN=SDCBP PE=1 SV=1
+sp|O14908|GIPC1_HUMAN -            333 LIG_PDZ_Class_1+DLG1_RAT+465+543_muscle -             78   0.00056   13.6   0.0   1   1     3e-05   0.00096   12.8   0.0     5    68   138   200   134   210 0.84 PDZ domain-containing protein GIPC1 OS=Homo sapiens OX=9606 GN=GIPC1 PE=1 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      domain_all/LIG_PDZ_Class_1+DLG1_RAT+465+543.hmm
+# Target file:     human_only_H1_Prot_fasta.fasta
+# Option settings: hmmsearch -o /home/bwadie/Hmmer_H1/human_slimfinder_HMM_outputs/all_outs/LIG_PDZ_Class_1+DLG1_RAT+465+543.out --domtblout /home/bwadie/Hmmer_H1/human_slimfinder_HMM_outputs/domain_all_H1_domtblouts/LIG_PDZ_Class_1+DLG1_RAT+465+543.txt -E 1 domain_all/LIG_PDZ_Class_1+DLG1_RAT+465+543.hmm human_only_H1_Prot_fasta.fasta 
+# Current dir:     /home/bwadie/Hmmer_H1
+# Date:            Wed Mar 17 18:18:04 2021
+# [ok]

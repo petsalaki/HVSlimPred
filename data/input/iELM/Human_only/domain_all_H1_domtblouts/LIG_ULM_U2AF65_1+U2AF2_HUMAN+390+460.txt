@@ -1,0 +1,21 @@
+#                                                                                                    --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name         accession   tlen query name                                  accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+# ------------------- ---------- -----                        -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+sp|P0DN76|U2AF5_HUMAN -            240 LIG_ULM_U2AF65_1+U2AF2_HUMAN+390+460_muscle -             71   3.9e-11   36.8   0.2   1   1   1.6e-12   7.2e-11   36.0   0.2     2    69    75   139    74   141 0.89 Splicing factor U2AF 35 kDa subunit-like protein OS=Homo sapiens OX=9606 GN=U2AF1L5 PE=1 SV=1
+sp|P19338|NUCL_HUMAN  -            710 LIG_ULM_U2AF65_1+U2AF2_HUMAN+390+460_muscle -             71     9e-09   29.3   2.0   1   4      0.33        15   -0.2   0.0    44    64   351   370   346   377 0.78 Nucleolin OS=Homo sapiens OX=9606 GN=NCL PE=1 SV=3
+sp|P19338|NUCL_HUMAN  -            710 LIG_ULM_U2AF65_1+U2AF2_HUMAN+390+460_muscle -             71     9e-09   29.3   2.0   2   4     0.022         1    3.5   0.0    40    70   429   459   421   460 0.85 Nucleolin OS=Homo sapiens OX=9606 GN=NCL PE=1 SV=3
+sp|P19338|NUCL_HUMAN  -            710 LIG_ULM_U2AF65_1+U2AF2_HUMAN+390+460_muscle -             71     9e-09   29.3   2.0   3   4   2.1e-05   0.00093   13.2   0.1    34    70   517   553   506   554 0.83 Nucleolin OS=Homo sapiens OX=9606 GN=NCL PE=1 SV=3
+sp|P19338|NUCL_HUMAN  -            710 LIG_ULM_U2AF65_1+U2AF2_HUMAN+390+460_muscle -             71     9e-09   29.3   2.0   4   4   0.00089      0.04    8.0   0.0    41    69   611   639   597   641 0.76 Nucleolin OS=Homo sapiens OX=9606 GN=NCL PE=1 SV=3
+sp|P52298|NCBP2_HUMAN -            156 LIG_ULM_U2AF65_1+U2AF2_HUMAN+390+460_muscle -             71     2e-06   21.8   0.1   1   1   7.8e-08   3.5e-06   21.0   0.1    11    70    55   111    51   112 0.87 Nuclear cap-binding protein subunit 2 OS=Homo sapiens OX=9606 GN=NCBP2 PE=1 SV=1
+sp|P0DJD3|RBY1A_HUMAN -            496 LIG_ULM_U2AF65_1+U2AF2_HUMAN+390+460_muscle -             71   0.00015   15.8   0.0   1   1   6.6e-06   0.00029   14.8   0.0    13    70    25    78    21    79 0.83 RNA-binding motif protein, Y chromosome, family 1 member A1 OS=Homo sapiens OX=9606 GN=RBMY1A1 PE=1 SV=1
+sp|Q93062|RBPMS_HUMAN -            196 LIG_ULM_U2AF65_1+U2AF2_HUMAN+390+460_muscle -             71   0.00055   13.9   0.0   1   1   2.8e-05    0.0012   12.8   0.0    44    66    65    87    58    90 0.94 RNA-binding protein with multiple splicing OS=Homo sapiens OX=9606 GN=RBPMS PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      domain_all/LIG_ULM_U2AF65_1+U2AF2_HUMAN+390+460.hmm
+# Target file:     human_only_H1_Prot_fasta.fasta
+# Option settings: hmmsearch -o /home/bwadie/Hmmer_H1/human_slimfinder_HMM_outputs/all_outs/LIG_ULM_U2AF65_1+U2AF2_HUMAN+390+460.out --domtblout /home/bwadie/Hmmer_H1/human_slimfinder_HMM_outputs/domain_all_H1_domtblouts/LIG_ULM_U2AF65_1+U2AF2_HUMAN+390+460.txt -E 1 domain_all/LIG_ULM_U2AF65_1+U2AF2_HUMAN+390+460.hmm human_only_H1_Prot_fasta.fasta 
+# Current dir:     /home/bwadie/Hmmer_H1
+# Date:            Wed Mar 17 18:18:28 2021
+# [ok]

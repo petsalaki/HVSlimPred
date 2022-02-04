@@ -1,0 +1,19 @@
+#                                                                                      --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name         accession   tlen query name                    accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+# ------------------- ---------- -----          -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+sp|Q7L5N7|PCAT2_HUMAN -            544 LIG_IQ+MLC1_YEAST+6+34_muscle -             28   9.4e-08   26.6   0.7   1   2     2e-05    0.0051   11.4   0.1     5    19   400   414   396   415 0.85 Lysophosphatidylcholine acyltransferase 2 OS=Homo sapiens OX=9606 GN=LPCAT2 PE=1 SV=1
+sp|Q7L5N7|PCAT2_HUMAN -            544 LIG_IQ+MLC1_YEAST+6+34_muscle -             28   9.4e-08   26.6   0.7   2   2   8.5e-06    0.0022   12.6   0.1     4    25   436   457   436   459 0.91 Lysophosphatidylcholine acyltransferase 2 OS=Homo sapiens OX=9606 GN=LPCAT2 PE=1 SV=1
+sp|Q15293|RCN1_HUMAN  -            331 LIG_IQ+MLC1_YEAST+6+34_muscle -             28      0.66    4.7  11.5   1   4   0.00042      0.11    7.2   0.1     9    21    92   104    92   106 0.95 Reticulocalbin-1 OS=Homo sapiens OX=9606 GN=RCN1 PE=1 SV=1
+sp|Q15293|RCN1_HUMAN  -            331 LIG_IQ+MLC1_YEAST+6+34_muscle -             28      0.66    4.7  11.5   2   4      0.11        29   -0.6   0.1     8    18   127   137   127   139 0.85 Reticulocalbin-1 OS=Homo sapiens OX=9606 GN=RCN1 PE=1 SV=1
+sp|Q15293|RCN1_HUMAN  -            331 LIG_IQ+MLC1_YEAST+6+34_muscle -             28      0.66    4.7  11.5   3   4    0.0098       2.5    2.8   0.2     9    20   216   227   216   228 0.87 Reticulocalbin-1 OS=Homo sapiens OX=9606 GN=RCN1 PE=1 SV=1
+sp|Q15293|RCN1_HUMAN  -            331 LIG_IQ+MLC1_YEAST+6+34_muscle -             28      0.66    4.7  11.5   4   4      0.27        69   -1.8   0.3     9    21   293   305   293   305 0.91 Reticulocalbin-1 OS=Homo sapiens OX=9606 GN=RCN1 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      domain_all/LIG_IQ+MLC1_YEAST+6+34.hmm
+# Target file:     H1_prot_fasta.fasta
+# Option settings: hmmsearch -o /home/bwadie/Hmmer_H1/all_outs/LIG_IQ+MLC1_YEAST+6+34.out --domtblout /home/bwadie/Hmmer_H1/domain_all_H1_domtblouts/LIG_IQ+MLC1_YEAST+6+34.txt -E 1 domain_all/LIG_IQ+MLC1_YEAST+6+34.hmm H1_prot_fasta.fasta 
+# Current dir:     /home/bwadie/Hmmer_H1
+# Date:            Wed Feb 10 00:37:40 2021
+# [ok]

@@ -4,7 +4,11 @@
 \alias{HV_prot_dom_int_eval}
 \title{Evaluation of protein-domain interactions}
 \usage{
-HV_prot_dom_int_eval()
+HV_prot_dom_int_eval(
+  bench_data,
+  bench_data_type = c("ELM", "PRMdb"),
+  all_pfam_dom = NULL
+)
 }
 \value{
 A data frame containing all the relevant protein-domain interactions' performance metrics for each domain enrichment filter.

@@ -1,0 +1,14 @@
+#                                                                             --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name         accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+# ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+sp|P55036|PSMD4_HUMAN -            377 VWA                  PF00092.21   179   0.00013   17.0   0.0   1   1   5.7e-07    0.0003   15.8   0.0     4   154     8   157     7   169 0.79 26S proteasome non-ATPase regulatory subunit 4 OS=Homo sapiens OX=9606 GN=PSMD4 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      pfam_hmms/LIG_IBS_1.hmm
+# Target file:     H1_prot_fasta.fasta
+# Option settings: hmmsearch -o /home/bwadie/Hmmer_H1/all_outs/LIG_IBS_1.out --domtblout /home/bwadie/Hmmer_H1/pfam_H1_domtblouts/LIG_IBS_1.txt -E 1 pfam_hmms/LIG_IBS_1.hmm H1_prot_fasta.fasta 
+# Current dir:     /home/bwadie/Hmmer_H1
+# Date:            Wed Feb 10 00:37:19 2021
+# [ok]

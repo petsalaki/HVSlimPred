@@ -8,8 +8,4 @@
 \description{
 This package complements the performance evaluation analysis for the manuscript entitled "Identifying novel functional linear motifs using the host-viral protein interaction network and the principle of convergent evolution".
 }
-\author{
-\strong{Maintainer}: Evangelia Petsalaki \email{petsalaki@ebi.ac.uk}
-
-}
 \keyword{internal}

@@ -1,0 +1,34 @@
+#                                                                                                   --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name         accession   tlen query name                                 accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+# ------------------- ---------- -----                       -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+sp|Q9UDY2|ZO2_HUMAN   -           1190 LIG_PDZ_Class_1+NHRF3_HUMAN+251+323_muscle -             72     9e-16   52.9   0.3   1   4   5.4e-11   4.6e-09   31.4   0.0    12    69    61   116    56   119 0.85 Tight junction protein ZO-2 OS=Homo sapiens OX=9606 GN=TJP2 PE=1 SV=2
+sp|Q9UDY2|ZO2_HUMAN   -           1190 LIG_PDZ_Class_1+NHRF3_HUMAN+251+323_muscle -             72     9e-16   52.9   0.3   2   4      0.32        27    0.1   0.0    22    37   177   192   174   197 0.90 Tight junction protein ZO-2 OS=Homo sapiens OX=9606 GN=TJP2 PE=1 SV=2
+sp|Q9UDY2|ZO2_HUMAN   -           1190 LIG_PDZ_Class_1+NHRF3_HUMAN+251+323_muscle -             72     9e-16   52.9   0.3   3   4    0.0032      0.28    6.5   0.0    30    69   343   382   327   385 0.89 Tight junction protein ZO-2 OS=Homo sapiens OX=9606 GN=TJP2 PE=1 SV=2
+sp|Q9UDY2|ZO2_HUMAN   -           1190 LIG_PDZ_Class_1+NHRF3_HUMAN+251+323_muscle -             72     9e-16   52.9   0.3   4   4   0.00085     0.073    8.4   0.0    13    54   531   572   524   588 0.86 Tight junction protein ZO-2 OS=Homo sapiens OX=9606 GN=TJP2 PE=1 SV=2
+sp|Q12959|DLG1_HUMAN  -            904 LIG_PDZ_Class_1+NHRF3_HUMAN+251+323_muscle -             72   7.6e-15   49.9   0.5   1   5   2.2e-05    0.0019   13.5   0.0    22    68   261   307   248   311 0.85 Disks large homolog 1 OS=Homo sapiens OX=9606 GN=DLG1 PE=1 SV=2
+sp|Q12959|DLG1_HUMAN  -            904 LIG_PDZ_Class_1+NHRF3_HUMAN+251+323_muscle -             72   7.6e-15   49.9   0.5   2   5   1.2e-05    0.0011   14.2   0.1    16    69   350   403   343   406 0.86 Disks large homolog 1 OS=Homo sapiens OX=9606 GN=DLG1 PE=1 SV=2
+sp|Q12959|DLG1_HUMAN  -            904 LIG_PDZ_Class_1+NHRF3_HUMAN+251+323_muscle -             72   7.6e-15   49.9   0.5   3   5       1.6   1.4e+02   -2.1   0.0    23    36   447   460   445   462 0.88 Disks large homolog 1 OS=Homo sapiens OX=9606 GN=DLG1 PE=1 SV=2
+sp|Q12959|DLG1_HUMAN  -            904 LIG_PDZ_Class_1+NHRF3_HUMAN+251+323_muscle -             72   7.6e-15   49.9   0.5   4   5   2.1e-06   0.00018   16.7   0.0     1    67   475   542   475   545 0.93 Disks large homolog 1 OS=Homo sapiens OX=9606 GN=DLG1 PE=1 SV=2
+sp|Q12959|DLG1_HUMAN  -            904 LIG_PDZ_Class_1+NHRF3_HUMAN+251+323_muscle -             72   7.6e-15   49.9   0.5   5   5       3.3   2.8e+02   -3.1   0.0     7    21   797   811   796   814 0.82 Disks large homolog 1 OS=Homo sapiens OX=9606 GN=DLG1 PE=1 SV=2
+sp|Q14160|SCRIB_HUMAN -           1630 LIG_PDZ_Class_1+NHRF3_HUMAN+251+323_muscle -             72   1.3e-14   49.2   0.0   1   5         6   5.2e+02   -4.4   2.4    21    53   665   697   658   700 0.78 Protein scribble homolog OS=Homo sapiens OX=9606 GN=SCRIB PE=1 SV=4
+sp|Q14160|SCRIB_HUMAN -           1630 LIG_PDZ_Class_1+NHRF3_HUMAN+251+323_muscle -             72   1.3e-14   49.2   0.0   2   5   7.3e-07   6.3e-05   18.2   0.0    13    68   756   811   751   814 0.93 Protein scribble homolog OS=Homo sapiens OX=9606 GN=SCRIB PE=1 SV=4
+sp|Q14160|SCRIB_HUMAN -           1630 LIG_PDZ_Class_1+NHRF3_HUMAN+251+323_muscle -             72   1.3e-14   49.2   0.0   3   5    0.0062      0.54    5.6   0.0    14    61   891   939   881   948 0.80 Protein scribble homolog OS=Homo sapiens OX=9606 GN=SCRIB PE=1 SV=4
+sp|Q14160|SCRIB_HUMAN -           1630 LIG_PDZ_Class_1+NHRF3_HUMAN+251+323_muscle -             72   1.3e-14   49.2   0.0   4   5   5.2e-05    0.0045   12.2   0.0    13    56  1034  1077  1029  1090 0.85 Protein scribble homolog OS=Homo sapiens OX=9606 GN=SCRIB PE=1 SV=4
+sp|Q14160|SCRIB_HUMAN -           1630 LIG_PDZ_Class_1+NHRF3_HUMAN+251+323_muscle -             72   1.3e-14   49.2   0.0   5   5    0.0038      0.33    6.3   0.0    36    70  1156  1190  1127  1191 0.79 Protein scribble homolog OS=Homo sapiens OX=9606 GN=SCRIB PE=1 SV=4
+sp|Q8TBB1|LNX1_HUMAN  -            728 LIG_PDZ_Class_1+NHRF3_HUMAN+251+323_muscle -             72   3.1e-10   35.2   0.0   1   4     0.021       1.8    3.9   0.0    34    62   321   349   303   359 0.85 E3 ubiquitin-protein ligase LNX OS=Homo sapiens OX=9606 GN=LNX1 PE=1 SV=1
+sp|Q8TBB1|LNX1_HUMAN  -            728 LIG_PDZ_Class_1+NHRF3_HUMAN+251+323_muscle -             72   3.1e-10   35.2   0.0   2   4   9.4e-05    0.0081   11.4   0.0    29    69   421   461   394   464 0.78 E3 ubiquitin-protein ligase LNX OS=Homo sapiens OX=9606 GN=LNX1 PE=1 SV=1
+sp|Q8TBB1|LNX1_HUMAN  -            728 LIG_PDZ_Class_1+NHRF3_HUMAN+251+323_muscle -             72   3.1e-10   35.2   0.0   3   4      0.09       7.7    1.9   0.0    31    65   552   586   541   592 0.86 E3 ubiquitin-protein ligase LNX OS=Homo sapiens OX=9606 GN=LNX1 PE=1 SV=1
+sp|Q8TBB1|LNX1_HUMAN  -            728 LIG_PDZ_Class_1+NHRF3_HUMAN+251+323_muscle -             72   3.1e-10   35.2   0.0   4   4   6.9e-05     0.006   11.8   0.0    12    69   663   721   656   723 0.86 E3 ubiquitin-protein ligase LNX OS=Homo sapiens OX=9606 GN=LNX1 PE=1 SV=1
+sp|P26045|PTN3_HUMAN  -            913 LIG_PDZ_Class_1+NHRF3_HUMAN+251+323_muscle -             72   1.2e-07   26.9   0.0   1   1   3.8e-09   3.3e-07   25.5   0.0     2    62   521   584   520   593 0.89 Tyrosine-protein phosphatase non-receptor type 3 OS=Homo sapiens OX=9606 GN=PTPN3 PE=1 SV=2
+sp|O00560|SDCB1_HUMAN -            298 LIG_PDZ_Class_1+NHRF3_HUMAN+251+323_muscle -             72   2.6e-07   25.8   0.0   1   2   6.2e-05    0.0053   12.0   0.0     7    70   128   192   126   194 0.88 Syntenin-1 OS=Homo sapiens OX=9606 GN=SDCBP PE=1 SV=1
+sp|O00560|SDCB1_HUMAN -            298 LIG_PDZ_Class_1+NHRF3_HUMAN+251+323_muscle -             72   2.6e-07   25.8   0.0   2   2   0.00012      0.01   11.1   0.1    13    70   215   271   212   272 0.93 Syntenin-1 OS=Homo sapiens OX=9606 GN=SDCBP PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      domain_all/LIG_PDZ_Class_1+NHRF3_HUMAN+251+323.hmm
+# Target file:     H1_prot_fasta.fasta
+# Option settings: hmmsearch -o /home/bwadie/Hmmer_H1/all_outs/LIG_PDZ_Class_1+NHRF3_HUMAN+251+323.out --domtblout /home/bwadie/Hmmer_H1/domain_all_H1_domtblouts/LIG_PDZ_Class_1+NHRF3_HUMAN+251+323.txt -E 1 domain_all/LIG_PDZ_Class_1+NHRF3_HUMAN+251+323.hmm H1_prot_fasta.fasta 
+# Current dir:     /home/bwadie/Hmmer_H1
+# Date:            Wed Feb 10 00:37:48 2021
+# [ok]

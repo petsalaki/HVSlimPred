@@ -1,0 +1,15 @@
+#                                                                                               --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name         accession   tlen query name                             accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+# ------------------- ---------- -----                   -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+sp|Q9UGI0|ZRAN1_HUMAN -            708 CLV_TASPASE1+TASP1_HUMAN+42+346_muscle -            295   0.00054   14.2   0.5   1   2    0.0095       4.9    1.2   0.1   164   205   243   289   100   295 0.64 Ubiquitin thioesterase ZRANB1 OS=Homo sapiens OX=9606 GN=ZRANB1 PE=1 SV=2
+sp|Q9UGI0|ZRAN1_HUMAN -            708 CLV_TASPASE1+TASP1_HUMAN+42+346_muscle -            295   0.00054   14.2   0.5   2   2   1.7e-05    0.0085   10.2   0.1    46    72   587   613   583   616 0.92 Ubiquitin thioesterase ZRANB1 OS=Homo sapiens OX=9606 GN=ZRANB1 PE=1 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      domain_all/CLV_TASPASE1+TASP1_HUMAN+42+346.hmm
+# Target file:     H1_prot_fasta.fasta
+# Option settings: hmmsearch -o /home/bwadie/Hmmer_H1/all_outs/CLV_TASPASE1+TASP1_HUMAN+42+346.out --domtblout /home/bwadie/Hmmer_H1/domain_all_H1_domtblouts/CLV_TASPASE1+TASP1_HUMAN+42+346.txt -E 1 domain_all/CLV_TASPASE1+TASP1_HUMAN+42+346.hmm H1_prot_fasta.fasta 
+# Current dir:     /home/bwadie/Hmmer_H1
+# Date:            Wed Feb 10 00:37:26 2021
+# [ok]

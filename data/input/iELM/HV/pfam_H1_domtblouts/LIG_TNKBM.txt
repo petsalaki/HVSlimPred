@@ -1,0 +1,28 @@
+#                                                                             --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name         accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+# ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+sp|Q04721|NOTC2_HUMAN -           2471 Ank                  PF00023.23    33   4.6e-39  125.6  15.0   1   7   8.9e-13   1.5e-10   35.6   0.0     1    33  1827  1874  1827  1874 0.99 Neurogenic locus notch homolog protein 2 OS=Homo sapiens OX=9606 GN=NOTCH2 PE=1 SV=3
+sp|Q04721|NOTC2_HUMAN -           2471 Ank                  PF00023.23    33   4.6e-39  125.6  15.0   2   7   4.9e-10   8.5e-08   27.0   0.3     2    33  1877  1908  1876  1908 0.95 Neurogenic locus notch homolog protein 2 OS=Homo sapiens OX=9606 GN=NOTCH2 PE=1 SV=3
+sp|Q04721|NOTC2_HUMAN -           2471 Ank                  PF00023.23    33   4.6e-39  125.6  15.0   3   7     0.005      0.86    4.9   0.0     2    31  1910  1940  1909  1942 0.84 Neurogenic locus notch homolog protein 2 OS=Homo sapiens OX=9606 GN=NOTCH2 PE=1 SV=3
+sp|Q04721|NOTC2_HUMAN -           2471 Ank                  PF00023.23    33   4.6e-39  125.6  15.0   4   7   3.7e-08   6.3e-06   21.1   0.1     1    33  1943  1975  1943  1975 0.98 Neurogenic locus notch homolog protein 2 OS=Homo sapiens OX=9606 GN=NOTCH2 PE=1 SV=3
+sp|Q04721|NOTC2_HUMAN -           2471 Ank                  PF00023.23    33   4.6e-39  125.6  15.0   5   7     9e-09   1.5e-06   23.0   0.4     1    33  1976  2008  1976  2008 0.97 Neurogenic locus notch homolog protein 2 OS=Homo sapiens OX=9606 GN=NOTCH2 PE=1 SV=3
+sp|Q04721|NOTC2_HUMAN -           2471 Ank                  PF00023.23    33   4.6e-39  125.6  15.0   6   7   1.7e-07     3e-05   19.0   0.0     3    32  2011  2040  2009  2041 0.94 Neurogenic locus notch homolog protein 2 OS=Homo sapiens OX=9606 GN=NOTCH2 PE=1 SV=3
+sp|Q04721|NOTC2_HUMAN -           2471 Ank                  PF00023.23    33   4.6e-39  125.6  15.0   7   7         3   5.2e+02   -4.1   0.0    12    21  2053  2062  2050  2063 0.86 Neurogenic locus notch homolog protein 2 OS=Homo sapiens OX=9606 GN=NOTCH2 PE=1 SV=3
+sp|Q63ZY3|KANK2_HUMAN -            851 Ank                  PF00023.23    33   1.8e-27   89.1   3.7   1   4   4.7e-07     8e-05   17.6   0.0     1    26   666   691   666   694 0.94 KN motif and ankyrin repeat domain-containing protein 2 OS=Homo sapiens OX=9606 GN=KANK2 PE=1 SV=1
+sp|Q63ZY3|KANK2_HUMAN -            851 Ank                  PF00023.23    33   1.8e-27   89.1   3.7   2   4   6.6e-13   1.1e-10   36.1   0.1     2    33   739   770   738   770 0.98 KN motif and ankyrin repeat domain-containing protein 2 OS=Homo sapiens OX=9606 GN=KANK2 PE=1 SV=1
+sp|Q63ZY3|KANK2_HUMAN -            851 Ank                  PF00023.23    33   1.8e-27   89.1   3.7   3   4     5e-08   8.6e-06   20.7   0.1     1    23   771   793   771   804 0.84 KN motif and ankyrin repeat domain-containing protein 2 OS=Homo sapiens OX=9606 GN=KANK2 PE=1 SV=1
+sp|Q63ZY3|KANK2_HUMAN -            851 Ank                  PF00023.23    33   1.8e-27   89.1   3.7   4   4   2.5e-05    0.0043   12.1   0.0     1    23   805   827   805   830 0.93 KN motif and ankyrin repeat domain-containing protein 2 OS=Homo sapiens OX=9606 GN=KANK2 PE=1 SV=1
+sp|P42771|CDN2A_HUMAN -            156 Ank                  PF00023.23    33     2e-13   44.7   0.3   1   4   1.2e-06    0.0002   16.3   0.0     8    32    18    42    16    43 0.92 Cyclin-dependent kinase inhibitor 2A OS=Homo sapiens OX=9606 GN=CDKN2A PE=1 SV=2
+sp|P42771|CDN2A_HUMAN -            156 Ank                  PF00023.23    33     2e-13   44.7   0.3   2   4   5.5e-06   0.00096   14.2   0.0    11    32    53    74    51    75 0.91 Cyclin-dependent kinase inhibitor 2A OS=Homo sapiens OX=9606 GN=CDKN2A PE=1 SV=2
+sp|P42771|CDN2A_HUMAN -            156 Ank                  PF00023.23    33     2e-13   44.7   0.3   3   4   0.00065      0.11    7.7   0.0     5    32    81   108    81   109 0.95 Cyclin-dependent kinase inhibitor 2A OS=Homo sapiens OX=9606 GN=CDKN2A PE=1 SV=2
+sp|P42771|CDN2A_HUMAN -            156 Ank                  PF00023.23    33     2e-13   44.7   0.3   4   4     0.053       9.1    1.6   0.0     2    21   111   130   110   136 0.83 Cyclin-dependent kinase inhibitor 2A OS=Homo sapiens OX=9606 GN=CDKN2A PE=1 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      pfam_hmms/LIG_TNKBM.hmm
+# Target file:     H1_prot_fasta.fasta
+# Option settings: hmmsearch -o /home/bwadie/Hmmer_H1/all_outs/LIG_TNKBM.out --domtblout /home/bwadie/Hmmer_H1/pfam_H1_domtblouts/LIG_TNKBM.txt -E 1 pfam_hmms/LIG_TNKBM.hmm H1_prot_fasta.fasta 
+# Current dir:     /home/bwadie/Hmmer_H1
+# Date:            Wed Feb 10 00:37:22 2021
+# [ok]

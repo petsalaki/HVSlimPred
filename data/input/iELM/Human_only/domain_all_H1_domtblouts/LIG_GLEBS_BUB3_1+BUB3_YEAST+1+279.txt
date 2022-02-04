@@ -1,0 +1,18 @@
+#                                                                                                 --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name         accession   tlen query name                               accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+# ------------------- ---------- -----                     -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+sp|Q9Y297|FBW1A_HUMAN -            605 LIG_GLEBS_BUB3_1+BUB3_YEAST+1+279_muscle -            265     6e-14   46.2   0.0   1   3   0.00023     0.026    8.0   0.0   136   172   300   336   277   344 0.80 F-box/WD repeat-containing protein 1A OS=Homo sapiens OX=9606 GN=BTRC PE=1 SV=1
+sp|Q9Y297|FBW1A_HUMAN -            605 LIG_GLEBS_BUB3_1+BUB3_YEAST+1+279_muscle -            265     6e-14   46.2   0.0   2   3   6.8e-08   7.6e-06   19.6   0.1    57   170   345   457   335   463 0.80 F-box/WD repeat-containing protein 1A OS=Homo sapiens OX=9606 GN=BTRC PE=1 SV=1
+sp|Q9Y297|FBW1A_HUMAN -            605 LIG_GLEBS_BUB3_1+BUB3_YEAST+1+279_muscle -            265     6e-14   46.2   0.0   3   3   2.6e-06    0.0003   14.4   0.0    57   168   468   584   457   595 0.75 F-box/WD repeat-containing protein 1A OS=Homo sapiens OX=9606 GN=BTRC PE=1 SV=1
+sp|O43660|PLRG1_HUMAN -            514 LIG_GLEBS_BUB3_1+BUB3_YEAST+1+279_muscle -            265   1.5e-09   31.8   0.0   1   2     0.014       1.6    2.2   0.0   240   265   207   232   206   232 0.91 Pleiotropic regulator 1 OS=Homo sapiens OX=9606 GN=PLRG1 PE=1 SV=1
+sp|O43660|PLRG1_HUMAN -            514 LIG_GLEBS_BUB3_1+BUB3_YEAST+1+279_muscle -            265   1.5e-09   31.8   0.0   2   2   1.1e-08   1.2e-06   22.2   0.0    10   171   330   496   320   505 0.80 Pleiotropic regulator 1 OS=Homo sapiens OX=9606 GN=PLRG1 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      domain_all/LIG_GLEBS_BUB3_1+BUB3_YEAST+1+279.hmm
+# Target file:     human_only_H1_Prot_fasta.fasta
+# Option settings: hmmsearch -o /home/bwadie/Hmmer_H1/human_slimfinder_HMM_outputs/all_outs/LIG_GLEBS_BUB3_1+BUB3_YEAST+1+279.out --domtblout /home/bwadie/Hmmer_H1/human_slimfinder_HMM_outputs/domain_all_H1_domtblouts/LIG_GLEBS_BUB3_1+BUB3_YEAST+1+279.txt -E 1 domain_all/LIG_GLEBS_BUB3_1+BUB3_YEAST+1+279.hmm human_only_H1_Prot_fasta.fasta 
+# Current dir:     /home/bwadie/Hmmer_H1
+# Date:            Wed Mar 17 18:17:56 2021
+# [ok]

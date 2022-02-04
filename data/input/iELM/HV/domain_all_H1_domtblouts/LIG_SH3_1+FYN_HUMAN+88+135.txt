@@ -1,0 +1,22 @@
+#                                                                                         --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name                        accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- -----              -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+sp|P06241|FYN_HUMAN  -            537 LIG_SH3_1+FYN_HUMAN+88+135_muscle -             47   4.6e-30   98.1   0.4   1   1   1.6e-31   1.1e-29   96.8   0.4     1    47    89   135    89   135 0.99 Tyrosine-protein kinase Fyn OS=Homo sapiens OX=9606 GN=FYN PE=1 SV=3
+sp|P16333|NCK1_HUMAN -            377 LIG_SH3_1+FYN_HUMAN+88+135_muscle -             47   1.8e-28   93.0   1.5   1   3   7.7e-13   5.7e-11   37.0   0.3     1    47     9    53     9    53 0.97 Cytoplasmic protein NCK1 OS=Homo sapiens OX=9606 GN=NCK1 PE=1 SV=1
+sp|P16333|NCK1_HUMAN -            377 LIG_SH3_1+FYN_HUMAN+88+135_muscle -             47   1.8e-28   93.0   1.5   2   3     2e-07   1.5e-05   19.6   0.0     2    46   114   156   113   157 0.86 Cytoplasmic protein NCK1 OS=Homo sapiens OX=9606 GN=NCK1 PE=1 SV=1
+sp|P16333|NCK1_HUMAN -            377 LIG_SH3_1+FYN_HUMAN+88+135_muscle -             47   1.8e-28   93.0   1.5   3   3   9.5e-12     7e-10   33.4   0.0     1    46   197   243   197   244 0.90 Cytoplasmic protein NCK1 OS=Homo sapiens OX=9606 GN=NCK1 PE=1 SV=1
+sp|P12931|SRC_HUMAN  -            536 LIG_SH3_1+FYN_HUMAN+88+135_muscle -             47   9.8e-28   90.6   0.1   1   1   2.5e-29   1.8e-27   89.7   0.1     1    47    91   137    91   137 0.99 Proto-oncogene tyrosine-protein kinase Src OS=Homo sapiens OX=9606 GN=SRC PE=1 SV=3
+sp|P08631|HCK_HUMAN  -            526 LIG_SH3_1+FYN_HUMAN+88+135_muscle -             47     1e-20   68.2   0.1   1   1     3e-22   2.2e-20   67.1   0.1     1    47    85   130    85   130 0.98 Tyrosine-protein kinase HCK OS=Homo sapiens OX=9606 GN=HCK PE=1 SV=5
+sp|P06239|LCK_HUMAN  -            509 LIG_SH3_1+FYN_HUMAN+88+135_muscle -             47   1.7e-16   54.7   0.0   1   1   5.2e-18   3.8e-16   53.5   0.0     1    46    68   112    68   113 0.97 Tyrosine-protein kinase Lck OS=Homo sapiens OX=9606 GN=LCK PE=1 SV=6
+sp|Q12959|DLG1_HUMAN -            904 LIG_SH3_1+FYN_HUMAN+88+135_muscle -             47   4.6e-08   27.6   0.0   1   1   1.5e-09   1.1e-07   26.4   0.0     1    41   588   633   588   643 0.72 Disks large homolog 1 OS=Homo sapiens OX=9606 GN=DLG1 PE=1 SV=2
+sp|Q00013|EM55_HUMAN -            466 LIG_SH3_1+FYN_HUMAN+88+135_muscle -             47   1.2e-07   26.3   0.0   1   1   3.9e-09   2.9e-07   25.1   0.0    10    47   181   220   165   220 0.80 55 kDa erythrocyte membrane protein OS=Homo sapiens OX=9606 GN=MPP1 PE=1 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      domain_all/LIG_SH3_1+FYN_HUMAN+88+135.hmm
+# Target file:     H1_prot_fasta.fasta
+# Option settings: hmmsearch -o /home/bwadie/Hmmer_H1/all_outs/LIG_SH3_1+FYN_HUMAN+88+135.out --domtblout /home/bwadie/Hmmer_H1/domain_all_H1_domtblouts/LIG_SH3_1+FYN_HUMAN+88+135.txt -E 1 domain_all/LIG_SH3_1+FYN_HUMAN+88+135.hmm H1_prot_fasta.fasta 
+# Current dir:     /home/bwadie/Hmmer_H1
+# Date:            Wed Feb 10 00:37:57 2021
+# [ok]

@@ -1,0 +1,27 @@
+#                                                                                                     --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name         accession   tlen query name                                   accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+# ------------------- ---------- -----                         -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+sp|Q9UKB1|FBW1B_HUMAN -            542 LIG_APCC_KENbox_2+CDC20_YEAST+299+553_muscle -            245   1.1e-33  111.6   8.1   1   3   7.8e-19   6.7e-17   56.7   2.8    14   174   249   403   238   413 0.82 F-box/WD repeat-containing protein 11 OS=Homo sapiens OX=9606 GN=FBXW11 PE=1 SV=1
+sp|Q9UKB1|FBW1B_HUMAN -            542 LIG_APCC_KENbox_2+CDC20_YEAST+299+553_muscle -            245   1.1e-33  111.6   8.1   2   3   5.6e-13   4.8e-11   37.5   0.2    14   116   372   471   368   474 0.92 F-box/WD repeat-containing protein 11 OS=Homo sapiens OX=9606 GN=FBXW11 PE=1 SV=1
+sp|Q9UKB1|FBW1B_HUMAN -            542 LIG_APCC_KENbox_2+CDC20_YEAST+299+553_muscle -            245   1.1e-33  111.6   8.1   3   3   3.2e-12   2.7e-10   35.0   0.0    15   117   413   521   406   538 0.82 F-box/WD repeat-containing protein 11 OS=Homo sapiens OX=9606 GN=FBXW11 PE=1 SV=1
+sp|Q9Y297|FBW1A_HUMAN -            605 LIG_APCC_KENbox_2+CDC20_YEAST+299+553_muscle -            245     1e-27   92.1   2.9   1   2   4.4e-19   3.8e-17   57.5   2.2    13   174   311   466   301   478 0.82 F-box/WD repeat-containing protein 1A OS=Homo sapiens OX=9606 GN=BTRC PE=1 SV=1
+sp|Q9Y297|FBW1A_HUMAN -            605 LIG_APCC_KENbox_2+CDC20_YEAST+299+553_muscle -            245     1e-27   92.1   2.9   2   2   9.4e-12   8.1e-10   33.5   0.0    15   117   476   584   466   598 0.83 F-box/WD repeat-containing protein 1A OS=Homo sapiens OX=9606 GN=BTRC PE=1 SV=1
+sp|P63244|RACK1_HUMAN -            317 LIG_APCC_KENbox_2+CDC20_YEAST+299+553_muscle -            245   1.9e-23   78.1   3.6   1   3     0.061       5.3    1.3   0.0   210   245     8    44     2    44 0.80 Receptor of activated protein C kinase 1 OS=Homo sapiens OX=9606 GN=RACK1 PE=1 SV=3
+sp|P63244|RACK1_HUMAN -            317 LIG_APCC_KENbox_2+CDC20_YEAST+299+553_muscle -            245   1.9e-23   78.1   3.6   2   3   2.2e-18   1.9e-16   55.2   2.3     4   210    64   267    61   273 0.89 Receptor of activated protein C kinase 1 OS=Homo sapiens OX=9606 GN=RACK1 PE=1 SV=3
+sp|P63244|RACK1_HUMAN -            317 LIG_APCC_KENbox_2+CDC20_YEAST+299+553_muscle -            245   1.9e-23   78.1   3.6   3   3   1.4e-10   1.2e-08   29.6   0.0     4   115   193   312   190   316 0.73 Receptor of activated protein C kinase 1 OS=Homo sapiens OX=9606 GN=RACK1 PE=1 SV=3
+sp|P35606|COPB2_HUMAN -            906 LIG_APCC_KENbox_2+CDC20_YEAST+299+553_muscle -            245   7.8e-18   59.7   1.6   1   3   2.2e-09   1.9e-07   25.7   0.1   128   244    14   126     5   127 0.87 Coatomer subunit beta' OS=Homo sapiens OX=9606 GN=COPB2 PE=1 SV=2
+sp|P35606|COPB2_HUMAN -            906 LIG_APCC_KENbox_2+CDC20_YEAST+299+553_muscle -            245   7.8e-18   59.7   1.6   2   3   0.00028     0.024    9.0   0.1   199   245   123   171   121   171 0.91 Coatomer subunit beta' OS=Homo sapiens OX=9606 GN=COPB2 PE=1 SV=2
+sp|P35606|COPB2_HUMAN -            906 LIG_APCC_KENbox_2+CDC20_YEAST+299+553_muscle -            245   7.8e-18   59.7   1.6   3   3   1.7e-09   1.5e-07   26.1   0.0    81   171   180   268   174   329 0.83 Coatomer subunit beta' OS=Homo sapiens OX=9606 GN=COPB2 PE=1 SV=2
+sp|Q9ULV4|COR1C_HUMAN -            474 LIG_APCC_KENbox_2+CDC20_YEAST+299+553_muscle -            245   4.3e-15   50.7   0.1   1   2   2.9e-12   2.5e-10   35.1   0.1    81   169    75   168    63   172 0.85 Coronin-1C OS=Homo sapiens OX=9606 GN=CORO1C PE=1 SV=1
+sp|Q9ULV4|COR1C_HUMAN -            474 LIG_APCC_KENbox_2+CDC20_YEAST+299+553_muscle -            245   4.3e-15   50.7   0.1   2   2   8.2e-06   0.00071   14.0   0.0    83   173   171   265   164   298 0.80 Coronin-1C OS=Homo sapiens OX=9606 GN=CORO1C PE=1 SV=1
+sp|Q9BV38|WDR18_HUMAN -            432 LIG_APCC_KENbox_2+CDC20_YEAST+299+553_muscle -            245   3.7e-14   47.7   0.1   1   1   2.1e-15   1.8e-13   45.4   0.1    19   244    54   296    42   297 0.72 WD repeat-containing protein 18 OS=Homo sapiens OX=9606 GN=WDR18 PE=1 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      domain_all/LIG_APCC_KENbox_2+CDC20_YEAST+299+553.hmm
+# Target file:     H1_prot_fasta.fasta
+# Option settings: hmmsearch -o /home/bwadie/Hmmer_H1/all_outs/LIG_APCC_KENbox_2+CDC20_YEAST+299+553.out --domtblout /home/bwadie/Hmmer_H1/domain_all_H1_domtblouts/LIG_APCC_KENbox_2+CDC20_YEAST+299+553.txt -E 1 domain_all/LIG_APCC_KENbox_2+CDC20_YEAST+299+553.hmm H1_prot_fasta.fasta 
+# Current dir:     /home/bwadie/Hmmer_H1
+# Date:            Wed Feb 10 00:37:28 2021
+# [ok]

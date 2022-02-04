@@ -1,0 +1,32 @@
+#                                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name         accession   tlen query name                          accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+# ------------------- ---------- -----                -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+sp|P45984|MK09_HUMAN  -            424 LIG_MAPK_1+FUS3_YEAST+13+309_muscle -            290   1.4e-97  321.2   0.1   1   1   5.3e-99   1.7e-97  320.9   0.1     2   290    28   321    27   321 0.96 Mitogen-activated protein kinase 9 OS=Homo sapiens OX=9606 GN=MAPK9 PE=1 SV=2
+sp|P24941|CDK2_HUMAN  -            298 LIG_MAPK_1+FUS3_YEAST+13+309_muscle -            290   3.2e-80  264.3   0.0   1   1   1.1e-81   3.6e-80  264.0   0.0     2   290     6   286     5   286 0.93 Cyclin-dependent kinase 2 OS=Homo sapiens OX=9606 GN=CDK2 PE=1 SV=2
+sp|P19784|CSK22_HUMAN -            350 LIG_MAPK_1+FUS3_YEAST+13+309_muscle -            290   7.8e-55  180.9   1.8   1   1   2.9e-56   9.2e-55  180.7   1.8     2   290    42   325    41   325 0.89 Casein kinase II subunit alpha' OS=Homo sapiens OX=9606 GN=CSNK2A2 PE=1 SV=1
+sp|P53350|PLK1_HUMAN  -            603 LIG_MAPK_1+FUS3_YEAST+13+309_muscle -            290   3.1e-33  110.0   0.0   1   2   4.6e-31   1.5e-29   98.0   0.0     5   206    58   252    55   265 0.90 Serine/threonine-protein kinase PLK1 OS=Homo sapiens OX=9606 GN=PLK1 PE=1 SV=1
+sp|P53350|PLK1_HUMAN  -            603 LIG_MAPK_1+FUS3_YEAST+13+309_muscle -            290   3.1e-33  110.0   0.0   2   2   0.00024    0.0079   10.2   0.0   256   290   271   305   253   305 0.83 Serine/threonine-protein kinase PLK1 OS=Homo sapiens OX=9606 GN=PLK1 PE=1 SV=1
+sp|O15111|IKKA_HUMAN  -            745 LIG_MAPK_1+FUS3_YEAST+13+309_muscle -            290   3.7e-27   90.1   0.0   1   1   2.3e-28   7.3e-27   89.1   0.0     3   200    18   216    16   225 0.85 Inhibitor of nuclear factor kappa-B kinase subunit alpha OS=Homo sapiens OX=9606 GN=CHUK PE=1 SV=2
+sp|P08631|HCK_HUMAN   -            526 LIG_MAPK_1+FUS3_YEAST+13+309_muscle -            290   1.3e-23   78.4   0.0   1   1   5.9e-25   1.9e-23   77.9   0.0     3   208   265   461   263   472 0.83 Tyrosine-protein kinase HCK OS=Homo sapiens OX=9606 GN=HCK PE=1 SV=5
+sp|P06241|FYN_HUMAN   -            537 LIG_MAPK_1+FUS3_YEAST+13+309_muscle -            290   5.8e-23   76.3   0.0   1   1     3e-24   9.6e-23   75.6   0.0     2   217   273   479   272   491 0.86 Tyrosine-protein kinase Fyn OS=Homo sapiens OX=9606 GN=FYN PE=1 SV=3
+sp|P06239|LCK_HUMAN   -            509 LIG_MAPK_1+FUS3_YEAST+13+309_muscle -            290   8.5e-23   75.8   0.0   1   1   3.6e-24   1.2e-22   75.3   0.0     3   208   248   444   246   455 0.85 Tyrosine-protein kinase Lck OS=Homo sapiens OX=9606 GN=LCK PE=1 SV=6
+sp|P29597|TYK2_HUMAN  -           1187 LIG_MAPK_1+FUS3_YEAST+13+309_muscle -            290   2.7e-22   74.1   0.0   1   3      0.32        10   -0.0   0.0   200   230   623   652   619   670 0.76 Non-receptor tyrosine-protein kinase TYK2 OS=Homo sapiens OX=9606 GN=TYK2 PE=1 SV=3
+sp|P29597|TYK2_HUMAN  -           1187 LIG_MAPK_1+FUS3_YEAST+13+309_muscle -            290   2.7e-22   74.1   0.0   2   3      0.51        17   -0.7   0.0   109   136   717   744   710   812 0.55 Non-receptor tyrosine-protein kinase TYK2 OS=Homo sapiens OX=9606 GN=TYK2 PE=1 SV=3
+sp|P29597|TYK2_HUMAN  -           1187 LIG_MAPK_1+FUS3_YEAST+13+309_muscle -            290   2.7e-22   74.1   0.0   3   3   2.2e-22   7.2e-21   69.4   0.0     3   201   900  1097   898  1102 0.82 Non-receptor tyrosine-protein kinase TYK2 OS=Homo sapiens OX=9606 GN=TYK2 PE=1 SV=3
+sp|P12931|SRC_HUMAN   -            536 LIG_MAPK_1+FUS3_YEAST+13+309_muscle -            290   6.5e-22   72.9   0.0   1   1   3.5e-23   1.1e-21   72.1   0.0     5   214   275   475   271   485 0.84 Proto-oncogene tyrosine-protein kinase Src OS=Homo sapiens OX=9606 GN=SRC PE=1 SV=3
+sp|P10398|ARAF_HUMAN  -            606 LIG_MAPK_1+FUS3_YEAST+13+309_muscle -            290   9.7e-20   65.7   0.0   1   1   5.3e-21   1.7e-19   64.9   0.0     2   269   312   572   311   583 0.71 Serine/threonine-protein kinase A-Raf OS=Homo sapiens OX=9606 GN=ARAF PE=1 SV=2
+sp|Q14164|IKKE_HUMAN  -            716 LIG_MAPK_1+FUS3_YEAST+13+309_muscle -            290   1.9e-19   64.8   0.0   1   1     1e-20   3.4e-19   64.0   0.0     4   195    13   211    10   223 0.82 Inhibitor of nuclear factor kappa-B kinase subunit epsilon OS=Homo sapiens OX=9606 GN=IKBKE PE=1 SV=1
+sp|P04626|ERBB2_HUMAN -           1255 LIG_MAPK_1+FUS3_YEAST+13+309_muscle -            290     1e-16   55.8   0.0   1   1   5.3e-18   1.7e-16   55.1   0.0     3   200   723   917   721   924 0.85 Receptor tyrosine-protein kinase erbB-2 OS=Homo sapiens OX=9606 GN=ERBB2 PE=1 SV=1
+sp|P51617|IRAK1_HUMAN -            712 LIG_MAPK_1+FUS3_YEAST+13+309_muscle -            290   2.3e-15   51.4   0.0   1   1   1.1e-16   3.5e-15   50.8   0.0     5   202   217   421   213   441 0.84 Interleukin-1 receptor-associated kinase 1 OS=Homo sapiens OX=9606 GN=IRAK1 PE=1 SV=2
+sp|P37173|TGFR2_HUMAN -            567 LIG_MAPK_1+FUS3_YEAST+13+309_muscle -            290   1.6e-14   48.6   0.0   1   1   7.4e-16   2.4e-14   48.0   0.0     4   201   248   460   245   470 0.78 TGF-beta receptor type-2 OS=Homo sapiens OX=9606 GN=TGFBR2 PE=1 SV=2
+sp|Q99986|VRK1_HUMAN  -            396 LIG_MAPK_1+FUS3_YEAST+13+309_muscle -            290   5.6e-09   30.4   0.1   1   1   3.6e-10   1.2e-08   29.4   0.1    78   152   128   205   119   219 0.83 Serine/threonine-protein kinase VRK1 OS=Homo sapiens OX=9606 GN=VRK1 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      domain_all/LIG_MAPK_1+FUS3_YEAST+13+309.hmm
+# Target file:     H1_prot_fasta.fasta
+# Option settings: hmmsearch -o /home/bwadie/Hmmer_H1/all_outs/LIG_MAPK_1+FUS3_YEAST+13+309.out --domtblout /home/bwadie/Hmmer_H1/domain_all_H1_domtblouts/LIG_MAPK_1+FUS3_YEAST+13+309.txt -E 1 domain_all/LIG_MAPK_1+FUS3_YEAST+13+309.hmm H1_prot_fasta.fasta 
+# Current dir:     /home/bwadie/Hmmer_H1
+# Date:            Wed Feb 10 00:37:41 2021
+# [ok]

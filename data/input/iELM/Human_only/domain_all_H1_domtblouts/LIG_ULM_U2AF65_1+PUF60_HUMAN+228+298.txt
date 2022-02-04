@@ -1,0 +1,23 @@
+#                                                                                                    --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name         accession   tlen query name                                  accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+# ------------------- ---------- -----                        -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+sp|P19338|NUCL_HUMAN  -            710 LIG_ULM_U2AF65_1+PUF60_HUMAN+228+298_muscle -             70   1.4e-20   66.9   1.6   1   4     0.011      0.49    4.3   0.0    35    57   343   365   333   376 0.83 Nucleolin OS=Homo sapiens OX=9606 GN=NCL PE=1 SV=3
+sp|P19338|NUCL_HUMAN  -            710 LIG_ULM_U2AF65_1+PUF60_HUMAN+228+298_muscle -             70   1.4e-20   66.9   1.6   2   4   3.2e-05    0.0014   12.4   0.0     6    68   401   458   398   460 0.83 Nucleolin OS=Homo sapiens OX=9606 GN=NCL PE=1 SV=3
+sp|P19338|NUCL_HUMAN  -            710 LIG_ULM_U2AF65_1+PUF60_HUMAN+228+298_muscle -             70   1.4e-20   66.9   1.6   3   4   9.2e-10   4.1e-08   27.0   0.1     6    70   494   554   490   554 0.87 Nucleolin OS=Homo sapiens OX=9606 GN=NCL PE=1 SV=3
+sp|P19338|NUCL_HUMAN  -            710 LIG_ULM_U2AF65_1+PUF60_HUMAN+228+298_muscle -             70   1.4e-20   66.9   1.6   4   4   2.6e-07   1.2e-05   19.1   0.0     5    67   579   638   575   641 0.80 Nucleolin OS=Homo sapiens OX=9606 GN=NCL PE=1 SV=3
+sp|P0DJD3|RBY1A_HUMAN -            496 LIG_ULM_U2AF65_1+PUF60_HUMAN+228+298_muscle -             70   4.8e-11   36.4   0.7   1   2   6.5e-12   2.9e-10   33.8   0.0     2    70    12    79    11    79 0.92 RNA-binding motif protein, Y chromosome, family 1 member A1 OS=Homo sapiens OX=9606 GN=RBMY1A1 PE=1 SV=1
+sp|P0DJD3|RBY1A_HUMAN -            496 LIG_ULM_U2AF65_1+PUF60_HUMAN+228+298_muscle -             70   4.8e-11   36.4   0.7   2   2      0.47        21   -0.9   0.2    38    49   346   357   339   373 0.80 RNA-binding motif protein, Y chromosome, family 1 member A1 OS=Homo sapiens OX=9606 GN=RBMY1A1 PE=1 SV=1
+sp|P52298|NCBP2_HUMAN -            156 LIG_ULM_U2AF65_1+PUF60_HUMAN+228+298_muscle -             70   2.9e-08   27.4   0.1   1   1   9.2e-10   4.1e-08   27.0   0.1     1    69    43   111    43   112 0.93 Nuclear cap-binding protein subunit 2 OS=Homo sapiens OX=9606 GN=NCBP2 PE=1 SV=1
+sp|P55884|EIF3B_HUMAN -            814 LIG_ULM_U2AF65_1+PUF60_HUMAN+228+298_muscle -             70     5e-06   20.3   0.1   1   1   2.9e-07   1.3e-05   18.9   0.1    13    65   206   256   199   260 0.84 Eukaryotic translation initiation factor 3 subunit B OS=Homo sapiens OX=9606 GN=EIF3B PE=1 SV=3
+sp|Q9NZI8|IF2B1_HUMAN -            577 LIG_ULM_U2AF65_1+PUF60_HUMAN+228+298_muscle -             70   4.9e-05   17.1   0.0   1   2    0.0068      0.31    5.0   0.0     1    69     5    68     5    69 0.70 Insulin-like growth factor 2 mRNA-binding protein 1 OS=Homo sapiens OX=9606 GN=IGF2BP1 PE=1 SV=2
+sp|Q9NZI8|IF2B1_HUMAN -            577 LIG_ULM_U2AF65_1+PUF60_HUMAN+228+298_muscle -             70   4.9e-05   17.1   0.0   2   2   0.00042     0.019    8.8   0.0     4    69    87   149    84   150 0.83 Insulin-like growth factor 2 mRNA-binding protein 1 OS=Homo sapiens OX=9606 GN=IGF2BP1 PE=1 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      domain_all/LIG_ULM_U2AF65_1+PUF60_HUMAN+228+298.hmm
+# Target file:     human_only_H1_Prot_fasta.fasta
+# Option settings: hmmsearch -o /home/bwadie/Hmmer_H1/human_slimfinder_HMM_outputs/all_outs/LIG_ULM_U2AF65_1+PUF60_HUMAN+228+298.out --domtblout /home/bwadie/Hmmer_H1/human_slimfinder_HMM_outputs/domain_all_H1_domtblouts/LIG_ULM_U2AF65_1+PUF60_HUMAN+228+298.txt -E 1 domain_all/LIG_ULM_U2AF65_1+PUF60_HUMAN+228+298.hmm human_only_H1_Prot_fasta.fasta 
+# Current dir:     /home/bwadie/Hmmer_H1
+# Date:            Wed Mar 17 18:18:28 2021
+# [ok]

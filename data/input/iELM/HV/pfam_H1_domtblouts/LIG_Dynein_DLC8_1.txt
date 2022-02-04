@@ -1,0 +1,14 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+sp|P63167|DYL1_HUMAN -             89 Dynein_light         PF01221.11    89   3.7e-47  153.5   1.5   1   1   7.7e-50     4e-47  153.4   1.5     1    89     1    89     1    89 0.98 Dynein light chain 1, cytoplasmic OS=Homo sapiens OX=9606 GN=DYNLL1 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      pfam_hmms/LIG_Dynein_DLC8_1.hmm
+# Target file:     H1_prot_fasta.fasta
+# Option settings: hmmsearch -o /home/bwadie/Hmmer_H1/all_outs/LIG_Dynein_DLC8_1.out --domtblout /home/bwadie/Hmmer_H1/pfam_H1_domtblouts/LIG_Dynein_DLC8_1.txt -E 1 pfam_hmms/LIG_Dynein_DLC8_1.hmm H1_prot_fasta.fasta 
+# Current dir:     /home/bwadie/Hmmer_H1
+# Date:            Wed Feb 10 00:37:19 2021
+# [ok]

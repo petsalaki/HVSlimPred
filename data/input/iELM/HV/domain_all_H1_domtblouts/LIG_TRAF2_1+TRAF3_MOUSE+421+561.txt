@@ -1,0 +1,19 @@
+#                                                                                               --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name         accession   tlen query name                             accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+# ------------------- ---------- -----                   -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+sp|Q13114|TRAF3_HUMAN -            568 LIG_TRAF2_1+TRAF3_MOUSE+421+561_muscle -            140   2.3e-78  255.8   0.0   1   1   5.7e-80   4.9e-78  254.7   0.0     1   140   423   562   423   562 0.99 TNF receptor-associated factor 3 OS=Homo sapiens OX=9606 GN=TRAF3 PE=1 SV=2
+sp|Q12933|TRAF2_HUMAN -            501 LIG_TRAF2_1+TRAF3_MOUSE+421+561_muscle -            140   7.5e-63  205.5   0.0   1   1   1.3e-64   1.2e-62  204.9   0.0     2   139   360   497   359   498 0.98 TNF receptor-associated factor 2 OS=Homo sapiens OX=9606 GN=TRAF2 PE=1 SV=2
+sp|Q13077|TRAF1_HUMAN -            416 LIG_TRAF2_1+TRAF3_MOUSE+421+561_muscle -            140   6.9e-62  202.4   0.0   1   1   2.2e-63   1.9e-61  201.0   0.0     2   140   275   414   274   414 0.97 TNF receptor-associated factor 1 OS=Homo sapiens OX=9606 GN=TRAF1 PE=1 SV=1
+sp|Q9BUZ4|TRAF4_HUMAN -            470 LIG_TRAF2_1+TRAF3_MOUSE+421+561_muscle -            140   3.5e-42  138.5   0.0   1   1   6.3e-44   5.4e-42  137.9   0.0     3   139   317   463   315   464 0.93 TNF receptor-associated factor 4 OS=Homo sapiens OX=9606 GN=TRAF4 PE=1 SV=1
+sp|Q9Y4K3|TRAF6_HUMAN -            522 LIG_TRAF2_1+TRAF3_MOUSE+421+561_muscle -            140   1.5e-36  120.3   0.0   1   1   4.1e-38   3.5e-36  119.1   0.0    12   139   369   500   361   501 0.92 TNF receptor-associated factor 6 OS=Homo sapiens OX=9606 GN=TRAF6 PE=1 SV=1
+sp|O43791|SPOP_HUMAN  -            374 LIG_TRAF2_1+TRAF3_MOUSE+421+561_muscle -            140    0.0022   12.8   0.0   1   1   5.1e-05    0.0044   11.9   0.0    16    56    50    91    40    99 0.85 Speckle-type POZ protein OS=Homo sapiens OX=9606 GN=SPOP PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      domain_all/LIG_TRAF2_1+TRAF3_MOUSE+421+561.hmm
+# Target file:     H1_prot_fasta.fasta
+# Option settings: hmmsearch -o /home/bwadie/Hmmer_H1/all_outs/LIG_TRAF2_1+TRAF3_MOUSE+421+561.out --domtblout /home/bwadie/Hmmer_H1/domain_all_H1_domtblouts/LIG_TRAF2_1+TRAF3_MOUSE+421+561.txt -E 1 domain_all/LIG_TRAF2_1+TRAF3_MOUSE+421+561.hmm H1_prot_fasta.fasta 
+# Current dir:     /home/bwadie/Hmmer_H1
+# Date:            Wed Feb 10 00:38:03 2021
+# [ok]

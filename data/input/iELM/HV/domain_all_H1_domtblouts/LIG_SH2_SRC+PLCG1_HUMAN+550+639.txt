@@ -1,0 +1,24 @@
+#                                                                                              --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name                             accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- -----                   -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+sp|P27986|P85A_HUMAN -            724 LIG_SH2_SRC+PLCG1_HUMAN+550+639_muscle -             83   3.2e-17   57.4   0.2   1   2   3.4e-10   2.2e-08   29.1   0.0    17    83   345   408   335   408 0.81 Phosphatidylinositol 3-kinase regulatory subunit alpha OS=Homo sapiens OX=9606 GN=PIK3R1 PE=1 SV=2
+sp|P27986|P85A_HUMAN -            724 LIG_SH2_SRC+PLCG1_HUMAN+550+639_muscle -             83   3.2e-17   57.4   0.2   2   2   4.3e-09   2.8e-07   25.6   0.0     7    83   629   698   624   698 0.77 Phosphatidylinositol 3-kinase regulatory subunit alpha OS=Homo sapiens OX=9606 GN=PIK3R1 PE=1 SV=2
+sp|Q92569|P55G_HUMAN -            461 LIG_SH2_SRC+PLCG1_HUMAN+550+639_muscle -             83   1.1e-16   55.7   0.1   1   2   1.5e-10     1e-08   30.2   0.0    15    83    78   140    67   140 0.80 Phosphatidylinositol 3-kinase regulatory subunit gamma OS=Homo sapiens OX=9606 GN=PIK3R3 PE=1 SV=2
+sp|Q92569|P55G_HUMAN -            461 LIG_SH2_SRC+PLCG1_HUMAN+550+639_muscle -             83   1.1e-16   55.7   0.1   2   2   4.4e-08   2.9e-06   22.4   0.0     8    83   364   432   359   432 0.71 Phosphatidylinositol 3-kinase regulatory subunit gamma OS=Homo sapiens OX=9606 GN=PIK3R3 PE=1 SV=2
+sp|P06241|FYN_HUMAN  -            537 LIG_SH2_SRC+PLCG1_HUMAN+550+639_muscle -             83   7.3e-14   46.7   0.3   1   1   2.3e-15   1.5e-13   45.7   0.3     2    83   151   231   150   231 0.87 Tyrosine-protein kinase Fyn OS=Homo sapiens OX=9606 GN=FYN PE=1 SV=3
+sp|O00459|P85B_HUMAN -            728 LIG_SH2_SRC+PLCG1_HUMAN+550+639_muscle -             83   2.5e-12   41.8   0.2   1   2   4.8e-07   3.1e-05   19.0   0.0    17    83   342   405   333   405 0.76 Phosphatidylinositol 3-kinase regulatory subunit beta OS=Homo sapiens OX=9606 GN=PIK3R2 PE=1 SV=2
+sp|O00459|P85B_HUMAN -            728 LIG_SH2_SRC+PLCG1_HUMAN+550+639_muscle -             83   2.5e-12   41.8   0.2   2   2   2.1e-07   1.3e-05   20.2   0.0     3    56   625   672   623   696 0.75 Phosphatidylinositol 3-kinase regulatory subunit beta OS=Homo sapiens OX=9606 GN=PIK3R2 PE=1 SV=2
+sp|P12931|SRC_HUMAN  -            536 LIG_SH2_SRC+PLCG1_HUMAN+550+639_muscle -             83   1.2e-11   39.6   0.2   1   1   3.6e-13   2.3e-11   38.7   0.2     2    83   153   233   152   233 0.79 Proto-oncogene tyrosine-protein kinase Src OS=Homo sapiens OX=9606 GN=SRC PE=1 SV=3
+sp|P16333|NCK1_HUMAN -            377 LIG_SH2_SRC+PLCG1_HUMAN+550+639_muscle -             83   1.3e-09   33.1   0.2   1   1   4.1e-11   2.7e-09   32.1   0.2     2    83   284   356   283   356 0.84 Cytoplasmic protein NCK1 OS=Homo sapiens OX=9606 GN=NCK1 PE=1 SV=1
+sp|P08631|HCK_HUMAN  -            526 LIG_SH2_SRC+PLCG1_HUMAN+550+639_muscle -             83   2.5e-08   28.9   0.0   1   1     1e-09   6.5e-08   27.6   0.0     8    83   150   226   146   226 0.78 Tyrosine-protein kinase HCK OS=Homo sapiens OX=9606 GN=HCK PE=1 SV=5
+sp|P06239|LCK_HUMAN  -            509 LIG_SH2_SRC+PLCG1_HUMAN+550+639_muscle -             83   3.8e-08   28.4   0.0   1   1   1.6e-09   1.1e-07   26.9   0.0     8    83   133   209   128   209 0.75 Tyrosine-protein kinase Lck OS=Homo sapiens OX=9606 GN=LCK PE=1 SV=6
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      domain_all/LIG_SH2_SRC+PLCG1_HUMAN+550+639.hmm
+# Target file:     H1_prot_fasta.fasta
+# Option settings: hmmsearch -o /home/bwadie/Hmmer_H1/all_outs/LIG_SH2_SRC+PLCG1_HUMAN+550+639.out --domtblout /home/bwadie/Hmmer_H1/domain_all_H1_domtblouts/LIG_SH2_SRC+PLCG1_HUMAN+550+639.txt -E 1 domain_all/LIG_SH2_SRC+PLCG1_HUMAN+550+639.hmm H1_prot_fasta.fasta 
+# Current dir:     /home/bwadie/Hmmer_H1
+# Date:            Wed Feb 10 00:37:56 2021
+# [ok]

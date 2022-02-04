@@ -1,0 +1,19 @@
+#                                                                                           --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name                          accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- -----                -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+sp|P16333|NCK1_HUMAN -            377 MOD_TYR_ITIM+PTN6_HUMAN+4+79_muscle -             75   3.3e-06   22.5   1.7   1   2         4   5.2e+02   -3.7   0.3    21    29    53    61    41    72 0.50 Cytoplasmic protein NCK1 OS=Homo sapiens OX=9606 GN=NCK1 PE=1 SV=1
+sp|P16333|NCK1_HUMAN -            377 MOD_TYR_ITIM+PTN6_HUMAN+4+79_muscle -             75   3.3e-06   22.5   1.7   2   2     3e-08   3.8e-06   22.3   0.1     8    75   290   356   284   356 0.87 Cytoplasmic protein NCK1 OS=Homo sapiens OX=9606 GN=NCK1 PE=1 SV=1
+sp|P06239|LCK_HUMAN  -            509 MOD_TYR_ITIM+PTN6_HUMAN+4+79_muscle -             75   5.6e-06   21.8   0.0   1   1   6.8e-08   8.8e-06   21.2   0.0     3    61   130   196   128   209 0.78 Tyrosine-protein kinase Lck OS=Homo sapiens OX=9606 GN=LCK PE=1 SV=6
+sp|P08631|HCK_HUMAN  -            526 MOD_TYR_ITIM+PTN6_HUMAN+4+79_muscle -             75   6.8e-06   21.5   0.0   1   2   2.2e-07   2.9e-05   19.5   0.0     8    75   152   226   145   226 0.87 Tyrosine-protein kinase HCK OS=Homo sapiens OX=9606 GN=HCK PE=1 SV=5
+sp|P08631|HCK_HUMAN  -            526 MOD_TYR_ITIM+PTN6_HUMAN+4+79_muscle -             75   6.8e-06   21.5   0.0   2   2       0.7        91   -1.3   0.0    40    52   497   509   493   518 0.76 Tyrosine-protein kinase HCK OS=Homo sapiens OX=9606 GN=HCK PE=1 SV=5
+sp|P06241|FYN_HUMAN  -            537 MOD_TYR_ITIM+PTN6_HUMAN+4+79_muscle -             75    0.0019   13.7   0.0   1   1   2.8e-05    0.0036   12.8   0.0    10    75   159   231   153   231 0.84 Tyrosine-protein kinase Fyn OS=Homo sapiens OX=9606 GN=FYN PE=1 SV=3
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      domain_all/MOD_TYR_ITIM+PTN6_HUMAN+4+79.hmm
+# Target file:     H1_prot_fasta.fasta
+# Option settings: hmmsearch -o /home/bwadie/Hmmer_H1/all_outs/MOD_TYR_ITIM+PTN6_HUMAN+4+79.out --domtblout /home/bwadie/Hmmer_H1/domain_all_H1_domtblouts/MOD_TYR_ITIM+PTN6_HUMAN+4+79.txt -E 1 domain_all/MOD_TYR_ITIM+PTN6_HUMAN+4+79.hmm H1_prot_fasta.fasta 
+# Current dir:     /home/bwadie/Hmmer_H1
+# Date:            Wed Feb 10 00:38:11 2021
+# [ok]

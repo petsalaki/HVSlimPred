@@ -1,0 +1,17 @@
+#                                                                                        --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name                       accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- -----             -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+sp|Q96EQ0|SGTB_HUMAN -            304 LIG_TPR+PPP5_HUMAN+28+129_muscle -            101   1.8e-36  118.1   7.4   1   2     5e-36   5.6e-34  110.1   4.4     2   101    87   186    86   186 0.98 Small glutamine-rich tetratricopeptide repeat-containing protein beta OS=Homo sapiens OX=9606 GN=SGTB PE=1 SV=1
+sp|Q96EQ0|SGTB_HUMAN -            304 LIG_TPR+PPP5_HUMAN+28+129_muscle -            101   1.8e-36  118.1   7.4   2   2   8.3e-07   9.3e-05   16.3   0.0    15    49   168   202   167   207 0.91 Small glutamine-rich tetratricopeptide repeat-containing protein beta OS=Homo sapiens OX=9606 GN=SGTB PE=1 SV=1
+sp|O43765|SGTA_HUMAN -            313 LIG_TPR+PPP5_HUMAN+28+129_muscle -            101   4.8e-32  103.9   5.7   1   2   5.8e-32   6.5e-30   97.1   1.9     1   101    92   192    92   192 0.98 Small glutamine-rich tetratricopeptide repeat-containing protein alpha OS=Homo sapiens OX=9606 GN=SGTA PE=1 SV=1
+sp|O43765|SGTA_HUMAN -            313 LIG_TPR+PPP5_HUMAN+28+129_muscle -            101   4.8e-32  103.9   5.7   2   2   1.1e-06   0.00012   16.0   0.1    15    48   174   207   172   211 0.91 Small glutamine-rich tetratricopeptide repeat-containing protein alpha OS=Homo sapiens OX=9606 GN=SGTA PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      domain_all/LIG_TPR+PPP5_HUMAN+28+129.hmm
+# Target file:     human_only_H1_Prot_fasta.fasta
+# Option settings: hmmsearch -o /home/bwadie/Hmmer_H1/human_slimfinder_HMM_outputs/all_outs/LIG_TPR+PPP5_HUMAN+28+129.out --domtblout /home/bwadie/Hmmer_H1/human_slimfinder_HMM_outputs/domain_all_H1_domtblouts/LIG_TPR+PPP5_HUMAN+28+129.txt -E 1 domain_all/LIG_TPR+PPP5_HUMAN+28+129.hmm human_only_H1_Prot_fasta.fasta 
+# Current dir:     /home/bwadie/Hmmer_H1
+# Date:            Wed Mar 17 18:18:26 2021
+# [ok]

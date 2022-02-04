@@ -1,0 +1,27 @@
+#                                                                                         --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name                        accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- -----              -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+sp|P16333|NCK1_HUMAN -            377 LIG_SH3_3+SH3K1_HUMAN+5+57_muscle -             52   4.3e-24   79.2   1.9   1   3   0.00016     0.012   10.6   0.0     2    48    10    56     9    59 0.80 Cytoplasmic protein NCK1 OS=Homo sapiens OX=9606 GN=NCK1 PE=1 SV=1
+sp|P16333|NCK1_HUMAN -            377 LIG_SH3_3+SH3K1_HUMAN+5+57_muscle -             52   4.3e-24   79.2   1.9   2   3   1.4e-14     1e-12   42.7   0.1     1    50   113   162   113   163 0.97 Cytoplasmic protein NCK1 OS=Homo sapiens OX=9606 GN=NCK1 PE=1 SV=1
+sp|P16333|NCK1_HUMAN -            377 LIG_SH3_3+SH3K1_HUMAN+5+57_muscle -             52   4.3e-24   79.2   1.9   3   3   1.3e-08     1e-06   23.6   0.0     4    49   200   248   197   251 0.88 Cytoplasmic protein NCK1 OS=Homo sapiens OX=9606 GN=NCK1 PE=1 SV=1
+sp|P06241|FYN_HUMAN  -            537 LIG_SH3_3+SH3K1_HUMAN+5+57_muscle -             52   4.8e-07   24.6   0.0   1   2   1.9e-08   1.4e-06   23.1   0.0     2    49    90   139    89   142 0.90 Tyrosine-protein kinase Fyn OS=Homo sapiens OX=9606 GN=FYN PE=1 SV=3
+sp|P06241|FYN_HUMAN  -            537 LIG_SH3_3+SH3K1_HUMAN+5+57_muscle -             52   4.8e-07   24.6   0.0   2   2       4.2   3.1e+02   -3.6   0.0    23    31   204   213   198   214 0.80 Tyrosine-protein kinase Fyn OS=Homo sapiens OX=9606 GN=FYN PE=1 SV=3
+sp|Q00013|EM55_HUMAN -            466 LIG_SH3_3+SH3K1_HUMAN+5+57_muscle -             52   3.3e-06   21.9   0.2   1   2       2.3   1.7e+02   -2.8   0.0    14    24   110   120   109   123 0.83 55 kDa erythrocyte membrane protein OS=Homo sapiens OX=9606 GN=MPP1 PE=1 SV=2
+sp|Q00013|EM55_HUMAN -            466 LIG_SH3_3+SH3K1_HUMAN+5+57_muscle -             52   3.3e-06   21.9   0.2   2   2   1.4e-07     1e-05   20.3   0.0    13    39   184   210   166   222 0.84 55 kDa erythrocyte membrane protein OS=Homo sapiens OX=9606 GN=MPP1 PE=1 SV=2
+sp|P08631|HCK_HUMAN  -            526 LIG_SH3_3+SH3K1_HUMAN+5+57_muscle -             52   0.00019   16.3   0.0   1   1   5.2e-06   0.00039   15.3   0.0     2    50    86   135    85   137 0.80 Tyrosine-protein kinase HCK OS=Homo sapiens OX=9606 GN=HCK PE=1 SV=5
+sp|P12931|SRC_HUMAN  -            536 LIG_SH3_3+SH3K1_HUMAN+5+57_muscle -             52   0.00027   15.8   0.0   1   1   9.3e-06   0.00069   14.5   0.0     2    48    92   140    91   142 0.89 Proto-oncogene tyrosine-protein kinase Src OS=Homo sapiens OX=9606 GN=SRC PE=1 SV=3
+sp|P27986|P85A_HUMAN -            724 LIG_SH3_3+SH3K1_HUMAN+5+57_muscle -             52    0.0017   13.2   3.7   1   3     0.022       1.6    3.7   0.0     2    22    11    31    10    37 0.90 Phosphatidylinositol 3-kinase regulatory subunit alpha OS=Homo sapiens OX=9606 GN=PIK3R1 PE=1 SV=2
+sp|P27986|P85A_HUMAN -            724 LIG_SH3_3+SH3K1_HUMAN+5+57_muscle -             52    0.0017   13.2   3.7   2   3   0.00042     0.031    9.2   0.2    25    49    49    75    45    78 0.85 Phosphatidylinositol 3-kinase regulatory subunit alpha OS=Homo sapiens OX=9606 GN=PIK3R1 PE=1 SV=2
+sp|P27986|P85A_HUMAN -            724 LIG_SH3_3+SH3K1_HUMAN+5+57_muscle -             52    0.0017   13.2   3.7   3   3       2.2   1.7e+02   -2.8   0.1    23    36   325   338   322   340 0.83 Phosphatidylinositol 3-kinase regulatory subunit alpha OS=Homo sapiens OX=9606 GN=PIK3R1 PE=1 SV=2
+sp|P06239|LCK_HUMAN  -            509 LIG_SH3_3+SH3K1_HUMAN+5+57_muscle -             52    0.0063   11.4   0.0   1   2   8.6e-05    0.0063   11.4   0.0     4    48    71   116    68   119 0.84 Tyrosine-protein kinase Lck OS=Homo sapiens OX=9606 GN=LCK PE=1 SV=6
+sp|P06239|LCK_HUMAN  -            509 LIG_SH3_3+SH3K1_HUMAN+5+57_muscle -             52    0.0063   11.4   0.0   2   2         7   5.2e+02   -4.7   1.1    26    35   228   237   226   239 0.72 Tyrosine-protein kinase Lck OS=Homo sapiens OX=9606 GN=LCK PE=1 SV=6
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      domain_all/LIG_SH3_3+SH3K1_HUMAN+5+57.hmm
+# Target file:     H1_prot_fasta.fasta
+# Option settings: hmmsearch -o /home/bwadie/Hmmer_H1/all_outs/LIG_SH3_3+SH3K1_HUMAN+5+57.out --domtblout /home/bwadie/Hmmer_H1/domain_all_H1_domtblouts/LIG_SH3_3+SH3K1_HUMAN+5+57.txt -E 1 domain_all/LIG_SH3_3+SH3K1_HUMAN+5+57.hmm H1_prot_fasta.fasta 
+# Current dir:     /home/bwadie/Hmmer_H1
+# Date:            Wed Feb 10 00:38:00 2021
+# [ok]

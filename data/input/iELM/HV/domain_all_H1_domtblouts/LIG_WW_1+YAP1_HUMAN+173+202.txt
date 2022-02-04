@@ -1,0 +1,18 @@
+#                                                                                          --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name                         accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- -----               -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+sp|O00308|WWP2_HUMAN -            870 LIG_WW_1+YAP1_HUMAN+173+202_muscle -             29   7.8e-41  132.7  26.4   1   4   2.8e-13   7.1e-11   36.9   0.8     1    29   303   331   303   331 0.97 NEDD4-like E3 ubiquitin-protein ligase WWP2 OS=Homo sapiens OX=9606 GN=WWP2 PE=1 SV=2
+sp|O00308|WWP2_HUMAN -            870 LIG_WW_1+YAP1_HUMAN+173+202_muscle -             29   7.8e-41  132.7  26.4   2   4   8.2e-13   2.1e-10   35.3   3.1     1    29   333   361   333   361 0.98 NEDD4-like E3 ubiquitin-protein ligase WWP2 OS=Homo sapiens OX=9606 GN=WWP2 PE=1 SV=2
+sp|O00308|WWP2_HUMAN -            870 LIG_WW_1+YAP1_HUMAN+173+202_muscle -             29   7.8e-41  132.7  26.4   3   4   7.6e-12     2e-09   32.3   2.3     1    29   408   435   408   435 0.95 NEDD4-like E3 ubiquitin-protein ligase WWP2 OS=Homo sapiens OX=9606 GN=WWP2 PE=1 SV=2
+sp|O00308|WWP2_HUMAN -            870 LIG_WW_1+YAP1_HUMAN+173+202_muscle -             29   7.8e-41  132.7  26.4   4   4   4.1e-15   1.1e-12   42.7   0.3     1    29   447   475   447   475 0.99 NEDD4-like E3 ubiquitin-protein ligase WWP2 OS=Homo sapiens OX=9606 GN=WWP2 PE=1 SV=2
+sp|O95817|BAG3_HUMAN -            575 LIG_WW_1+YAP1_HUMAN+173+202_muscle -             29   1.1e-07   26.6   3.7   1   1   8.2e-10   2.1e-07   25.8   3.7     1    29    23    52    23    52 0.93 BAG family molecular chaperone regulator 3 OS=Homo sapiens OX=9606 GN=BAG3 PE=1 SV=3
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      domain_all/LIG_WW_1+YAP1_HUMAN+173+202.hmm
+# Target file:     H1_prot_fasta.fasta
+# Option settings: hmmsearch -o /home/bwadie/Hmmer_H1/all_outs/LIG_WW_1+YAP1_HUMAN+173+202.out --domtblout /home/bwadie/Hmmer_H1/domain_all_H1_domtblouts/LIG_WW_1+YAP1_HUMAN+173+202.txt -E 1 domain_all/LIG_WW_1+YAP1_HUMAN+173+202.hmm H1_prot_fasta.fasta 
+# Current dir:     /home/bwadie/Hmmer_H1
+# Date:            Wed Feb 10 00:38:05 2021
+# [ok]

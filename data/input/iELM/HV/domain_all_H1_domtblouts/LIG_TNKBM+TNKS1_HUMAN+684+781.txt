@@ -1,0 +1,22 @@
+#                                                                                             --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name         accession   tlen query name                           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+# ------------------- ---------- -----                 -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+sp|Q04721|NOTC2_HUMAN -           2471 LIG_TNKBM+TNKS1_HUMAN+684+781_muscle -             97   6.7e-35  114.4  10.8   1   5      0.13        23    0.4   0.0    25    44  1820  1839  1818  1844 0.67 Neurogenic locus notch homolog protein 2 OS=Homo sapiens OX=9606 GN=NOTCH2 PE=1 SV=3
+sp|Q04721|NOTC2_HUMAN -           2471 LIG_TNKBM+TNKS1_HUMAN+684+781_muscle -             97   6.7e-35  114.4  10.8   2   5     2e-11   3.4e-09   32.0   0.1    10    88  1853  1932  1850  1940 0.92 Neurogenic locus notch homolog protein 2 OS=Homo sapiens OX=9606 GN=NOTCH2 PE=1 SV=3
+sp|Q04721|NOTC2_HUMAN -           2471 LIG_TNKBM+TNKS1_HUMAN+684+781_muscle -             97   6.7e-35  114.4  10.8   3   5   4.5e-11   7.8e-09   30.8   0.7     8    93  1918  2004  1917  2007 0.90 Neurogenic locus notch homolog protein 2 OS=Homo sapiens OX=9606 GN=NOTCH2 PE=1 SV=3
+sp|Q04721|NOTC2_HUMAN -           2471 LIG_TNKBM+TNKS1_HUMAN+684+781_muscle -             97   6.7e-35  114.4  10.8   4   5   1.5e-16   2.7e-14   48.3   0.3     1    91  1945  2035  1945  2041 0.96 Neurogenic locus notch homolog protein 2 OS=Homo sapiens OX=9606 GN=NOTCH2 PE=1 SV=3
+sp|Q04721|NOTC2_HUMAN -           2471 LIG_TNKBM+TNKS1_HUMAN+684+781_muscle -             97   6.7e-35  114.4  10.8   5   5   2.3e-13   3.9e-11   38.2   0.0     3    85  1980  2062  1978  2069 0.96 Neurogenic locus notch homolog protein 2 OS=Homo sapiens OX=9606 GN=NOTCH2 PE=1 SV=3
+sp|Q63ZY3|KANK2_HUMAN -            851 LIG_TNKBM+TNKS1_HUMAN+684+781_muscle -             97   1.1e-21   71.9   0.6   1   2   1.2e-05    0.0021   13.4   0.0    59    96   660   698   657   723 0.83 KN motif and ankyrin repeat domain-containing protein 2 OS=Homo sapiens OX=9606 GN=KANK2 PE=1 SV=1
+sp|Q63ZY3|KANK2_HUMAN -            851 LIG_TNKBM+TNKS1_HUMAN+684+781_muscle -             97   1.1e-21   71.9   0.6   2   2   4.8e-19   8.3e-17   56.4   0.2     2    86   741   826   740   830 0.94 KN motif and ankyrin repeat domain-containing protein 2 OS=Homo sapiens OX=9606 GN=KANK2 PE=1 SV=1
+sp|P42771|CDN2A_HUMAN -            156 LIG_TNKBM+TNKS1_HUMAN+684+781_muscle -             97   5.1e-18   60.2   0.0   1   2   2.6e-11   4.5e-09   31.6   0.0     4    77    16    89    12    90 0.92 Cyclin-dependent kinase inhibitor 2A OS=Homo sapiens OX=9606 GN=CDKN2A PE=1 SV=2
+sp|P42771|CDN2A_HUMAN -            156 LIG_TNKBM+TNKS1_HUMAN+684+781_muscle -             97   5.1e-18   60.2   0.0   2   2   8.5e-12   1.5e-09   33.1   0.0    10    86    54   131    48   142 0.90 Cyclin-dependent kinase inhibitor 2A OS=Homo sapiens OX=9606 GN=CDKN2A PE=1 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      domain_all/LIG_TNKBM+TNKS1_HUMAN+684+781.hmm
+# Target file:     H1_prot_fasta.fasta
+# Option settings: hmmsearch -o /home/bwadie/Hmmer_H1/all_outs/LIG_TNKBM+TNKS1_HUMAN+684+781.out --domtblout /home/bwadie/Hmmer_H1/domain_all_H1_domtblouts/LIG_TNKBM+TNKS1_HUMAN+684+781.txt -E 1 domain_all/LIG_TNKBM+TNKS1_HUMAN+684+781.hmm H1_prot_fasta.fasta 
+# Current dir:     /home/bwadie/Hmmer_H1
+# Date:            Wed Feb 10 00:38:02 2021
+# [ok]

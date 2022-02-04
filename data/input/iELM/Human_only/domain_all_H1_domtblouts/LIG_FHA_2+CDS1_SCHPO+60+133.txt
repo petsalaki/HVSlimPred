@@ -1,0 +1,14 @@
+#                                                                                          --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name                         accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- -----               -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+sp|O60934|NBN_HUMAN  -            754 LIG_FHA_2+CDS1_SCHPO+60+133_muscle -             69   3.9e-10   33.6   0.4   1   1   7.5e-12   1.7e-09   31.5   0.4     3    68    27    99    25   100 0.90 Nibrin OS=Homo sapiens OX=9606 GN=NBN PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      domain_all/LIG_FHA_2+CDS1_SCHPO+60+133.hmm
+# Target file:     human_only_H1_Prot_fasta.fasta
+# Option settings: hmmsearch -o /home/bwadie/Hmmer_H1/human_slimfinder_HMM_outputs/all_outs/LIG_FHA_2+CDS1_SCHPO+60+133.out --domtblout /home/bwadie/Hmmer_H1/human_slimfinder_HMM_outputs/domain_all_H1_domtblouts/LIG_FHA_2+CDS1_SCHPO+60+133.txt -E 1 domain_all/LIG_FHA_2+CDS1_SCHPO+60+133.hmm human_only_H1_Prot_fasta.fasta 
+# Current dir:     /home/bwadie/Hmmer_H1
+# Date:            Wed Mar 17 18:17:55 2021
+# [ok]

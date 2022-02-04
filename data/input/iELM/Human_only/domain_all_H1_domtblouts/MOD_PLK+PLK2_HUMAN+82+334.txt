@@ -1,0 +1,25 @@
+#                                                                                         --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name         accession   tlen query name                       accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+# ------------------- ---------- -----             -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+sp|P31749|AKT1_HUMAN  -            480 MOD_PLK+PLK2_HUMAN+82+334_muscle -            256   1.8e-57  188.6   0.0   1   1   1.1e-58   2.4e-57  188.2   0.0     4   256   154   408   151   408 0.95 RAC-alpha serine/threonine-protein kinase OS=Homo sapiens OX=9606 GN=AKT1 PE=1 SV=2
+sp|Q13188|STK3_HUMAN  -            491 MOD_PLK+PLK2_HUMAN+82+334_muscle -            256   1.3e-51  169.3   0.0   1   1   8.2e-53   1.8e-51  168.9   0.0     4   256    31   278    28   278 0.93 Serine/threonine-protein kinase 3 OS=Homo sapiens OX=9606 GN=STK3 PE=1 SV=2
+sp|Q16512|PKN1_HUMAN  -            942 MOD_PLK+PLK2_HUMAN+82+334_muscle -            256   1.7e-47  155.9   0.0   1   1   1.2e-48   2.8e-47  155.2   0.0     4   246   619   859   616   874 0.93 Serine/threonine-protein kinase N1 OS=Homo sapiens OX=9606 GN=PKN1 PE=1 SV=2
+sp|Q9P286|PAK5_HUMAN  -            719 MOD_PLK+PLK2_HUMAN+82+334_muscle -            256   1.3e-46  153.0   0.0   1   1   7.8e-48   1.8e-46  152.6   0.0     6   256   455   700   451   700 0.93 Serine/threonine-protein kinase PAK 5 OS=Homo sapiens OX=9606 GN=PAK5 PE=1 SV=1
+sp|Q07002|CDK18_HUMAN -            474 MOD_PLK+PLK2_HUMAN+82+334_muscle -            256   5.3e-34  111.7   0.0   1   2     8e-35   1.8e-33  110.0   0.0     4   207   148   348   145   366 0.89 Cyclin-dependent kinase 18 OS=Homo sapiens OX=9606 GN=CDK18 PE=1 SV=4
+sp|Q07002|CDK18_HUMAN -            474 MOD_PLK+PLK2_HUMAN+82+334_muscle -            256   5.3e-34  111.7   0.0   2   2      0.58        13   -1.0   0.0   225   256   394   425   371   425 0.80 Cyclin-dependent kinase 18 OS=Homo sapiens OX=9606 GN=CDK18 PE=1 SV=4
+sp|Q9Y572|RIPK3_HUMAN -            518 MOD_PLK+PLK2_HUMAN+82+334_muscle -            256   6.3e-28   91.8   0.0   1   1     4e-29   9.1e-28   91.3   0.0     3   250    24   279    22   283 0.83 Receptor-interacting serine/threonine-protein kinase 3 OS=Homo sapiens OX=9606 GN=RIPK3 PE=1 SV=2
+sp|Q9BWU1|CDK19_HUMAN -            502 MOD_PLK+PLK2_HUMAN+82+334_muscle -            256   9.3e-28   91.2   0.2   1   2     1e-27   2.3e-26   86.6   0.0     5   205    26   239    22   245 0.80 Cyclin-dependent kinase 19 OS=Homo sapiens OX=9606 GN=CDK19 PE=1 SV=1
+sp|Q9BWU1|CDK19_HUMAN -            502 MOD_PLK+PLK2_HUMAN+82+334_muscle -            256   9.3e-28   91.2   0.2   2   2     0.046         1    2.6   0.1   203   256   282   335   273   335 0.72 Cyclin-dependent kinase 19 OS=Homo sapiens OX=9606 GN=CDK19 PE=1 SV=1
+sp|Q07912|ACK1_HUMAN  -           1038 MOD_PLK+PLK2_HUMAN+82+334_muscle -            256   6.6e-27   88.4   0.0   1   1   4.4e-28   9.9e-27   87.9   0.0     5   250   131   381   127   385 0.87 Activated CDC42 kinase 1 OS=Homo sapiens OX=9606 GN=TNK2 PE=1 SV=3
+sp|P08069|IGF1R_HUMAN -           1367 MOD_PLK+PLK2_HUMAN+82+334_muscle -            256   1.6e-23   77.3   0.0   1   1   1.2e-24   2.7e-23   76.6   0.0     3   252  1002  1264  1000  1266 0.80 Insulin-like growth factor 1 receptor OS=Homo sapiens OX=9606 GN=IGF1R PE=1 SV=1
+sp|Q5S007|LRRK2_HUMAN -           2527 MOD_PLK+PLK2_HUMAN+82+334_muscle -            256   6.2e-23   75.4   0.0   1   1     8e-24   1.8e-22   73.9   0.0     5   251  1884  2129  1881  2132 0.84 Leucine-rich repeat serine/threonine-protein kinase 2 OS=Homo sapiens OX=9606 GN=LRRK2 PE=1 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      domain_all/MOD_PLK+PLK2_HUMAN+82+334.hmm
+# Target file:     human_only_H1_Prot_fasta.fasta
+# Option settings: hmmsearch -o /home/bwadie/Hmmer_H1/human_slimfinder_HMM_outputs/all_outs/MOD_PLK+PLK2_HUMAN+82+334.out --domtblout /home/bwadie/Hmmer_H1/human_slimfinder_HMM_outputs/domain_all_H1_domtblouts/MOD_PLK+PLK2_HUMAN+82+334.txt -E 1 domain_all/MOD_PLK+PLK2_HUMAN+82+334.hmm human_only_H1_Prot_fasta.fasta 
+# Current dir:     /home/bwadie/Hmmer_H1
+# Date:            Wed Mar 17 18:18:37 2021
+# [ok]

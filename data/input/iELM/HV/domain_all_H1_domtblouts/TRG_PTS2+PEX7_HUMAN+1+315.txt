@@ -1,0 +1,34 @@
+#                                                                                         --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name         accession   tlen query name                       accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+# ------------------- ---------- -----             -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+sp|Q9UKB1|FBW1B_HUMAN -            542 TRG_PTS2+PEX7_HUMAN+1+315_muscle -            312   2.7e-37  123.3   2.4   1   2   4.8e-20   3.5e-18   60.6   0.6    97   246   231   371   223   375 0.86 F-box/WD repeat-containing protein 11 OS=Homo sapiens OX=9606 GN=FBXW11 PE=1 SV=1
+sp|Q9UKB1|FBW1B_HUMAN -            542 TRG_PTS2+PEX7_HUMAN+1+315_muscle -            312   2.7e-37  123.3   2.4   2   2   1.4e-20     1e-18   62.3   0.1    74   225   372   520   368   528 0.72 F-box/WD repeat-containing protein 11 OS=Homo sapiens OX=9606 GN=FBXW11 PE=1 SV=1
+sp|Q9Y297|FBW1A_HUMAN -            605 TRG_PTS2+PEX7_HUMAN+1+315_muscle -            312   2.5e-36  120.2   1.6   1   2   4.2e-19   3.1e-17   57.5   0.4    99   246   296   434   286   438 0.85 F-box/WD repeat-containing protein 1A OS=Homo sapiens OX=9606 GN=BTRC PE=1 SV=1
+sp|Q9Y297|FBW1A_HUMAN -            605 TRG_PTS2+PEX7_HUMAN+1+315_muscle -            312   2.5e-36  120.2   1.6   2   2   2.4e-20   1.8e-18   61.6   0.0    74   225   435   583   432   591 0.70 F-box/WD repeat-containing protein 1A OS=Homo sapiens OX=9606 GN=BTRC PE=1 SV=1
+sp|P63244|RACK1_HUMAN -            317 TRG_PTS2+PEX7_HUMAN+1+315_muscle -            312   6.6e-35  115.5   4.3   1   4   6.9e-08   5.1e-06   20.6   0.0   233   292    10    72     2    76 0.88 Receptor of activated protein C kinase 1 OS=Homo sapiens OX=9606 GN=RACK1 PE=1 SV=3
+sp|P63244|RACK1_HUMAN -            317 TRG_PTS2+PEX7_HUMAN+1+315_muscle -            312   6.6e-35  115.5   4.3   2   4   4.3e-21   3.1e-19   64.0   1.0    96   238    53   192    48   202 0.84 Receptor of activated protein C kinase 1 OS=Homo sapiens OX=9606 GN=RACK1 PE=1 SV=3
+sp|P63244|RACK1_HUMAN -            317 TRG_PTS2+PEX7_HUMAN+1+315_muscle -            312   6.6e-35  115.5   4.3   3   4   2.1e-11   1.6e-09   32.2   0.0   103   182   145   224   138   236 0.89 Receptor of activated protein C kinase 1 OS=Homo sapiens OX=9606 GN=RACK1 PE=1 SV=3
+sp|P63244|RACK1_HUMAN -            317 TRG_PTS2+PEX7_HUMAN+1+315_muscle -            312   6.6e-35  115.5   4.3   4   4   3.5e-07   2.6e-05   18.3   0.0   122   224   207   312   203   316 0.78 Receptor of activated protein C kinase 1 OS=Homo sapiens OX=9606 GN=RACK1 PE=1 SV=3
+sp|P35606|COPB2_HUMAN -            906 TRG_PTS2+PEX7_HUMAN+1+315_muscle -            312   2.5e-29   97.2   4.2   1   2   6.1e-17   4.5e-15   50.4   4.5   107   271    16   175     8   178 0.77 Coatomer subunit beta' OS=Homo sapiens OX=9606 GN=COPB2 PE=1 SV=2
+sp|P35606|COPB2_HUMAN -            906 TRG_PTS2+PEX7_HUMAN+1+315_muscle -            312   2.5e-29   97.2   4.2   2   2   3.6e-15   2.7e-13   44.6   0.0    97   186   176   265   173   277 0.88 Coatomer subunit beta' OS=Homo sapiens OX=9606 GN=COPB2 PE=1 SV=2
+sp|Q9ULV4|COR1C_HUMAN -            474 TRG_PTS2+PEX7_HUMAN+1+315_muscle -            312   1.7e-23   78.1   0.0   1   2   9.8e-22   7.2e-20   66.1   0.0   156   310    40   200    30   202 0.83 Coronin-1C OS=Homo sapiens OX=9606 GN=CORO1C PE=1 SV=1
+sp|Q9ULV4|COR1C_HUMAN -            474 TRG_PTS2+PEX7_HUMAN+1+315_muscle -            312   1.7e-23   78.1   0.0   2   2   4.5e-07   3.3e-05   18.0   0.0   105   228   173   299   171   311 0.77 Coronin-1C OS=Homo sapiens OX=9606 GN=CORO1C PE=1 SV=1
+sp|Q9BV38|WDR18_HUMAN -            432 TRG_PTS2+PEX7_HUMAN+1+315_muscle -            312   6.1e-14   46.7   0.3   1   3   2.4e-06   0.00018   15.6   0.1   125   224    97   203    83   204 0.77 WD repeat-containing protein 18 OS=Homo sapiens OX=9606 GN=WDR18 PE=1 SV=2
+sp|Q9BV38|WDR18_HUMAN -            432 TRG_PTS2+PEX7_HUMAN+1+315_muscle -            312   6.1e-14   46.7   0.3   2   3   0.00016     0.012    9.6   0.0    97   144   163   211   153   242 0.78 WD repeat-containing protein 18 OS=Homo sapiens OX=9606 GN=WDR18 PE=1 SV=2
+sp|Q9BV38|WDR18_HUMAN -            432 TRG_PTS2+PEX7_HUMAN+1+315_muscle -            312   6.1e-14   46.7   0.3   3   3   4.4e-09   3.3e-07   24.6   0.0    96   146   259   308   211   328 0.75 WD repeat-containing protein 18 OS=Homo sapiens OX=9606 GN=WDR18 PE=1 SV=2
+sp|Q9NNW5|WDR6_HUMAN  -           1121 TRG_PTS2+PEX7_HUMAN+1+315_muscle -            312   1.9e-12   41.8   0.1   1   6   1.6e-07   1.2e-05   19.4   0.1    93   224   196   327    86   333 0.75 WD repeat-containing protein 6 OS=Homo sapiens OX=9606 GN=WDR6 PE=1 SV=1
+sp|Q9NNW5|WDR6_HUMAN  -           1121 TRG_PTS2+PEX7_HUMAN+1+315_muscle -            312   1.9e-12   41.8   0.1   2   6      0.27        20   -1.0   0.0    62   119   392   448   363   467 0.61 WD repeat-containing protein 6 OS=Homo sapiens OX=9606 GN=WDR6 PE=1 SV=1
+sp|Q9NNW5|WDR6_HUMAN  -           1121 TRG_PTS2+PEX7_HUMAN+1+315_muscle -            312   1.9e-12   41.8   0.1   3   6      0.21        16   -0.7   0.0    68   113   660   708   623   711 0.85 WD repeat-containing protein 6 OS=Homo sapiens OX=9606 GN=WDR6 PE=1 SV=1
+sp|Q9NNW5|WDR6_HUMAN  -           1121 TRG_PTS2+PEX7_HUMAN+1+315_muscle -            312   1.9e-12   41.8   0.1   4   6      0.86        64   -2.7   0.0   252   272   741   761   737   781 0.58 WD repeat-containing protein 6 OS=Homo sapiens OX=9606 GN=WDR6 PE=1 SV=1
+sp|Q9NNW5|WDR6_HUMAN  -           1121 TRG_PTS2+PEX7_HUMAN+1+315_muscle -            312   1.9e-12   41.8   0.1   5   6   0.00012    0.0088   10.0   0.0    78   137   879   947   865  1013 0.69 WD repeat-containing protein 6 OS=Homo sapiens OX=9606 GN=WDR6 PE=1 SV=1
+sp|Q9NNW5|WDR6_HUMAN  -           1121 TRG_PTS2+PEX7_HUMAN+1+315_muscle -            312   1.9e-12   41.8   0.1   6   6      0.01      0.74    3.7   0.0    96   135   970  1011   932  1103 0.57 WD repeat-containing protein 6 OS=Homo sapiens OX=9606 GN=WDR6 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      domain_all/TRG_PTS2+PEX7_HUMAN+1+315.hmm
+# Target file:     H1_prot_fasta.fasta
+# Option settings: hmmsearch -o /home/bwadie/Hmmer_H1/all_outs/TRG_PTS2+PEX7_HUMAN+1+315.out --domtblout /home/bwadie/Hmmer_H1/domain_all_H1_domtblouts/TRG_PTS2+PEX7_HUMAN+1+315.txt -E 1 domain_all/TRG_PTS2+PEX7_HUMAN+1+315.hmm H1_prot_fasta.fasta 
+# Current dir:     /home/bwadie/Hmmer_H1
+# Date:            Wed Feb 10 00:38:14 2021
+# [ok]

@@ -1,0 +1,19 @@
+#                                                                                           --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name         accession   tlen query name                         accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+# ------------------- ---------- -----               -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+sp|O00308|WWP2_HUMAN  -            870 LIG_PAM2_1+UBR5_RAT+499+571_muscle -             72   2.9e-16   54.7   4.4   1   4     0.093        24    0.5   0.1     1    14   320   333   320   336 0.92 NEDD4-like E3 ubiquitin-protein ligase WWP2 OS=Homo sapiens OX=9606 GN=WWP2 PE=1 SV=2
+sp|O00308|WWP2_HUMAN  -            870 LIG_PAM2_1+UBR5_RAT+499+571_muscle -             72   2.9e-16   54.7   4.4   2   4      0.88   2.3e+02   -2.6   0.1     1    12   350   361   350   367 0.87 NEDD4-like E3 ubiquitin-protein ligase WWP2 OS=Homo sapiens OX=9606 GN=WWP2 PE=1 SV=2
+sp|O00308|WWP2_HUMAN  -            870 LIG_PAM2_1+UBR5_RAT+499+571_muscle -             72   2.9e-16   54.7   4.4   3   4   0.00018     0.045    9.2   0.1     1    16   424   439   424   447 0.89 NEDD4-like E3 ubiquitin-protein ligase WWP2 OS=Homo sapiens OX=9606 GN=WWP2 PE=1 SV=2
+sp|O00308|WWP2_HUMAN  -            870 LIG_PAM2_1+UBR5_RAT+499+571_muscle -             72   2.9e-16   54.7   4.4   4   4   2.8e-15   7.2e-13   43.8   0.0     1    72   464   536   464   536 0.93 NEDD4-like E3 ubiquitin-protein ligase WWP2 OS=Homo sapiens OX=9606 GN=WWP2 PE=1 SV=2
+sp|P11940|PABP1_HUMAN -            636 LIG_PAM2_1+UBR5_RAT+499+571_muscle -             72   2.3e-11   39.0   0.1   1   2      0.74   1.9e+02   -2.4   0.1    38    51   267   280   254   284 0.57 Polyadenylate-binding protein 1 OS=Homo sapiens OX=9606 GN=PABPC1 PE=1 SV=2
+sp|P11940|PABP1_HUMAN -            636 LIG_PAM2_1+UBR5_RAT+499+571_muscle -             72   2.3e-11   39.0   0.1   2   2   3.3e-13   8.5e-11   37.2   0.0    15    71   557   613   551   614 0.93 Polyadenylate-binding protein 1 OS=Homo sapiens OX=9606 GN=PABPC1 PE=1 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      domain_all/LIG_PAM2_1+UBR5_RAT+499+571.hmm
+# Target file:     H1_prot_fasta.fasta
+# Option settings: hmmsearch -o /home/bwadie/Hmmer_H1/all_outs/LIG_PAM2_1+UBR5_RAT+499+571.out --domtblout /home/bwadie/Hmmer_H1/domain_all_H1_domtblouts/LIG_PAM2_1+UBR5_RAT+499+571.txt -E 1 domain_all/LIG_PAM2_1+UBR5_RAT+499+571.hmm H1_prot_fasta.fasta 
+# Current dir:     /home/bwadie/Hmmer_H1
+# Date:            Wed Feb 10 00:37:45 2021
+# [ok]

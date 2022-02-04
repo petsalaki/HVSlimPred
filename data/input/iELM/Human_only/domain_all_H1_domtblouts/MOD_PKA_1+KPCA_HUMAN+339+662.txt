@@ -1,0 +1,24 @@
+#                                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name         accession   tlen query name                          accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+# ------------------- ---------- -----                -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+sp|P31749|AKT1_HUMAN  -            480 MOD_PKA_1+KPCA_HUMAN+339+662_muscle -            324    2e-131  431.8   0.0   1   1  1.2e-132  2.7e-131  431.3   0.0     2   321   152   475   151   477 0.96 RAC-alpha serine/threonine-protein kinase OS=Homo sapiens OX=9606 GN=AKT1 PE=1 SV=2
+sp|Q16512|PKN1_HUMAN  -            942 MOD_PKA_1+KPCA_HUMAN+339+662_muscle -            324  5.2e-130  427.1   0.0   1   1  4.3e-131  9.7e-130  426.3   0.0     1   322   616   939   616   940 0.97 Serine/threonine-protein kinase N1 OS=Homo sapiens OX=9606 GN=PKN1 PE=1 SV=2
+sp|Q9P286|PAK5_HUMAN  -            719 MOD_PKA_1+KPCA_HUMAN+339+662_muscle -            324   3.3e-45  148.5   0.0   1   1     2e-46   4.5e-45  148.0   0.0     6   244   455   691   451   702 0.85 Serine/threonine-protein kinase PAK 5 OS=Homo sapiens OX=9606 GN=PAK5 PE=1 SV=1
+sp|Q13188|STK3_HUMAN  -            491 MOD_PKA_1+KPCA_HUMAN+339+662_muscle -            324   8.1e-42  137.3   0.0   1   1   5.7e-43   1.3e-41  136.7   0.0     2   281    29   301    28   344 0.82 Serine/threonine-protein kinase 3 OS=Homo sapiens OX=9606 GN=STK3 PE=1 SV=2
+sp|Q07002|CDK18_HUMAN -            474 MOD_PKA_1+KPCA_HUMAN+339+662_muscle -            324   1.5e-31  103.6   0.0   1   1   1.1e-32   2.4e-31  102.9   0.0     4   205   148   347   145   355 0.89 Cyclin-dependent kinase 18 OS=Homo sapiens OX=9606 GN=CDK18 PE=1 SV=4
+sp|Q9Y572|RIPK3_HUMAN -            518 MOD_PKA_1+KPCA_HUMAN+339+662_muscle -            324   9.2e-24   78.0   0.0   1   1   1.1e-24   2.4e-23   76.6   0.0     5   197    26   219    23   243 0.83 Receptor-interacting serine/threonine-protein kinase 3 OS=Homo sapiens OX=9606 GN=RIPK3 PE=1 SV=2
+sp|Q07912|ACK1_HUMAN  -           1038 MOD_PKA_1+KPCA_HUMAN+339+662_muscle -            324   1.3e-23   77.5   0.0   1   1   1.1e-24   2.4e-23   76.6   0.0     2   241   128   375   127   379 0.85 Activated CDC42 kinase 1 OS=Homo sapiens OX=9606 GN=TNK2 PE=1 SV=3
+sp|Q9BWU1|CDK19_HUMAN -            502 MOD_PKA_1+KPCA_HUMAN+339+662_muscle -            324   2.8e-22   73.1   0.0   1   2     1e-22   2.3e-21   70.1   0.0     6   205    27   240    25   256 0.76 Cyclin-dependent kinase 19 OS=Homo sapiens OX=9606 GN=CDK19 PE=1 SV=1
+sp|Q9BWU1|CDK19_HUMAN -            502 MOD_PKA_1+KPCA_HUMAN+339+662_muscle -            324   2.8e-22   73.1   0.0   2   2      0.18         4    0.3   0.0   224   246   306   328   285   339 0.75 Cyclin-dependent kinase 19 OS=Homo sapiens OX=9606 GN=CDK19 PE=1 SV=1
+sp|Q5S007|LRRK2_HUMAN -           2527 MOD_PKA_1+KPCA_HUMAN+339+662_muscle -            324   7.9e-22   71.6   0.0   1   1   6.3e-23   1.4e-21   70.8   0.0     5   195  1884  2069  1882  2128 0.76 Leucine-rich repeat serine/threonine-protein kinase 2 OS=Homo sapiens OX=9606 GN=LRRK2 PE=1 SV=2
+sp|P08069|IGF1R_HUMAN -           1367 MOD_PKA_1+KPCA_HUMAN+339+662_muscle -            324   7.5e-18   58.6   0.0   1   1   5.9e-19   1.3e-17   57.8   0.0     6   232  1005  1247  1001  1290 0.74 Insulin-like growth factor 1 receptor OS=Homo sapiens OX=9606 GN=IGF1R PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      domain_all/MOD_PKA_1+KPCA_HUMAN+339+662.hmm
+# Target file:     human_only_H1_Prot_fasta.fasta
+# Option settings: hmmsearch -o /home/bwadie/Hmmer_H1/human_slimfinder_HMM_outputs/all_outs/MOD_PKA_1+KPCA_HUMAN+339+662.out --domtblout /home/bwadie/Hmmer_H1/human_slimfinder_HMM_outputs/domain_all_H1_domtblouts/MOD_PKA_1+KPCA_HUMAN+339+662.txt -E 1 domain_all/MOD_PKA_1+KPCA_HUMAN+339+662.hmm human_only_H1_Prot_fasta.fasta 
+# Current dir:     /home/bwadie/Hmmer_H1
+# Date:            Wed Mar 17 18:18:36 2021
+# [ok]

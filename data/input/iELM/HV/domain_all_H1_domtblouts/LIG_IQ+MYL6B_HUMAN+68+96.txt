@@ -1,0 +1,15 @@
+#                                                                                        --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name         accession   tlen query name                      accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+# ------------------- ---------- -----            -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+sp|Q7L5N7|PCAT2_HUMAN -            544 LIG_IQ+MYL6B_HUMAN+68+96_muscle -             28    0.0032   12.2   1.5   1   2   8.3e-05     0.043    8.6   0.1     4    18   399   413   395   415 0.89 Lysophosphatidylcholine acyltransferase 2 OS=Homo sapiens OX=9606 GN=LPCAT2 PE=1 SV=1
+sp|Q7L5N7|PCAT2_HUMAN -            544 LIG_IQ+MYL6B_HUMAN+68+96_muscle -             28    0.0032   12.2   1.5   2   2     0.012       6.3    1.6   0.1     4    14   436   446   434   449 0.77 Lysophosphatidylcholine acyltransferase 2 OS=Homo sapiens OX=9606 GN=LPCAT2 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      domain_all/LIG_IQ+MYL6B_HUMAN+68+96.hmm
+# Target file:     H1_prot_fasta.fasta
+# Option settings: hmmsearch -o /home/bwadie/Hmmer_H1/all_outs/LIG_IQ+MYL6B_HUMAN+68+96.out --domtblout /home/bwadie/Hmmer_H1/domain_all_H1_domtblouts/LIG_IQ+MYL6B_HUMAN+68+96.txt -E 1 domain_all/LIG_IQ+MYL6B_HUMAN+68+96.hmm H1_prot_fasta.fasta 
+# Current dir:     /home/bwadie/Hmmer_H1
+# Date:            Wed Feb 10 00:37:40 2021
+# [ok]

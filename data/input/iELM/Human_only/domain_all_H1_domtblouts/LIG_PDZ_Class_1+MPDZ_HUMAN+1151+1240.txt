@@ -1,0 +1,30 @@
+#                                                                                                    --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name         accession   tlen query name                                  accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+# ------------------- ---------- -----                        -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+sp|Q14160|SCRIB_HUMAN -           1630 LIG_PDZ_Class_1+MPDZ_HUMAN+1151+1240_muscle -             85     4e-49  158.9  11.4   1   4   4.6e-16   1.7e-14   47.9   0.7     9    84   736   807   731   808 0.89 Protein scribble homolog OS=Homo sapiens OX=9606 GN=SCRIB PE=1 SV=4
+sp|Q14160|SCRIB_HUMAN -           1630 LIG_PDZ_Class_1+MPDZ_HUMAN+1151+1240_muscle -             85     4e-49  158.9  11.4   2   4   1.2e-14   4.3e-13   43.4   0.2     7    80   868   938   862   942 0.89 Protein scribble homolog OS=Homo sapiens OX=9606 GN=SCRIB PE=1 SV=4
+sp|Q14160|SCRIB_HUMAN -           1630 LIG_PDZ_Class_1+MPDZ_HUMAN+1151+1240_muscle -             85     4e-49  158.9  11.4   3   4   1.5e-13   5.7e-12   39.8   0.0    10    77  1013  1078  1002  1082 0.88 Protein scribble homolog OS=Homo sapiens OX=9606 GN=SCRIB PE=1 SV=4
+sp|Q14160|SCRIB_HUMAN -           1630 LIG_PDZ_Class_1+MPDZ_HUMAN+1151+1240_muscle -             85     4e-49  158.9  11.4   4   4   2.9e-11   1.1e-09   32.5   0.1     5    83  1105  1183  1101  1185 0.87 Protein scribble homolog OS=Homo sapiens OX=9606 GN=SCRIB PE=1 SV=4
+sp|Q12959|DLG1_HUMAN  -            904 LIG_PDZ_Class_1+MPDZ_HUMAN+1151+1240_muscle -             85   3.7e-38  123.7   8.3   1   3   5.7e-13   2.1e-11   37.9   0.7     8    84   231   303   225   304 0.89 Disks large homolog 1 OS=Homo sapiens OX=9606 GN=DLG1 PE=1 SV=2
+sp|Q12959|DLG1_HUMAN  -            904 LIG_PDZ_Class_1+MPDZ_HUMAN+1151+1240_muscle -             85   3.7e-38  123.7   8.3   2   3     3e-12   1.1e-10   35.6   0.1     9    84   327   398   320   399 0.88 Disks large homolog 1 OS=Homo sapiens OX=9606 GN=DLG1 PE=1 SV=2
+sp|Q12959|DLG1_HUMAN  -            904 LIG_PDZ_Class_1+MPDZ_HUMAN+1151+1240_muscle -             85   3.7e-38  123.7   8.3   3   3   8.7e-18   3.3e-16   53.4   0.2    16    84   471   539   459   540 0.87 Disks large homolog 1 OS=Homo sapiens OX=9606 GN=DLG1 PE=1 SV=2
+sp|Q8TBB1|LNX1_HUMAN  -            728 LIG_PDZ_Class_1+MPDZ_HUMAN+1151+1240_muscle -             85   5.8e-28   91.1   5.5   1   4     7e-11   2.6e-09   31.3   0.1     6    79   281   346   278   351 0.86 E3 ubiquitin-protein ligase LNX OS=Homo sapiens OX=9606 GN=LNX1 PE=1 SV=1
+sp|Q8TBB1|LNX1_HUMAN  -            728 LIG_PDZ_Class_1+MPDZ_HUMAN+1151+1240_muscle -             85   5.8e-28   91.1   5.5   2   4     2e-07   7.4e-06   20.2   0.0    33    81   405   453   391   457 0.91 E3 ubiquitin-protein ligase LNX OS=Homo sapiens OX=9606 GN=LNX1 PE=1 SV=1
+sp|Q8TBB1|LNX1_HUMAN  -            728 LIG_PDZ_Class_1+MPDZ_HUMAN+1151+1240_muscle -             85   5.8e-28   91.1   5.5   3   4   1.1e-07   4.2e-06   21.0   0.2     1    82   508   583   508   586 0.88 E3 ubiquitin-protein ligase LNX OS=Homo sapiens OX=9606 GN=LNX1 PE=1 SV=1
+sp|Q8TBB1|LNX1_HUMAN  -            728 LIG_PDZ_Class_1+MPDZ_HUMAN+1151+1240_muscle -             85   5.8e-28   91.1   5.5   4   4   1.9e-06   7.2e-05   17.0   0.0     3    65   641   697   639   708 0.86 E3 ubiquitin-protein ligase LNX OS=Homo sapiens OX=9606 GN=LNX1 PE=1 SV=1
+sp|O14745|NHRF1_HUMAN -            358 LIG_PDZ_Class_1+MPDZ_HUMAN+1151+1240_muscle -             85   7.2e-23   74.7   0.2   1   2   4.6e-12   1.7e-10   35.1   0.0    24    84    27    86    19    87 0.86 Na(+)/H(+) exchange regulatory cofactor NHE-RF1 OS=Homo sapiens OX=9606 GN=SLC9A3R1 PE=1 SV=4
+sp|O14745|NHRF1_HUMAN -            358 LIG_PDZ_Class_1+MPDZ_HUMAN+1151+1240_muscle -             85   7.2e-23   74.7   0.2   2   2   7.2e-13   2.7e-11   37.6   0.1    17    82   160   224   147   227 0.90 Na(+)/H(+) exchange regulatory cofactor NHE-RF1 OS=Homo sapiens OX=9606 GN=SLC9A3R1 PE=1 SV=4
+sp|Q15599|NHRF2_HUMAN -            337 LIG_PDZ_Class_1+MPDZ_HUMAN+1151+1240_muscle -             85   2.3e-19   63.5   0.4   1   2   2.2e-12   8.3e-11   36.1   0.1    17    78    17    77    10    82 0.89 Na(+)/H(+) exchange regulatory cofactor NHE-RF2 OS=Homo sapiens OX=9606 GN=SLC9A3R2 PE=1 SV=2
+sp|Q15599|NHRF2_HUMAN -            337 LIG_PDZ_Class_1+MPDZ_HUMAN+1151+1240_muscle -             85   2.3e-19   63.5   0.4   2   2   4.5e-09   1.7e-07   25.5   0.0    18    80   158   219   145   224 0.91 Na(+)/H(+) exchange regulatory cofactor NHE-RF2 OS=Homo sapiens OX=9606 GN=SLC9A3R2 PE=1 SV=2
+sp|O00560|SDCB1_HUMAN -            298 LIG_PDZ_Class_1+MPDZ_HUMAN+1151+1240_muscle -             85   9.5e-08   26.3   0.1   1   2   5.1e-06   0.00019   15.7   0.0    32    80   134   181   118   185 0.85 Syntenin-1 OS=Homo sapiens OX=9606 GN=SDCBP PE=1 SV=1
+sp|O00560|SDCB1_HUMAN -            298 LIG_PDZ_Class_1+MPDZ_HUMAN+1151+1240_muscle -             85   9.5e-08   26.3   0.1   2   2    0.0011      0.04    8.2   0.0    36    81   218   262   204   266 0.79 Syntenin-1 OS=Homo sapiens OX=9606 GN=SDCBP PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      domain_all/LIG_PDZ_Class_1+MPDZ_HUMAN+1151+1240.hmm
+# Target file:     human_only_H1_Prot_fasta.fasta
+# Option settings: hmmsearch -o /home/bwadie/Hmmer_H1/human_slimfinder_HMM_outputs/all_outs/LIG_PDZ_Class_1+MPDZ_HUMAN+1151+1240.out --domtblout /home/bwadie/Hmmer_H1/human_slimfinder_HMM_outputs/domain_all_H1_domtblouts/LIG_PDZ_Class_1+MPDZ_HUMAN+1151+1240.txt -E 1 domain_all/LIG_PDZ_Class_1+MPDZ_HUMAN+1151+1240.hmm human_only_H1_Prot_fasta.fasta 
+# Current dir:     /home/bwadie/Hmmer_H1
+# Date:            Wed Mar 17 18:18:06 2021
+# [ok]

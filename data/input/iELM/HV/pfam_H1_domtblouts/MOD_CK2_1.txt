@@ -1,0 +1,30 @@
+#                                                                             --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name         accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+# ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+sp|P24941|CDK2_HUMAN  -            298 Pkinase              PF00069.18   260   1.4e-81  268.7   0.0   1   1   4.8e-83   1.5e-81  268.5   0.0     1   260     4   286     4   286 0.98 Cyclin-dependent kinase 2 OS=Homo sapiens OX=9606 GN=CDK2 PE=1 SV=2
+sp|P53350|PLK1_HUMAN  -            603 Pkinase              PF00069.18   260   5.3e-69  227.4   0.0   1   1   2.3e-70   7.4e-69  227.0   0.0     3   260    55   305    53   305 0.95 Serine/threonine-protein kinase PLK1 OS=Homo sapiens OX=9606 GN=PLK1 PE=1 SV=1
+sp|P29597|TYK2_HUMAN  -           1187 Pkinase              PF00069.18   260   6.7e-69  227.1   0.0   1   2   1.4e-21   4.4e-20   67.1   0.0     6   256   594   864   589   866 0.82 Non-receptor tyrosine-protein kinase TYK2 OS=Homo sapiens OX=9606 GN=TYK2 PE=1 SV=3
+sp|P29597|TYK2_HUMAN  -           1187 Pkinase              PF00069.18   260   6.7e-69  227.1   0.0   2   2   2.9e-49   9.4e-48  157.8   0.0     2   254   898  1165   897  1168 0.83 Non-receptor tyrosine-protein kinase TYK2 OS=Homo sapiens OX=9606 GN=TYK2 PE=1 SV=3
+sp|P45984|MK09_HUMAN  -            424 Pkinase              PF00069.18   260   6.9e-68  223.8   0.0   1   1   2.7e-69   8.7e-68  223.5   0.0     1   260    26   321    26   321 0.94 Mitogen-activated protein kinase 9 OS=Homo sapiens OX=9606 GN=MAPK9 PE=1 SV=2
+sp|P19784|CSK22_HUMAN -            350 Pkinase              PF00069.18   260   7.3e-67  220.4   0.7   1   1   2.7e-68   8.8e-67  220.2   0.7     1   260    40   325    40   325 0.96 Casein kinase II subunit alpha' OS=Homo sapiens OX=9606 GN=CSNK2A2 PE=1 SV=1
+sp|P10398|ARAF_HUMAN  -            606 Pkinase              PF00069.18   260     4e-57  188.5   0.0   1   1   1.8e-58   5.8e-57  188.0   0.0     2   256   311   565   310   567 0.91 Serine/threonine-protein kinase A-Raf OS=Homo sapiens OX=9606 GN=ARAF PE=1 SV=2
+sp|O15111|IKKA_HUMAN  -            745 Pkinase              PF00069.18   260   1.1e-54  180.6   0.0   1   1   5.8e-56   1.9e-54  179.8   0.0     2   249    16   288    15   297 0.88 Inhibitor of nuclear factor kappa-B kinase subunit alpha OS=Homo sapiens OX=9606 GN=CHUK PE=1 SV=2
+sp|P06241|FYN_HUMAN   -            537 Pkinase              PF00069.18   260   7.8e-53  174.4   0.0   1   1   3.4e-54   1.1e-52  174.0   0.0     2   254   272   516   271   522 0.89 Tyrosine-protein kinase Fyn OS=Homo sapiens OX=9606 GN=FYN PE=1 SV=3
+sp|P37173|TGFR2_HUMAN -            567 Pkinase              PF00069.18   260   2.1e-52  173.0   0.0   1   1     1e-53   3.3e-52  172.4   0.0     3   256   246   536   244   538 0.88 TGF-beta receptor type-2 OS=Homo sapiens OX=9606 GN=TGFBR2 PE=1 SV=2
+sp|P12931|SRC_HUMAN   -            536 Pkinase              PF00069.18   260   1.3e-51  170.4   0.0   1   1   6.6e-53   2.1e-51  169.7   0.0     3   254   272   515   270   522 0.88 Proto-oncogene tyrosine-protein kinase Src OS=Homo sapiens OX=9606 GN=SRC PE=1 SV=3
+sp|P06239|LCK_HUMAN   -            509 Pkinase              PF00069.18   260   6.3e-51  168.2   0.0   1   1   2.5e-52   8.1e-51  167.8   0.0     2   253   246   489   245   498 0.87 Tyrosine-protein kinase Lck OS=Homo sapiens OX=9606 GN=LCK PE=1 SV=6
+sp|P08631|HCK_HUMAN   -            526 Pkinase              PF00069.18   260   1.4e-49  163.8   0.0   1   1   5.8e-51   1.9e-49  163.4   0.0     2   254   263   507   262   511 0.87 Tyrosine-protein kinase HCK OS=Homo sapiens OX=9606 GN=HCK PE=1 SV=5
+sp|Q14164|IKKE_HUMAN  -            716 Pkinase              PF00069.18   260     3e-49  162.7   0.0   1   1   1.6e-50   5.3e-49  161.9   0.0     2   223    10   246     9   302 0.83 Inhibitor of nuclear factor kappa-B kinase subunit epsilon OS=Homo sapiens OX=9606 GN=IKBKE PE=1 SV=1
+sp|P04626|ERBB2_HUMAN -           1255 Pkinase              PF00069.18   260   2.3e-41  136.9   0.0   1   1   1.1e-42   3.5e-41  136.3   0.0     2   256   721   974   720   976 0.87 Receptor tyrosine-protein kinase erbB-2 OS=Homo sapiens OX=9606 GN=ERBB2 PE=1 SV=1
+sp|P51617|IRAK1_HUMAN -            712 Pkinase              PF00069.18   260     3e-41  136.5   0.0   1   1   1.2e-42     4e-41  136.1   0.0     5   256   216   516   212   518 0.85 Interleukin-1 receptor-associated kinase 1 OS=Homo sapiens OX=9606 GN=IRAK1 PE=1 SV=2
+sp|Q99986|VRK1_HUMAN  -            396 Pkinase              PF00069.18   260   2.3e-20   68.0   0.0   1   1   1.2e-21   3.8e-20   67.3   0.0     3   217    39   279    37   325 0.80 Serine/threonine-protein kinase VRK1 OS=Homo sapiens OX=9606 GN=VRK1 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      pfam_hmms/MOD_CK2_1.hmm
+# Target file:     H1_prot_fasta.fasta
+# Option settings: hmmsearch -o /home/bwadie/Hmmer_H1/all_outs/MOD_CK2_1.out --domtblout /home/bwadie/Hmmer_H1/pfam_H1_domtblouts/MOD_CK2_1.txt -E 1 pfam_hmms/MOD_CK2_1.hmm H1_prot_fasta.fasta 
+# Current dir:     /home/bwadie/Hmmer_H1
+# Date:            Wed Feb 10 00:37:23 2021
+# [ok]

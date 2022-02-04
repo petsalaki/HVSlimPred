@@ -1,0 +1,19 @@
+#                                                                                        --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name                       accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- -----             -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+sp|P27986|P85A_HUMAN -            724 LIG_SH3_2+P85A_HUMAN+7+77_muscle -             70   6.1e-43  139.9   0.5   1   1   1.4e-44   1.4e-42  138.7   0.5     1    70     8    77     8    77 1.00 Phosphatidylinositol 3-kinase regulatory subunit alpha OS=Homo sapiens OX=9606 GN=PIK3R1 PE=1 SV=2
+sp|O00459|P85B_HUMAN -            728 LIG_SH3_2+P85A_HUMAN+7+77_muscle -             70     2e-25   83.8   0.0   1   2   5.5e-27   5.7e-25   82.3   0.0     1    70     9    78     9    78 0.99 Phosphatidylinositol 3-kinase regulatory subunit beta OS=Homo sapiens OX=9606 GN=PIK3R2 PE=1 SV=2
+sp|O00459|P85B_HUMAN -            728 LIG_SH3_2+P85A_HUMAN+7+77_muscle -             70     2e-25   83.8   0.0   2   2       4.1   4.3e+02   -3.8   0.1    47    58   593   604   576   606 0.67 Phosphatidylinositol 3-kinase regulatory subunit beta OS=Homo sapiens OX=9606 GN=PIK3R2 PE=1 SV=2
+sp|P06241|FYN_HUMAN  -            537 LIG_SH3_2+P85A_HUMAN+7+77_muscle -             70   0.00015   16.9   1.2   1   1   5.7e-05    0.0059   11.8   1.2    36    67   115   138    87   141 0.67 Tyrosine-protein kinase Fyn OS=Homo sapiens OX=9606 GN=FYN PE=1 SV=3
+sp|P08631|HCK_HUMAN  -            526 LIG_SH3_2+P85A_HUMAN+7+77_muscle -             70    0.0017   13.5   0.2   1   1   0.00095     0.098    7.9   0.2     5    67    87   133    84   136 0.64 Tyrosine-protein kinase HCK OS=Homo sapiens OX=9606 GN=HCK PE=1 SV=5
+sp|P12931|SRC_HUMAN  -            536 LIG_SH3_2+P85A_HUMAN+7+77_muscle -             70    0.0024   13.1   0.4   1   1   0.00063     0.065    8.5   0.4    47    67   120   140    89   141 0.67 Proto-oncogene tyrosine-protein kinase Src OS=Homo sapiens OX=9606 GN=SRC PE=1 SV=3
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      domain_all/LIG_SH3_2+P85A_HUMAN+7+77.hmm
+# Target file:     H1_prot_fasta.fasta
+# Option settings: hmmsearch -o /home/bwadie/Hmmer_H1/all_outs/LIG_SH3_2+P85A_HUMAN+7+77.out --domtblout /home/bwadie/Hmmer_H1/domain_all_H1_domtblouts/LIG_SH3_2+P85A_HUMAN+7+77.txt -E 1 domain_all/LIG_SH3_2+P85A_HUMAN+7+77.hmm H1_prot_fasta.fasta 
+# Current dir:     /home/bwadie/Hmmer_H1
+# Date:            Wed Feb 10 00:37:59 2021
+# [ok]

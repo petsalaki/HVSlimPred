@@ -1,0 +1,17 @@
+#                                                                                         --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name                        accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- -----              -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+sp|O00308|WWP2_HUMAN -            870 LIG_WW_3+APBB3_HUMAN+31+59_muscle -             28   2.7e-11   38.3  25.2   1   4   4.9e-05     0.026    9.6   0.6     1    28   303   331   303   331 0.96 NEDD4-like E3 ubiquitin-protein ligase WWP2 OS=Homo sapiens OX=9606 GN=WWP2 PE=1 SV=2
+sp|O00308|WWP2_HUMAN -            870 LIG_WW_3+APBB3_HUMAN+31+59_muscle -             28   2.7e-11   38.3  25.2   2   4     8e-08   4.2e-05   18.5   4.2     1    28   333   361   333   361 0.95 NEDD4-like E3 ubiquitin-protein ligase WWP2 OS=Homo sapiens OX=9606 GN=WWP2 PE=1 SV=2
+sp|O00308|WWP2_HUMAN -            870 LIG_WW_3+APBB3_HUMAN+31+59_muscle -             28   2.7e-11   38.3  25.2   3   4   2.5e-08   1.3e-05   20.1   2.1     1    28   408   435   408   435 0.97 NEDD4-like E3 ubiquitin-protein ligase WWP2 OS=Homo sapiens OX=9606 GN=WWP2 PE=1 SV=2
+sp|O00308|WWP2_HUMAN -            870 LIG_WW_3+APBB3_HUMAN+31+59_muscle -             28   2.7e-11   38.3  25.2   4   4    0.0088       4.6    2.4   0.1     1    12   447   458   447   464 0.73 NEDD4-like E3 ubiquitin-protein ligase WWP2 OS=Homo sapiens OX=9606 GN=WWP2 PE=1 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      domain_all/LIG_WW_3+APBB3_HUMAN+31+59.hmm
+# Target file:     H1_prot_fasta.fasta
+# Option settings: hmmsearch -o /home/bwadie/Hmmer_H1/all_outs/LIG_WW_3+APBB3_HUMAN+31+59.out --domtblout /home/bwadie/Hmmer_H1/domain_all_H1_domtblouts/LIG_WW_3+APBB3_HUMAN+31+59.txt -E 1 domain_all/LIG_WW_3+APBB3_HUMAN+31+59.hmm H1_prot_fasta.fasta 
+# Current dir:     /home/bwadie/Hmmer_H1
+# Date:            Wed Feb 10 00:38:06 2021
+# [ok]

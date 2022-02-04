@@ -1,0 +1,15 @@
+#                                                                                              --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name         accession   tlen query name                            accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+# ------------------- ---------- -----                  -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+sp|Q8NEB9|PK3C3_HUMAN -            887 MOD_PIKK_1+ATM_MOUSE+2721+2972_muscle -            251   2.2e-20   66.9   0.0   1   2   8.7e-09     2e-06   21.2   0.0     6    87   636   714   633   724 0.81 Phosphatidylinositol 3-kinase catalytic subunit type 3 OS=Homo sapiens OX=9606 GN=PIK3C3 PE=1 SV=1
+sp|Q8NEB9|PK3C3_HUMAN -            887 MOD_PIKK_1+ATM_MOUSE+2721+2972_muscle -            251   2.2e-20   66.9   0.0   2   2   1.5e-15   3.4e-13   43.4   0.0   140   237   724   819   717   828 0.83 Phosphatidylinositol 3-kinase catalytic subunit type 3 OS=Homo sapiens OX=9606 GN=PIK3C3 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      domain_all/MOD_PIKK_1+ATM_MOUSE+2721+2972.hmm
+# Target file:     human_only_H1_Prot_fasta.fasta
+# Option settings: hmmsearch -o /home/bwadie/Hmmer_H1/human_slimfinder_HMM_outputs/all_outs/MOD_PIKK_1+ATM_MOUSE+2721+2972.out --domtblout /home/bwadie/Hmmer_H1/human_slimfinder_HMM_outputs/domain_all_H1_domtblouts/MOD_PIKK_1+ATM_MOUSE+2721+2972.txt -E 1 domain_all/MOD_PIKK_1+ATM_MOUSE+2721+2972.hmm human_only_H1_Prot_fasta.fasta 
+# Current dir:     /home/bwadie/Hmmer_H1
+# Date:            Wed Mar 17 18:18:35 2021
+# [ok]

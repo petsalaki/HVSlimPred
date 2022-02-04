@@ -1,0 +1,14 @@
+#                                                                                          --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name                         accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- -----               -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+sp|P50552|VASP_HUMAN -            380 LIG_EVH1_1+VASP_HUMAN+1+110_muscle -            108   2.5e-66  214.3   0.1   1   1   1.6e-68   3.6e-66  213.8   0.1     1   108     2   110     2   110 0.99 Vasodilator-stimulated phosphoprotein OS=Homo sapiens OX=9606 GN=VASP PE=1 SV=3
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      domain_all/LIG_EVH1_I+VASP_HUMAN+1+110.hmm
+# Target file:     human_only_H1_Prot_fasta.fasta
+# Option settings: hmmsearch -o /home/bwadie/Hmmer_H1/human_slimfinder_HMM_outputs/all_outs/LIG_EVH1_I+VASP_HUMAN+1+110.out --domtblout /home/bwadie/Hmmer_H1/human_slimfinder_HMM_outputs/domain_all_H1_domtblouts/LIG_EVH1_I+VASP_HUMAN+1+110.txt -E 1 domain_all/LIG_EVH1_I+VASP_HUMAN+1+110.hmm human_only_H1_Prot_fasta.fasta 
+# Current dir:     /home/bwadie/Hmmer_H1
+# Date:            Wed Mar 17 18:17:54 2021
+# [ok]

@@ -1,0 +1,33 @@
+#                                                                                         --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name         accession   tlen query name                       accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+# ------------------- ---------- -----             -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+sp|P53350|PLK1_HUMAN  -            603 MOD_PLK+CDC5_YEAST+82+337_muscle -            256  1.6e-119  393.1   0.0   1   1  6.6e-121  2.1e-119  392.7   0.0     2   256    55   305    54   305 0.99 Serine/threonine-protein kinase PLK1 OS=Homo sapiens OX=9606 GN=PLK1 PE=1 SV=1
+sp|P29597|TYK2_HUMAN  -           1187 MOD_PLK+CDC5_YEAST+82+337_muscle -            256   5.3e-42  139.1   0.0   1   2   5.9e-11   1.9e-09   32.4   0.0    51   252   661   864   639   866 0.82 Non-receptor tyrosine-protein kinase TYK2 OS=Homo sapiens OX=9606 GN=TYK2 PE=1 SV=3
+sp|P29597|TYK2_HUMAN  -           1187 MOD_PLK+CDC5_YEAST+82+337_muscle -            256   5.3e-42  139.1   0.0   2   2   6.9e-33   2.2e-31  104.3   0.0     3   196   900  1097   898  1109 0.88 Non-receptor tyrosine-protein kinase TYK2 OS=Homo sapiens OX=9606 GN=TYK2 PE=1 SV=3
+sp|P24941|CDK2_HUMAN  -            298 MOD_PLK+CDC5_YEAST+82+337_muscle -            256   1.2e-36  121.5   0.0   1   1   9.8e-37   3.2e-35  116.9   0.0     3   256     7   286     5   286 0.86 Cyclin-dependent kinase 2 OS=Homo sapiens OX=9606 GN=CDK2 PE=1 SV=2
+sp|P10398|ARAF_HUMAN  -            606 MOD_PLK+CDC5_YEAST+82+337_muscle -            256   4.1e-35  116.5   0.0   1   1     2e-36   6.5e-35  115.9   0.0     4   252   314   565   311   567 0.86 Serine/threonine-protein kinase A-Raf OS=Homo sapiens OX=9606 GN=ARAF PE=1 SV=2
+sp|P45984|MK09_HUMAN  -            424 MOD_PLK+CDC5_YEAST+82+337_muscle -            256   3.3e-32  107.0   2.5   1   2   9.2e-31     3e-29   97.3   0.8     5   214    31   239    27   266 0.82 Mitogen-activated protein kinase 9 OS=Homo sapiens OX=9606 GN=MAPK9 PE=1 SV=2
+sp|P45984|MK09_HUMAN  -            424 MOD_PLK+CDC5_YEAST+82+337_muscle -            256   3.3e-32  107.0   2.5   2   2   0.00071     0.023    9.2   0.0   217   256   278   321   275   321 0.83 Mitogen-activated protein kinase 9 OS=Homo sapiens OX=9606 GN=MAPK9 PE=1 SV=2
+sp|P08631|HCK_HUMAN   -            526 MOD_PLK+CDC5_YEAST+82+337_muscle -            256   5.8e-32  106.2   0.0   1   1   2.4e-33   7.7e-32  105.8   0.0     3   251   265   508   263   514 0.88 Tyrosine-protein kinase HCK OS=Homo sapiens OX=9606 GN=HCK PE=1 SV=5
+sp|O15111|IKKA_HUMAN  -            745 MOD_PLK+CDC5_YEAST+82+337_muscle -            256   2.5e-31  104.1   0.1   1   1   1.4e-32   4.5e-31  103.3   0.1     4   215    19   237    16   248 0.85 Inhibitor of nuclear factor kappa-B kinase subunit alpha OS=Homo sapiens OX=9606 GN=CHUK PE=1 SV=2
+sp|P12931|SRC_HUMAN   -            536 MOD_PLK+CDC5_YEAST+82+337_muscle -            256   2.9e-31  103.9   0.0   1   1   1.2e-32   3.9e-31  103.5   0.0     5   251   275   516   271   523 0.88 Proto-oncogene tyrosine-protein kinase Src OS=Homo sapiens OX=9606 GN=SRC PE=1 SV=3
+sp|P06241|FYN_HUMAN   -            537 MOD_PLK+CDC5_YEAST+82+337_muscle -            256   5.2e-31  103.1   0.0   1   1   2.1e-32   6.8e-31  102.7   0.0     4   251   275   517   272   524 0.88 Tyrosine-protein kinase Fyn OS=Homo sapiens OX=9606 GN=FYN PE=1 SV=3
+sp|Q14164|IKKE_HUMAN  -            716 MOD_PLK+CDC5_YEAST+82+337_muscle -            256   5.4e-30   99.7   0.0   1   1   2.8e-31   9.2e-30   99.0   0.0     3   200    12   221    10   241 0.82 Inhibitor of nuclear factor kappa-B kinase subunit epsilon OS=Homo sapiens OX=9606 GN=IKBKE PE=1 SV=1
+sp|P19784|CSK22_HUMAN -            350 MOD_PLK+CDC5_YEAST+82+337_muscle -            256   2.3e-29   97.7   2.1   1   2   3.2e-28     1e-26   89.0   0.6     4   202    44   235    41   249 0.87 Casein kinase II subunit alpha' OS=Homo sapiens OX=9606 GN=CSNK2A2 PE=1 SV=1
+sp|P19784|CSK22_HUMAN -            350 MOD_PLK+CDC5_YEAST+82+337_muscle -            256   2.3e-29   97.7   2.1   2   2    0.0014     0.045    8.2   0.0   221   256   289   325   271   325 0.83 Casein kinase II subunit alpha' OS=Homo sapiens OX=9606 GN=CSNK2A2 PE=1 SV=1
+sp|P06239|LCK_HUMAN   -            509 MOD_PLK+CDC5_YEAST+82+337_muscle -            256   2.6e-29   97.5   0.0   1   1     1e-30   3.2e-29   97.2   0.0     4   250   249   490   246   498 0.86 Tyrosine-protein kinase Lck OS=Homo sapiens OX=9606 GN=LCK PE=1 SV=6
+sp|P51617|IRAK1_HUMAN -            712 MOD_PLK+CDC5_YEAST+82+337_muscle -            256   2.9e-21   71.1   0.0   1   1   1.3e-22   4.3e-21   70.6   0.0     5   209   217   433   213   460 0.87 Interleukin-1 receptor-associated kinase 1 OS=Homo sapiens OX=9606 GN=IRAK1 PE=1 SV=2
+sp|P04626|ERBB2_HUMAN -           1255 MOD_PLK+CDC5_YEAST+82+337_muscle -            256   3.3e-21   71.0   0.0   1   1   1.5e-22   4.8e-21   70.4   0.0     2   251   722   973   721   976 0.82 Receptor tyrosine-protein kinase erbB-2 OS=Homo sapiens OX=9606 GN=ERBB2 PE=1 SV=1
+sp|P37173|TGFR2_HUMAN -            567 MOD_PLK+CDC5_YEAST+82+337_muscle -            256   1.4e-20   68.9   0.0   1   1   7.1e-22   2.3e-20   68.2   0.0     4   194   248   458   245   483 0.76 TGF-beta receptor type-2 OS=Homo sapiens OX=9606 GN=TGFBR2 PE=1 SV=2
+sp|Q99986|VRK1_HUMAN  -            396 MOD_PLK+CDC5_YEAST+82+337_muscle -            256   4.6e-08   27.9   0.1   1   2         1        34   -1.2   0.0     6    23    43    60    39    94 0.81 Serine/threonine-protein kinase VRK1 OS=Homo sapiens OX=9606 GN=VRK1 PE=1 SV=1
+sp|Q99986|VRK1_HUMAN  -            396 MOD_PLK+CDC5_YEAST+82+337_muscle -            256   4.6e-08   27.9   0.1   2   2   6.6e-09   2.1e-07   25.7   0.0    92   217   146   278   123   289 0.78 Serine/threonine-protein kinase VRK1 OS=Homo sapiens OX=9606 GN=VRK1 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      domain_all/MOD_PLK+CDC5_YEAST+82+337.hmm
+# Target file:     H1_prot_fasta.fasta
+# Option settings: hmmsearch -o /home/bwadie/Hmmer_H1/all_outs/MOD_PLK+CDC5_YEAST+82+337.out --domtblout /home/bwadie/Hmmer_H1/domain_all_H1_domtblouts/MOD_PLK+CDC5_YEAST+82+337.txt -E 1 domain_all/MOD_PLK+CDC5_YEAST+82+337.hmm H1_prot_fasta.fasta 
+# Current dir:     /home/bwadie/Hmmer_H1
+# Date:            Wed Feb 10 00:38:09 2021
+# [ok]

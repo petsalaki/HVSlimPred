@@ -1,0 +1,18 @@
+#                                                                                               --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name         accession   tlen query name                             accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+# ------------------- ---------- -----                   -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+sp|Q13077|TRAF1_HUMAN -            416 LIG_TRAF2_2+TRAF1_HUMAN+273+414_muscle -            140     2e-72  236.7   0.0   1   1   4.7e-74   4.9e-72  235.4   0.0     1   140   274   414   274   414 0.99 TNF receptor-associated factor 1 OS=Homo sapiens OX=9606 GN=TRAF1 PE=1 SV=1
+sp|Q12933|TRAF2_HUMAN -            501 LIG_TRAF2_2+TRAF1_HUMAN+273+414_muscle -            140   6.8e-72  235.0   0.0   1   1     1e-73   1.1e-71  234.3   0.0     1   140   359   498   359   498 0.99 TNF receptor-associated factor 2 OS=Homo sapiens OX=9606 GN=TRAF2 PE=1 SV=2
+sp|Q13114|TRAF3_HUMAN -            568 LIG_TRAF2_2+TRAF1_HUMAN+273+414_muscle -            140   7.8e-68  221.8   0.0   1   1   1.5e-69   1.6e-67  220.8   0.0     2   140   424   562   423   562 0.98 TNF receptor-associated factor 3 OS=Homo sapiens OX=9606 GN=TRAF3 PE=1 SV=2
+sp|Q9BUZ4|TRAF4_HUMAN -            470 LIG_TRAF2_2+TRAF1_HUMAN+273+414_muscle -            140   6.5e-59  192.9   0.0   1   1     1e-60     1e-58  192.2   0.0     2   140   316   464   315   464 0.98 TNF receptor-associated factor 4 OS=Homo sapiens OX=9606 GN=TRAF4 PE=1 SV=1
+sp|Q9Y4K3|TRAF6_HUMAN -            522 LIG_TRAF2_2+TRAF1_HUMAN+273+414_muscle -            140   1.1e-52  172.8   0.0   1   1     2e-54   2.1e-52  171.8   0.0     2   140   359   501   358   501 0.98 TNF receptor-associated factor 6 OS=Homo sapiens OX=9606 GN=TRAF6 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      domain_all/LIG_TRAF2_2+TRAF1_HUMAN+273+414.hmm
+# Target file:     H1_prot_fasta.fasta
+# Option settings: hmmsearch -o /home/bwadie/Hmmer_H1/all_outs/LIG_TRAF2_2+TRAF1_HUMAN+273+414.out --domtblout /home/bwadie/Hmmer_H1/domain_all_H1_domtblouts/LIG_TRAF2_2+TRAF1_HUMAN+273+414.txt -E 1 domain_all/LIG_TRAF2_2+TRAF1_HUMAN+273+414.hmm H1_prot_fasta.fasta 
+# Current dir:     /home/bwadie/Hmmer_H1
+# Date:            Wed Feb 10 00:38:03 2021
+# [ok]

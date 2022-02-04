@@ -1,0 +1,30 @@
+#                                                                                                 --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name         accession   tlen query name                               accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+# ------------------- ---------- -----                     -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+sp|Q9UKB1|FBW1B_HUMAN -            542 LIG_GLEBS_BUB3_1+BUB3_YEAST+1+279_muscle -            265     1e-14   49.9   0.0   1   3    0.0013      0.11    7.2   0.0   134   170   234   271   214   279 0.78 F-box/WD repeat-containing protein 11 OS=Homo sapiens OX=9606 GN=FBXW11 PE=1 SV=1
+sp|Q9UKB1|FBW1B_HUMAN -            542 LIG_GLEBS_BUB3_1+BUB3_YEAST+1+279_muscle -            265     1e-14   49.9   0.0   2   3   2.7e-07   2.4e-05   19.2   0.1    57   170   282   394   272   401 0.76 F-box/WD repeat-containing protein 11 OS=Homo sapiens OX=9606 GN=FBXW11 PE=1 SV=1
+sp|Q9UKB1|FBW1B_HUMAN -            542 LIG_GLEBS_BUB3_1+BUB3_YEAST+1+279_muscle -            265     1e-14   49.9   0.0   3   3   2.3e-07     2e-05   19.4   0.0    57   171   405   524   394   538 0.75 F-box/WD repeat-containing protein 11 OS=Homo sapiens OX=9606 GN=FBXW11 PE=1 SV=1
+sp|Q9Y297|FBW1A_HUMAN -            605 LIG_GLEBS_BUB3_1+BUB3_YEAST+1+279_muscle -            265   1.4e-13   46.2   0.0   1   3    0.0007     0.061    8.0   0.0   136   172   300   336   277   344 0.80 F-box/WD repeat-containing protein 1A OS=Homo sapiens OX=9606 GN=BTRC PE=1 SV=1
+sp|Q9Y297|FBW1A_HUMAN -            605 LIG_GLEBS_BUB3_1+BUB3_YEAST+1+279_muscle -            265   1.4e-13   46.2   0.0   2   3     2e-07   1.8e-05   19.6   0.1    57   170   345   457   335   463 0.80 F-box/WD repeat-containing protein 1A OS=Homo sapiens OX=9606 GN=BTRC PE=1 SV=1
+sp|Q9Y297|FBW1A_HUMAN -            605 LIG_GLEBS_BUB3_1+BUB3_YEAST+1+279_muscle -            265   1.4e-13   46.2   0.0   3   3   7.9e-06   0.00068   14.4   0.0    57   168   468   584   457   595 0.75 F-box/WD repeat-containing protein 1A OS=Homo sapiens OX=9606 GN=BTRC PE=1 SV=1
+sp|P63244|RACK1_HUMAN -            317 LIG_GLEBS_BUB3_1+BUB3_YEAST+1+279_muscle -            265   4.7e-10   34.6   4.1   1   4   1.4e-10   1.2e-08   30.0   0.1    11   129    64   181    56   194 0.79 Receptor of activated protein C kinase 1 OS=Homo sapiens OX=9606 GN=RACK1 PE=1 SV=3
+sp|P63244|RACK1_HUMAN -            317 LIG_GLEBS_BUB3_1+BUB3_YEAST+1+279_muscle -            265   4.7e-10   34.6   4.1   2   4     0.038       3.3    2.3   0.1   241   265   196   220   194   220 0.88 Receptor of activated protein C kinase 1 OS=Homo sapiens OX=9606 GN=RACK1 PE=1 SV=3
+sp|P63244|RACK1_HUMAN -            317 LIG_GLEBS_BUB3_1+BUB3_YEAST+1+279_muscle -            265   4.7e-10   34.6   4.1   3   4      0.33        29   -0.8   0.0   240   257   236   253   234   260 0.77 Receptor of activated protein C kinase 1 OS=Homo sapiens OX=9606 GN=RACK1 PE=1 SV=3
+sp|P63244|RACK1_HUMAN -            317 LIG_GLEBS_BUB3_1+BUB3_YEAST+1+279_muscle -            265   4.7e-10   34.6   4.1   4   4      0.46        40   -1.2   0.0   241   264   287   310   283   311 0.88 Receptor of activated protein C kinase 1 OS=Homo sapiens OX=9606 GN=RACK1 PE=1 SV=3
+sp|P35606|COPB2_HUMAN -            906 LIG_GLEBS_BUB3_1+BUB3_YEAST+1+279_muscle -            265   1.4e-08   29.8   0.1   1   3   0.00013     0.011   10.4   0.0     9   128    14   129     7   137 0.80 Coatomer subunit beta' OS=Homo sapiens OX=9606 GN=COPB2 PE=1 SV=2
+sp|P35606|COPB2_HUMAN -            906 LIG_GLEBS_BUB3_1+BUB3_YEAST+1+279_muscle -            265   1.4e-08   29.8   0.1   2   3     2e-06   0.00017   16.4   0.0     5   132    94   221    90   232 0.79 Coatomer subunit beta' OS=Homo sapiens OX=9606 GN=COPB2 PE=1 SV=2
+sp|P35606|COPB2_HUMAN -            906 LIG_GLEBS_BUB3_1+BUB3_YEAST+1+279_muscle -            265   1.4e-08   29.8   0.1   3   3    0.0029      0.25    6.0   0.0   241   265   233   257   228   257 0.91 Coatomer subunit beta' OS=Homo sapiens OX=9606 GN=COPB2 PE=1 SV=2
+sp|Q9BV38|WDR18_HUMAN -            432 LIG_GLEBS_BUB3_1+BUB3_YEAST+1+279_muscle -            265     5e-07   24.7   0.1   1   2     0.019       1.6    3.3   0.1   240   264   124   148   121   149 0.94 WD repeat-containing protein 18 OS=Homo sapiens OX=9606 GN=WDR18 PE=1 SV=2
+sp|Q9BV38|WDR18_HUMAN -            432 LIG_GLEBS_BUB3_1+BUB3_YEAST+1+279_muscle -            265     5e-07   24.7   0.1   2   2   6.4e-07   5.5e-05   18.0   0.0    24   138   188   309   175   319 0.79 WD repeat-containing protein 18 OS=Homo sapiens OX=9606 GN=WDR18 PE=1 SV=2
+sp|Q9ULV4|COR1C_HUMAN -            474 LIG_GLEBS_BUB3_1+BUB3_YEAST+1+279_muscle -            265   0.00082   14.1   0.4   1   2      0.63        54   -1.7   0.1   239   264    82   108    78   109 0.72 Coronin-1C OS=Homo sapiens OX=9606 GN=CORO1C PE=1 SV=1
+sp|Q9ULV4|COR1C_HUMAN -            474 LIG_GLEBS_BUB3_1+BUB3_YEAST+1+279_muscle -            265   0.00082   14.1   0.4   2   2   5.8e-05     0.005   11.6   0.0    17   132   137   255   127   297 0.69 Coronin-1C OS=Homo sapiens OX=9606 GN=CORO1C PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      domain_all/LIG_GLEBS_BUB3_1+BUB3_YEAST+1+279.hmm
+# Target file:     H1_prot_fasta.fasta
+# Option settings: hmmsearch -o /home/bwadie/Hmmer_H1/all_outs/LIG_GLEBS_BUB3_1+BUB3_YEAST+1+279.out --domtblout /home/bwadie/Hmmer_H1/domain_all_H1_domtblouts/LIG_GLEBS_BUB3_1+BUB3_YEAST+1+279.txt -E 1 domain_all/LIG_GLEBS_BUB3_1+BUB3_YEAST+1+279.hmm H1_prot_fasta.fasta 
+# Current dir:     /home/bwadie/Hmmer_H1
+# Date:            Wed Feb 10 00:37:38 2021
+# [ok]

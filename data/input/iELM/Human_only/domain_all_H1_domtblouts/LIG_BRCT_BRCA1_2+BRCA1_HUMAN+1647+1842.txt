@@ -1,0 +1,14 @@
+#                                                                                                      --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name         accession   tlen query name                                    accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+# ------------------- ---------- -----                          -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+sp|Q12888|TP53B_HUMAN -           1972 LIG_BRCT_BRCA1_2+BRCA1_HUMAN+1647+1842_muscle -            195   6.1e-05   16.6   0.1   1   1   8.3e-07   0.00018   15.0   0.1    52   193  1811  1949  1801  1951 0.73 TP53-binding protein 1 OS=Homo sapiens OX=9606 GN=TP53BP1 PE=1 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      domain_all/LIG_BRCT_BRCA1_2+BRCA1_HUMAN+1647+1842.hmm
+# Target file:     human_only_H1_Prot_fasta.fasta
+# Option settings: hmmsearch -o /home/bwadie/Hmmer_H1/human_slimfinder_HMM_outputs/all_outs/LIG_BRCT_BRCA1_2+BRCA1_HUMAN+1647+1842.out --domtblout /home/bwadie/Hmmer_H1/human_slimfinder_HMM_outputs/domain_all_H1_domtblouts/LIG_BRCT_BRCA1_2+BRCA1_HUMAN+1647+1842.txt -E 1 domain_all/LIG_BRCT_BRCA1_2+BRCA1_HUMAN+1647+1842.hmm human_only_H1_Prot_fasta.fasta 
+# Current dir:     /home/bwadie/Hmmer_H1
+# Date:            Wed Mar 17 18:17:49 2021
+# [ok]

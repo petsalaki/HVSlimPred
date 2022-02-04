@@ -1,0 +1,14 @@
+#                                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name         accession   tlen query name                          accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+# ------------------- ---------- -----                -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+sp|Q8TAD8|SNIP1_HUMAN -            396 LIG_FHA_2+RAD53_YEAST+66+133_muscle -             66    0.0022   13.0   0.0   1   1     9e-06    0.0046   12.0   0.0    39    59   333   353   322   358 0.80 Smad nuclear-interacting protein 1 OS=Homo sapiens OX=9606 GN=SNIP1 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      domain_all/LIG_FHA_2+RAD53_YEAST+66+133.hmm
+# Target file:     H1_prot_fasta.fasta
+# Option settings: hmmsearch -o /home/bwadie/Hmmer_H1/all_outs/LIG_FHA_2+RAD53_YEAST+66+133.out --domtblout /home/bwadie/Hmmer_H1/domain_all_H1_domtblouts/LIG_FHA_2+RAD53_YEAST+66+133.txt -E 1 domain_all/LIG_FHA_2+RAD53_YEAST+66+133.hmm H1_prot_fasta.fasta 
+# Current dir:     /home/bwadie/Hmmer_H1
+# Date:            Wed Feb 10 00:37:38 2021
+# [ok]
