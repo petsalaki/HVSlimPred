@@ -87,10 +87,10 @@ Heatmap_motif_metrics = function(metrics_per_mot, benchtype = c("ELM", "PRMdb"),
     rownames(HH_mat) = HH_mat$combined_id
     HH_mat = HH_mat[,-c(1,6,10)]
     HH_mat = as.matrix(HH_mat)
-    x = pheatmap::pheatmap(HH_mat, cluster_rows = T, cluster_cols = T, height = 17, fontsize_row = 8, cutree_rows = 3, main = benchtype)
+    x = pheatmap::pheatmap(HH_mat, cluster_rows = T, cluster_cols = T, height = 17, fontsize_row = 8, cutree_rows = 3, main = benchtype, treeheight_col = 5, treeheight_row = 5)
     if (return_non_zero){
       y = cbind(HH_mat, cutree(x$tree_row, k = 3))
-      final = pheatmap::pheatmap(y[which(y[,8] != 1),][,-8], cluster_cols = T, main = benchtype)
+      final = pheatmap::pheatmap(y[which(y[,8] != 1),][,-8], cluster_cols = T, main = benchtype,treeheight_col = 5, treeheight_row = 5)
       return(final)
     }
     else{

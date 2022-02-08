@@ -687,6 +687,35 @@ Classify_Enrich_dom_inst = function(EM_list, new_hits_ints){
   return(final)
 }
 
+Classify_insts_by_score = function(new_hits_ints){
+  known = new_hits_ints[!is.na(new_hits_ints$Accession),]
+  known = known[which(known$motif_overlap != 0),]
+  known$inst_type = "known"
+
+  novel = new_hits_ints[which(new_hits_ints$new_score < 0.3),]
+  new_insts = new_hits_ints[which(new_hits_ints$new_score > 0.66),]
+  new_insts = mismatch_df(new_insts, known, on = c("uniprot", "Start_Pos", "End_Pos"))
+  #new_insts = mismatch_df(new_insts, putative, on = c("uniprot", "Start_Pos", "End_Pos"))
+  new_insts$inst_type = "new_insts"
+
+  putative = new_hits_ints[which(new_hits_ints$new_score >= 0.3 & new_hits_ints$new_score <= 0.66),]
+  putative = mismatch_df(putative, novel, on = c("uniprot", "Start_Pos", "End_Pos"))
+  putative = mismatch_df(putative, new_insts, on = c("uniprot", "Start_Pos", "End_Pos"))
+  putative = mismatch_df(putative, known, on = c("uniprot", "Start_Pos", "End_Pos"))
+  putative$inst_type = "putative"
+
+  novel = rbind.data.frame(novel, new_hits_ints[is.na(new_hits_ints$new_score),])
+  novel = mismatch_df(novel, new_insts, on = c("uniprot", "Start_Pos", "End_Pos"))
+  novel = mismatch_df(novel, known, on = c("uniprot", "Start_Pos", "End_Pos"))
+  novel = mismatch_df(novel, putative, on = c("uniprot", "Start_Pos", "End_Pos"))
+  novel$inst_type = "novel"
+
+  final = rbind.data.frame(known, new_insts, putative, novel)
+  final = final %>% dplyr::select(uniprot, Start_Pos, End_Pos, inst_type)
+  final = final[!duplicated(final),]
+  return(final)
+}
+
 compare_insts_uniprot_bed = function(new_hits_ints, path_to_bed_files_dir){
   bed_files = list.files(path_to_bed_files_dir, full.names = T)
   all_bed_parsed = list()

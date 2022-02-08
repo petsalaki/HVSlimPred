@@ -12,6 +12,7 @@ require(ComplexUpset)
 require(UpSetR)
 require(hrbrthemes)
 require(viridis)
+require(clusterProfiler)
 # Figure 2 and S1 ---------------------------------------------------------
 HV_all_eval = readRDS("data/output/HV_all_filters_eval_OR.rds")
 
@@ -79,11 +80,13 @@ All_levels_bar_plot = function(req_data, prot = F, database, prot_comparison = T
       ggplot2::theme_bw() +
       ggplot2::coord_flip() +
       ggplot2::theme(axis.title.y = ggplot2::element_blank()) +
-      ggplot2::theme(axis.text.y = ggplot2::element_text(size = 14), axis.text.x = ggplot2::element_text(size = 12)) +
+      ggplot2::theme(axis.text.y = ggplot2::element_text(size = 20), axis.text.x = ggplot2::element_text(size = 20),
+                     axis.title.x = ggplot2::element_text(size = 20), legend.title = ggplot2::element_text(size = 20),
+                     legend.text = ggplot2::element_text(size = 20)) +
       ggplot2::geom_hline(yintercept = xc_abline, color = "Red", linetype = "dashed") +
       ggplot2::geom_hline(yintercept = xc_abline_cons, color = "blue", linetype = "dashed") +
       ggplot2::ggtitle(paste0("F0.5", " ", database)) +
-      ggplot2::theme(plot.title = ggplot2::element_text(hjust = 0.5))
+      ggplot2::theme(plot.title = ggplot2::element_text(hjust = 0.5, size = 20))
       # ggplot2::facet_wrap(~Conserved)
 
     return(p)
@@ -113,10 +116,12 @@ All_levels_bar_plot = function(req_data, prot = F, database, prot_comparison = T
         ggplot2::theme_bw() +
         ggplot2::coord_flip() +
         ggplot2::theme(axis.title.y = ggplot2::element_blank()) +
-        ggplot2::theme(axis.text.y = ggplot2::element_text(size = 14), axis.text.x = ggplot2::element_text(size = 12)) +
+        ggplot2::theme(axis.text.y = ggplot2::element_text(size = 30), axis.text.x = ggplot2::element_text(size = 30),
+                       axis.title.x = ggplot2::element_text(size = 30), legend.title = ggplot2::element_text(size = 30),
+                       legend.text = ggplot2::element_text(size = 30)) +
         #ggplot2::geom_hline(yintercept = xc_abline, color = "Red", linetype = "dashed") +
         ggplot2::ggtitle(paste0(database)) +
-        ggplot2::theme(plot.title = ggplot2::element_text(hjust = 0.5)) +
+        ggplot2::theme(plot.title = ggplot2::element_text(hjust = 0.5, size = 30)) +
         ggplot2::ylab("log2(Odds ratio)")
       return(p)
     }
@@ -144,10 +149,11 @@ All_levels_bar_plot = function(req_data, prot = F, database, prot_comparison = T
         ggplot2::theme_bw() +
         ggplot2::coord_flip() +
         ggplot2::theme(axis.title.y = ggplot2::element_blank()) +
-        ggplot2::theme(axis.text.y = ggplot2::element_text(size = 14), axis.text.x = ggplot2::element_text(size = 12)) +
-        #ggplot2::geom_hline(yintercept = xc_abline, color = "Red", linetype = "dashed") +
+        ggplot2::theme(axis.text.y = ggplot2::element_text(size = 30), axis.text.x = ggplot2::element_text(size = 30),
+                       axis.title.x = ggplot2::element_text(size = 30), legend.title = ggplot2::element_text(size = 30),
+                       legend.text = ggplot2::element_text(size = 30)) +        #ggplot2::geom_hline(yintercept = xc_abline, color = "Red", linetype = "dashed") +
         ggplot2::ggtitle(paste0(database)) +
-        ggplot2::theme(plot.title = ggplot2::element_text(hjust = 0.5)) +
+        ggplot2::theme(plot.title = ggplot2::element_text(hjust = 0.5, size = 30)) +
         ggplot2::ylab("log2(Odds ratio)")
       return(p)
     }
@@ -210,10 +216,18 @@ upset_plot_motif = function(req_data, prot_only = F, database, prot_comparison =
       base_annotations = list(
         'Number of known motifs'= ComplexUpset::intersection_size(
           counts = T,
-          mapping = aes(fill=Conserved)
+          mapping = aes(fill=Conserved), text = list('size' = 8)
         ) + ggplot2::scale_fill_manual(values=c(
-          'Yes'='#E41A1C', 'No'='#377EB8'))
+          'Yes'='#E41A1C', 'No'='#377EB8')) +
+          ggplot2::theme(axis.title.y = element_text(size = 20),
+                         axis.text.y = element_text(size = 20),
+                         legend.text = element_text(size = 20),
+                         legend.title = element_text(size = 20))
       ),
+      themes = upset_modify_themes(list(
+        'intersections_matrix'=theme(text=element_text(size = 20)),
+        'overall_sizes'=theme(axis.text.x=element_text(angle=90, size = 16))
+      )),
       width_ratio=0.1
     )
 
@@ -253,10 +267,18 @@ upset_plot_motif = function(req_data, prot_only = F, database, prot_comparison =
         base_annotations = list(
           'Number of known motif proteinss'= ComplexUpset::intersection_size(
             counts = T,
-            mapping = aes(fill=Conserved)
+            mapping = aes(fill=Conserved), text = list('size' = 8)
           ) + ggplot2::scale_fill_manual(values=c(
-            'Yes'='#E41A1C', 'No'='#377EB8'))
+            'Yes'='#E41A1C', 'No'='#377EB8')) +
+            ggplot2::theme(axis.title.y = element_text(size = 20),
+                           axis.text.y = element_text(size = 20),
+                           legend.text = element_text(size = 20),
+                           legend.title = element_text(size = 20))
         ),
+        themes = upset_modify_themes(list(
+          'intersections_matrix'=theme(text=element_text(size = 20)),
+          'overall_sizes'=theme(axis.text.x=element_text(angle=90, size = 16))
+        )),
         width_ratio=0.1
       )
 
@@ -296,10 +318,18 @@ upset_plot_motif = function(req_data, prot_only = F, database, prot_comparison =
         base_annotations = list(
           'Number of known motif proteins'= ComplexUpset::intersection_size(
             counts = T,
-            mapping = aes(fill=Conserved)
+            mapping = aes(fill=Conserved), text = list('size' = 8)
           ) + ggplot2::scale_fill_manual(values=c(
-            'Yes'='#E41A1C', 'No'='#377EB8'))
+            'Yes'='#E41A1C', 'No'='#377EB8')) +
+            ggplot2::theme(axis.title.y = element_text(size = 20),
+                           axis.text.y = element_text(size = 20),
+                           legend.text = element_text(size = 20),
+                           legend.title = element_text(size = 20))
         ),
+        themes = upset_modify_themes(list(
+          'intersections_matrix'=theme(text=element_text(size = 20)),
+          'overall_sizes'=theme(axis.text.x=element_text(angle=90, size = 16))
+        )),
         width_ratio=0.1
       )
       #p1 = upset(x, order.by = "freq", point.size = 3,text.scale = c(1.25,1.25,1.25,1.25,1.25,1.25), mainbar.y.label = "Number of Known Motifs", line.size = 1)
@@ -314,91 +344,29 @@ F2_C = All_levels_bar_plot(req_data = HV_all_eval, prot = T, prot_comparison = F
 F2_D = All_levels_bar_plot(req_data = HV_all_eval, prot = T, prot_comparison = F, database = "PRMDB")
 
 
-FS1_A = upset_plot_motif(req_data = HV_all_eval, prot_only = F, prot_comparison = F, database = "ELM")
-FS1_B = upset_plot_motif(req_data = HV_all_eval, prot_only = F, prot_comparison = F, database = "PRMDB")
-FS1_C = All_levels_bar_plot(req_data = HV_all_eval, prot = F, prot_comparison = F, database = "ELM")
-FS1_D = All_levels_bar_plot(req_data = HV_all_eval, prot = F, prot_comparison = F, database = "PRMDB")
-# Figure 3 ----------------------------------------------------------------
+FS1_A = upset_plot_motif(req_data = HV_all_eval, prot_only = F, prot_comparison = F, database = "ELM",remove_iELM = F)
+FS1_B = upset_plot_motif(req_data = HV_all_eval, prot_only = F, prot_comparison = F, database = "PRMDB", remove_iELM = F)
+FS1_C = All_levels_bar_plot(req_data = HV_all_eval, prot = F, prot_comparison = F, database = "ELM", remove_iELM = F)
+FS1_D = All_levels_bar_plot(req_data = HV_all_eval, prot = F, prot_comparison = F, database = "PRMDB", remove_iELM = F)
+# Figure 3 ---------------------------------------------------------------
+HV_evaluation = readRDS("data/output/HV_Complete_Evaluation.rds")
 HV_final_hits = readRDS("data/output/HV_final_hits.rds")
 
-hits_edges = HV_final_hits %>% dplyr::select(Pattern, Id, new_score)
-hits_edges = hits_edges[!duplicated(hits_edges),]
-hits_edges = hits_edges[!is.na(hits_edges$Id),]
+p1 = Heatmap_motif_metrics(HV_evaluation$ELM$HH_motif$all_metrics_per_motif, benchtype = "ELM")[[4]]
+p2 = Heatmap_motif_metrics(HV_evaluation$PRMdb$HH_motif$all_metrics_per_motif, benchtype = "PRMdb")[[4]]
 
-recovered_edges = function(pattern, ELM_id){
-    filtered = dplyr::filter(HV_final_hits, Pattern == pattern, Id == ELM_id)
-    filtered = filtered[!duplicated(filtered),]
+cowplot::plot_grid(p1,p2)
 
-    if(!all(is.na(filtered$Accession))){
-      return("Green")
-    }
-    else{
-      return("Red")
-    }
-  }
-generate_network_data_pattern_sim = function(remove_clv_trg = F){
-  final_edges = hits_edges[which(hits_edges$new_score >= 0.67),]
-  habal = final_edges %>% dplyr::select(Pattern, Id)
-  habal = habal[!duplicated(habal),]
+sankey_elm = Sankey_ELM(new_hits_ints = HV_final_hits)
+htmlwidgets::saveWidget(sankey_elm, file="../Results/Plots_after_review/Sankey_ELM_2.html")
+webshot::webshot("../Results/Plots_after_review/Sankey_ELM_2.html", "../Results/Plots_after_review/Sankey_ELM_2.pdf")
 
-  for(i in 1:nrow(habal)){
-    final_edges$edge_color[i] = recovered_edges(habal$Pattern[i], habal$Id[i])
-  }
+p2 = cowplot::ggdraw() +
+  cowplot::draw_image(magick::image_read_pdf("../Results/Plots_after_review/Sankey_ELM_2.pdf"))
+# cowplot::draw_plot_label("Host viral ELM", size = 12, hjust = -1.65, vjust = 3.5)
+x = cowplot::plot_grid(p1,NULL, nrow = 2, rel_heights = c(1,0))
+FS3 = cowplot::plot_grid(p2,x,ncol = 2, scale = c(1.25,1), labels = LETTERS[1:2], rel_widths = c(1.5,1))
 
-  final_edges$edge_weight = 0
-  final_edges$edge_weight[which(final_edges$Score >= 0.5 & final_edges$Score < 0.6)] = 1
-  final_edges$edge_weight[which(final_edges$Score >= 0.6 & final_edges$Score < 0.7)] = 2
-  final_edges$edge_weight[which(final_edges$Score >= 0.8)] = 4
-  final_edges$ELM_class =substr(final_edges$Id, 1,3)
-
-  vertix_metadata = data.frame(V.name = unique(c(final_edges$Pattern, final_edges$Id)), node_shape = NA)
-  vertix_metadata[which(vertix_metadata$V.name %in% final_edges$Pattern),]$node_shape = "Round Rectangle"
-  vertix_metadata[which(vertix_metadata$V.name %in% final_edges$Id),]$node_shape = "Hexagon"
-
-  if (remove_clv_trg){
-    sample_network = final_edges[which(final_edges$ELM_class %nin% c("CLV", "TRG")),]
-  }
-  else{
-    sample_network = final_edges
-  }
-
-  sample_v_metadata = vertix_metadata[which(vertix_metadata$V.name %in% c(sample_network$Pattern, sample_network$Id)),]
-
-  g = graph_from_data_frame(d = sample_network, directed = F, vertices = sample_v_metadata)
-  return(list(g, sample_network))
-}
-
-generate_heatmap_data_pattern_sim = function(compari_cutoff, remove_clv_trg = F){
-  mat_data = hits_edges
-  if (remove_clv_trg){
-    mat_data$ELM_class =substr(mat_data$Id, 1,3)
-    mat_data = mat_data[which(mat_data$ELM_class %nin% c("CLV", "TRG")),]
-    mat_data = mat_data[,-4]
-  }
-  mat_data = mat_data[which(mat_data$new_score >= compari_cutoff),]
-  mat_data = tidyr::spread(mat_data, key = Pattern, value = new_score)
-  ids = mat_data$Id
-  mat_data = mat_data[,-1]
-  rownames(mat_data) = ids
-  mat = as.matrix(mat_data)
-  mat[is.na(mat)] = 0
-  return(mat)
-}
-
-g = generate_network_data_pattern_sim(remove_clv_trg = T)
-dd <- degree.distribution(g[[1]], cumulative=T, mode="all")
-plot(dd, pch=19, cex=1, col="orange", xlab="Degree", ylab="Cumulative Frequency")
-
-cytoscapePing()
-
-createNetworkFromIgraph(g[[1]])
-
-g_data = g[[2]]
-table(g_data$edge_color)
-length(unique(g_data$Id[which(g_data$edge_color == "Green")]))
-
-x = g_data %>% group_by(Id) %>% summarise(n=n())
-length(unique(g_data$Pattern[which(g_data$Id %in% c("LIG_PDZ_Class_1", "DOC_USP7_MATH_1", "DEG_SCF_TRCP1_1"))]))
 
 # Figure 4 ----------------------------------------------------------------
 tmp = tempfile()
@@ -511,19 +479,21 @@ cytoscapePing()
 createNetworkFromIgraph(g[[1]])
 
 # Figure 5 ----------------------------------------------------------------
-H1_GOBP = readRDS("data/output/plot_objects/GOBP_enrichment_H1.rds")
-#H1_GOBP_cons = readRDS("data/output/plot_objects/GOBP_enrichment_H1_conserved.rds")
-motif_GOBP = readRDS("data/output/plot_objects/GOBP_enrichment_motif.rds")
-#motif_GOBP_cons = readRDS("data/output/plot_objects/GOBP_enrichment_motif_conserved.rds")
-F5_H1 = enrichplot::dotplot(H1_GOBP) + theme(plot.margin = unit(c(-0.5,0,-0.3,-0.5), "cm")) + theme(axis.text.x = element_text(size = 10)) +
+# H1_GOBP = readRDS("data/output/plot_objects/GOBP_enrichment_H1.rds")
+# #H1_GOBP_cons = readRDS("data/output/plot_objects/GOBP_enrichment_H1_conserved.rds")
+# motif_GOBP = readRDS("data/output/plot_objects/GOBP_enrichment_motif.rds")
+# #motif_GOBP_cons = readRDS("data/output/plot_objects/GOBP_enrichment_motif_conserved.rds")
+# F5_H1 = enrichplot::dotplot(H1_GOBP) + theme(plot.margin = unit(c(-0.5,0,-0.3,-0.5), "cm")) + theme(axis.text.x = element_text(size = 10)) +
+#   ggplot2::theme(axis.text.x = ggplot2::element_text(angle = 55, vjust = 1, hjust = 1))
+#
+# F5_motif = enrichplot::dotplot(motif_GOBP) + theme(plot.margin = unit(c(-0.5,0,-0.3,-0.5), "cm")) + theme(axis.text.x = element_text(size = 10)) +
+#   ggplot2::theme(axis.text.x = ggplot2::element_text(angle = 55, vjust = 1, hjust = 1))
+
+all_GOBP = readRDS("data/output/plot_objects/GOBP_enrichment_all.rds")
+
+dotplot(all_GOBP, showCategory = 10) + theme(plot.margin = unit(c(-0.5,0,-0.3,-0.5), "cm")) + theme(axis.text.x = element_text(size = 10)) +
   ggplot2::theme(axis.text.x = ggplot2::element_text(angle = 55, vjust = 1, hjust = 1))
 
-F5_motif = enrichplot::dotplot(motif_GOBP) + theme(plot.margin = unit(c(-0.5,0,-0.3,-0.5), "cm")) + theme(axis.text.x = element_text(size = 10)) +
-  ggplot2::theme(axis.text.x = ggplot2::element_text(angle = 55, vjust = 1, hjust = 1))
-
-
-
-# Figure 6  ---------------------------------------------------------
 All_filters_dcGOR = readRDS("data/output/plot_objects/HV_all_filters_dcGOR.rds")
 All_filters_dcGOR_cons = readRDS("data/output/plot_objects/All_filters_dcGOR_conserved.rds")
 names(All_filters_dcGOR_cons) = paste0("Cons_", names(All_filters_dcGOR_cons))
@@ -611,10 +581,10 @@ dcEnrich_to_compareClusRes = function(eout_filters, GO_algo = c("lea", "elim"), 
   compare_cluster_obj = new("compareClusterResult", compareClusterResult = new_data, geneClusters = gene_clusters)
   return(compare_cluster_obj)
 }
-F6_A = dcEnrich_to_compareClusRes(All_filters_dcGOR_combined, GO_algo = "lea", remove_iELM = T)
-F6_A = enrichplot::pairwise_termsim(F6_A)
-F6_A = emapplot(F6_A, layout= "nicely", showCategory = 30) + theme(legend.position = "right") + scale_fill_manual(values =  RColorBrewer::brewer.pal(12, "Paired"))
-F6_A
+F5_B = dcEnrich_to_compareClusRes(All_filters_dcGOR_combined, GO_algo = "lea", remove_iELM = T)
+F5_B = enrichplot::pairwise_termsim(F5_B)
+F5_B = emapplot(F5_B, layout= "nicely", showCategory = 30) + theme(legend.position = "right") + scale_fill_manual(values =  RColorBrewer::brewer.pal(12, "Paired"))
+F5_B
 
 ### PFAM SemSim
 dcEnrich_PFAM_SemSim_GO = function(eout_filters, heatplot_title = NA,
@@ -797,19 +767,22 @@ GO_annot = data.frame(GO_all$name)
 GO_annot$GO_ID = rownames(GO_annot)
 colnames(GO_annot) = c("GO_name", "GO_ID")
 all_min_dist_GO = dplyr::left_join(all_min_dist_GO, GO_annot)
-all_min_dist_GO$label = 1
 
-wide_mat = all_min_dist_GO %>% dplyr::select(Clust, GO_name, label)
-wide_mat = tidyr::pivot_wider(wide_mat, names_from = Clust, values_from = label)
-rNames = wide_mat$GO_name
-wide_mat = as.matrix(wide_mat[,-1])
-rownames(wide_mat) = rNames
-wide_mat[is.na(wide_mat)] = 0
-#colnames(wide_mat) = sub(".*_","",colnames(wide_mat))
-F6_B = pheatmap::pheatmap(wide_mat, cluster_cols = F, cluster_rows = T,
-                   border_color = "grey", cellwidth = 10,
-                   color = c("#FFFFFF","#D73027"), treeheight_row = 2,
-                   treeheight_col = 2, legend = F)
+saveRDS(list("domain_clusters" = p2_clusts, "clust_GO_annotation" = all_min_dist_GO), "data/output/GOSemSim_domain_clusts.rds")
+
+# all_min_dist_GO$label = 1
+#
+# wide_mat = all_min_dist_GO %>% dplyr::select(Clust, GO_name, label)
+# wide_mat = tidyr::pivot_wider(wide_mat, names_from = Clust, values_from = label)
+# rNames = wide_mat$GO_name
+# wide_mat = as.matrix(wide_mat[,-1])
+# rownames(wide_mat) = rNames
+# wide_mat[is.na(wide_mat)] = 0
+# #colnames(wide_mat) = sub(".*_","",colnames(wide_mat))
+# F6_B = pheatmap::pheatmap(wide_mat, cluster_cols = F, cluster_rows = T,
+#                    border_color = "grey", cellwidth = 10,
+#                    color = c("#FFFFFF","#D73027"), treeheight_row = 2,
+#                    treeheight_col = 2, legend = F)
 
 
 # fviz_dist(get_dist(p2$data, method = "spearman"))
@@ -980,7 +953,7 @@ debug(heatplot_to_heatmap)
 p1 = dcEnrich_to_Enrichresult(All_filters_dcGOR_combined, GO_algo = "lea", remove_iELM = T)
 F6_C = heatplot_to_heatmap(p1, cluster_info = p2_clusts)
 
-# Figure 7 ----------------------------------------------------------------
+# Figure 6 ----------------------------------------------------------------
 new_H1_chembl = readRDS("data/output/HV_H1_chembl.rds")
 #Sankey _drug
 tmp = tempfile()
@@ -993,12 +966,17 @@ out_dir = tempdir()
 htmlwidgets::saveWidget(sankey_drug, file=file.path(out_dir,"Sankey_drug_2.html"))
 webshot::webshot(file.path(out_dir,"Sankey_drug_2.html"), file.path(out_dir,"Sankey_drug.pdf"))
 
-F7 = cowplot::ggdraw() +
+F6 = cowplot::ggdraw() +
   cowplot::draw_image(magick::image_read_pdf(file.path(out_dir,"Sankey_drug.pdf")))
 
 # Figure S2 ---------------------------------------------------------------
 shared_host_viral_eval = readRDS("data/output/shared_host_viral_eval.rds")
 shared_human_eval = readRDS("data/output/shared_human_eval.rds")
+host_viral_only = readRDS("data/output/HV_Complete_Evaluation.rds")
+human_only = readRDS("data/output/human_Complete_Evaluation.rds")
+
+comparable_host_viral_eval = readRDS("data/output/shared_host_viral_eval_comparable_insts.rds")
+comparable_human_eval = readRDS("data/output/shared_human_eval_comparable_insts.rds")
 host_viral_only = readRDS("data/output/HV_Complete_Evaluation.rds")
 human_only = readRDS("data/output/human_Complete_Evaluation.rds")
 
@@ -1018,9 +996,9 @@ clean_eval_scores = function(eval, dataset_type = c("ELM", "PRMdb")){
     return(list("Prot" = prot, "Motif" = motif))
   }
 }
-human_host_viral_boxplot = function(database){
-  shared_hv_eval = clean_eval_scores(shared_host_viral_eval, dataset_type = database)
-  shared_h_eval = clean_eval_scores(shared_human_eval, dataset_type = database)
+human_host_viral_boxplot = function(hv_eval, h_eval, database, title){
+  shared_hv_eval = clean_eval_scores(hv_eval, dataset_type = database)
+  shared_h_eval = clean_eval_scores(h_eval, dataset_type = database)
   hv_only = clean_eval_scores(host_viral_only, dataset_type = database)
   h_only = clean_eval_scores(human_only, dataset_type = database)
 
@@ -1037,7 +1015,7 @@ human_host_viral_boxplot = function(database){
   par(mar=c(3,4,3,1))
   myplot <- boxplot(Value ~ Dataset*new_order , data=data  ,
                     boxwex=0.4 , ylab="Score",
-                    main= paste0("Host viral Vs Human only", "-", database) ,
+                    main= paste0(title, "-", database) ,
                     col=c("slateblue1" , "tomato"), xaxt="n")
 
   # To add the label of x axis
@@ -1075,66 +1053,33 @@ p2 = cowplot::ggdraw() +
   cowplot::draw_image(magick::image_read("data/output/SLiMEnrich/Human_only/Default/Histogram (1).png"))
 
 
-human_host_viral_boxplot("ELM")
+human_host_viral_boxplot(hv_eval = shared_host_viral_eval, h_eval = shared_human_eval, database = "ELM",
+                         title = "All instances")
 p6 <- recordPlot()
 plot.new() ## clean up device
 p6 = cowplot::as_gtable(p6)
 p6 = ggplotify::as.ggplot(p6)
-human_host_viral_boxplot("PRMdb")
+human_host_viral_boxplot(hv_eval = shared_host_viral_eval, h_eval = shared_human_eval, database = "PRMdb",
+                         title = "All instances")
 p7 <- recordPlot()
 plot.new() ## clean up device
 p7 = cowplot::as_gtable(p7)
 p7 = ggplotify::as.ggplot(p7)
 
-cowplot::plot_grid(p6,p1,p7,p2,nrow = 2, ncol = 2, rel_widths = c(1.2,1), labels = c("A", "C", "B", "D"))
+human_host_viral_boxplot(hv_eval = comparable_host_viral_eval, h_eval = comparable_human_eval, database = "ELM",
+                         title = "Comparable instances")
+p8 <- recordPlot()
+plot.new() ## clean up device
+p8 = cowplot::as_gtable(p8)
+p8 = ggplotify::as.ggplot(p8)
+human_host_viral_boxplot(hv_eval = comparable_host_viral_eval, h_eval = comparable_human_eval, database = "PRMdb",
+                         title = "Comparable instances")
+p9 <- recordPlot()
+plot.new() ## clean up device
+p9 = cowplot::as_gtable(p9)
+p9 = ggplotify::as.ggplot(p9)
 
-
-# Figure S3 ---------------------------------------------------------------
-HV_evaluation = readRDS("data/output/HV_Complete_Evaluation.rds")
-HV_final_hits = readRDS("data/output/HV_final_hits.rds")
-
-p1 = Heatmap_motif_metrics(HV_evaluation$ELM$HH_motif$all_metrics_per_motif, benchtype = "ELM")[[4]]
-
-sankey_elm = Sankey_ELM(new_hits_ints = HV_final_hits)
-htmlwidgets::saveWidget(sankey_elm, file="../Results/Plots_after_review/Sankey_ELM_2.html")
-webshot::webshot("../Results/Plots_after_review/Sankey_ELM_2.html", "../Results/Plots_after_review/Sankey_ELM_2.pdf")
-
-p2 = cowplot::ggdraw() +
-  cowplot::draw_image(magick::image_read_pdf("../Results/Plots_after_review/Sankey_ELM_2.pdf"))
-# cowplot::draw_plot_label("Host viral ELM", size = 12, hjust = -1.65, vjust = 3.5)
-x = cowplot::plot_grid(p1,NULL, nrow = 2, rel_heights = c(1,0))
-FS3 = cowplot::plot_grid(p2,x,ncol = 2, scale = c(1.25,1), labels = LETTERS[1:2], rel_widths = c(1.5,1))
-
-# Figure S4 ---------------------------------------------------------------
-#### Checking which new_score threshold works best
-HV_final_hits = readRDS("data/output/HV_final_hits.rds")
-y = c()
-for (i in seq(0,1,0.01)){
-  y = c(y,count_motif_instances(HV_final_hits[which(HV_final_hits$new_score >= i),]))
-}
-names(y) = seq(0,1,0.01)
-
-score_insts = cbind(y,cutree(hclust(dist(y)), k = 5))
-score_insts = as.data.frame(score_insts)
-score_insts$x = rownames(score_insts)
-rownames(score_insts) = NULL
-score_insts = score_insts %>% dplyr::mutate_if(is.character, as.numeric)
-score_insts$V2 = ifelse(score_insts$V2 == 3,2,score_insts$V2)
-abline_idx = diff(score_insts$V2)
-abline_idx = which(abline_idx != 0)
-score_insts$V2 = as.character(score_insts$V2)
-score_insts$V2 = stringr::str_replace_all(score_insts$V2, c("1" = "Lowest", "2" = "Low", "4" = "High", "5" = "Highest"))
-colnames(score_insts)[which(colnames(score_insts) == "V2")] = "Similarity"
-p1 = score_insts %>%
-  ggplot2::ggplot(ggplot2::aes(x, y, color = Similarity)) +
-  ggplot2::geom_point(size = 2.5) +
-  # ggplot2::geom_vline(xintercept = score_insts$x[abline_idx]) +
-  xlab("Normalized compariMotif") +
-  ylab("Predicted Motif Instances") +
-  theme_bw() +
-  ggtitle("Normalized CompariMotif Score Cutoff") +
-  theme(plot.title = element_text(hjust = 0.5))
-
+cowplot::plot_grid(p6,p7,p8,p9,nrow = 2, ncol = 2, rel_widths = c(1,1))
 
 ### Breakdown of datasets between Slim and qslim
 qslim_datasets_input = read.csv("data/input/qslimfinderoutperint.csv", na.strings = c("","NA"))
@@ -1165,7 +1110,129 @@ p2 = no_datasets %>%
   theme(axis.title.x = element_text(size = 12, hjust = 0.5),
         axis.title.y = element_text(size = 12, hjust = 0.5),
         plot.title = element_text(size = 14, hjust = 0.5)) +
-  ggtitle("No. Datasets per approach")
+  ggtitle("No. Interactions per approach") +
+  ylab("No_interactions")
+
+
+p3 = cowplot::ggdraw() +
+  cowplot::draw_image(magick::image_read("data/output/SLiMEnrich/Host_viral/Default/Histogram (1).png"))
+p4 = cowplot::ggdraw() +
+  cowplot::draw_image(magick::image_read("data/output/SLiMEnrich/Human_only/Default/Histogram (1).png"))
+
+p5 = cowplot::plot_grid(p3,p4, nrow = 2, ncol = 1)
+cowplot::plot_grid(p2,p5)
+# Figure S3 ----------------------------------------------------------------
+HV_final_hits = readRDS("data/output/HV_final_hits.rds")
+
+hits_edges = HV_final_hits %>% dplyr::select(Pattern, Id, new_score)
+hits_edges = hits_edges[!duplicated(hits_edges),]
+hits_edges = hits_edges[!is.na(hits_edges$Id),]
+
+recovered_edges = function(pattern, ELM_id){
+  filtered = dplyr::filter(HV_final_hits, Pattern == pattern, Id == ELM_id)
+  filtered = filtered[!duplicated(filtered),]
+
+  if(!all(is.na(filtered$Accession))){
+    return("Green")
+  }
+  else{
+    return("Red")
+  }
+}
+generate_network_data_pattern_sim = function(remove_clv_trg = F){
+  final_edges = hits_edges[which(hits_edges$new_score >= 0.67),]
+  habal = final_edges %>% dplyr::select(Pattern, Id)
+  habal = habal[!duplicated(habal),]
+
+  for(i in 1:nrow(habal)){
+    final_edges$edge_color[i] = recovered_edges(habal$Pattern[i], habal$Id[i])
+  }
+
+  final_edges$edge_weight = 0
+  final_edges$edge_weight[which(final_edges$Score >= 0.5 & final_edges$Score < 0.6)] = 1
+  final_edges$edge_weight[which(final_edges$Score >= 0.6 & final_edges$Score < 0.7)] = 2
+  final_edges$edge_weight[which(final_edges$Score >= 0.8)] = 4
+  final_edges$ELM_class =substr(final_edges$Id, 1,3)
+
+  vertix_metadata = data.frame(V.name = unique(c(final_edges$Pattern, final_edges$Id)), node_shape = NA)
+  vertix_metadata[which(vertix_metadata$V.name %in% final_edges$Pattern),]$node_shape = "Round Rectangle"
+  vertix_metadata[which(vertix_metadata$V.name %in% final_edges$Id),]$node_shape = "Hexagon"
+
+  if (remove_clv_trg){
+    sample_network = final_edges[which(final_edges$ELM_class %nin% c("CLV", "TRG")),]
+  }
+  else{
+    sample_network = final_edges
+  }
+
+  sample_v_metadata = vertix_metadata[which(vertix_metadata$V.name %in% c(sample_network$Pattern, sample_network$Id)),]
+
+  g = graph_from_data_frame(d = sample_network, directed = F, vertices = sample_v_metadata)
+  return(list(g, sample_network))
+}
+
+generate_heatmap_data_pattern_sim = function(compari_cutoff, remove_clv_trg = F){
+  mat_data = hits_edges
+  if (remove_clv_trg){
+    mat_data$ELM_class =substr(mat_data$Id, 1,3)
+    mat_data = mat_data[which(mat_data$ELM_class %nin% c("CLV", "TRG")),]
+    mat_data = mat_data[,-4]
+  }
+  mat_data = mat_data[which(mat_data$new_score >= compari_cutoff),]
+  mat_data = tidyr::spread(mat_data, key = Pattern, value = new_score)
+  ids = mat_data$Id
+  mat_data = mat_data[,-1]
+  rownames(mat_data) = ids
+  mat = as.matrix(mat_data)
+  mat[is.na(mat)] = 0
+  return(mat)
+}
+
+g = generate_network_data_pattern_sim(remove_clv_trg = T)
+dd <- degree.distribution(g[[1]], cumulative=T, mode="all")
+plot(dd, pch=19, cex=1, col="orange", xlab="Degree", ylab="Cumulative Frequency")
+
+cytoscapePing()
+
+createNetworkFromIgraph(g[[1]])
+
+g_data = g[[2]]
+table(g_data$edge_color)
+length(unique(g_data$Id[which(g_data$edge_color == "Green")]))
+
+x = g_data %>% group_by(Id) %>% summarise(n=n())
+length(unique(g_data$Pattern[which(g_data$Id %in% c("LIG_PDZ_Class_1", "DOC_USP7_MATH_1", "DEG_SCF_TRCP1_1"))]))
+
+
+# Figure S4 ---------------------------------------------------------------
+#### Checking which new_score threshold works best
+HV_final_hits = readRDS("data/output/HV_final_hits.rds")
+y = c()
+for (i in seq(0,1,0.01)){
+  y = c(y,count_motif_instances(HV_final_hits[which(HV_final_hits$new_score >= i),]))
+}
+names(y) = seq(0,1,0.01)
+
+score_insts = cbind(y,cutree(hclust(dist(y)), k = 5))
+score_insts = as.data.frame(score_insts)
+score_insts$x = rownames(score_insts)
+rownames(score_insts) = NULL
+score_insts = score_insts %>% dplyr::mutate_if(is.character, as.numeric)
+score_insts$V2 = ifelse(score_insts$V2 == 3,2,score_insts$V2)
+abline_idx = diff(score_insts$V2)
+abline_idx = which(abline_idx != 0)
+score_insts$V2 = as.character(score_insts$V2)
+score_insts$V2 = stringr::str_replace_all(score_insts$V2, c("1" = "Lowest", "2" = "Low", "4" = "High", "5" = "Highest"))
+colnames(score_insts)[which(colnames(score_insts) == "V2")] = "Similarity"
+p1 = score_insts %>%
+  ggplot2::ggplot(ggplot2::aes(x, y, color = Similarity)) +
+  ggplot2::geom_point(size = 2.5) +
+  # ggplot2::geom_vline(xintercept = score_insts$x[abline_idx]) +
+  xlab("Normalized compariMotif") +
+  ylab("Predicted Motif Instances") +
+  theme_bw() +
+  ggtitle("Normalized CompariMotif Score Cutoff") +
+  theme(plot.title = element_text(hjust = 0.5))
 
 
 
@@ -1279,6 +1346,7 @@ p4 = score_distr %>%
   theme_ipsum() +
   ylab("") +
   xlab("new_score") +
+  theme(axis.title.x = element_text(hjust = 0.5), title = element_text(hjust = 0.5)) +
   facet_wrap(~Approach, scales = "free")
 
 p5 = counts_bar %>%
@@ -1287,27 +1355,12 @@ p5 = counts_bar %>%
   facet_wrap(~type, scales = "free") +
   ylab("Motif Instances")
 
-### Boxplot evaluation comparable QSLiMFinder and SLiMFinder
-shared_host_viral_eval = readRDS("data/output/shared_host_viral_eval_comparable_insts.rds")
-shared_human_eval = readRDS("data/output/shared_human_eval_comparable_insts.rds")
-host_viral_only = readRDS("data/output/HV_Complete_Evaluation.rds")
-human_only = readRDS("data/output/human_Complete_Evaluation.rds")
+cowplot::plot_grid(p4,p5, labels = c("A","B"), nrow = 2, ncol = 1)
 
-p_qc = cowplot::plot_grid(p1,p2,p4,p5, labels = c("C","D","E","F"))
-
-human_host_viral_boxplot("ELM")
-p6 <- recordPlot()
-plot.new() ## clean up device
-p6 = cowplot::as_gtable(p6)
-p6 = ggplotify::as.ggplot(p6)
-human_host_viral_boxplot("PRMdb")
-p7 <- recordPlot()
-plot.new() ## clean up device
-p7 = cowplot::as_gtable(p7)
-p7 = ggplotify::as.ggplot(p7)
-
-p8 = cowplot::plot_grid(p6,p7, nrow = 1, ncol = 2, labels = c("A","B"))
-cowplot::plot_grid(p8, p_qc, rel_widths = c(0.5,1))
+# p8 = cowplot::plot_grid(p6,p7, nrow = 2, ncol = 1, labels = c("A","B"))
+# cowplot::plot_grid(p8,p2,nrow = 1, ncol = 2, rel_widths = c(1.2,1), labels = c("A", "", "B", ""))
+# cowplot::plot_grid(p6,p2,p7,NULL,nrow = 2, ncol = 2, rel_widths = c(1.2,1), labels = c("A", "", "B", ""))
+# cowplot::plot_grid(p8, p_qc, rel_widths = c(0.5,1))
 
 # Figure S5 ---------------------------------------------------------------
 PS_info_all_filters_GO = readRDS("data/output/plot_objects/HV_PS_all_filters_GO.rds")
@@ -1364,7 +1417,6 @@ p2 = PSD_heatmap(orig = PS_info_all_filters_KEGG, dom_type = "H1", z_cutoff = 1,
 cowplot::plot_grid(p1[[4]], p2[[4]], label_size = 12, ncol = 1, nrow = 2, rel_heights = c(1.2,1), align = "hv", axis = "tblr")
 
 
-# Figure S6 ---------------------------------------------------------------
 All_filters_essentiality = readRDS("data/output/plot_objects/All_filters_essentiality.rds")
 essen_plot_data = list()
 counter = 0
@@ -1477,7 +1529,7 @@ y = cowplot::plot_grid(p2, NULL, labels = c("b", ""), label_size = 12, ncol = 2,
 
 cowplot::plot_grid(p1, p2, labels = c('', ''),ncol = 2, nrow = 1)
 
-# Figure S7 ---------------------------------------------------------------
+# Figure S6 ---------------------------------------------------------------
 HV_evaluation = readRDS("data/output/HV_Complete_Evaluation.rds")
 p1 = Heatmap_all_evaluation(HV_evaluation, benchtype = "ELM")[[4]]
 p2 = Heatmap_all_evaluation(HV_evaluation, benchtype = "PRMdb")[[4]]
