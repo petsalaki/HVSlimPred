@@ -50,7 +50,10 @@ You can install the released version of HVSlimPred from gitlab with:
 ``` r
 install.packages("devtools")
 library("devtools")
+# Install from Gitlab
 devtools::install_gitlab("petsalakilab/HVSlimPred", host = "gitlab.ebi.ac.uk")
+# Install from Github
+devtools::install_github("petsalaki/HVSlimPred")
 library("HVSlimPred")
 ```
 
@@ -60,5 +63,5 @@ recommended to clone the repository and run the analysis scripts in the
 folder locally.
 
 ``` bash
-git clone https://gitlab.ebi.ac.uk/petsalakilab/HVSlimPred
+git clone https://github.com/petsalaki/HVSlimPred
 ```
